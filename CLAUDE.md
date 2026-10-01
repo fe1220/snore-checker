@@ -26,8 +26,8 @@
 - 작업 순서: `docs/01-problem-definition` → `02-design-pass` → `03-tech-spec` → `04-plan` → 구현 → `05-verification`. 앞 단계 문서가 승인되기 전에 다음 단계로 넘어가지 않는다.
 - 단계별 스킬: 스펙은 superpowers `brainstorming` → `writing-plans`, 병렬 구현은 `subagent-driven-development` + `.claude/agents/*-implementer`, 검증은 `/gate` → `verifier` → gstack `/qa`. 스킬이 없는 환경이면 `make setup-agent`를 안내하고, 설치 전까지는 같은 순서를 수동으로 따른다.
 - 스킬 산출물은 스킬 기본 경로가 아니라 위 `docs/` 파일에 저장한다.
-- 브랜치는 기능당 하나(`feat/<기능>`)이고, `04-plan` 작업 단위마다 커밋 1개, `/gate` 통과 후 PR로 `main`에 머지한다.
-- implementer 서브에이전트는 같은 워크트리에서 병렬 실행한다. 워크트리를 나누지 않는다. 새 워크트리엔 `.venv`가 없어 프로젝트 훅(ruff, backend gate)이 조용히 건너뛰어지기 때문이다. 공통 파일(`config/`, `apps/core/`)은 메인 세션이 수정한다.
+- 1인 48시간 과제라 브랜치·PR 없이 메인 체크아웃에서 `main`에 직접 커밋한다. `04-plan` 작업 단위마다 커밋 1개, 푸시 전 `make gate` 통과 필수.
+- 워크트리를 만들지 않는다. implementer 서브에이전트도 메인 체크아웃에서 병렬 실행한다. 워크트리마다 `.venv`·`node_modules` 셋업이 필요하고 Postgres 5432 포트가 겹친다. 공통 파일(`config/`, `apps/core/`)은 메인 세션이 수정한다.
 - PRD와 테크스펙은 **`docs/`에만** 작성한다. 이 과제에서는 Linear 티켓을 만들거나 수정하지 않는다. 전역 워크플로우보다 이 규칙이 우선한다.
 - 개발 DB는 Postgres(`make db-up` 후 `backend/.env`의 `DATABASE_URL` 설정)다. SQLite 기본값은 Docker 없는 평가자 환경용 폴백이므로, 기능은 Postgres 기준으로 만들되 SQLite에서도 깨지지 않게 한다.
 - `frontend`의 `import { cn } from "cn"`은 최신 shadcn의 정식 방식이다. clsx + tailwind-merge로 바꾸지 않는다.
