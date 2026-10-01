@@ -29,6 +29,8 @@
 
 - **수면무호흡:** 성인 약 4,300만 명 × 유병률 약 3% ≈ 130만 명 vs 2025년 진료 19.6만 명 → **약 15%**.
 - **RBD:** 60세 이상 약 1,400만 명(근사) × 2.01% ≈ 28만 명 vs G47.8 60세 이상 진료 3.2만 명 → G47.8 전체를 RBD로 봐도 **최대 약 12%**.
+- **주의:** 진료율은 연간 진료 인원 기준이다. 미진료에는 과거 진단 후 치료를 그만둔 사람도 포함된다.
+- **한 번도 진단받지 않은 비율:** 21~69세 국민 4,000명 중 수면무호흡 진단 경험률 0.5%(Kim KT et al., J Sleep Med 2022). 성인 유병률 약 3% 대비 약 6분의 1 → 환자의 약 80% 이상이 진단 경험 없음 [추정]. 연령대와 정의가 달라 거친 추정.
 - **기면증:** 해외 유병률(10만 명당 25~50명)은 1차 출처를 확인하지 못해 진료율 계산에 쓰지 않는다. 진단 지연 통계를 근거로 쓴다.
 
 ## 4. 진단 지연과 원인
@@ -108,3 +110,6 @@
 
 - 칠레 OSA 환자 중 이비인후과 경유 124명의 62.19%가 "가족이 불편해하는 코골이"를 의뢰 사유로 가짐. Salas et al., J Otolaryngol Head Neck Surg 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6805651/
 - 기혼 여성은 진료 동기로 "남에게 주는 불편"을, 남성은 "본인 불편"을 강조. Zarhin 2018 (§5)
+- 수면무호흡 환자가 CPAP를 쓰자 배우자의 각성 지수 21→12회/시간, 수면 효율 74→87%, 하룻밤 약 62분 추가 수면. Beninati et al., Mayo Clin Proc 1999 https://www.sciencedirect.com/science/article/abs/pii/S0025619611639918 (요약: AAFP 2004 https://www.aafp.org/pubs/afp/issues/2004/0301/p1257.html)
+- CPAP 치료 후 관계 만족 배우자 49% → 70%, 배우자 90% 이상이 치료에 만족. Sleep Medicine 2023 https://www.sciencedirect.com/science/article/abs/pii/S1389945723003131
+- 배우자 지원과 CPAP 순응 체계적 문헌고찰 "Three in a Bed" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12113088/
