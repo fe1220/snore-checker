@@ -30,6 +30,7 @@
 - 워크트리를 만들지 않는다. implementer 서브에이전트도 메인 체크아웃에서 병렬 실행한다. 워크트리마다 `.venv`·`node_modules` 셋업이 필요하고 Postgres 5432 포트가 겹친다. 공통 파일(`config/`, `apps/core/`)은 메인 세션이 수정한다.
 - PRD와 테크스펙은 **`docs/`에만** 작성한다. 이 과제에서는 Linear 티켓을 만들거나 수정하지 않는다. 전역 워크플로우보다 이 규칙이 우선한다.
 - 개발 DB는 Postgres(`make db-up` 후 `backend/.env`의 `DATABASE_URL` 설정)다. SQLite 기본값은 Docker 없는 평가자 환경용 폴백이므로, 기능은 Postgres 기준으로 만들되 SQLite에서도 깨지지 않게 한다.
+- 프론트 포맷은 Prettier(`semi: false`, Tailwind 클래스 정렬)이고 수정 시 훅이 자동 적용한다. `shadcn add`처럼 CLI가 만든 파일은 훅이 안 도니 `pnpm --dir frontend format`을 실행한다.
 - `frontend`의 `import { cn } from "cn"`은 최신 shadcn의 정식 방식이다. clsx + tailwind-merge로 바꾸지 않는다.
 
 ## 자주 어기는 규칙
