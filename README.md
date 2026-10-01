@@ -2,11 +2,22 @@
 
 > 과제 개요와 문제 정의는 [docs/01-problem-definition.md](docs/01-problem-definition.md)에 있습니다.
 
-## 빠르게 실행하기
+## 사전 준비
 
-**필요한 것:** Python 3.12+, Node.js 20+, pnpm (`corepack enable pnpm`)
+Python 3.12+, Node.js 20+, pnpm이 필요합니다. `make setup`이 먼저 확인하고, 없으면 설치 방법을 안내합니다.
+
+이미 있다면 건너뛰세요. 없다면 macOS 기준으로 [Homebrew](https://brew.sh)를 설치한 뒤 실행합니다.
 
 ```bash
+brew install python@3.13 node
+corepack enable pnpm
+```
+
+## 빠르게 실행하기
+
+```bash
+git clone https://github.com/fe1220/next-django-assignment.git
+cd next-django-assignment
 make setup   # 의존성 설치, 환경변수 파일 생성, DB 마이그레이션
 make dev     # 백엔드 + 프론트 동시 실행 (Ctrl+C로 종료)
 ```
