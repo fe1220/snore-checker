@@ -44,7 +44,7 @@ be-check:
 	cd $(BE) && .venv/bin/ruff check . && .venv/bin/python manage.py makemigrations --check --dry-run && .venv/bin/pytest -q && .venv/bin/python manage.py spectacular --validate --fail-on-warn --file /dev/null
 
 fe-check:
-	cd frontend && pnpm exec tsc --noEmit && pnpm lint
+	cd frontend && pnpm exec next typegen && pnpm exec tsc --noEmit && pnpm lint
 
 gate: be-check fe-check
 	@echo "GATE PASS"

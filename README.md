@@ -71,6 +71,7 @@ make gate    # 백엔드 린트·마이그레이션·테스트·API 스키마 + 
 
 | 증상 | 해결 |
 |---|---|
+| `Python 3.12+ 가 필요합니다` | `brew install python@3.13` 후 `make setup` 재실행 |
 | `pnpm: command not found` | `corepack enable pnpm` |
 | 3000/8000 포트 사용 중 | 사용 중인 프로세스 종료 후 `make dev` |
 | 화면에 "연결 실패" 표시 | 백엔드가 떠 있는지 확인 (http://localhost:8000/api/health/) |
