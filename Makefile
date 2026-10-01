@@ -1,16 +1,18 @@
 BE := backend
 VENV := $(BE)/.venv/bin
+# 3.12 이상인 Python을 찾는다. macOS 기본 python3(3.9)보다 Homebrew 버전을 우선한다.
+PYTHON ?= $(shell for p in python3.13 python3.12 python3; do command -v $$p >/dev/null && $$p -c 'import sys; sys.exit(sys.version_info < (3, 12))' 2>/dev/null && { command -v $$p; break; }; done)
 
 .PHONY: check-prereq setup setup-agent db-up db-down dev dev-be dev-fe be-check fe-check gate
 
 check-prereq:
-	@command -v python3 >/dev/null || { echo "Python 3.12+ 가 필요합니다: https://www.python.org/downloads/"; exit 1; }
-	@python3 -c 'import sys; sys.exit(sys.version_info < (3, 12))' || { echo "Python 3.12 이상이 필요합니다 (현재: $$(python3 --version))"; exit 1; }
+	@[ -n "$(PYTHON)" ] || { echo "Python 3.12 이상이 필요합니다 (현재 python3: $$(python3 --version 2>&1))"; echo "설치: brew install python@3.13"; exit 1; }
+	@echo "Python: $(PYTHON)"
 	@command -v node >/dev/null || { echo "Node.js 20+ 가 필요합니다: https://nodejs.org"; exit 1; }
 	@command -v pnpm >/dev/null || { echo "pnpm 이 없습니다. 실행: corepack enable pnpm"; exit 1; }
 
 setup: check-prereq ## 백엔드/프론트 로컬 환경 구성
-	cd $(BE) && python3 -m venv .venv && .venv/bin/pip install -q -r requirements.txt
+	cd $(BE) && $(PYTHON) -m venv .venv && .venv/bin/pip install -q -r requirements.txt
 	@[ -f $(BE)/.env ] || sed "s|SECRET_KEY=change-me|SECRET_KEY=$$($(VENV)/python -c 'import secrets;print(secrets.token_urlsafe(50))')|" $(BE)/.env.example > $(BE)/.env
 	$(VENV)/python $(BE)/manage.py migrate -v0
 	@[ -f frontend/.env.local ] || cp frontend/.env.example frontend/.env.local
