@@ -1,16 +1,16 @@
-"use client";
+"use client"
 
-import { useQuery } from "@tanstack/react-query";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
-import { api } from "@/lib/api";
+import { useQuery } from "@tanstack/react-query"
+import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Skeleton } from "@/components/ui/skeleton"
+import { api } from "@/lib/api"
 
 export default function Home() {
   const { data, isPending, isError } = useQuery({
     queryKey: ["health"],
     queryFn: () => api<{ status: string }>("/health/"),
-  });
+  })
 
   return (
     <main className="mx-auto w-full max-w-md p-4">
@@ -29,5 +29,5 @@ export default function Home() {
         </CardContent>
       </Card>
     </main>
-  );
+  )
 }

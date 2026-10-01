@@ -9,7 +9,8 @@
   --color-success: var(--success);
   --color-warning: var(--warning);
   --color-foreground: var(--foreground);
-  --font-sans: "Pretendard Variable", Pretendard, -apple-system, system-ui, sans-serif;
+  --font-sans:
+    "Pretendard Variable", Pretendard, -apple-system, system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
