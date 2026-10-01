@@ -103,3 +103,8 @@
 
 - 다중수면잠복기검사(MSLT) 평균 8분 이하 = 병적 졸림, 정상 성인 10~20분. ICSD-3-TR https://aasm.org/wp-content/uploads/2022/05/ICSD-3-TR-Hypersomnolence-Draft.pdf
 - MSLT는 낮 낮잠 검사라 밤 입면 시간과 같은 기준이 아니다. 카피는 "검사해볼 만한 신호" 수준으로 쓴다.
+
+## 11. 가족 불편이 진료 계기라는 근거
+
+- 칠레 OSA 환자 중 이비인후과 경유 124명의 62.19%가 "가족이 불편해하는 코골이"를 의뢰 사유로 가짐. Salas et al., J Otolaryngol Head Neck Surg 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6805651/
+- 기혼 여성은 진료 동기로 "남에게 주는 불편"을, 남성은 "본인 불편"을 강조. Zarhin 2018 (§5)
