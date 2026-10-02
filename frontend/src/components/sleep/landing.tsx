@@ -1,6 +1,4 @@
 import Link from "next/link"
-import { Eye, MapPin, ShieldCheck } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "cn"
 
@@ -13,29 +11,57 @@ export const HEADLINES = {
 export type HeadlineKey = keyof typeof HEADLINES
 
 const POINTS = [
-  { icon: Eye, text: "옆에서 본 것만 답하면 돼요" },
-  { icon: ShieldCheck, text: "수면무호흡 검사는 건강보험이 돼요" },
-  { icon: MapPin, text: "근처 수면클리닉까지 알려드려요" },
+  "옆에서 본 것만 답하면 돼요",
+  "수면무호흡 검사는 건강보험이 돼요",
+  "근처 수면클리닉까지 알려드려요",
 ]
+
+const SPARKLE =
+  "M0-10C1.5-3 3-1.5 10 0 3 1.5 1.5 3 0 10-1.5 3-3 1.5-10 0-3-1.5-1.5-3 0-10Z"
+
+// 광고 소재의 달과 별만 가져왔다. 광고에서 넘어온 사람이 같은 서비스로 알아보게 한다.
+function NightSky({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 343 160"
+      preserveAspectRatio="xMaxYMid meet"
+      className={cn("w-full fill-primary", className)}
+      aria-hidden
+    >
+      <mask id="crescent">
+        <rect width="343" height="160" fill="white" />
+        <circle cx="291" cy="66" r="30" fill="black" />
+      </mask>
+      <circle cx="272" cy="80" r="36" mask="url(#crescent)" />
+      <path d={SPARKLE} transform="translate(196 52)" />
+      <path d={SPARKLE} transform="translate(222 104) scale(0.6)" />
+      <g opacity="0.6">
+        <circle cx="40" cy="48" r="2" />
+        <circle cx="104" cy="112" r="2" />
+        <circle cx="150" cy="30" r="2" />
+        <circle cx="318" cy="136" r="2" />
+      </g>
+    </svg>
+  )
+}
 
 export function Landing({ headline }: { headline: HeadlineKey }) {
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">
-      <div className="flex flex-1 flex-col gap-4 px-4 pt-12">
-        <Badge variant="secondary" className="self-start">
-          3분 체크
-        </Badge>
-        <h1 className="text-2xl leading-snug font-bold whitespace-pre-line">
+      <div className="flex flex-1 flex-col px-4 pt-6">
+        <p className="text-sm font-semibold text-muted-foreground">
+          코골이체커
+        </p>
+        <h1 className="mt-8 text-3xl leading-tight font-extrabold tracking-tight whitespace-pre-line">
           {HEADLINES[headline]}
         </h1>
-        <p className="text-base text-muted-foreground">
-          옆에서 듣던 코골이에 숨이 멈추는 순간이 있다면, 치료로 나아질 수 있는
-          병일 수 있어요.
+        <p className="mt-4 text-lg font-semibold text-balance text-primary">
+          숨이 멈추는 코골이는 치료로 나아질 수 있는 병일 수 있어요
         </p>
-        <ul className="mt-4 flex flex-col gap-3">
-          {POINTS.map(({ icon: Icon, text }) => (
-            <li key={text} className="flex items-center gap-3 text-base">
-              <Icon className="size-5 text-primary" aria-hidden />
+        <NightSky className="min-h-32 flex-1" />
+        <ul className="divide-y border-t">
+          {POINTS.map((text) => (
+            <li key={text} className="py-3 text-base">
               {text}
             </li>
           ))}

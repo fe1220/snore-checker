@@ -76,11 +76,14 @@ function ReportSkeleton() {
       aria-busy
       aria-label="리포트를 불러오는 중"
     >
-      <Skeleton className="h-4 w-24" />
-      <Skeleton className="h-16 w-3/4" />
-      <Skeleton className="h-24 w-full" />
-      <Skeleton className="h-40 w-full" />
-      <Skeleton className="h-40 w-full" />
+      <Skeleton className="h-4 w-48" />
+      <div className="flex flex-col gap-3 border-l-4 pl-4">
+        <Skeleton className="h-5 w-40" />
+        <Skeleton className="h-16 w-3/4" />
+        <Skeleton className="h-12 w-full" />
+      </div>
+      <Skeleton className="h-48 w-full rounded-xl" />
+      <Skeleton className="h-64 w-full rounded-xl" />
     </main>
   )
 }

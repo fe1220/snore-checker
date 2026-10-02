@@ -51,75 +51,43 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* 메타 광고 소재와 같은 팔레트다: 남색 밤, 크림 글자, 노랑 강조, 코랄 경고. 밝은 테마는 없다. */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.55 0.2 255);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.55 0.2 255);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.75rem;
-  --success: oklch(0.6 0.15 155);
-  --warning: oklch(0.75 0.15 75);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  color-scheme: dark;
+  --background: oklch(0.261 0.062 274);
+  --foreground: oklch(0.981 0.018 81);
+  --card: oklch(0.309 0.072 274);
+  --card-foreground: oklch(0.981 0.018 81);
+  --popover: oklch(0.309 0.072 274);
+  --popover-foreground: oklch(0.981 0.018 81);
+  --primary: oklch(0.881 0.116 91);
+  --primary-foreground: oklch(0.261 0.062 274);
+  --secondary: oklch(0.357 0.08 273);
+  --secondary-foreground: oklch(0.981 0.018 81);
+  --muted: oklch(0.357 0.08 273);
+  --muted-foreground: oklch(0.755 0.038 277);
+  --accent: oklch(0.357 0.08 273);
+  --accent-foreground: oklch(0.981 0.018 81);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --border: oklch(0.981 0.018 81 / 14%);
+  --input: oklch(0.981 0.018 81 / 28%);
+  --ring: oklch(0.881 0.116 91);
+  --chart-1: oklch(0.881 0.116 91);
+  --chart-2: oklch(0.741 0.133 38);
+  --chart-3: oklch(0.755 0.038 277);
+  --chart-4: oklch(0.399 0.083 274);
+  --chart-5: oklch(0.357 0.08 273);
+  --radius: 0.75rem;
+  --success: oklch(0.81 0.092 156);
+  --warning: oklch(0.741 0.133 38);
+  --sidebar: oklch(0.309 0.072 274);
+  --sidebar-foreground: oklch(0.981 0.018 81);
+  --sidebar-primary: oklch(0.881 0.116 91);
+  --sidebar-primary-foreground: oklch(0.261 0.062 274);
+  --sidebar-accent: oklch(0.357 0.08 273);
+  --sidebar-accent-foreground: oklch(0.981 0.018 81);
+  --sidebar-border: oklch(0.981 0.018 81 / 14%);
+  --sidebar-ring: oklch(0.881 0.116 91);
 }
 
 @layer base {
@@ -128,8 +96,14 @@
   }
   body {
     @apply bg-background text-foreground;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
   html {
     @apply font-sans;
+  }
+  h1,
+  h2 {
+    text-wrap: balance;
   }
 }

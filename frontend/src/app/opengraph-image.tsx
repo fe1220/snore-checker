@@ -9,11 +9,13 @@ const FONT_URL =
 
 // ImageResponse는 CSS 변수를 못 읽어서 globals.css 토큰 값을 그대로 옮겨 쓴다.
 const COLOR = {
-  background: "#ffffff",
-  foreground: "#0a0a0a",
-  muted: "#737373",
-  border: "#e5e5e5",
-  primary: "#1f6fe0",
+  background: "#1b2142",
+  card: "#252c54",
+  foreground: "#fff8ec",
+  muted: "#a9aec8",
+  track: "#2f3866",
+  primary: "#f5d57a",
+  warning: "#f28b6c",
 }
 
 export default async function OgImage() {
@@ -25,7 +27,7 @@ export default async function OgImage() {
         width: "100%",
         height: "100%",
         display: "flex",
-        background: "#f5f5f5",
+        background: COLOR.background,
         padding: 56,
         fontFamily: "Pretendard",
       }}
@@ -35,8 +37,7 @@ export default async function OgImage() {
           flex: 1,
           display: "flex",
           flexDirection: "column",
-          background: COLOR.background,
-          border: `2px solid ${COLOR.border}`,
+          background: COLOR.card,
           borderRadius: 32,
           padding: "48px 56px",
         }}
@@ -72,7 +73,7 @@ export default async function OgImage() {
             gap: 12,
           }}
         >
-          {["#e5e5e5", "#e5e5e5", COLOR.primary].map((color, index) => (
+          {[COLOR.track, COLOR.track, COLOR.warning].map((color, index) => (
             <div
               key={index}
               style={{

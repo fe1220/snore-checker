@@ -31,13 +31,16 @@
 | 구분선 / 입력 테두리 | `border-border` / `border-input` |
 | 성공 · 주의 · 위험 | `text-success` · `text-warning` · `text-destructive` |
 
-- Primary 색은 임시값(블루). 브랜드 확정 시 `--primary`, `--ring`만 바꾼다.
+- 팔레트는 메타 광고 소재([meta-ads](docs/01-research/meta-ads.md))와 같다. 모든 화면이 남색 배경(`background`) + 크림 글자(`foreground`)이고, 노랑(`primary`)은 주요 버튼·선택 상태·강조 한 줄에만 쓴다. 밝은 테마는 없다.
+- 카드는 배경보다 한 단계 밝은 남색(`bg-card`)이다. 그림자와 그라데이션은 쓰지 않는다.
+- `warning`(코랄)은 "검사 권유" 단계와 위험 막대에만 쓴다. 노랑과 섞어 쓰지 않는다.
 - Radius: `--radius` 0.75rem. 카드 `rounded-xl`, 버튼·입력 `rounded-lg`(컴포넌트 기본값 유지).
 
 ## 4. 타이포그래피
 
 | 역할 | 클래스 |
 |---|---|
+| 랜딩 헤드라인 (S1 전용) | `text-3xl font-extrabold` + 아래 노랑 보조 문구 `text-lg font-semibold text-primary` |
 | 페이지 제목 | `text-2xl font-bold` |
 | 섹션 제목 | `text-lg font-semibold` |
 | 카드 제목 / 강조 | `text-base font-semibold` |
@@ -45,7 +48,7 @@
 | 보조 정보 | `text-sm text-muted-foreground` |
 | 캡션, 메타 | `text-xs text-muted-foreground` |
 
-숫자(가격, 평점, 거리)는 `tabular-nums`. 한 화면에 굵기는 최대 3종.
+숫자(가격, 평점, 거리)는 `tabular-nums`. 한 화면에 굵기는 최대 3종. 줄바꿈은 어절 단위(`word-break: keep-all`, 전역 적용)다.
 
 ## 5. 레이아웃 · 간격
 

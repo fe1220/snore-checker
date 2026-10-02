@@ -64,17 +64,24 @@ export function fromReportHash(hash: string): Question[] | null {
   return decodeSignals(match[2])
 }
 
-export const LEVEL_COPY: Record<Level, { title: string; body: string }> = {
+// 단계 이름(chip)은 칩, 제목, 판단 기준에서 같은 말을 쓴다.
+export const LEVEL_COPY: Record<
+  Level,
+  { chip: string; title: string; body: string }
+> = {
   strong: {
-    title: "수면무호흡증\n검사를 권해요",
+    chip: "검사 권유",
+    title: "수면무호흡증 신호가 보여요.\n수면검사를 권해요",
     body: "숨 멈춤이나 헐떡임, 운전 중 졸음은 수면무호흡증에서 자주 보이는 신호예요.",
   },
   moderate: {
-    title: "수면무호흡증\n상담을 권해요",
+    chip: "상담 권유",
+    title: "수면무호흡증 신호가 여러 개예요.\n상담을 권해요",
     body: "수면무호흡증과 함께 보이는 신호가 여러 개 있어요.",
   },
   weak: {
-    title: "수면무호흡증\n신호가 약해요",
+    chip: "신호 약함",
+    title: "지금은 걱정 신호가 적어요",
     body: "그래도 걱정된다면 상담은 언제든 괜찮아요.",
   },
 }

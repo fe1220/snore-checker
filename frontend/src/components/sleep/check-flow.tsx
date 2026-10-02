@@ -1,7 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation"
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { track } from "@/components/analytics/track"
@@ -17,8 +17,24 @@ export function CheckFlow() {
   const router = useRouter()
   const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState<Record<string, Answer>>({})
+  const [picked, setPicked] = useState<Answer | null>(null)
+  const locked = useRef(false)
   const question = QUESTIONS[step]
   const total = QUESTIONS.length
+  const selected = picked ?? answers[question.id]
+
+  // 고른 답을 잠깐 보여준 뒤 넘어간다. 바로 넘어가면 눌렸는지 알기 어렵다.
+  // 상태는 다시 그려진 뒤에야 바뀌어서, 연달아 누른 두 번째 답은 ref로 막는다.
+  function pick(value: Answer) {
+    if (locked.current) return
+    locked.current = true
+    setPicked(value)
+    setTimeout(() => {
+      locked.current = false
+      setPicked(null)
+      answer(value)
+    }, 200)
+  }
 
   function answer(value: Answer) {
     if (Object.keys(answers).length === 0) track({ name: "check_start" })
@@ -62,20 +78,25 @@ export function CheckFlow() {
       <p className="mt-6 text-sm text-muted-foreground tabular-nums">
         {step + 1} / {total} · 옆에서 본 대로 답해 주세요
       </p>
-      <h1 className="mt-2 text-2xl leading-snug font-bold">{question.text}</h1>
-      <div className="mt-8 flex flex-col gap-3">
-        {OPTIONS.map((option) => (
-          <Button
-            key={option.value}
-            variant={
-              answers[question.id] === option.value ? "default" : "outline"
-            }
-            className="h-12 w-full text-base"
-            onClick={() => answer(option.value)}
-          >
-            {option.label}
-          </Button>
-        ))}
+      <div
+        key={step}
+        className="animate-in duration-200 fade-in slide-in-from-right-2 motion-reduce:animate-none"
+      >
+        <h1 className="mt-2 text-2xl leading-snug font-bold">
+          {question.text}
+        </h1>
+        <div className="mt-8 flex flex-col gap-3">
+          {OPTIONS.map((option) => (
+            <Button
+              key={option.value}
+              variant={selected === option.value ? "default" : "outline"}
+              className="h-14 w-full justify-start px-4 text-base"
+              onClick={() => pick(option.value)}
+            >
+              {option.label}
+            </Button>
+          ))}
+        </div>
       </div>
     </main>
   )
