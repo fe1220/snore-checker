@@ -1,0 +1,1612 @@
+[
+ {
+  "n": 1,
+  "name": "Do두신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 (https://doneuro.co.kr/sleep/apnea/)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "전화만 (055-725-7979, 온라인 예약 링크 없음)",
+  "psg_info": "있음 — 건강보험 적용(2018.7~)·검사 대상·주의사항 안내, 금액은 없음 (https://doneuro.co.kr/sleep/apnea/)",
+  "note": "증상 목록은 본인 기준 서술('낮 동안 집중력 저하와 심한 피로감이 지속된다')이며 체크 도구는 아님",
+  "pages_opened": [
+   "https://doneuro.co.kr/",
+   "https://doneuro.co.kr/sleep/apnea/",
+   "https://doneuro.co.kr/doneuro/psg/",
+   "https://doneuro.co.kr/sleep/"
+  ]
+ },
+ {
+  "n": 2,
+  "name": "NDB 남양주 백병원",
+  "status": "정상",
+  "sleep_content": "있음 — 수면클리닉 소개(검사 중심, 질환 설명은 짧음) (https://www.baekhospital.co.kr/sub/r70/r50/s1010.php)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 외부 예약 서비스 (https://afdoc.co.kr/appointment/h/100003)",
+  "psg_info": "있음 — 검사 시간(저녁 8시~아침 5-6시)·급여 가능 언급, 금액 없음",
+  "note": "목록의 URL(s1030.php)은 의료진 소개 페이지로 본문이 거의 비어 있음. 2페이지만 열람",
+  "pages_opened": [
+   "https://www.baekhospital.co.kr/sub/r10/s1030.php",
+   "https://www.baekhospital.co.kr/sub/r70/r50/s1010.php"
+  ]
+ },
+ {
+  "n": 3,
+  "name": "가천대학교 길병원",
+  "status": "정상",
+  "sleep_content": "있음 — 가천수면의학센터 소개에 코골이·수면무호흡증 설명 (https://www.gilhospital.com/web/www/-111)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 4페이지 기준) — '본인이나 함께 자는 사람도 다치는 경우가 많습니다'는 렘수면행동장애 설명문이며 동거인에게 말을 거는 문구는 아님",
+  "booking": "있음 — 회원/비회원/SNS/전화상담 예약 (https://www.gilhospital.com/web/www/booking)",
+  "psg_info": "있음 — 검사 절차(설문지 작성→센서 부착→하룻밤 검사) 안내, 비용·보험 안내는 못 찾음",
+  "note": "첫 화면은 JS 리다이렉트(/index_web.jsp)",
+  "pages_opened": [
+   "https://www.gilhospital.com/index_web.jsp",
+   "https://www.gilhospital.com/web/www/-11",
+   "https://www.gilhospital.com/web/www/-110",
+   "https://www.gilhospital.com/web/www/-111"
+  ]
+ },
+ {
+  "n": 4,
+  "name": "가톨릭관동대학교 국제성모병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "robots.txt가 User-agent:* 에 Disallow:/ (Googlebot·Yeti·Claude-User 등 지정 봇만 Allow). 일반 UA로는 금지라 열지 않음",
+  "pages_opened": []
+ },
+ {
+  "n": 5,
+  "name": "가톨릭대학교 대전성모병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 클리닉 목록에 '수면 클리닉'(신경과), '코골이·수면무호흡클리닉'(이비인후과) 이름만 확인 (http://www.cmcdj.or.kr/servlet/MainSvl?_tc=F001001003&cd2=001&cd3=001&cd4=003), 상세 페이지는 미열람",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 비회원 온라인예약 (http://www.cmcdj.or.kr/servlet/MainSvl?_tc=F001N02001&cd2=N02&cd3=001)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "메뉴가 JS 함수(_connectMenu)로 이동해 URL 찾는 데 페이지를 소모. 4페이지 중 1건은 오류 응답",
+  "pages_opened": [
+   "http://www.cmcdj.or.kr/",
+   "…ContentsSvl?_tc=CONTENTS00000&cd2=001&cd3=001&cd4=004",
+   "…ContentsSvl?…cd4=003 (오류 응답)",
+   "…MainSvl?_tc=F001001003&cd2=001&cd3=001&cd4=003"
+  ]
+ },
+ {
+  "n": 6,
+  "name": "가톨릭대학교 서울성모병원",
+  "status": "정상 (본문이 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "있음 — 코골이 및 수면무호흡 클리닉 (https://www.cmcseoul.or.kr/page/department/B/513/1)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람 페이지 기준) — '환자와 보호자 상담을 거친 후' 정도의 언급만 있음",
+  "booking": "있음 (https://www.cmcseoul.or.kr/page/appointment)",
+  "psg_info": "없음(열람 페이지 기준) — 수면다원검사 시행 사실만 언급, 과정·비용·보험 안내 없음",
+  "note": "curl로는 템플릿({{ }})만 보임. 3페이지 열람",
+  "pages_opened": [
+   "https://www.cmcseoul.or.kr/page/main",
+   "https://www.cmcseoul.or.kr/page/department/B",
+   "https://www.cmcseoul.or.kr/page/department/B/513/1"
+  ]
+ },
+ {
+  "n": 7,
+  "name": "가톨릭대학교 성빈센트병원",
+  "status": "정상 (본문이 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "있음 — 코골이·수면무호흡증 클리닉 (https://www.cmcvincent.or.kr/page/department/B/1150/1), 수면 클리닉 (https://www.cmcvincent.or.kr/page/department/B/1004/1)",
+  "self_check": "없음 — 대신 '누가 수면 검사를 받아야 하는가?' 대상자 목록(12항목, 점수·판정 없음)이 있음 (https://www.cmcvincent.or.kr/page/department/B/1004/1)",
+  "self_check_respondent": "본인 — '코를 심하게 고는 분' (체크 도구가 아닌 대상자 목록 기준)",
+  "partner_message": "없음 — 배우자는 목격자로만 등장하고 말 거는 대상은 본인: '숨을 멈추는 일이 배우자에 의해 목격된 일이 있는 분' (https://www.cmcvincent.or.kr/page/department/B/1004/1). 그 외 '코골이로 주변 사람의 수면을 방해할 수 있습니다' (…/B/1150/1)",
+  "booking": "있음 (https://www.cmcvincent.or.kr/page/appointment)",
+  "psg_info": "있음(일부) — 수면검사가 무엇인지 설명, 과정·비용·보험 안내는 없음",
+  "note": "배우자 언급이 있는 유일한 사례지만 2인칭 대상은 환자 본인",
+  "pages_opened": [
+   "https://www.cmcvincent.or.kr/page/main",
+   "https://www.cmcvincent.or.kr/page/department/B",
+   "https://www.cmcvincent.or.kr/page/department/B/1150/1",
+   "https://www.cmcvincent.or.kr/page/department/B/1004/1"
+  ]
+ },
+ {
+  "n": 8,
+  "name": "가톨릭대학교 여의도성모병원",
+  "status": "정상 (본문이 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "있음(매우 짧음) — 코골이·수면무호흡 클리닉 소개 2문장 (https://www.cmcsungmo.or.kr/page/department/B/673/1)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 (https://www.cmcsungmo.or.kr/page/appointment)",
+  "psg_info": "없음(열람 페이지 기준) — 수면다원검사 시행 언급만",
+  "note": "목록 URL은 신경과 의료진 페이지. 같은 이름의 클리닉이 하나 더 있으나(…/B/697/1) 미열람",
+  "pages_opened": [
+   "https://www.cmcsungmo.or.kr/page/department/A/98/2",
+   "https://www.cmcsungmo.or.kr/page/department/A/98/1",
+   "https://www.cmcsungmo.or.kr/page/department/B",
+   "https://www.cmcsungmo.or.kr/page/department/B/673/1"
+  ]
+ },
+ {
+  "n": 9,
+  "name": "가톨릭대학교 의정부성모병원",
+  "status": "정상 (본문이 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "없음(열람 페이지 기준) — 클리닉 목록에 '수면장애 클리닉'만 있고 소개는 '단기불면증, 만성불면증, 악몽증, 야경증, 야뇨증' 한 줄 (https://www.cmcujb.or.kr/page/department/B/781/1). 코골이·무호흡 클리닉은 목록에서 못 찾음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 (https://www.cmcujb.or.kr/page/appointment)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "목록 URL은 의료진 검색 페이지. 3페이지 열람",
+  "pages_opened": [
+   "https://www.cmcujb.or.kr/common.examination.doc_list.sp",
+   "https://www.cmcujb.or.kr/page/department/B",
+   "https://www.cmcujb.or.kr/page/department/B/781/1"
+  ]
+ },
+ {
+  "n": 10,
+  "name": "가톨릭대학교 인천성모병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "robots.txt가 User-agent:* 에 Disallow:/ (Yeti·Googlebot·GPTBot 등 지정 봇만 일부 허용). 열지 않음",
+  "pages_opened": []
+ },
+ {
+  "n": 11,
+  "name": "강남세브란스병원",
+  "status": "접속 실패",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "gs.iseverance.com 응답 없음(타임아웃), 1회 재시도 후 중단. robots.txt도 받지 못함",
+  "pages_opened": []
+ },
+ {
+  "n": 12,
+  "name": "강동경희대학교병원",
+  "status": "정상",
+  "sleep_content": "있음 — 수면센터 소개에 코골이/수면무호흡증 설명 (https://www.khnmc.or.kr/kr/treatment/center/000495/introduce.do)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람 페이지 기준) — '수면장애는 수면 중에 발생하여 본인은 모르는 경우가 흔하기 때문에'라고만 쓰고 동거인을 부르지는 않음",
+  "booking": "전화 예약 확인(02-440-7000). 온라인 예약은 확인 불가 (/*/reservation 이 robots 금지라 열지 않음)",
+  "psg_info": "없음(열람 페이지 기준) — 수면다원검사·다중수면잠복기검사 이름만 언급",
+  "note": "쿠키 없이 접속하면 리다이렉트 루프가 나서 쿠키를 켜고 다시 받음(같은 URL 3번째 요청). 관련정보 탭은 목록이 비어 있음",
+  "pages_opened": [
+   "…/center/000495/timetable.do",
+   "…/center/000495/introduce.do",
+   "…/center/000495/relatedInfo.do"
+  ]
+ },
+ {
+  "n": 13,
+  "name": "강릉아산병원",
+  "status": "정상 (목록 URL은 HTTP 500, 홈으로 대체)",
+  "sleep_content": "4페이지 안에서 못 찾음 — 신경과 소개에 수면다원검사 설명만 있음 (https://www.gnah.co.kr/kor/CMS/DeptMgr/intro.do?mCode=MN021&dept_seq=10)",
+  "self_check": "없음(열람 페이지 기준) — 검사 전 작성하는 '수면다원검사 설문지' 언급만 있고 웹 문항은 없음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 회원/비회원 예약 (https://www.gnah.co.kr/kor/CMS/ReservationMgr/step01.do?mCode=MN019)",
+  "psg_info": "있음 — 검사 항목·종류(CPAP, MSLT 등)·준비물 안내, 비용·보험 안내는 없음",
+  "note": "건강정보 게시판(*Board.do)은 robots 금지라 열지 않음. 3페이지 열람",
+  "pages_opened": [
+   "…/DoctorMgr/view.do?… (500)",
+   "https://www.gnah.co.kr/kor/Main.do",
+   "…/DeptMgr/intro.do?mCode=MN021&dept_seq=10"
+  ]
+ },
+ {
+  "n": 14,
+  "name": "강북삼성병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "www.kbsmc.co.kr 가 main.kbsmc.co.kr 로 넘기는데, 그쪽 robots.txt가 User-agent:* Disallow:/ (Googlebot·Yeti·Claude-User 등 지정 봇만 허용). 리다이렉트 스텁만 받고 본문은 열지 않음",
+  "pages_opened": [
+   "https://www.kbsmc.co.kr/index.jsp (리다이렉트 스텁)"
+  ]
+ },
+ {
+  "n": 15,
+  "name": "강원대학교병원",
+  "status": "정상",
+  "sleep_content": "있음(짧음) — 수면 클리닉[신경과] 소개 (https://www.knuh.or.kr/medical/medical_03_69.asp)",
+  "self_check": "없음 — 대신 '어떤 분들에게 도움이 될까요?' 증상 6줄 목록(점수·판정 없음)",
+  "self_check_respondent": "본인 — '잠잘 때 코를 심하게 곤다.' (체크 도구가 아닌 증상 목록 기준)",
+  "partner_message": "없음(열람 페이지 기준)",
+  "booking": "있음 (https://www.knuh.or.kr/appointment/appointment_01.asp)",
+  "psg_info": "있음(일부) — 수면센터 검사와 가정 검사 두 방식이 있다는 안내, 비용·보험 없음",
+  "note": "2페이지 열람. 수면(정신건강의학과)클리닉은 미열람",
+  "pages_opened": [
+   "https://www.knuh.or.kr/medical/medical_01_12_03.asp",
+   "https://www.knuh.or.kr/medical/medical_03_69.asp"
+  ]
+ },
+ {
+  "n": 16,
+  "name": "건양대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 수면다원 검사실 안내만 있음 (https://www.kyuh.ac.kr/main/sub01_0711.do)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 인터넷 진료예약 (https://www.kyuh.ac.kr/prog/internetResve/select.do, robots 금지 경로라 열지 않음)",
+  "psg_info": "있음 — 검사 종류·적응증 안내, 비용·보험 없음",
+  "note": "목록 URL은 의료진 개인 페이지. 2페이지 열람",
+  "pages_opened": [
+   "…/prog/doctor/homepage.do?deptCd=NEU&doctorId=002217",
+   "https://www.kyuh.ac.kr/main/sub01_0711.do"
+  ]
+ },
+ {
+  "n": 17,
+  "name": "경북대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 신경과 소개에 '수면장애' 단어만 있음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 인터넷예약 (http://knuh.kr/content/03reservation/01_02.asp)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "클리닉 목록 링크는 Bad Request, 건강정보 페이지에도 수면 관련 글 없음",
+  "pages_opened": [
+   "http://knuh.kr/content/01treatment/08_0102.asp?ct_idx=239",
+   "http://knuh.kr/content/02doctor/detail_clinic.asp (Bad Request)",
+   "http://knuh.kr/content/04information/18_01.asp"
+  ]
+ },
+ {
+  "n": 18,
+  "name": "경상국립대학교병원",
+  "status": "정상",
+  "sleep_content": "없음(열람 페이지 기준) — 수면클리닉 안내가 있으나 불면증·하지불안증후군·일주기리듬장애만 다루고 코골이·무호흡은 0회 등장 (https://www.gnuh.co.kr/gnuh/contents/contentsView.do?rbsIdx=125&q=12)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 (https://www.gnuh.co.kr/gnuh/gnuhOnline/info.do?rbsIdx=134)",
+  "psg_info": "없음(열람 페이지 기준) — '필요 시 수면 다원 검사' 한 줄",
+  "note": "수면 클리닉 메뉴 링크는 HTML에서 주석 처리돼 화면에는 안 보임(주소로는 열림). 2페이지 열람",
+  "pages_opened": [
+   "…/treat/docInfo.do?rbsIdx=55&code=NR&dno=124007",
+   "…/contents/contentsView.do?rbsIdx=125&q=12"
+  ]
+ },
+ {
+  "n": 19,
+  "name": "경희대학교병원 (경희의료원)",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 메인과 진료과 목록에 '수면' 단어가 없음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 인터넷 진료예약 (/kr/treatment/reservation/appointment.do, robots 금지 경로라 열지 않음)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "첫 화면은 JS 리다이렉트(/kr/main.do). 2페이지 열람",
+  "pages_opened": [
+   "https://www.khmc.or.kr/kr/main.do",
+   "https://www.khmc.or.kr/kr/treatment/department/list.do"
+  ]
+ },
+ {
+  "n": 20,
+  "name": "계명대학교 동산병원 (수면센터 goodsleep.or.kr)",
+  "status": "정상",
+  "sleep_content": "있음 (https://goodsleep.or.kr/kind/index.php?hca=1)",
+  "self_check": "있음 — 웹에서 바로 푸는 '수면장애 자가측정 척도' 4종: 코골이=베를린 설문(Berlin Questionnaire, 11문항) (https://goodsleep.or.kr/how_2/index.php?hca=11), 불면증=불면증 심각도 문항(체크하면 점수 표시) (https://goodsleep.or.kr/how_2/index.php?hca=1), 하지불안증후군·주간 졸리움은 메뉴만 확인(미열람). 설문지 다운로드 메뉴도 있음",
+  "self_check_respondent": "본인 — '수면 중에 숨을 멈추는 것이 얼마나 자주 다른 사람에 의하여 관찰됩니까?'",
+  "partner_message": "없음(열람 페이지 기준) — 설문 문항에 '당신의 코골이가 다른 사람을 괴롭게 합니까?'가 있으나 응답자는 본인",
+  "booking": "있음 — 병원 본원 온라인 예약으로 연결 (https://dongsan.dsmc.or.kr:49870/content/01reserve/01_01.php), 수면다원검사실 전화 053-258-4377",
+  "psg_info": "있음 — 검사 방법·준비사항 안내 (https://goodsleep.or.kr/how/index.php?hca=4), 비용 안내 없음. 양압기 보험 적용(2018.7~)은 질환 페이지에 언급",
+  "note": "24곳 중 유일하게 웹 자가진단 도구가 있음. 실수로 5페이지를 열었음(한도 1장 초과)",
+  "pages_opened": [
+   "https://goodsleep.or.kr/",
+   "…/kind/index.php?hca=1",
+   "…/how_2/index.php?hca=1",
+   "…/how_2/index.php?hca=11",
+   "…/how/index.php?hca=4"
+  ]
+ },
+ {
+  "n": 21,
+  "name": "고려대학교 구로병원",
+  "status": "정상 (전체가 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "없음(열람 페이지 기준) — 클리닉 목록에 '수면무호흡 클리닉', '코골이와 수면 무호흡증 클리닉', '이갈이·코골이 클리닉'이 있으나 상세 페이지는 의료진 이름·전문분야만 표시 (https://guro.kumc.or.kr/kr/doctor-department/clinic/view.do?deptCd=GR105)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 (https://guro.kumc.or.kr/kr/appointment/appointment.do)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "curl로는 빈 SPA 껍데기만 옴. 의료진 페이지에 외부 기사 링크(수면무호흡증)만 있음",
+  "pages_opened": [
+   "…/doctor/view.do?drNo=1974",
+   "…/doctor-department/clinic.do",
+   "…/clinic/view.do?deptCd=202887",
+   "…/clinic/view.do?deptCd=GR105"
+  ]
+ },
+ {
+  "n": 22,
+  "name": "고려대학교 안암병원",
+  "status": "정상 (전체가 JS 렌더링이라 브라우저로 확인)",
+  "sleep_content": "있음(짧음) — 수면장애클리닉 소개, 수면무호흡은 관련질환으로 언급 (https://anam.kumc.or.kr/kr/doctor-department/clinic/view.do?deptCd=AA059)",
+  "self_check": "없음 — 대상 환자 증상 5줄 서술만 있음",
+  "self_check_respondent": "본인 — '낮에 과도하게 졸립거나' (체크 도구가 아닌 대상 설명 기준)",
+  "partner_message": "없음(열람 페이지 기준)",
+  "booking": "있음 — 의료진별 진료예약 버튼 (정확한 URL은 확인 불가)",
+  "psg_info": "없음(열람 페이지 기준) — 수면다원검사 이름만 언급",
+  "note": "2페이지 열람",
+  "pages_opened": [
+   "…/department/view.do?deptCd=AANU",
+   "…/clinic/view.do?deptCd=AA059"
+  ]
+ },
+ {
+  "n": 23,
+  "name": "고신대학교 복음병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 홈과 건강질병정보 페이지에 '수면' 단어 없음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 (https://kosinmed.vics.kr/reservation/home)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "홈 메뉴의 신경과 링크(/depart/depart_117.php)가 404",
+  "pages_opened": [
+   "https://www.kosinmed.or.kr/",
+   "…/depart/depart_117.php (404)",
+   "…/service/service_2.php"
+  ]
+ },
+ {
+  "n": 24,
+  "name": "군산의료원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 신경과 의료진 전문분야에 '수면 장애, 코골이' 단어만 있고 안내 페이지는 없음. 클리닉 목록에 수면 클리닉 없음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 — 외래 진료예약 (https://www.kunmed.or.kr/board/content.php?pvcode=online01&lnb=6010)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "3페이지 열람",
+  "pages_opened": [
+   "https://www.kunmed.or.kr/",
+   "…/board/medical/medical_list.php?lnb=202046",
+   "…/board/medical/clinic_list.php?lnb=3080"
+  ]
+ },
+ {
+  "n": 25,
+  "name": "굿슬립신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 — http://www.gsleep.co.kr/main/ko/sub02_03.html?xid=3 (본문이 이미지 1장)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "확인 불가 — '예약문의' 메뉴(http://www.gsleep.co.kr/main/ko/sub06_01.html?xid=1)는 있으나 본문 이미지가 404",
+  "psg_info": "있음 — http://www.gsleep.co.kr/main/ko/sub03_01.html?xid=1 (건강보험 적용 기준, 본인부담 122,000원[2020년 기준], 예약제)",
+  "note": "본문이 전부 이미지라 텍스트 추출 불가, 이미지를 직접 읽어 확인. 환자 본인 대상 서술.",
+  "pages_opened": [
+   "http://www.gsleep.co.kr/main/ko/index.html",
+   "…/sub02_03.html?xid=3",
+   "…/sub03_01.html?xid=1",
+   "…/sub06_01.html?xid=1"
+  ]
+ },
+ {
+  "n": 26,
+  "name": "단국대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 전문클리닉 목록(https://www.dkuh.co.kr/html_2016/03/06)에 '수면 클리닉', '코골이, 수면호흡 클리닉' 이름만 확인, 상세 안내는 미열람",
+  "self_check": "있음(수면 무관) — 자가진단 건강체크 https://www.dkuh.co.kr/html_2016/07/05 : 알콜의존도, 니코틴 의존도, 주관적 기억감퇴 설문 3종. 수면·코골이 문항 없음",
+  "self_check_respondent": "해당 없음(수면 자가진단 없음; 있는 3종은 본인 기준 — \"당신의 니코틴 의존도는?\")",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.dkuh.co.kr/mobile_2016/reserve/reserve.php",
+  "psg_info": "4페이지 안에서 못 찾음 — 신경과 소개에 수면다원검사 누적 건수만 언급",
+  "note": "등록 URL은 모바일 신경과 소개 페이지.",
+  "pages_opened": [
+   "https://www.dkuh.co.kr/mobile_2016/05/nr.php",
+   "https://www.dkuh.co.kr/html_2016/",
+   "https://www.dkuh.co.kr/html_2016/07/05",
+   "https://www.dkuh.co.kr/html_2016/03/06"
+  ]
+ },
+ {
+  "n": 27,
+  "name": "대구가톨릭대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음",
+  "self_check": "있음(수면 무관) — '간단한 자가검진' https://www.dcmc.co.kr/content/05info/06_01.asp : 신체부위 선택 → 관련질환 방식. '목' 부위 항목은 만성기침·목쉰소리·중이염·후두암뿐, 수면·코골이 항목은 못 찾음",
+  "self_check_respondent": "해당 없음(수면 자가진단 못 찾음)",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.dcmc.co.kr/content/01reserv/02_01.asp",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "전문질환센터 목록에 수면센터 없음.",
+  "pages_opened": [
+   "https://www.dcmc.co.kr/",
+   "…/content/05info/06_01.asp",
+   "…/content/01reserv/01_03.asp",
+   "…/content/05info/06_01.asp?sh_d_body_self=목"
+  ]
+ },
+ {
+  "n": 28,
+  "name": "대구삼성신경과의원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "blog.naver.com robots.txt: ClaudeBot Disallow /, 본문 프레임(/PostList.naver)도 * 에 Disallow. 루트 래퍼(빈 프레임셋)만 1회 열렸고 내용 없음.",
+  "pages_opened": [
+   "https://blog.naver.com/neuroclinic (래퍼만)"
+  ]
+ },
+ {
+  "n": 29,
+  "name": "대전선병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 의료진 소개에 전문분야 '수면장애' 단어만",
+  "self_check": "있음(수면 무관) — 자가진단 서비스 https://www.sunhospital.com/sub3_9.html : 약물의존도, 우울증, 과민성방광, 탈모, 돌연사위험, ADHD, 심장병, 당뇨병, 피부·건강·뇌·혈관나이, 외상후 스트레스 등. 수면·코골이 항목 없음",
+  "self_check_respondent": "해당 없음(수면 자가진단 없음)",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.sunhospital.com/sub1_2.html (카카오 챗봇 '빠른 예약'도 있음)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "등록 URL은 의료진 1인 소개 페이지. 자가진단 메뉴가 15종 넘게 있는데 수면은 빠져 있음.",
+  "pages_opened": [
+   "https://sunhospital.com/doctors/?bid=5149",
+   "https://www.sunhospital.com/",
+   "https://www.sunhospital.com/index.html",
+   "https://www.sunhospital.com/sub3_9.html"
+  ]
+ },
+ {
+  "n": 30,
+  "name": "동국대학교 일산병원",
+  "status": "정상",
+  "sleep_content": "있음 — 수면장애·기억장애 클리닉 소개 http://www.dumc.or.kr/medical/clinic/clinicInfoDetail.do?act=clinicDetail&nowPageInfo=ILSH&nowMenuId=00000063&clinicCode=ILSH24 (수면무호흡은 '신경과·이비인후과 협진' 한 줄)",
+  "self_check": "4페이지 안에서 못 찾음 — 사이트맵에 자가진단 메뉴 없음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음 — 증상 서술에 \"옆 사람을 걷어차는 경우\"가 있으나 환자 증상 묘사이지 동거인에게 말을 거는 문구 아님",
+  "booking": "온라인 예약 있음 — http://www.dumc.or.kr/medical/reservation/rsvmain.jsp",
+  "psg_info": "없음에 가까움 — 클리닉 소개에 '수면다원검사를 하게 됩니다' 한 줄, 과정·비용·보험 안내 없음(4페이지 범위)",
+  "note": "robots.txt 없음(HTML 반환).",
+  "pages_opened": [
+   "…/departmentDetail.jsp?…deptCode=NR",
+   "…/stuff/etc/siteMap.jsp",
+   "…/medical/clinic/clinicMain.jsp",
+   "…/clinicInfoDetail.do?…clinicCode=ILSH24"
+  ]
+ },
+ {
+  "n": 31,
+  "name": "동수원병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 신경과 소개에 전문분야 '수면장애' 단어만, 전문클리닉·건강정보 페이지에 수면 키워드 없음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "전화만 — 신경과 의료진 전원에 '전화 예약만 가능 1533-2114' 표기(https://www.dswhosp.co.kr/medical/medical09.php). 병원 공통 온라인예약 메뉴(/medical/medical_reser.php)는 존재",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "",
+  "pages_opened": [
+   "https://www.dswhosp.co.kr/medical/medical09.php",
+   "https://www.dswhosp.co.kr/",
+   "…/health/clinic.php",
+   "…/health/info.php"
+  ]
+ },
+ {
+  "n": 32,
+  "name": "동아대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음(3페이지 열람, 더 따라갈 수면 링크 없음) — 신경과 소개에 '뇌파 및 수면다원검사' 검사명, 의료진 전문분야 '수면장애'만",
+  "self_check": "4페이지 안에서 못 찾음(3페이지 열람)",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — 메인의 '온라인예약' 레이어(/mypage/online_nameCheck.php), '간편예약'",
+  "psg_info": "4페이지 안에서 못 찾음(검사명만 언급)",
+  "note": "robots.txt는 400 응답. 전문진료센터 목록에 수면센터 없음.",
+  "pages_opened": [
+   "https://www.damc.or.kr/02/02_1_2017.php?code=623200&chk=1",
+   "https://www.damc.or.kr/main/main_2017.php",
+   "https://www.damc.or.kr/02/03_2017.php"
+  ]
+ },
+ {
+  "n": 33,
+  "name": "류마성모신경과내과의원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "blog.naver.com robots.txt 금지(28번과 동일). 루트 래퍼만 1회 열렸고 내용 없음.",
+  "pages_opened": [
+   "https://blog.naver.com/rheumaleeclinic (래퍼만)"
+  ]
+ },
+ {
+  "n": 34,
+  "name": "보라매병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음(3페이지 열람: 메인·클리닉 목록·진료센터 목록에 수면/코골이 키워드 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.brmh.org/reservation/online_reservation.do",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "클리닉 목록(가나다순)에 수면 클리닉이 없음.",
+  "pages_opened": [
+   "https://www.brmh.org/main/main.do",
+   "…/custom/medi_clinic.do",
+   "…/custom/medi_center.do"
+  ]
+ },
+ {
+  "n": 35,
+  "name": "부산대학교병원",
+  "status": "정상",
+  "sleep_content": "있음 — 의료진 페이지에 폐쇄수면무호흡 설명 https://www.pnuh.or.kr/pnuh/medical/doctor-info.do?tCode=NL&dno=83493 ; 메인에 수면무호흡 유튜브·블로그 링크",
+  "self_check": "확인 불가 — 열람 3페이지에는 없음. 질환정보(/pnuh/health/)는 robots 금지 경로라 열지 않음",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 링크 있음 — /pnuh/services/appointment/quick.do (robots 금지 경로라 미열람)",
+  "psg_info": "없음에 가까움 — 신경과 소개에 수면다원검사실 전화번호만, 과정·비용 안내 없음(열람 범위)",
+  "note": "robots.txt가 /pnuh/index.do, /pnuh/medical/ 만 허용. 그 범위 안에서 3페이지 열람.",
+  "pages_opened": [
+   "…/pnuh/medical/doctor-info.do?tCode=NL&dno=83493",
+   "…/pnuh/index.do",
+   "…/pnuh/medical/department-info.do?tCode=NL&type=1"
+  ]
+ },
+ {
+  "n": 36,
+  "name": "분당서울대학교병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "bcni.snubh.org robots.txt: User-Agent * Disallow / . 열지 않음.",
+  "pages_opened": []
+ },
+ {
+  "n": 37,
+  "name": "분당차병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음(메인·센터·건강강좌·진료과 4페이지 모두 수면/코골이 키워드 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://bundang.chamc.co.kr/appointment/reserve.cha",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "",
+  "pages_opened": [
+   "https://bundang.chamc.co.kr/",
+   "…/medical/center.cha",
+   "…/health/lecture/intro.cha",
+   "…/medical/department.cha"
+  ]
+ },
+ {
+  "n": 38,
+  "name": "삼성맘편한신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 — https://www.samsungneuro.com/base/sub5/01.php (수면장애 종류·수면무호흡증이란?; 본문 이미지)",
+  "self_check": "4페이지 안에서 못 찾음 — 메뉴에 자가진단 없음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "전화만 — 메뉴에 온라인 예약 없음, 전화번호(064-733-9119)만 표기",
+  "psg_info": "있음 — https://www.samsungneuro.com/base/sub5/02.php (수면검사 진료 순서, 실내 구비목록). 비용·보험은 본문이 이미지라 확인 불가",
+  "note": "robots.txt 404. 본문이 이미지. 환자 본인 대상 서술(\"심하게 코를 골고 숨이 막히는\").",
+  "pages_opened": [
+   "https://www.samsungneuro.com/ (리다이렉트)",
+   "…/default/",
+   "…/base/sub5/01.php",
+   "…/base/sub5/02.php"
+  ]
+ },
+ {
+  "n": 39,
+  "name": "삼성서울병원",
+  "status": "정상",
+  "sleep_content": "없음 — 등록 URL(sleepbridge.co.kr)은 수면의학·시간생물학 연구실(SMC Lab) 사이트. 메뉴 전체가 연구·논문·구성원·연구참가자 모집",
+  "self_check": "없음(1페이지 열람, 메뉴 전체 기준)",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(1페이지 열람)",
+  "booking": "없음 — 진료 예약 메뉴 없음",
+  "psg_info": "없음 — 환자용 검사 안내 없음",
+  "note": "환자용 사이트가 아니라 연구실 홈페이지. 삼성서울병원 본 사이트(samsunghospital.com)는 등록 URL이 아니라 열지 않음.",
+  "pages_opened": [
+   "http://www.sleepbridge.co.kr/"
+  ]
+ },
+ {
+  "n": 40,
+  "name": "삼성스마트김석재신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 — https://smartnr.co.kr/clinics/sleep/sleep-apnea/ (코골이와 수면무호흡증: 원인·증상·합병증·치료)",
+  "self_check": "있음 — 같은 페이지의 '자가 점검' 8문항(자체 문항, 구성은 STOP-Bang과 유사: 코골이·낮 졸림·무호흡 목격·고혈압·체중·50세·목둘레·남성). 점수 계산 UI 없이 목록",
+  "self_check_respondent": "본인 — \"자는 동안 숨이 멈춘다는 말을 들은 적이 있습니다\"",
+  "partner_message": "부분적 — 배우자를 언급하지만 화자는 환자 본인을 향함(배우자를 2인칭으로 부르지 않음): \"배우자분이 먼저 알아채는 경우가 많습니다.\" https://smartnr.co.kr/clinics/sleep/sleep-apnea/",
+  "booking": "온라인 예약 있음(네이버 예약) — https://smartnr.co.kr/reservation/ , https://booking.naver.com/booking/13/bizes/658510 (수면다원검사 전용 예약 항목 있음)",
+  "psg_info": "있음 — https://smartnr.co.kr/exams/psg/ (과정, 건강보험 적용 조건, 본인부담 약 13만 원, 실비, 준비사항, '보호자 동반 수면은 어렵습니다')",
+  "note": "등록 URL ksjneuro.com → smartnr.co.kr 로 리다이렉트. 맡은 범위에서 배우자의 관찰을 가장 구체적으로 서술한 곳(각방, '배우자 손에 이끌려 오는 경우')이지만 독자는 환자.",
+  "pages_opened": [
+   "https://smartnr.co.kr/",
+   "…/clinics/sleep/sleep-apnea/",
+   "…/exams/psg/"
+  ]
+ },
+ {
+  "n": 41,
+  "name": "서울대학교병원",
+  "status": "정상(등록 URL /reservation/… 은 robots 금지라 열지 않음, 허용 경로만 열람)",
+  "sleep_content": "4페이지 안에서 못 찾음(3페이지 열람; 의학정보는 검색형 목록이라 수면 링크 없음)",
+  "self_check": "확인 불가 — '자가진단서비스' 메뉴는 있음(https://www.snuh.org/health/SelfDgs/main.do)이나 서버 응답이 헤더에서 끊겨 본문이 없음(브라우저 렌더도 빈 화면)",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — /reservation/ 경로(robots 금지라 미열람)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "자가진단서비스에 수면 항목이 있는지는 확인하지 못함.",
+  "pages_opened": [
+   "https://www.snuh.org/main.do",
+   "…/health/SelfDgs/main.do",
+   "…/health/nMedInfo/nList.do"
+  ]
+ },
+ {
+  "n": 42,
+  "name": "서울브레인신경과의원",
+  "status": "정상",
+  "sleep_content": "없음에 가까움 — 전문분야 페이지(http://www.seoulbrain.co.kr/nu/sub3.html)에 '코골이', '수면무호흡', '수면장애' 단어와 검사분야 '수면다원검사' 명칭만, 설명 없음",
+  "self_check": "4페이지 안에서 못 찾음 — 사이트맵 메뉴 8개에 없음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "전화만 — 화면에 전화 예약 안내, TEL 02-541-8275",
+  "psg_info": "없음(명칭만, 4페이지 범위)",
+  "note": "프레임셋+이미지 메뉴의 구형 사이트. robots.txt 없음. 화면 캡처로 확인.",
+  "pages_opened": [
+   "http://www.seoulbrain.co.kr/",
+   "…/nu/",
+   "…/nu/sitemap.html",
+   "…/nu/sub3.html"
+  ]
+ },
+ {
+  "n": 43,
+  "name": "서울삼성신경과의원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "blog.naver.com robots.txt 금지(28번과 동일). 루트 래퍼만 1회 열렸고 내용 없음.",
+  "pages_opened": [
+   "https://blog.naver.com/ssneuro21 (래퍼만)"
+  ]
+ },
+ {
+  "n": 44,
+  "name": "서울스페셜수면의원",
+  "status": "정상",
+  "sleep_content": "있음 — 코골이 클리닉 https://www.seoulsleepcenter.com/?idx=c5dcc82b0c049b/c5ddfd61a4c87d/c5f1a7cafe5c8e",
+  "self_check": "있음(소아용) — '혹시 우리아이에게 수면장애가?' 자체 체크리스트 https://www.seoulsleepcenter.com/?idx=c5dcc82b0c049b/c5ddfd61a4c87f/c5f1a7d2fe5ca7 . 성인 코골이 자가진단은 4페이지 안에서 못 찾음",
+  "self_check_respondent": "동거인(보호자=부모)이 아이를 관찰 — \"아이가 잘 때 이런 모습을 보이지 않나요?\" (배우자 아님)",
+  "partner_message": "배우자 대상 없음. 부모에게 말을 거는 문구는 있음: \"아이가 잘 때 이런 모습을 보이지 않나요?\" (위 URL). 성인 코골이 페이지는 환자 본인에게 말함",
+  "booking": "온라인 예약상담 신청 폼 있음('빠른 예약상담', 연락처를 남기면 상담) + 온라인상담 게시판 /?idx=c5ddfd5ec4c86d/c5e3a520fe9207 . 즉시 예약 시스템은 아님",
+  "psg_info": "있음 — https://www.seoulsleepcenter.com/?idx=c5dcc82b0c049d/c5ddfd6de4c89c (검사 구성 설명). 비용·보험은 이 페이지에 없음",
+  "note": "관찰자 기준 체크리스트가 존재하는 유일한 곳이지만 대상이 부모-아이. 같은 형식의 '배우자가 관찰' 버전은 못 찾음.",
+  "pages_opened": [
+   "http://www.seoulsleepcenter.com/",
+   "코골이 클리닉",
+   "숙면룸 수면다원검사",
+   "혹시 우리아이에게 수면장애"
+  ]
+ },
+ {
+  "n": 45,
+  "name": "서울아산병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 클리닉·센터 목록에 수면 항목 없음, 의료진 전문분야에 '수면장애' 단어만. 질환백과는 검색형이라 미확인",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.amc.seoul.kr/asan/reservation/main.do",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "등록 URL은 신경과 의료진 목록.",
+  "pages_opened": [
+   "…/staff/base/staffBaseInfoList.do?…searchHpCd=D030",
+   "…/departments/deptListTypeD.do",
+   "…/departments/deptListTypeC.do",
+   "…/healthinfo/disease/diseaseSubmain.do"
+  ]
+ },
+ {
+  "n": 46,
+  "name": "서울의료원",
+  "status": "정상(JS로 그려져 브라우저 렌더로 확인)",
+  "sleep_content": "4페이지 안에서 못 찾음 — 신경과 의료진 전문분야 '수면장애', '불면증/양압기 신환은 화요일 오후' 안내만",
+  "self_check": "4페이지 안에서 못 찾음 — 메인 메뉴에 자가진단 없음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://www.seoulmc.or.kr/site/medicalguide/medicalInfo/medicalInfo02.do?decorator=pmsweb&menucdv=01050400 . 단 불면증·양압기 신환은 '콜센터 통해 예약' 안내",
+  "psg_info": "4페이지 안에서 못 찾음 — 검사안내 페이지에 수면검사 없음",
+  "note": "등록 URL은 의료진 1인 상세.",
+  "pages_opened": [
+   "등록 의료진 페이지",
+   "https://www.seoulmc.or.kr/site/kr/index.jsp",
+   "…/medicalGuideDesc.do?…departmentCode=NE",
+   "…/pms/contents/contents.do?menucdv=01050200&contseqn=2616"
+  ]
+ },
+ {
+  "n": 47,
+  "name": "서울호호신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 — https://www.seoulhoho.com/?idx=c67b29e4a07c22/c67b3e058baadf (수면장애: 불면증·코골이·하지불안·렘수면행동장애)",
+  "self_check": "없음(3페이지 열람) — 정식 자가진단은 없고, 수면센터 Q&A에 '하나라도 해당되면 검사 적합' 증상 목록만",
+  "self_check_respondent": "본인(증상 목록 기준) — \"코골이 / 잠잘 때 숨이 막히는 느낌\"",
+  "partner_message": "부분적 — 가족을 언급하지만 환자에게 말함: \"사랑하는 가족과 연인에게 큰 불편을 줄 수 있습니다\" https://www.seoulhoho.com/?idx=c67b29e4a07c22/c67b3e058baadf",
+  "booking": "온라인 예약 있음 — 홈에 전화예약·네이버 예약·카카오톡 예약 버튼(카카오 https://kko.kakao.com/wFcXC9z89p)",
+  "psg_info": "있음 — https://www.seoulhoho.com/?idx=c68117217895ea/c68117222895ef (2단계 검사 과정, 준비·시간 Q&A, 건강보험 적용·본인부담 약 10만 원대)",
+  "note": "",
+  "pages_opened": [
+   "http://www.seoulhoho.com/",
+   "수면장애",
+   "수면센터"
+  ]
+ },
+ {
+  "n": 48,
+  "name": "성균관대학교 삼성창원병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 — 메인·클리닉·진료과 목록·건강백과 목록에 수면/코골이 키워드 없음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(열람한 페이지 범위)",
+  "booking": "온라인 예약 있음 — https://smc.skku.edu/smc/reserve/intro.do?mId=42",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "robots.txt 404. 진료과 상세는 폼 제출 방식이라 열지 않음. 주소상 '수면센터'가 있으나 홈페이지 메뉴에서는 못 찾음.",
+  "pages_opened": [
+   "https://smc.skku.edu/smc/main/main.do?mId=1",
+   "…/clinic/clinicView.do?mId=238",
+   "…/medical/intro.do?mId=100",
+   "…/board/list.do?mId=54"
+  ]
+ },
+ {
+  "n": 49,
+  "name": "성심의료재단 강동성심병원",
+  "status": "정상",
+  "robots": "확인 불가(WAF 차단 응답)",
+  "sleep_content": "진료과 소개 수준만 있음(신경과 소개에 코골이·수면무호흡증·수면다원검사 언급, 전용 안내 페이지는 4페이지 안에서 못 찾음) https://www.kdh.or.kr/sub202_1.php?bid=111320",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.kdh.or.kr/sub102.php (링크만 확인, 열지 않음)",
+  "psg_info": "4페이지 안에서 못 찾음(검사명 언급만)",
+  "note": "robots.txt 요청은 WAF 차단 메시지가 반환돼 규칙 확인 불가. 신경과 '이런 증상이 있다면' 목록에 수면문제 1줄(본인 기준).",
+  "pages_opened": [
+   "https://www.kdh.or.kr/sub202_1.php?bid=111320",
+   "https://www.kdh.or.kr/",
+   "https://www.kdh.or.kr/board.php?table_name=mybodyguide"
+  ]
+ },
+ {
+  "n": 50,
+  "name": "세란병원",
+  "status": "정상",
+  "robots": "허용(/medis,/xmldata,/lib,/counsel 금지, Crawl-delay 3600)",
+  "sleep_content": "4페이지 안에서 못 찾음(홈 첫 화면에 수면·코골이 언급 0건; 홈 1장만 열람)",
+  "self_check": "확인 불가",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "확인 불가",
+  "booking": "있음 https://www.seran.co.kr/reserv2 (링크만 확인)",
+  "psg_info": "확인 불가",
+  "note": "robots.txt에 Crawl-delay:3600이 있어 홈 1페이지만 열고 중단. 하위 페이지(뇌신경센터 /neurology 등)는 미확인.",
+  "pages_opened": [
+   "https://www.seran.co.kr/"
+  ]
+ },
+ {
+  "n": 51,
+  "name": "세브란스병원",
+  "status": "정상(진료과·센터 목록은 JS로만 그려져 수면 관련 페이지 링크 확인 불가)",
+  "robots": "허용(/online,/checkup,/member,/search,/api 등 금지)",
+  "sleep_content": "4페이지 안에서 못 찾음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://online.severance.healthcare/online/online.do?insttCode=2 (/online/은 robots 금지라 열지 않음)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "등록 URL은 의료원 포털 랜딩. 병원 홈·진료과 찾기 페이지 HTML에 수면 관련 텍스트 0건(목록이 JS 로딩).",
+  "pages_opened": [
+   "https://www.severance.healthcare/severance/index.do",
+   "https://sev.severance.healthcare/sev/",
+   "https://sev.severance.healthcare/sev/department/department-center-clinic-all.do"
+  ]
+ },
+ {
+  "n": 52,
+  "name": "세브란스병원치과",
+  "status": "접속 실패(등록 URL 404, 재시도 1회 포함). 치과대학병원 홈은 정상",
+  "robots": "허용(/online 등 금지)",
+  "sleep_content": "4페이지 안에서 못 찾음(치과병원 홈에 수면 텍스트는 타 병원 메뉴 '수면건강센터' 1건뿐)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://dental.severance.healthcare/online/online.do?insttCode=10 (robots 금지 경로, 열지 않음)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "등록 URL은 의료진 개인 페이지(만료 추정). 메뉴 링크가 href='#'(JS)라 하위 페이지 추적 불가.",
+  "pages_opened": [
+   "https://yuhs.severance.healthcare/dental/doctor/doctor-view.do?empNo=... (404 x2)",
+   "https://dental.severance.healthcare/dental/"
+  ]
+ },
+ {
+  "n": 53,
+  "name": "세종충남대학교병원",
+  "status": "정상",
+  "robots": "허용(* 그룹 없음)",
+  "sleep_content": "진료과 소개 수준 있음(신경과 페이지에 수면장애·수면다원검사 설명, 무호흡 언급) https://www.cnush.co.kr/prog/cnushTreatment/main/view.do?gwaCode=NR&mno=sub01_0101&tabGubun=tab2",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.cnush.co.kr/prog/cnushInternetReserve/reserv.do (링크만 확인)",
+  "psg_info": "있음(검사 과정 설명만, 비용·보험 안내 없음)",
+  "note": "홈(/)은 로그인 유도 스플래시로 리다이렉트. 코골이 단어 0건.",
+  "pages_opened": [
+   "https://www.cnush.co.kr/prog/cnushTreatment/main/view.do?gwaCode=NR&mno=sub01_0101&tabGubun=tab2",
+   "https://www.cnush.co.kr/"
+  ]
+ },
+ {
+  "n": 54,
+  "name": "수원 윌스기념병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(수면센터: 불면증·수면무호흡증·기면증 등 탭) https://allspine.com/specialty/specialty05/specialty05_10.html",
+  "self_check": "없음(정식 자가진단 없음. 수면무호흡증 '증상' 4항목 나열만, 채점·판정 없음)",
+  "self_check_respondent": "본인(증상 목록 기준) — \"코 고는 소리에 놀라거나 숨이 막혀 잠에서 깬 적이 종종 있다\"",
+  "partner_message": "없음(배우자에게 말 거는 문구 없음. 진단 설명에 \"본인, 배우자, 가족을 통해 증상을 듣고\" 언급만) https://allspine.com/specialty/specialty05/specialty05_10.html",
+  "booking": "있음(홈의 '진료 간편 예약 신청' 폼, 전화 회신 방식) https://www.allspine.com/",
+  "psg_info": "없음(검사 시행 언급만, 과정·비용·보험 안내 없음 — 연 2페이지 기준)",
+  "note": "증상 1번이 \"심하고 불규칙한 코골이로 주변 사람들이 불편해 한다\" — 주변인을 언급하나 화자는 환자 본인.",
+  "pages_opened": [
+   "https://www.allspine.com/",
+   "https://allspine.com/specialty/specialty05/specialty05_10.html"
+  ]
+ },
+ {
+  "n": 55,
+  "name": "순천향대학교 부천병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(이비인후과 '코골이 및 수면무호흡클리닉', 정신건강의학과 '수면장애 클리닉' 페이지 존재. 단 클리닉 페이지 본문은 정적 HTML에 내용 없음) https://www.schmc.ac.kr/bucheon/clinic/intrcn.do?key=2395",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(본인진료 예약/보호자 대리 예약/간편예약) https://www.schmc.ac.kr/bucheon/contents.do?key=2883 (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "클리닉 소개 탭(소개/의료진/주요질환) 본문이 비어 있거나 JS 로딩이라 내용 확인 불가. 예약 메뉴에 '보호자 대리 예약'이 별도 존재.",
+  "pages_opened": [
+   "https://www.schmc.ac.kr/bucheon/index.do",
+   "https://www.schmc.ac.kr/bucheon/clinic/list_all.do?key=134",
+   "https://www.schmc.ac.kr/bucheon/clinic/intrcn.do?key=2395"
+  ]
+ },
+ {
+  "n": 56,
+  "name": "순천향대학교 천안병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "4페이지 안에서 못 찾음(의료진 프로필에 '코골이(수면장애)' 진료분야만) https://www.schmc.ac.kr/cheonan/doctr/home.do?key=2945&doctrNo=905",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(의료진 페이지 '진료예약' 버튼, 예약 URL은 확인 불가)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "등록 URL은 의료진(양광익 교수) 프로필. 추측한 클리닉 목록 URL은 404. 홈에는 수면연구학회장 취임 뉴스만.",
+  "pages_opened": [
+   "https://www.schmc.ac.kr/cheonan/doctr/home.do?key=2945&doctrNo=905",
+   "https://www.schmc.ac.kr/cheonan/clinic/list_all.do (404)",
+   "https://www.schmc.ac.kr/cheonan/index.do"
+  ]
+ },
+ {
+  "n": 57,
+  "name": "신림신경과",
+  "status": "접속 실패(HTTP 400 '준비중인 페이지', 재시도 1회 동일 — 큐샵 사이트 비활성)",
+  "robots": "허용",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "등록 홈페이지(sillimnr.qshop.ai)가 비활성 상태.",
+  "pages_opened": [
+   "https://sillimnr.qshop.ai/80ea66tc (400 x2)"
+  ]
+ },
+ {
+  "n": 58,
+  "name": "아주대학교병원",
+  "status": "정상",
+  "robots": "허용(Yeti만 제한)",
+  "sleep_content": "있음(수면센터 소개: 수면무호흡·검사·치료 개요) https://hosp.ajoumc.or.kr/center/deptView.do?deptCd=AJ0209&deptNo=180",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(인터넷 진료예약: 회원/대리인/비회원 예약) https://hosp.ajoumc.or.kr/reserve/verifyMe.do (링크만 확인)",
+  "psg_info": "있음(검사 과정 설명만, 비용·보험 없음)",
+  "note": "수면센터 별도 '홈페이지 바로가기'가 있으나 링크가 JS/불명확해 미확인. 건강만화 '수면장애'는 불면증 내용(이미지). 예약 메뉴에 '대리인예약' 있음.",
+  "pages_opened": [
+   "https://hosp.ajoumc.or.kr/",
+   "https://hosp.ajoumc.or.kr/center/deptView.do?deptCd=AJ0209&deptNo=180",
+   "https://hosp.ajoumc.or.kr/story/board/articleView010003002.do?no=5999"
+  ]
+ },
+ {
+  "n": 59,
+  "name": "양산부산대학교병원",
+  "status": "robots 금지",
+  "robots": "금지(User-agent: * Disallow: /)",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "robots.txt: User-agent * Disallow: / (Yeti에만 index.do 허용). 열지 않음.",
+  "pages_opened": []
+ },
+ {
+  "n": 60,
+  "name": "에이스신경과의원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(수면장애 페이지에 코골이 및 수면무호흡 설명) http://aceneuro.co.kr/s02/sub02.php",
+  "self_check": "없음(정식 자가진단 없음. '아래 같은 증상이 있는 경우' 질환별 증상 목록과 '수면다원검사가 필요한 경우' 목록만)",
+  "self_check_respondent": "본인(증상 목록 기준) — \"심하게 코를 골고 숨이 멈추는 증상이 있고 낮에 졸리거나\"",
+  "partner_message": "없음(렘수면행동장애 설명에 '옆 사람에게 상처를 주기도' 언급만)",
+  "booking": "있음(온라인 진료예약 폼) http://aceneuro.co.kr/s04/sub01.php",
+  "psg_info": "있음(검사 과정·준비사항·대상 안내. 비용·보험 안내는 연 페이지에서 못 찾음) http://aceneuro.co.kr/s03/sub02.php",
+  "note": "대상 목록이 '~있으신 분' 형태로 환자 본인에게 말함.",
+  "pages_opened": [
+   "http://www.aceneuro.co.kr/",
+   "http://aceneuro.co.kr/s02/sub02.php",
+   "http://aceneuro.co.kr/s03/sub02.php",
+   "http://aceneuro.co.kr/s04/sub01.php"
+  ]
+ },
+ {
+  "n": 61,
+  "name": "연세퍼스티어내과신경과",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(수면무호흡ㆍ코골이 전용 페이지) https://firstier.kr/theme/ysfirstier/sub/sleep_4010.php",
+  "self_check": "없음(자가진단 없음. 수면다원검사 급여 적용 기준을 ✓ 목록으로 제시 — 보험 기준 설명이지 자가 체크 아님)",
+  "self_check_respondent": "해당 없음(급여 기준 목록은 본인 증상 기준 — \"주간졸림증, 피로감, 코골이, 수면무호흡, 수면 중 숨 막힘\")",
+  "partner_message": "없음(적응증에 '무호흡 목격' 표현만)",
+  "booking": "전화만으로 보임(홈·수면 페이지에 '예약' 문구·링크 0건, 전화번호·네이버 블로그 링크만)",
+  "psg_info": "있음(검사 과정 FAQ, 건강보험 급여 적용 기준. 금액은 없음) https://firstier.kr/theme/ysfirstier/sub/sleep_4080.php",
+  "note": "진단 방법에 '문진 척도 검사' 언급하나 온라인 문항은 없음.",
+  "pages_opened": [
+   "http://firstier.kr",
+   "https://firstier.kr/theme/ysfirstier/sub/sleep_4010.php",
+   "https://firstier.kr/theme/ysfirstier/sub/sleep_4080.php"
+  ]
+ },
+ {
+  "n": 62,
+  "name": "용인세브란스병원",
+  "status": "정상(센터/클리닉 목록 링크가 href='#' JS 방식이라 수면건강센터 페이지 확인 불가)",
+  "robots": "허용(/online 등 금지)",
+  "sleep_content": "4페이지 안에서 못 찾음(메뉴에 '수면건강센터' 명칭만 확인)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://yi.severance.healthcare/online/online.do?insttCode=16 (robots 금지 경로, 열지 않음)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "수면건강센터가 존재하나 상세 URL을 정적 HTML에서 얻지 못함.",
+  "pages_opened": [
+   "https://yi.severance.healthcare",
+   "https://yi.severance.healthcare/yi/department/department-center-clinic-all.do",
+   "https://yi.severance.healthcare/yi/department/center-clinic.do"
+  ]
+ },
+ {
+  "n": 63,
+  "name": "울산대학교병원",
+  "status": "정상(수면건강센터 소개 페이지 본문은 정적 HTML에 텍스트 없음 — 내용 확인 불가)",
+  "robots": "허용(/_* 금지)",
+  "sleep_content": "4페이지 안에서 못 찾음(수면건강센터 페이지는 있으나 본문 비어 있음) https://www.uuh.ulsan.kr/kr/index.php?pCode=MN0000033&mode=view&idx=21",
+  "self_check": "확인 불가",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "확인 불가",
+  "booking": "있음(첫 방문 진료예약) https://www.uuh.ulsan.kr/kr/index.php?pCode=MedReser (링크만 확인)",
+  "psg_info": "확인 불가",
+  "note": "홈 의료진 캐러셀에 신경과 '수면무호흡증, 양압기치료, 수면다원검사' 진료분야만 노출.",
+  "pages_opened": [
+   "https://www.uuh.ulsan.kr/kr/",
+   "https://www.uuh.ulsan.kr/kr/index.php?pCode=treat",
+   "https://www.uuh.ulsan.kr/kr/index.php?pCode=MN0000033",
+   "https://www.uuh.ulsan.kr/kr/index.php?pCode=MN0000033&mode=view&idx=21"
+  ]
+ },
+ {
+  "n": 64,
+  "name": "원광대학교 산본병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "4페이지 안에서 못 찾음(신경과 의료진 진료분야 '수면장애' 1건뿐, 코골이·무호흡 0건)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.wmcsb.co.kr/main/mc_reserve/agree.do (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "신경과 의료진·진료과 소개, 이비인후과 의료진 페이지 확인.",
+  "pages_opened": [
+   "https://www.wmcsb.co.kr/medicalpart/medicalpart_01_02.php?mpart=6",
+   "https://www.wmcsb.co.kr/medicalpart/medicalpart_01_01.php?mpart=6",
+   "https://www.wmcsb.co.kr/medicalpart/medicalpart_01_02.php?mpart=16"
+  ]
+ },
+ {
+  "n": 65,
+  "name": "원광대학교병원",
+  "status": "정상",
+  "robots": "robots.txt 없음",
+  "sleep_content": "4페이지 안에서 못 찾음(신경과 의료진 진료분야 '수면장애' 1건뿐)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.wkuh.org/main/mc_reserve/agree.do (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "신경과 의료진·클리닉·진료과 소개 페이지에 수면무호흡·코골이 언급 0건. robots.txt는 HTML 반환(규칙 없음).",
+  "pages_opened": [
+   "https://www.wkuh.org/main/mc_medicalpart/doctor.do?sh_mp_part_code=NEU&prepage=...",
+   "https://www.wkuh.org/main/mc_medicalpart/clinic.do?sh_b_temp1=NEU",
+   "https://www.wkuh.org/main/mc_medicalpart/introduce.do?sh_mp_part_code=NEU"
+  ]
+ },
+ {
+  "n": 66,
+  "name": "원주세브란스기독병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(호흡기내과 '수면호흡장애클리닉': 폐쇄성 수면무호흡·수면다원검사 설명) https://www.ywmc.or.kr/web/www/pulmonology/clinic?active=3",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.ywmc.or.kr/web/www/reservation (링크만 확인)",
+  "psg_info": "있음(검사 측정 항목 설명만, 비용·보험 없음)",
+  "note": "서술이 질환·유병률 중심의 3인칭 설명, 독자를 특정하지 않음.",
+  "pages_opened": [
+   "https://www.ywmc.or.kr/web/www/neurology/doc",
+   "https://www.ywmc.or.kr/web/www/pulmonology/clinic?active=3",
+   "https://www.ywmc.or.kr/web/www/neurology/intro"
+  ]
+ },
+ {
+  "n": 67,
+  "name": "유성선병원",
+  "status": "정상(등록 URL 의료진 페이지). 병원 홈은 JS로만 그려져 내용 확인 불가",
+  "robots": "허용(일부 봇만 금지)",
+  "sleep_content": "4페이지 안에서 못 찾음(의료진 전문분야 '뇌졸중 및 수면질환'만)",
+  "self_check": "확인 불가",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "확인 불가",
+  "booking": "있음(의료진 페이지에 '진료예약'·'해피콜' 버튼, URL 확인 불가)",
+  "psg_info": "확인 불가",
+  "note": "홈(/) 정적 HTML은 푸터 203자뿐.",
+  "pages_opened": [
+   "https://www.yuseongsunhospital.com/doctors/?bid=4960",
+   "https://www.yuseongsunhospital.com/"
+  ]
+ },
+ {
+  "n": 68,
+  "name": "의정부을지대학교병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "4페이지 안에서 못 찾음(신경과 진료시간표의 의료진 진료분야에 수면·무호흡 언급만)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://uemc.ac.kr/reservation/reservation_pg01.jsp (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "전문진료센터 목록·건강정보 페이지에 수면 관련 0건.",
+  "pages_opened": [
+   "https://uemc.ac.kr/clinic/clinic_pg04.jsp?dept=ABOAAA",
+   "https://uemc.ac.kr/clinic/clinic_pg05.jsp",
+   "https://uemc.ac.kr/data/data_pg01_02.jsp"
+  ]
+ },
+ {
+  "n": 69,
+  "name": "이대목동병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "4페이지 안에서 못 찾음(신경과 의료진 진료분야에 수면장애·수면무호흡증, '수면센터장' 직함만)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(예약 안내·간편예약) https://mokdong.eumc.ac.kr/guide/reservationInfo.do (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "진료과 소개 페이지에도 수면 질환 안내 본문 없음.",
+  "pages_opened": [
+   "https://mokdong.eumc.ac.kr/medical/dept/deptDoctor.do?dept_cd=NR&grp_yn=N",
+   "https://mokdong.eumc.ac.kr/medical/dept/deptIntro.do?dept_cd=NR&grp_yn=N"
+  ]
+ },
+ {
+  "n": 70,
+  "name": "이대서울병원",
+  "status": "정상",
+  "robots": "허용",
+  "sleep_content": "있음(수면센터 소개: 불면증·수면무호흡증·기면증·일주기 리듬장애 설명) https://seoul.eumc.ac.kr/medical/dept/centerIntro.do?dept_cd=SLE&grp_yn=N",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(수면센터 간편 예약·진료 예약) https://seoul.eumc.ac.kr/guide/reservationInfo.do (링크만 확인)",
+  "psg_info": "없음(진단에 쓰인다는 언급만, 과정·비용·보험 없음 — 연 2페이지 기준)",
+  "note": "질환 정의·치료 중심의 3인칭 설명.",
+  "pages_opened": [
+   "https://seoul.eumc.ac.kr/medical/dept/centerDoctor.do?dept_cd=SLE&grp_yn=N",
+   "https://seoul.eumc.ac.kr/medical/dept/centerIntro.do?dept_cd=SLE&grp_yn=N"
+  ]
+ },
+ {
+  "n": 71,
+  "name": "인제대학교 부산백병원",
+  "status": "정상",
+  "robots": "robots.txt 없음",
+  "sleep_content": "4페이지 안에서 못 찾음(신경과 소개에 '수면무호흡증을 비롯한 수면 장애를 다루는 수면의학 분야' 1문장) https://www.paik.ac.kr/busan/user/department/view.do?menuNo=800035&deptId=111",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.paik.ac.kr/busan/user/reservation/create.do?menuNo=800025 (링크만 확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "특수클리닉 목록에 수면 클리닉 없음. robots.txt는 HTML 반환(규칙 없음).",
+  "pages_opened": [
+   "https://www.paik.ac.kr/busan/user/department/deptDoctorList.do?menuNo=800035&deptId=111",
+   "https://www.paik.ac.kr/busan/user/department/list.do?menuNo=800041",
+   "https://www.paik.ac.kr/busan/user/department/view.do?menuNo=800035&deptId=111"
+  ]
+ },
+ {
+  "n": 72,
+  "name": "인제대학교 일산백병원",
+  "status": "정상",
+  "robots": "robots.txt 없음",
+  "sleep_content": "있음(전문클리닉 '수면무호흡클리닉': 코골이 원인·검사·치료 설명) https://www.paik.ac.kr/ilsan/user/department/view.do?menuNo=900045&deptId=297",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.paik.ac.kr/ilsan/user/reservation/create.do?menuNo=900009 (링크만 확인)",
+  "psg_info": "없음(수면다원검사 시행 언급만 — 연 3페이지 기준)",
+  "note": "3인칭 질환 설명('환자의 근육 강도가…'). 신경과 소개 페이지에는 수면 클리닉 없음.",
+  "pages_opened": [
+   "https://www.paik.ac.kr/ilsan/user/department/deptDoctorList.do?menuNo=900020&deptId=247",
+   "https://www.paik.ac.kr/ilsan/user/department/view.do?menuNo=900020&deptId=247",
+   "https://www.paik.ac.kr/ilsan/user/department/view.do?menuNo=900045&deptId=297"
+  ]
+ },
+ {
+  "n": 73,
+  "name": "인제대학교 해운대백병원",
+  "status": "정상",
+  "sleep_content": "전용 안내 페이지는 4페이지 안에서 못 찾음. 이비인후과 소개에 코골이·무호흡 한 줄 언급만 (https://www.paik.ac.kr/haeundae/user/department/view.do?menuNo=500017&deptId=344)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.paik.ac.kr/haeundae/user/reservation/create.do?menuNo=500007",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "신경과 의료진 전문분야에 '수면장애' 표기만 있음. 수면클리닉 메뉴 없음",
+  "pages_opened": [
+   "https://www.paik.ac.kr/haeundae/user/department/deptDoctorList.do?menuNo=500017&deptId=339",
+   "https://www.paik.ac.kr/haeundae/user/department/view.do?menuNo=500017&deptId=339",
+   "https://www.paik.ac.kr/haeundae/user/department/view.do?menuNo=500017&deptId=344"
+  ]
+ },
+ {
+  "n": 74,
+  "name": "인하대병원",
+  "status": "정상",
+  "sleep_content": "있음 https://www.inha.com/page/department/clinic/dept/clinic_42 (코골이·수면 무호흡 클리닉)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(연 페이지 기준). 클리닉 안내는 '환자분' 대상 서술",
+  "booking": "있음 https://www.inha.com/page/reservation",
+  "psg_info": "수면다원검사 시행 언급만 있음. 과정·비용·보험 안내는 4페이지 안에서 못 찾음",
+  "note": "robots.txt는 HTTP 400(없음으로 간주). 신경과 시간표에 '수면건강클리닉' 표기 있으나 별도 페이지는 못 찾음",
+  "pages_opened": [
+   "https://www.inha.com/page/department/medicine/dept/NRNN/schedule",
+   "https://www.inha.com/page/department/clinic/dept",
+   "https://www.inha.com/page/department/clinic/dept/clinic_42"
+  ]
+ },
+ {
+  "n": 75,
+  "name": "일산복음병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "4페이지 안에서 못 찾음 (메뉴에 예약 항목 안 보임)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "해당 URL은 현재 '일산복음재활병원'(재활의료기관) 사이트. 첫 화면 메뉴에 수면·신경과 항목 없음",
+  "pages_opened": [
+   "http://www.isgrh.co.kr/index.asp"
+  ]
+ },
+ {
+  "n": 76,
+  "name": "일산브레인신경과의원",
+  "status": "접속 실패",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "HTTP 200이지만 본문 1바이트(빈 응답). 1회 재시도 동일. robots.txt 404",
+  "pages_opened": [
+   "https://www.isbrain.co.kr/"
+  ]
+ },
+ {
+  "n": 77,
+  "name": "전남대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 (신경과·이비인후과 소개 페이지에 수면 관련 문구 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.cnuh.com/medical/reservation2/gubun.cs?m=201&p=cnuh",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "첫 화면은 병원 선택 인트로. 질병정보 메뉴(health/disease.cs)는 페이지 한도로 미열람",
+  "pages_opened": [
+   "https://www.cnuh.com/intro.cs",
+   "https://www.cnuh.com/main.cs",
+   "https://www.cnuh.com/medical/info/dept.cs?act=view&deptCd=NR",
+   "https://www.cnuh.com/medical/info/dept.cs?act=view&deptCd=EN"
+  ]
+ },
+ {
+  "n": 78,
+  "name": "전북대학교병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 (클리닉·전문센터 목록에 수면 항목 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.jbuh.co.kr/prog/mdexmRsvt/main/sub02_01_05/main.do",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "첫 화면은 사이트 모아보기 인트로. 진료과 개별 페이지는 미열람",
+  "pages_opened": [
+   "https://www.jbuh.co.kr/new.jsp",
+   "https://www.jbuh.co.kr/main.do",
+   "https://www.jbuh.co.kr/prog/clnc/main/sub01_03_01/list.do",
+   "https://www.jbuh.co.kr/prog/cntr/main/sub01_02_01/list.do"
+  ]
+ },
+ {
+  "n": 79,
+  "name": "젊은신경과의원",
+  "status": "정상",
+  "sleep_content": "페이지는 있음(수면장애클리닉 http://www.ynr.co.kr/cms/cms_conts_view.asp?menu=1&MenuNumber=2&PageNumber=1&SubPageNumber=0) 그러나 본문이 이미지뿐이라 내용 확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "상단 메뉴에 '예약' 항목 있음(/reserve/ 경로는 robots 금지라 미열람)",
+  "psg_info": "수면다원화검사 페이지 있음(menu=16) 그러나 본문 이미지뿐이라 내용 확인 불가",
+  "note": "수면 관련 2개 페이지 모두 HTML 텍스트 없이 이미지(alt 없음)로만 구성",
+  "pages_opened": [
+   "http://www.ynr.co.kr/",
+   "http://www.ynr.co.kr/cms/cms_conts_view.asp?menu=1&MenuNumber=2&PageNumber=1&SubPageNumber=0",
+   "http://www.ynr.co.kr/cms/cms_conts_view.asp?menu=16&MenuNumber=3&PageNumber=3&SubPageNumber=0"
+  ]
+ },
+ {
+  "n": 80,
+  "name": "제주대학교병원",
+  "status": "정상",
+  "sleep_content": "성인 수면무호흡 전용 안내는 4페이지 안에서 못 찾음. 질환백과에 '무호흡'(미숙아 무호흡 설명) 항목만 확인 https://www.jejunuh.co.kr/prog/ds/main/sub04_03/list.do",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.jejunuh.co.kr/prog/mainMdexmAplcnt/main/sub01_02_02/guide.do",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "질환백과 '무호흡' 항목의 증상 태그에 '수면 중 호흡 멈춤, 코골이, 주간 졸림'이 있으나 본문은 신생아 대상",
+  "pages_opened": [
+   "https://www.jejunuh.co.kr/index.do",
+   "https://www.jejunuh.co.kr/prog/ds/main/sub04_03/list.do"
+  ]
+ },
+ {
+  "n": 81,
+  "name": "조선대학교병원",
+  "status": "정상",
+  "sleep_content": "전용 안내 페이지는 4페이지 안에서 못 찾음. 신경과 소개에 수면장애 클리닉, 이비인후과 소개에 코골이 및 수면 클리닉 한두 줄 언급 (https://hosp.chosun.ac.kr/medi_depart/?site=hospital&mn=120&type=view&catename=신경과)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://va.exona.ai/968fb596bb3f4202b4707b74233b8405 (외부 예약 서비스 링크, 미열람)",
+  "psg_info": "수면다원검사실 운영 언급만. 과정·비용·보험은 4페이지 안에서 못 찾음",
+  "note": "robots.txt HTTP 400(없음으로 간주). 첫 화면은 인트로",
+  "pages_opened": [
+   "https://hosp.chosun.ac.kr/",
+   "https://hosp.chosun.ac.kr/main",
+   "https://hosp.chosun.ac.kr/medi_depart/?site=hospital&mn=120&type=view&catename=신경과",
+   "https://hosp.chosun.ac.kr/medi_depart/?site=hospital&mn=128&type=view&catename=이비인후과"
+  ]
+ },
+ {
+  "n": 82,
+  "name": "중앙대학교 광명병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 (등록 URL은 의료진 프로필, 전문분야에 수면 무호흡증 표기만)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(프로필·첫 화면의 '진료예약' 버튼, 자바스크립트 이동이라 URL 미확인)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "클리닉 목록 URL(/home/conts/105003000000000.do)은 HTTP 500 오류 페이지. 첫 화면에 외부 언론 수면 칼럼 링크 1건",
+  "pages_opened": [
+   "https://gh.cauhs.or.kr/home/medical/profView.do?deptNo=110&profNo=1224&empNo=01880",
+   "https://gh.cauhs.or.kr/",
+   "https://gh.cauhs.or.kr/home/conts/105003000000000.do"
+  ]
+ },
+ {
+  "n": 83,
+  "name": "중앙대학교병원 (서울)",
+  "status": "정상",
+  "sleep_content": "있음 https://ch.cauhs.or.kr/home/conts/105001014005006.do (수면 클리닉), https://ch.cauhs.or.kr/home/conts/105001021005003.do (코골기 클리닉)",
+  "self_check": "없음(수면 클리닉·코골기 클리닉 페이지 기준). 수면다원검사가 필요한 증상 목록은 있으나 자가진단 형식 아님",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(직접 말을 거는 문구는 없음). 관찰자로 언급만: \"수면 중 숨이 멎는 현상 (가족이나 동반자가 주로 발견)\" https://ch.cauhs.or.kr/home/conts/105001014005006.do",
+  "booking": "있음 https://ch.cauhs.or.kr/home/reserveNew/resvOnline.do",
+  "psg_info": "있음(검사 과정·준비·결과 상담·양압기 FAQ). 비용·보험 문구는 해당 페이지에서 확인 안 됨",
+  "note": "렘수면행동장애 설명에 '같이 자는 사람을 다치게' 언급. 서술 대상은 환자 본인",
+  "pages_opened": [
+   "http://ch.cauhs.or.kr/",
+   "https://ch.cauhs.or.kr/home/conts/105003000000000.do",
+   "https://ch.cauhs.or.kr/home/conts/105001014005006.do",
+   "https://ch.cauhs.or.kr/home/conts/105001021005003.do"
+  ]
+ },
+ {
+  "n": 84,
+  "name": "창원경상국립대학교병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "www.gnuch.co.kr/robots.txt가 'User-agent: * Disallow: /' — 페이지 열지 않음",
+  "pages_opened": []
+ },
+ {
+  "n": 85,
+  "name": "충남대학교병원",
+  "status": "정상",
+  "sleep_content": "전용 안내 페이지는 4페이지 안에서 못 찾음. 신경과 소개에 수면장애 진료 문단, 이비인후과 소개에 수면 무호흡 클리닉 한 줄 (https://www.cnuh.co.kr/prog/cnuhTreatment/home/view.do?gwaCode=NR&mno=sub01_0101&ttab=tab1)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.cnuh.co.kr/prog/cnuhInternetReserve/reserv.do",
+  "psg_info": "수면다원검사실 개설·검사 시행 언급만. 과정·비용·보험은 4페이지 안에서 못 찾음",
+  "note": "첫 화면은 본원/세종 선택 인트로. robots.txt는 특정 봇만 명시(일반 UA 규칙 없음)",
+  "pages_opened": [
+   "https://www.cnuh.co.kr/intro/",
+   "https://www.cnuh.co.kr/home/index.do",
+   "https://www.cnuh.co.kr/prog/cnuhTreatment/home/view.do?gwaCode=NR&mno=sub01_0101&ttab=tab1",
+   "https://www.cnuh.co.kr/prog/cnuhTreatment/view.do?gwaCode=ENT&tabGubun=tab1"
+  ]
+ },
+ {
+  "n": 86,
+  "name": "충북대학교병원",
+  "status": "정상",
+  "sleep_content": "있음(짧은 소개) https://www.cbnuh.or.kr/prog/clinic/main/sub01_03_01/view.do?clinicNo=40 (수면클리닉, 정신건강의학과)",
+  "self_check": "없음(온라인 문항 없음). 진료 시 '평가용 설문 도구' 사용한다는 언급만",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(연 페이지 기준)",
+  "booking": "있음 https://www.cbnuh.or.kr/prog/intnetRsvt/main/sub02_01_02/write01.do",
+  "psg_info": "수면다원검사 시행 언급만. 과정·비용·보험은 4페이지 안에서 못 찾음",
+  "note": "수면클리닉 대상질환에 수면무호흡 포함. 첫 화면은 인트로",
+  "pages_opened": [
+   "https://www.cbnuh.or.kr/?ver=pc",
+   "https://www.cbnuh.or.kr/main/index.do",
+   "https://www.cbnuh.or.kr/prog/clinic/main/sub01_03_01/list.do",
+   "https://www.cbnuh.or.kr/prog/clinic/main/sub01_03_01/view.do?clinicNo=40"
+  ]
+ },
+ {
+  "n": 87,
+  "name": "칠곡경북대학교병원",
+  "status": "정상",
+  "sleep_content": "전용 안내 페이지는 4페이지 안에서 못 찾음. 신경과 소개에 '수면장애 클리닉' 한 문단, 의료진 진료분야에 코골이·수면무호흡 표기 (https://www.knuch.kr:442/content/02depart/01_0102.asp?ct_idx=3370)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://www.knuch.kr:442/content/03reserv/01_01.asp",
+  "psg_info": "수면다원검사 장비 언급만. 과정·비용·보험은 4페이지 안에서 못 찾음",
+  "note": "클리닉 목록에 수면 클리닉 항목 없음",
+  "pages_opened": [
+   "https://www.knuch.kr:442/content/02depart/01_0102.asp?ct_idx=3370",
+   "https://www.knuch.kr:442/content/02depart/02_00.asp"
+  ]
+ },
+ {
+  "n": 88,
+  "name": "하사랑신경과의원",
+  "status": "정상",
+  "sleep_content": "없음(메뉴 기준: 진료안내 뇌졸중·두통·어지럼증·치매·뇌전증, 검사안내 이명·뇌혈류·동맥경화 — 수면 항목 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "4페이지 안에서 못 찾음",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "사이트 메뉴 전체에 수면·코골이·수면다원검사 항목이 없음. 의학정보(칼럼·강좌)는 미열람",
+  "pages_opened": [
+   "http://www.neuroclinic.net/Module/Intro/GuideView.asp",
+   "http://www.neuroclinic.net/index.asp"
+  ]
+ },
+ {
+  "n": 89,
+  "name": "한림대학교 강남성심병원",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 (신경과 미니사이트: 의료진 전문분야에 수면무호흡증 표기, 외부 언론 수면 기사 링크만)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음(신경과 첫 화면 '인터넷 진료예약' 버튼, 자바스크립트 이동)",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "'센터/클리닉' 링크(hallymuniv_sub.asp ... ptm405)는 오류 페이지 반환. 언론보도 목록에 외부 기사 '수면 질환 체크하세요'(조선일보) 링크 있으나 병원 콘텐츠 아님, 미열람",
+  "pages_opened": [
+   "http://kangnam.hallym.or.kr/NU/",
+   "https://kangnam.hallym.or.kr/NU/hallymuniv_sub.asp?left_menu=left_cguide&screen=ptm405",
+   "https://kangnam.hallym.or.kr/NU/?scr=100&stype=C1"
+  ]
+ },
+ {
+  "n": 90,
+  "name": "한림대학교 동탄성심병원",
+  "status": "정상",
+  "sleep_content": "있음 https://dongtan.hallym.or.kr/EN/?scr=400&mcode=01&scode=03 (이비인후과 수면무호흡클리닉). 신경과 '수면장애'(https://dongtan.hallym.or.kr/NU/?scr=400&mcode=01&scode=15) 페이지는 존재하나 페이지 한도로 미열람",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(연 페이지 기준; 신경과 수면장애 페이지는 미열람이라 확인 불가)",
+  "booking": "있음 https://dongtan.hallym.or.kr/hallymuniv_sub.asp?left_menu=left_ireserve&screen=ptm550",
+  "psg_info": "신경과 '수면다원 검사' 페이지 존재(https://dongtan.hallym.or.kr/NU/?scr=400&mcode=03&scode=05)하나 미열람 — 내용 확인 불가",
+  "note": "수면무호흡클리닉 본문은 코골이 정의·원인 설명. Watch PAT·수면다원검사 시행 언급. 외부 방송 링크 제목에 '코를 심하게 곤다면…'(YTN) 있으나 병원 문구 아님",
+  "pages_opened": [
+   "https://dongtan.hallym.or.kr/index.asp",
+   "https://dongtan.hallym.or.kr/NU",
+   "https://dongtan.hallym.or.kr/EN",
+   "https://dongtan.hallym.or.kr/EN/?scr=400&mcode=01&scode=03"
+  ]
+ },
+ {
+  "n": 91,
+  "name": "한림대학교 성심병원 (평촌)",
+  "status": "정상",
+  "sleep_content": "4페이지 안에서 못 찾음 (신경과 소개에 '수면장애' 단어, 이비인후과 의료진 전문분야에 코골이·수면무호흡 표기만. 이비인후과 클리닉 목록에 수면 항목 없음)",
+  "self_check": "4페이지 안에서 못 찾음",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "4페이지 안에서 못 찾음",
+  "booking": "있음 https://hallym.hallym.or.kr/hallymuniv_sub.asp?left_menu=left_ireserve&screen=ptm550",
+  "psg_info": "4페이지 안에서 못 찾음",
+  "note": "첫 화면 예약 안내에 '본인 및 가족의 대리예약이 가능' 문구(수면과 무관)",
+  "pages_opened": [
+   "https://hallym.hallym.or.kr/",
+   "https://hallym.hallym.or.kr/NU",
+   "https://hallym.hallym.or.kr/ENT"
+  ]
+ },
+ {
+  "n": 92,
+  "name": "해피뷰병원",
+  "status": "robots 금지",
+  "sleep_content": "확인 불가",
+  "self_check": "확인 불가",
+  "self_check_respondent": "확인 불가",
+  "partner_message": "확인 불가",
+  "booking": "확인 불가",
+  "psg_info": "확인 불가",
+  "note": "www.hview.co.kr/robots.txt가 'User-agent: * Disallow: /' — 페이지 열지 않음",
+  "pages_opened": []
+ },
+ {
+  "n": 93,
+  "name": "헤븐리병원",
+  "status": "정상",
+  "sleep_content": "있음 http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub04&FileName=sub04_03 (수면센터), http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub05&FileName=sub05_11 (수면클리닉)",
+  "self_check": "있음(자체 문항 — '수면장애 증상' 5개 목록, '1개월 이상 지속 시 진료' 안내. 자가진단이라는 명칭·점수는 없음) http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub05&FileName=sub05_11",
+  "self_check_respondent": "본인 — \"매번 잠들기가 너무 힘들어 1시간 이상 걸립니다.\"",
+  "partner_message": "없음(연 페이지 기준). '환자와 가족에게 평안을' 병원 슬로건은 수면과 무관",
+  "booking": "있음 http://www.heavenlyhospital.com/Module/Reserve/ReserveUser.asp?Mode=W&moduleID=1 (미열람)",
+  "psg_info": "있음(퇴근 후 내원~오전 귀가 시간표, 2018년 7월부터 건강보험 적용 안내). 구체 금액은 확인 못 함",
+  "note": "증상 목록 4번은 '코골이와 수면무호흡 증세가 있습니다', 5번 '수면 중 이상한 행동을 보입니다' — 주어 생략, 본인 서술형",
+  "pages_opened": [
+   "http://www.heavenlyhospital.com/",
+   "http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub04&FileName=sub04_03",
+   "http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub05&FileName=sub05_11",
+   "http://www.heavenlyhospital.com/Content/Content.asp?FolderName=sub02&FileName=sub02_04"
+  ]
+ },
+ {
+  "n": 94,
+  "name": "현신경과의원",
+  "status": "정상",
+  "sleep_content": "있음 https://hyunclinic.co.kr/sub01/sleep-apnea/ (수면무호흡/코골이), https://hyunclinic.co.kr/sub01/sleep-clinic/",
+  "self_check": "없음(연 4페이지 기준). 검사 당일 '환자 본인의 수면질환·수면상태 설문 작성' 절차 언급만",
+  "self_check_respondent": "해당 없음",
+  "partner_message": "없음(연 페이지 기준). 증상·합병증 설명은 환자 본인 대상",
+  "booking": "온라인 예약 폼은 4페이지 안에서 못 찾음. 전화상담·네이버 톡톡·카카오톡 채널 안내",
+  "psg_info": "있음(진행 과정 5단계, 검사 전 주의사항). 양압기 건강보험 적용 언급. 수면다원검사 비용은 연 페이지에서 확인 못 함",
+  "note": "주간졸림증·수면다원검사 후기 등 하위 페이지는 페이지 한도로 미열람(주간졸림증 페이지에 졸림 척도가 있는지 확인 불가)",
+  "pages_opened": [
+   "https://hyunclinic.co.kr/",
+   "https://hyunclinic.co.kr/sub01/sleep-apnea/",
+   "https://hyunclinic.co.kr/sub01/polysomnography/",
+   "https://hyunclinic.co.kr/sub01/sleep-clinic/"
+  ]
+ },
+ {
+  "n": 95,
+  "name": "황인용신경과",
+  "status": "정상",
+  "sleep_content": "있음 http://www.schwang.co.kr/cms/cms_conts_view.asp?menu=8 (코골이, 수면 무호흡증)",
+  "self_check": "있음(자체 문항 — 숙면 자가진단 13개, 3개 이상 해당 시 숙면 부족. 수면무호흡 선별 도구는 아님) http://www.schwang.co.kr/cms/cms_conts_view.asp?menu=8&minorCd=8551",
+  "self_check_respondent": "본인 — \"알람시계가 없으면 정해진 시간에 일어나지 못한다.\"",
+  "partner_message": "없음(직접 말을 거는 문구는 없음). 정보 제공자로 언급만: \"가족이나 배우자에게서 잠자는 모습이나 코골이의 양상등을 자세히 듣고\" http://www.schwang.co.kr/cms/cms_conts_view.asp?menu=8",
+  "booking": "4페이지 안에서 못 찾음 (메뉴에 예약 항목 없음)",
+  "psg_info": "4페이지 안에서 못 찾음 (코골이 페이지는 진찰·X선 등 진단 개요만)",
+  "note": "코골이 설명에 '옆사람을 괴롭히는 주요인으로 본인에게는 크게 불편감이 없습니다' 서술 — 배우자를 피해자로 언급하나 독자는 환자",
+  "pages_opened": [
+   "http://www.schwang.co.kr/intro/aboutView.asp",
+   "http://www.schwang.co.kr/cms/cms_conts_view.asp?menu=8",
+   "http://www.schwang.co.kr/cms/cms_conts_view.asp?menu=8&minorCd=8551"
+  ]
+ }
+]
