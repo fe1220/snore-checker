@@ -70,6 +70,16 @@ export function filterByRegion(
     )
 }
 
+// "전체" 보기에서 시·도 소제목 아래에 묶어 보여줄 때 쓴다.
+export function groupByRegion(
+  items: Hospital[],
+): { region: Region; items: Hospital[] }[] {
+  return listRegions(items).map(({ region }) => ({
+    region,
+    items: filterByRegion(items, region),
+  }))
+}
+
 const EARTH_RADIUS_KM = 6371
 
 const toRadians = (degrees: number) => (degrees * Math.PI) / 180

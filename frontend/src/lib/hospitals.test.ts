@@ -6,6 +6,7 @@ import {
   formatCrawledAt,
   formatDistance,
   getHospitalData,
+  groupByRegion,
   listRegions,
   sortByDistance,
   type Hospital,
@@ -70,6 +71,16 @@ describe("filterByRegion", () => {
   it("원본 배열을 바꾸지 않는다", () => {
     filterByRegion(ITEMS, null)
     expect(ITEMS[0].id).toBe("busan")
+  })
+})
+
+describe("groupByRegion", () => {
+  it("병원이 있는 지역만 정해진 순서로 묶고, 지역 안은 주소 가나다순이다", () => {
+    expect(groupByRegion(ITEMS).map((g) => [g.region, ids(g.items)])).toEqual([
+      ["서울", ["seoul-a", "seoul-b"]],
+      ["경기", ["gyeonggi"]],
+      ["부산", ["busan"]],
+    ])
   })
 })
 

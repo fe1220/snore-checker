@@ -20,7 +20,9 @@ export function ClinicCard({
     <Card className="gap-3 px-4">
       <div className="flex flex-col gap-1">
         <div className="flex items-baseline justify-between gap-2">
-          <h2 className="text-base font-semibold">{hospital.name}</h2>
+          <h2 className="min-w-0 text-base font-semibold [overflow-wrap:anywhere]">
+            {hospital.name}
+          </h2>
           {distance && (
             <span className="shrink-0 text-sm text-muted-foreground tabular-nums">
               {distance}

@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { ChevronDown, LocateFixed, SearchX } from "lucide-react"
+import { ChevronDown, LocateFixed, SearchX, X } from "lucide-react"
 import { track } from "@/components/analytics/track"
 import { ClinicCard } from "@/components/clinics/clinic-card"
 import { Button } from "@/components/ui/button"
@@ -14,6 +14,7 @@ import {
 import {
   filterByRegion,
   formatDistance,
+  groupByRegion,
   listRegions,
   sortByDistance,
   type Coords,
@@ -142,9 +143,17 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
       </div>
 
       <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
-        <SheetContent side="bottom">
-          <SheetHeader>
+        <SheetContent side="bottom" showCloseButton={false}>
+          <SheetHeader className="flex-row items-center justify-between">
             <SheetTitle>지역 선택</SheetTitle>
+            <Button
+              variant="ghost"
+              className="size-11"
+              aria-label="닫기"
+              onClick={() => setSheetOpen(false)}
+            >
+              <X aria-hidden />
+            </Button>
           </SheetHeader>
           <div className="grid grid-cols-2 gap-2 px-4 pb-4">
             <RegionOption
@@ -167,16 +176,10 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
       </Sheet>
 
       {view.kind === "nearby" ? (
-        <ul className="flex flex-col gap-3">
-          {sortByDistance(items, view.origin).map((hospital) => (
-            <li key={hospital.id}>
-              <ClinicCard
-                hospital={hospital}
-                distance={formatDistance(hospital.distanceKm)}
-              />
-            </li>
-          ))}
-        </ul>
+        <ClinicList
+          hospitals={sortByDistance(items, view.origin)}
+          showDistance
+        />
       ) : byRegion.length === 0 ? (
         <div className="flex flex-col items-center gap-3 py-12 text-center">
           <SearchX className="size-8 text-muted-foreground" aria-hidden />
@@ -189,16 +192,49 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             전체 보기
           </Button>
         </div>
-      ) : (
-        <ul className="flex flex-col gap-3">
-          {byRegion.map((hospital) => (
-            <li key={hospital.id}>
-              <ClinicCard hospital={hospital} />
-            </li>
+      ) : selectedRegion === null ? (
+        <div className="flex flex-col gap-8">
+          {groupByRegion(items).map((group) => (
+            <section key={group.region} className="flex flex-col gap-3">
+              <h2 className="text-lg font-semibold">
+                {group.region}{" "}
+                <span className="text-base font-normal text-muted-foreground tabular-nums">
+                  {group.items.length}곳
+                </span>
+              </h2>
+              <ClinicList hospitals={group.items} />
+            </section>
           ))}
-        </ul>
+        </div>
+      ) : (
+        <ClinicList hospitals={byRegion} />
       )}
     </>
+  )
+}
+
+function ClinicList({
+  hospitals,
+  showDistance = false,
+}: {
+  hospitals: (Hospital & { distanceKm?: number })[]
+  showDistance?: boolean
+}) {
+  return (
+    <ul className="flex flex-col gap-3">
+      {hospitals.map((hospital) => (
+        <li key={hospital.id}>
+          <ClinicCard
+            hospital={hospital}
+            distance={
+              showDistance && hospital.distanceKm !== undefined
+                ? formatDistance(hospital.distanceKm)
+                : undefined
+            }
+          />
+        </li>
+      ))}
+    </ul>
   )
 }
 
