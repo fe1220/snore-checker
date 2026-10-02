@@ -27,4 +27,5 @@ jobs:
             crawler/pnpm-lock.yaml
       - run: pnpm --dir frontend install --frozen-lockfile
       - run: pnpm --dir crawler install --frozen-lockfile
+      - run: pnpm --dir frontend exec playwright install --with-deps chromium
       - run: make gate

@@ -32,5 +32,5 @@ crawler-check:
 	pnpm --dir $(CR) typecheck
 	pnpm --dir $(CR) test
 
-gate: fe-check crawler-check
+gate: fe-check crawler-check fe-a11y
 	@echo "GATE PASS"
