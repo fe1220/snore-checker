@@ -21,8 +21,11 @@
 | 코골이가 수면무호흡 지표인 걸 앎 74%, 코골이로 의료진 상담한 적 없음 71%, **어느 의료진에게 가야 할지 모름 58%** (미국 1,000명, 업계 설문) | ProSomnus 2023 https://sleepreviewmag.com/sleep-disorders/breathing-disorders/obstructive-sleep-apnea/survey-identifies-major-obstacles-treating-snoring/ |
 | 수면무호흡을 전혀 모름 26%, 증상 모름 48% | AASM https://aasm.org/is-it-more-than-a-snore-recognizing-sleep-apnea-warning-signs/ |
 | 진료받지 않은 이유: 치명적이지 않다고 봄 54.4%, 치료 효과 불신 40.2%, 수술 위험 우려 38.3%, 비용 22.5%, 시간 17.4% (중국, 미진료 524명) | Pan et al., Front Public Health 2023 https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1128334/full |
+| 수면무호흡 여부를 알고 싶지 않음 17%. 시도 의향: 생활습관 85%, 구강장치 68%, 양압기 59% (미국 1,015명) | NSF 2025 https://www.thensf.org/wp-content/uploads/2025/03/NSF-Inpsire-Report_2025-1.pdf |
+
+- "양압기가 싫어서 진단 자체를 피한다"는 정량 근거는 찾지 못했다. 한국은 양압기 인지도가 26%라 진단 전 기피의 주원인으로 보기 어렵다(추론).
 
 ## 해석
 
-"문제인 건 막연히 알지만(필요성 인식 71%), 질환이고 검사·양압기로 치료하며 어디로 가야 하는지는 모른다"에 가깝다.
-증상 정보보다 **경로 정보**(어디서, 무엇을)가 비어 있다. 한국의 이유 분포 자료가 없어 이 해석은 추론이다.
+"문제인 건 막연히 알지만(필요성 인식 71%), 병원에 갈 만큼 심각하다고 보지 않는다"에 가깝다. 진료받지 않은 이유 1위가 "치명적이지 않다고 봄"(중국 54.4%)이다.
+경로 정보(어디서, 무엇을)도 비어 있지만 검색하면 찾을 수 있어 주원인으로 보지 않는다. 한국의 이유 분포 자료가 없어 이 해석은 추론이다.

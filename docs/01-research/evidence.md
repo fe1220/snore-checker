@@ -57,7 +57,13 @@
 | 이스라엘 OSA 환자 65명 심층 인터뷰: 기혼 남성은 "건강은 신경 안 쓴다"고 말하지만 아내가 진료 관련 일(illness work)을 상당 부분 대신한다. 기혼 여성은 "남에게 주는 불편", 남성은 "본인 불편"을 진료 동기로 강조 | Zarhin, Health (London) 2018 "Delaying and seeking care for obstructive sleep apnea: The role of gender, family, and morality" https://pubmed.ncbi.nlm.nih.gov/27895102/ |
 | 파트너 요청으로 온 군과 자가 의뢰 군을 구분해 비교할 만큼 파트너 경로가 별도로 존재 (비율 미확인) | Hoy et al., AJRCCM 1999 https://pubmed.ncbi.nlm.nih.gov/10194151/ |
 
-**"배우자 권유로 내원한 비율"을 직접 측정한 연구는 국내외 모두 찾지 못했다.**
+**"배우자 권유로 내원한 비율"을 직접 측정한 연구는 국내외 모두 찾지 못했다.** 병원에 가지 않은 가구에서 배우자가 권하지 않은 것인지, 권했는데 통하지 않은 것인지도 자료가 없다.
+
+**미진단 환자 중 배우자가 있는 비율 [추정]: 약 55~65%**
+- 직접 보고: 국내 양압기 환자 188명(평균 47.4세, 남 91.5%) 중 혼인 상태가 확인된 174명의 77.0%가 배우자 있음(단일기관). Psychiatry Investig 2024 https://www.psychiatryinvestigation.org/journal/view.php?doi=10.30773%2Fpi.2023.0175
+- 환자 분포: 심평원 2023년 진료 약 15.4만 명. 남 80.5%(30대 20.1%, 40대 21.5%), 여 19.5%. https://www.bosa.co.kr/news/articleView.html?idxno=2246380
+- 계산: 남 30대 20.1%×39% + 남 40대 21.5%×69% + 그 외 남 38.9%×66% + 여 19.5%×72% ≈ 62%.
+- 한계: 유배우율은 통계청 원표가 아니라 2차 출처의 미혼율에서 이혼·사별을 가정으로 뺀 값이다. 미진단자가 진료 환자와 같은 성별·연령 구성이라는 것도 가정이다. 미진단자가 더 고령이면 높아지고, 배우자가 진료 계기라면 미진단 쪽은 낮아진다. 유배우는 동거와 같지 않고 동거 연인은 빠진다.
 
 **반대 근거:**
 - 호주 OSA 192명: 진료를 찾을지 예측한 변수는 **본인이 보고한** 코골이·호흡정지·피로 (Munks et al., Sleep Health 2019 https://pubmed.ncbi.nlm.nih.gov/30670173/).
@@ -71,6 +77,7 @@
 | OSA 교통사고 위험 약 2.4배 (메타분석) | Tregear et al., JCSM 2009 (2차 확인) https://www.researchgate.net/publication/44594535 |
 | 미치료 중증 OSA 치명적 심혈관 사건 OR 2.87, 비치명적 OR 3.17. CPAP 치료군은 위험 감소 | Marin et al., Lancet 2005 https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)71141-7/abstract |
 | 수면무호흡 환자 급성 심정지 위험 54% 증가 (질병관리청 자료 인용) | 경향신문 2024-11-21 https://www.khan.co.kr/article/202411210600035 |
+| 무작위 시험(SAVE, 심혈관 질환이 있는 중등도~중증 OSA 2,717명): 양압기군의 심혈관 사건 위험비 1.10(95% CI 0.91~1.32)으로 **줄지 않았다.** 평균 사용 3.3시간/밤. 코골이·낮 졸림·삶의 질은 개선 | McEvoy et al., NEJM 2016 https://www.nejm.org/doi/full/10.1056/NEJMoa1606599 (초록 확인) |
 | RBD → 신경퇴행 질환 연 6.3% 전환, 10년 누적 60.2% | Postuma et al., Brain 2019 https://academic.oup.com/brain/article/142/3/744/5353011 |
 
 ## 7. 수면다원검사 급여

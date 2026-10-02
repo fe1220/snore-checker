@@ -19,6 +19,19 @@
 
 미확인: 굿닥·똑닥·모두닥의 수면 특화 기능, 국내 기면증·RBD 대중 자가체크 캠페인.
 
+## 배우자 대상 캠페인 (해외)
+
+| 캠페인 | 내용 | 출처 |
+|---|---|---|
+| 미국수면학회 "Stop the Snore" | "당신이나 옆에서 자는 사람이 수면무호흡 위험군인가요?"라고 묻고 경고 신호를 안내 | https://sleepeducation.org/get-involved/campaigns/stop-the-snore/ |
+| 미국수면학회 "Count on Sleep" 페이스북 광고(2023) | 메시지 3종 비교, 총 142,607회 노출. 클릭: 치료 이점 3,006회(클릭당 $0.33), 미치료 위험 21회, **파트너 중심 11회(클릭당 $18.18)**. 반응 수는 미치료 위험 1,740, 파트너 중심 1,718, 치료 이점 119. 메시지별 노출 수는 확인하지 못했다 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11789246/ (요약 확인) |
+| 필립스 "Save the Pillows" | 말하는 베개가 환자와 옆에서 자는 사람을 함께 겨냥 | https://sleepreviewmag.com/sleep-disorders/breathing-disorders/snoring/have-you-seen-the-adorable-save-the-pillows-ad-campaign-for-sleep-apnea-awareness/ |
+| 레즈메드 "Don't Snooze the Snore"(2025) | 코골이를 웃어넘기지 말라는 인식 개선 영상. 대상 미확인 | https://campaignbriefasia.com/2025/11/20/resmed-encourages-early-detection-of-sleep-apnea-with-dont-snooze-the-snore-film/ |
+
+- 배우자에게 말을 거는 캠페인은 있다. "배우자를 겨냥한 메시지가 없다"고 쓰면 틀린다.
+- 모두 인식 개선에서 끝난다. 배우자가 본 것을 당사자에게 넘기는 도구는 이 조사에서 찾지 못했다.
+- 파트너 중심 메시지의 클릭이 가장 적었다는 결과는 배우자 카피 가설(H1·H6)의 반대 근거다. 다만 그 문구는 "파트너의 코골이·숨 멈춤을 들어봤나요"라는 건강 신호형이고, 배우자 자신의 수면 피해로 말을 건 것은 아니다.
+
 ## 결론
 
 "옆 사람 관찰 기반 문항 + 다질환 + 중립적 병원 연결"을 모두 하는 서비스는 찾지 못했다.
