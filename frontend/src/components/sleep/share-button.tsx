@@ -2,10 +2,12 @@
 
 import { Share2 } from "lucide-react"
 import { toast } from "sonner"
+import { track } from "@/components/analytics/track"
 import { Button } from "@/components/ui/button"
 
 export function ShareButton({ path }: { path: string }) {
   async function share() {
+    track({ name: "share_click" })
     const url = `${window.location.origin}${path}`
     const text = "옆에서 본 당신의 수면 체크 리포트예요."
     if (navigator.share) {

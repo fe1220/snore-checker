@@ -4,7 +4,8 @@ import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { QUESTIONS, toReportHash, type Answer } from "@/lib/sleep-check"
+import { track } from "@/components/analytics/track"
+import { QUESTIONS, judge, toReportHash, type Answer } from "@/lib/sleep-check"
 
 const OPTIONS: { value: Answer; label: string }[] = [
   { value: "yes", label: "네" },
@@ -20,6 +21,7 @@ export function CheckFlow() {
   const total = QUESTIONS.length
 
   function answer(value: Answer) {
+    if (Object.keys(answers).length === 0) track({ name: "check_start" })
     const next = { ...answers, [question.id]: value }
     setAnswers(next)
     if (step + 1 < total) {
@@ -27,6 +29,7 @@ export function CheckFlow() {
       return
     }
     const signals = QUESTIONS.filter((q) => next[q.id] === "yes")
+    track({ name: "check_complete", level: judge(signals) })
     router.push(`/r#${toReportHash(signals)}`)
   }
 

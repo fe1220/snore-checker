@@ -1,11 +1,13 @@
 "use client"
 
 import { useEffect } from "react"
+import { track } from "@/components/analytics/track"
 import { buttonVariants } from "@/components/ui/button"
 import { CLINIC_FINDER_URL } from "@/lib/sleep-check"
 
 export function ClinicRedirect() {
   useEffect(() => {
+    track({ name: "clinic_click" })
     const timer = setTimeout(
       () => window.location.replace(CLINIC_FINDER_URL),
       600,
