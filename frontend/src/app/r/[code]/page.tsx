@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { Report } from "@/components/sleep/report"
 import { ShareButton } from "@/components/sleep/share-button"
-import { judge, parseSignals } from "@/lib/sleep-check"
+import { decodeSignals, encodeSignals, judge } from "@/lib/sleep-check"
 import { cn } from "cn"
 
 export const metadata = {
@@ -11,10 +11,12 @@ export const metadata = {
   description: "옆에서 본 코골이로 정리한 수면무호흡 신호와 검사 방법",
 }
 
-export default async function ResultPage(props: PageProps<"/result">) {
-  const { s, shared } = await props.searchParams
+export default async function ReportPage(props: PageProps<"/r/[code]">) {
+  const { code } = await props.params
+  const { shared } = await props.searchParams
+  const signals = decodeSignals(code)
 
-  if (typeof s !== "string") {
+  if (!signals) {
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col items-center justify-center gap-4 px-4 text-center">
         <p className="text-base">리포트를 찾을 수 없어요.</p>
@@ -25,7 +27,6 @@ export default async function ResultPage(props: PageProps<"/result">) {
     )
   }
 
-  const signals = parseSignals(s)
   const level = judge(signals)
   const date = new Intl.DateTimeFormat("ko-KR", {
     timeZone: "Asia/Seoul",
@@ -34,7 +35,7 @@ export default async function ResultPage(props: PageProps<"/result">) {
     day: "2-digit",
   }).format(new Date())
   const isShared = shared === "1"
-  const sharePath = `/result?s=${signals.map((q) => q.id).join(",")}&shared=1`
+  const sharePath = `/r/${encodeSignals(signals)}?shared=1`
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">

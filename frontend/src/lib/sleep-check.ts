@@ -25,16 +25,29 @@ export const QUESTIONS: Question[] = [
   { id: "body", text: "살이 많이 쪘거나 목이 굵은 편이에요" },
 ]
 
-// 리포트 주소에는 "네"라고 답한 문항 id만 담고, 단계는 항상 여기서 다시 계산한다.
+// 리포트 주소에는 "네"라고 답한 문항만 코드로 담고, 단계는 항상 여기서 다시 계산한다.
 export function judge(signals: Question[]): Level {
   if (signals.some((q) => q.strong)) return "strong"
   if (signals.length >= 3) return "moderate"
   return "weak"
 }
 
-export function parseSignals(value: string): Question[] {
-  const ids = value.split(",")
-  return QUESTIONS.filter((q) => ids.includes(q.id))
+// 문항마다 비트 하나를 쓰고 36진수로 줄인다. 건강 정보가 단어로 주소에 남지 않게 하려는 것이고 암호화는 아니다.
+const MAX_CODE = 2 ** QUESTIONS.length - 1
+
+export function encodeSignals(signals: Question[]): string {
+  const bits = QUESTIONS.reduce(
+    (acc, q, index) => (signals.includes(q) ? acc | (1 << index) : acc),
+    0,
+  )
+  return bits.toString(36)
+}
+
+export function decodeSignals(code: string): Question[] | null {
+  if (!/^[0-9a-z]{1,2}$/.test(code)) return null
+  const bits = parseInt(code, 36)
+  if (bits > MAX_CODE) return null
+  return QUESTIONS.filter((_, index) => bits & (1 << index))
 }
 
 export const LEVEL_COPY: Record<Level, { title: string; body: string }> = {
