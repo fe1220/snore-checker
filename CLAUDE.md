@@ -27,7 +27,8 @@
 - 스택은 Next.js(Vercel) + 크롤러(GitHub Actions)이고 DB가 없다. 근거는 `docs/tech-stack.md`. 백엔드 서버나 DB를 추가하지 않는다.
 - 작업 순서: 기획 문서(`docs/problem-definition.md` 등, 프로젝트) → `docs/design-pass`(프로젝트, 작업마다 갱신) → 작업마다 `docs/work/NN-이름/`에 `spec.md` → `plan.md` → 구현 → `verification.md`. 현재 작업은 `docs/work/` 아래 이름순 마지막 폴더다. `docs/architecture.md`는 구조가 바뀌면 갱신한다. 앞 단계 문서가 승인되기 전에 다음 단계로 넘어가지 않는다.
 - 문서 승인은 사용자가 채팅에서 승인한 뒤 해당 문서 맨 위에 `상태: 승인` 한 줄을 적는 것으로 표시한다. `design-pass`와 현재 작업의 `spec`·`plan`이 승인되기 전에는 `frontend/src/`·`crawler/src/` 수정을 훅(`workflow-gate.sh`)이 막는다. 훅을 피하려고 Bash로 파일을 고치지 않는다.
-- 기획이 필요 없는 작업은 사용자가 .claude/gate-skip 파일을 만들어 게이트를 연다. 에이전트는 이 파일을 만들거나 지우지 않는다.- 현재 `frontend/src/`의 체크·결과·공유 화면은 Meta 카피 테스트용 프로토타입으로, 워크플로우를 건너뛰고 만들었다. 결과를 쿼리 스트링으로 넘기는 등 스펙 규칙과 다를 수 있으니 기준으로 삼지 말고, `design-pass`와 작업 `spec.md`에서 다시 정한 뒤 고친다.
+- 기획이 필요 없는 작업은 사용자가 .claude/gate-skip 파일을 만들어 게이트를 연다. 에이전트는 이 파일을 만들거나 지우지 않는다.
+- `frontend/src/`의 체크·결과·공유 화면은 Meta 카피 테스트용 프로토타입으로 시작했지만 그대로 실제 서비스가 됐다. 문제 크기상 이 수준으로 충분하다고 판단했다. 프로토타입이 아니라 제품 코드로 보고 같은 기준(스펙 규칙, 리뷰, 테스트)을 적용한다. 스펙 규칙과 다른 부분(예: 결과를 쿼리 스트링으로 넘기는 것)은 기술 부채로 보고 고친다.
 - 단계별 스킬: 스펙은 superpowers `brainstorming` → `writing-plans`, 병렬 구현은 `subagent-driven-development` + `.claude/agents/*-implementer`, 검증은 `/gate` → `verifier` + `design-reviewer` → gstack `/qa`. 스킬이 없는 환경이면 `make setup-agent`를 안내하고, 설치 전까지는 같은 순서를 수동으로 따른다.
 - 스킬 산출물은 스킬 기본 경로가 아니라 위 `docs/` 파일에 저장한다.
 - 1인 48시간 과제라 브랜치·PR 없이 메인 체크아웃에서 `main`에 직접 커밋한다. `plan.md` 작업 단위마다 커밋 1개, 푸시 전 `make gate` 통과 필수. push하면 CI(`.github/workflows/gate.yml`)가 같은 게이트를 다시 돈다.
