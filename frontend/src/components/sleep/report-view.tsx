@@ -32,13 +32,13 @@ export function ReportView({ shared }: { shared: boolean }) {
   if (!signals) {
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col items-center justify-center gap-4 px-4 text-center">
-        <p className="text-lg">리포트를 찾을 수 없어요.</p>
+        <h1 className="text-2xl font-bold">리포트를 찾을 수 없어요</h1>
+        <p className="text-lg text-muted-foreground">
+          주소가 잘렸거나 잘못 복사됐어요.
+        </p>
         <Link
           href="/check"
-          className={cn(
-            buttonVariants(),
-            "h-auto min-h-14 px-6 py-2 text-lg whitespace-normal",
-          )}
+          className={cn(buttonVariants({ size: "cta" }), "px-6")}
         >
           {shared ? "진단하기" : "다시 진단하기"}
         </Link>
@@ -47,26 +47,17 @@ export function ReportView({ shared }: { shared: boolean }) {
   }
 
   const level = judge(signals)
-  const date = new Intl.DateTimeFormat("ko-KR", {
-    timeZone: "Asia/Seoul",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date())
   const sharePath = `/r?shared=1#${toReportHash(signals)}`
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">
       <div className="flex-1 px-4 pt-6 pb-8">
-        <Report level={level} signals={signals} date={date} shared={shared} />
+        <Report level={level} signals={signals} shared={shared} />
       </div>
       <div className="sticky bottom-0 flex flex-col gap-2 border-t bg-background p-4">
         <Link
           href="/clinics"
-          className={cn(
-            buttonVariants(),
-            "h-auto min-h-14 w-full py-2 text-lg whitespace-normal",
-          )}
+          className={cn(buttonVariants({ size: "cta" }), "w-full")}
         >
           근처 수면클리닉 찾기
         </Link>

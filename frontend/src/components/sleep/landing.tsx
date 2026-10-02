@@ -52,7 +52,7 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
         <p className="text-base font-semibold text-muted-foreground">
           코골이체커
         </p>
-        <h1 className="mt-8 text-3xl leading-tight font-extrabold tracking-tight whitespace-pre-line">
+        <h1 className="mt-8 text-3xl font-extrabold tracking-tight whitespace-pre-line">
           {HEADLINES[headline]}
         </h1>
         <p className="mt-4 text-lg font-semibold text-balance text-primary">
@@ -77,10 +77,7 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
       <div className="sticky bottom-0 flex flex-col gap-2 border-t bg-background p-4">
         <Link
           href={`/check?from=${headline}`}
-          className={cn(
-            buttonVariants(),
-            "h-auto min-h-14 w-full py-2 text-lg whitespace-normal",
-          )}
+          className={cn(buttonVariants({ size: "cta" }), "w-full")}
         >
           3분 무료진단 시작하기
         </Link>

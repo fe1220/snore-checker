@@ -16,7 +16,9 @@ import {
 import { Separator } from "@/components/ui/separator"
 import {
   LEVEL_COPY,
+  MODERATE_MIN,
   QUESTIONS,
+  STRONG_QUESTIONS,
   type Level,
   type Question,
 } from "@/lib/sleep-check"
@@ -180,12 +182,10 @@ function Source({ children }: { children: React.ReactNode }) {
 export function Report({
   level,
   signals,
-  date,
   shared,
 }: {
   level: Level
   signals: Question[]
-  date: string
   shared: boolean
 }) {
   const copy = LEVEL_COPY[level]
@@ -194,7 +194,7 @@ export function Report({
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-4">
         <p className="text-base text-muted-foreground tabular-nums">
-          수면 진단 리포트 · {date} · 옆에서 본 {QUESTIONS.length}가지 질문
+          수면 진단 리포트 · 옆에서 본 {QUESTIONS.length}가지 질문
         </p>
         <div className="flex flex-col gap-3">
           {shared && level !== "weak" && (
@@ -203,7 +203,7 @@ export function Report({
             </p>
           )}
           <LevelMeter level={level} />
-          <h1 className="text-2xl leading-snug font-bold whitespace-pre-line">
+          <h1 className="text-2xl font-bold whitespace-pre-line">
             {copy.title}
           </h1>
           <p className="text-lg text-muted-foreground">{copy.body}</p>
@@ -365,13 +365,14 @@ export function Report({
                   바탕으로 만들었어요. 옆에서 볼 수 있는 것만 묻도록 바꿨어요.
                 </li>
                 <li>
-                  숨 멈춤과 헐떡임은 미국수면학회가 꼽는 주요 증상이에요. 숨
-                  멈춤, 헐떡임, 운전 중 졸음 중 하나라도 있으면 “
-                  {LEVEL_COPY.strong.chip}”예요.
+                  숨 멈춤과 헐떡임은 미국수면학회가 꼽는 주요 증상이에요.{" "}
+                  {STRONG_QUESTIONS.map((q) => q.short).join(", ")} 중 하나라도
+                  있으면 “{LEVEL_COPY.strong.chip}”예요.
                 </li>
                 <li>
-                  그 외 신호가 3개 이상이면 “{LEVEL_COPY.moderate.chip}”, 그보다
-                  적으면 “{LEVEL_COPY.weak.chip}”이에요.
+                  그 외 신호가 {MODERATE_MIN}개 이상이면 “
+                  {LEVEL_COPY.moderate.chip}”, 그보다 적으면 “
+                  {LEVEL_COPY.weak.chip}”이에요.
                 </li>
               </ul>
             </AccordionContent>
