@@ -25,15 +25,16 @@ export const QUESTIONS: Question[] = [
   { id: "body", text: "살이 많이 쪘거나 목이 굵은 편이에요" },
 ]
 
-export function judge(answers: Record<string, Answer>): Level {
-  const yes = QUESTIONS.filter((q) => answers[q.id] === "yes")
-  if (yes.some((q) => q.strong)) return "strong"
-  if (yes.length >= 3) return "moderate"
+// 리포트 주소에는 "네"라고 답한 문항 id만 담고, 단계는 항상 여기서 다시 계산한다.
+export function judge(signals: Question[]): Level {
+  if (signals.some((q) => q.strong)) return "strong"
+  if (signals.length >= 3) return "moderate"
   return "weak"
 }
 
-export function isLevel(value: unknown): value is Level {
-  return value === "strong" || value === "moderate" || value === "weak"
+export function parseSignals(value: string): Question[] {
+  const ids = value.split(",")
+  return QUESTIONS.filter((q) => ids.includes(q.id))
 }
 
 export const LEVEL_COPY: Record<Level, { title: string; body: string }> = {

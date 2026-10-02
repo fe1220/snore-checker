@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { Report } from "@/components/sleep/report"
 import { ShareButton } from "@/components/sleep/share-button"
-import { QUESTIONS, isLevel } from "@/lib/sleep-check"
+import { judge, parseSignals } from "@/lib/sleep-check"
 import { cn } from "cn"
 
 export const metadata = {
@@ -12,9 +12,9 @@ export const metadata = {
 }
 
 export default async function ResultPage(props: PageProps<"/result">) {
-  const { level, s, shared } = await props.searchParams
+  const { s, shared } = await props.searchParams
 
-  if (!isLevel(level)) {
+  if (typeof s !== "string") {
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col items-center justify-center gap-4 px-4 text-center">
         <p className="text-base">리포트를 찾을 수 없어요.</p>
@@ -25,8 +25,8 @@ export default async function ResultPage(props: PageProps<"/result">) {
     )
   }
 
-  const ids = typeof s === "string" ? s.split(",") : []
-  const signals = QUESTIONS.filter((q) => ids.includes(q.id))
+  const signals = parseSignals(s)
+  const level = judge(signals)
   const date = new Intl.DateTimeFormat("ko-KR", {
     timeZone: "Asia/Seoul",
     year: "numeric",
@@ -34,7 +34,7 @@ export default async function ResultPage(props: PageProps<"/result">) {
     day: "2-digit",
   }).format(new Date())
   const isShared = shared === "1"
-  const sharePath = `/result?level=${level}&s=${signals.map((q) => q.id).join(",")}&shared=1`
+  const sharePath = `/result?s=${signals.map((q) => q.id).join(",")}&shared=1`
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">

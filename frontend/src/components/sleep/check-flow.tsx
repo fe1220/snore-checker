@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { QUESTIONS, judge, type Answer } from "@/lib/sleep-check"
+import { QUESTIONS, type Answer } from "@/lib/sleep-check"
 
 const OPTIONS: { value: Answer; label: string }[] = [
   { value: "yes", label: "네" },
@@ -29,7 +29,7 @@ export function CheckFlow() {
     const signals = QUESTIONS.filter((q) => next[q.id] === "yes")
       .map((q) => q.id)
       .join(",")
-    router.push(`/result?level=${judge(next)}&s=${signals}`)
+    router.push(`/result?s=${signals}`)
   }
 
   return (
