@@ -2,6 +2,7 @@
 
 import { ExternalLink, Phone } from "lucide-react"
 import { track } from "@/components/analytics/track"
+import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { clinicLink, mapSearchUrl, type Hospital } from "@/lib/hospitals"
@@ -30,6 +31,15 @@ export function ClinicCard({
             </span>
           )}
         </div>
+        {/* 학회 명단에 있다는 뜻이다. 인증 제도인지 확인하지 못해 "인증"이라고 쓰지 않는다. */}
+        {hospital.listed && (
+          <Badge
+            variant="outline"
+            className="h-auto w-fit px-2 py-0.5 text-base text-primary"
+          >
+            수면학회 등록
+          </Badge>
+        )}
         {/* 주소를 누르면 지도에서 위치를 볼 수 있다. 버튼을 셋으로 늘리지 않으려고 주소에 건다. */}
         <a
           href={mapSearchUrl(hospital)}

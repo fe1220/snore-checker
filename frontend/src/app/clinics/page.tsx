@@ -43,7 +43,8 @@ export default function ClinicsPage() {
         <h1 className="text-2xl font-bold">근처 수면클리닉</h1>
         <p className="text-base text-muted-foreground">
           레즈메드 병원찾기 · 건강보험심사평가원{" "}
-          {formatHiraVersion(hiraVersion)} · {formatCrawledAt(crawledAt)} 수집
+          {formatHiraVersion(hiraVersion)} · 대한수면연구학회 ·{" "}
+          {formatCrawledAt(crawledAt)} 수집
         </p>
         <p className="text-base">방문 전에 전화로 확인해 주세요.</p>
       </header>

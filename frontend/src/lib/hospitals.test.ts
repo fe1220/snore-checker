@@ -32,6 +32,7 @@ function hospital(
     lng,
     sourceUrl: `https://www.resmed.kr/psg-finder/${id}`,
     homepage: null,
+    listed: false,
   }
 }
 

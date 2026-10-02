@@ -12,10 +12,10 @@ const COLOR = {
   background: "#1b2142",
   card: "#252c54",
   foreground: "#fff8ec",
-  muted: "#a9aec8",
+  muted: "#bdc2dd",
   track: "#2f3866",
   primary: "#f5d57a",
-  warning: "#f28b6c",
+  warning: "#ffab8a",
 }
 
 export default async function OgImage() {

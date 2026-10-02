@@ -3,11 +3,14 @@ import { createHash } from "node:crypto"
 import { coreName, findMatch, normalizeName, normalizePhone } from "./match.ts"
 import { type HiraItem, inKorea } from "./sources/hira.ts"
 import { type Region, type ResmedHospital, withAreaCode } from "./sources/resmed.ts"
+import type { SleepnetClinic } from "./sources/sleepnet.ts"
 
 export type Hospital = Omit<ResmedHospital, "sourceUrl"> & {
   // 레즈메드 상세 페이지. 공공 데이터에만 있는 병원은 원 페이지가 없어 null
   sourceUrl: string | null
   homepage: string | null
+  // 대한수면연구학회 수면클리닉 목록에 있음
+  listed: boolean
 }
 
 const REGION_BY_SIDO: Record<string, Region> = {
@@ -99,6 +102,7 @@ function fromSnapshot(item: HiraItem): Hospital {
     lng: item.lng,
     sourceUrl: null,
     homepage: normalizeHomepage(item.homepage),
+    listed: false,
   }
 }
 
@@ -138,7 +142,7 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
     const found = findMatch(original, snapshot)
 
     if (!found) {
-      const hospital = { ...original, region, homepage: null }
+      const hospital = { ...original, region, homepage: null, listed: false }
       result.hospitals.push(hospital)
       result.unmatched.push(hospital)
       continue
@@ -152,6 +156,7 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
       lat: found.lat,
       lng: found.lng,
       homepage: normalizeHomepage(found.homepage),
+      listed: false,
     }
     result.hospitals.push(hospital)
     result.matched.push({ hospital, movedKm: distanceKm(original, found) })
@@ -176,6 +181,36 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
   return result
 }
 
+export type ListedResult = {
+  hospitals: Hospital[]
+  matched: { clinic: SleepnetClinic; hospital: Hospital }[]
+  unmatched: SleepnetClinic[]
+  homepageFilled: Hospital[]
+}
+
+// 학회 목록도 같은 맞추기 규칙을 쓴다. 후보가 둘 이상이면 findMatch가 맞추지 않아 배지를 붙이지 않는다.
+// 배지만 붙이고 이름·주소·전화는 바꾸지 않는다. 홈페이지는 비어 있을 때만 학회 값으로 채운다.
+export function markListed(hospitals: Hospital[], clinics: SleepnetClinic[]): ListedResult {
+  const result: ListedResult = { hospitals: hospitals.map((h) => ({ ...h, listed: false })), matched: [], unmatched: [], homepageFilled: [] }
+
+  for (const clinic of clinics) {
+    const hospital = findMatch(clinic, result.hospitals)
+    if (!hospital) {
+      result.unmatched.push(clinic)
+      continue
+    }
+    hospital.listed = true
+    const homepage = normalizeHomepage(clinic.homepage)
+    if (hospital.homepage === null && homepage !== null) {
+      hospital.homepage = homepage
+      result.homepageFilled.push(hospital)
+    }
+    result.matched.push({ clinic, hospital })
+  }
+
+  return result
+}
+
 const SOURCE_URL_PREFIX = "https://www.resmed.kr/psg-finder/"
 const HIRA_ID_PREFIX = "hira-"
 
@@ -193,6 +228,7 @@ export function assertValid(hospitals: Hospital[]): void {
     if (h.homepage !== null && normalizeHomepage(h.homepage) !== h.homepage) {
       throw new Error(`${label}: homepage가 http(s) 주소가 아닙니다 (${h.homepage})`)
     }
+    if (typeof h.listed !== "boolean") throw new Error(`${label}: listed가 true나 false가 아닙니다`)
     if (!inKorea(h.lat, h.lng)) throw new Error(`${label}: 좌표가 한국 범위 밖입니다 (${h.lat}, ${h.lng})`)
     if (seen.has(h.id)) throw new Error(`${label}: id가 겹칩니다`)
     seen.add(h.id)

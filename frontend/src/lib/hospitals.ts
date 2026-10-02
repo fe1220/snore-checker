@@ -34,6 +34,7 @@ export type Hospital = {
   // 레즈메드 상세 페이지. 공공 데이터에만 있는 병원(id가 "hira-"로 시작)은 null이다.
   sourceUrl: string | null
   homepage: string | null
+  listed: boolean // 대한수면연구학회 수면클리닉 찾기 목록에 있음
 }
 
 export type HospitalData = {

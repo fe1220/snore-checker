@@ -1,9 +1,10 @@
 import { rename, writeFile } from "node:fs/promises"
 import { fileURLToPath } from "node:url"
 
-import { assertValid, merge } from "./merge.ts"
+import { assertValid, markListed, merge } from "./merge.ts"
 import { loadSnapshot } from "./sources/hira.ts"
 import { crawl as crawlResmed } from "./sources/resmed.ts"
+import { crawl as crawlSleepnet } from "./sources/sleepnet.ts"
 
 // 대상 페이지 구조가 바뀌면 건수가 크게 줄어든다. 그때는 덮어쓰지 않아 이전 데이터로 서비스가 유지된다.
 // 스냅샷만으로도 합친 건수 기준을 넘으므로, 레즈메드 원 페이지 링크가 사라지지 않도록 레즈메드 건수를 따로 본다.
@@ -25,7 +26,8 @@ async function main() {
     throw new Error(`레즈메드 수집 결과가 ${resmed.length}건으로 ${MIN_RESMED_ITEMS}건보다 적어 저장하지 않습니다`)
   }
 
-  const { hospitals, matched, unmatched, added, possibleDuplicates, skippedKind } = merge(resmed, snapshot.items)
+  const merged = merge(resmed, snapshot.items)
+  const { matched, unmatched, added, possibleDuplicates, skippedKind } = merged
   console.log(`스냅샷과 맞춘 병원: ${matched.length}건, 못 맞춘 병원: ${unmatched.length}건`)
   for (const h of unmatched) console.log(`  못 맞춤: ${h.name} | ${h.address} | ${h.phone ?? "전화 없음"}`)
 
@@ -39,6 +41,14 @@ async function main() {
   const moved = matched.filter((m) => m.movedKm > LOG_MOVED_KM).sort((a, b) => b.movedKm - a.movedKm)
   console.log(`좌표가 ${LOG_MOVED_KM}km 넘게 바뀐 병원: ${moved.length}건`)
   for (const { hospital, movedKm } of moved) console.log(`  ${movedKm.toFixed(1)}km: ${hospital.name} (${hospital.id})`)
+
+  // 학회 목록 수집이 실패하면 빈 목록이 와서 배지만 모두 빠진 채로 저장한다
+  const clinics = await crawlSleepnet()
+  const listed = markListed(merged.hospitals, clinics)
+  const { hospitals } = listed
+  console.log(`학회 목록 ${clinics.length}곳 중 맞춘 곳 ${listed.matched.length}, 못 맞춘 곳 ${listed.unmatched.length}, 홈페이지 채움 ${listed.homepageFilled.length}`)
+  for (const c of listed.unmatched) console.log(`  학회 못 맞춤: ${c.name} | ${c.address} | ${c.phone ?? "전화 없음"}`)
+  console.log(`listed 병원: ${hospitals.filter((h) => h.listed).length}곳`)
 
   if (hospitals.length < MIN_ITEMS) {
     throw new Error(`합친 결과가 ${hospitals.length}건으로 ${MIN_ITEMS}건보다 적어 저장하지 않습니다`)

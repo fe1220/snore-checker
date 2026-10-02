@@ -1,9 +1,10 @@
 import assert from "node:assert/strict"
 import { test } from "node:test"
 
-import { assertValid, distanceKm, type Hospital, merge, normalizeHomepage, regionOf } from "./merge.ts"
+import { assertValid, distanceKm, type Hospital, markListed, merge, normalizeHomepage, regionOf } from "./merge.ts"
 import type { HiraItem } from "./sources/hira.ts"
 import type { ResmedHospital } from "./sources/resmed.ts"
+import type { SleepnetClinic } from "./sources/sleepnet.ts"
 
 const resmed: ResmedHospital = {
   id: "gyeonggibomboment",
@@ -39,7 +40,7 @@ const extra: HiraItem = {
   lng: 126.978,
 }
 
-const saved: Hospital = { ...resmed, lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example" }
+const saved: Hospital = { ...resmed, lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example", listed: false }
 
 test("맞춘 병원은 좌표와 홈페이지만 스냅샷 값으로 바꾸고 나머지는 레즈메드 값을 쓴다", () => {
   const result = merge([resmed], [hira])
@@ -62,7 +63,7 @@ test("이름이 40자 이하면 스냅샷 이름과 달라도 레즈메드 이�
 
 test("못 맞춘 레즈메드 병원은 좌표와 이름을 그대로 두고 홈페이지는 비운다", () => {
   const result = merge([resmed], [extra])
-  const kept = { ...resmed, homepage: null }
+  const kept = { ...resmed, homepage: null, listed: false }
   assert.deepEqual(result.hospitals[0], kept)
   assert.deepEqual(result.unmatched, [kept])
   assert.deepEqual(result.matched, [])
@@ -82,6 +83,7 @@ test("스냅샷에만 있는 병원은 스냅샷 값으로 추가하고 원 페�
       lng: 126.978,
       sourceUrl: null,
       homepage: "https://www.soom.kr/",
+      listed: false,
     },
   ])
   assert.deepEqual(result.hospitals[1], result.added[0])
@@ -241,4 +243,81 @@ test("저장 전 검증: 홈페이지는 비어 있거나 http(s) 주소여야 �
   assert.doesNotThrow(() => assertValid([{ ...added, homepage: "https://www.soom.kr/" }]))
   assert.throws(() => assertValid([{ ...added, homepage: "www.soom.kr" }]), /homepage/)
   assert.throws(() => assertValid([{ ...added, homepage: "" }]), /homepage/)
+})
+
+test("저장 전 검증: listed는 true나 false여야 한다", () => {
+  assert.doesNotThrow(() => assertValid([{ ...saved, listed: true }]))
+  assert.throws(() => assertValid([{ ...saved, listed: undefined as unknown as boolean }]), /listed/)
+})
+
+test("합친 병원은 처음에 모두 학회 목록에 없다", () => {
+  assert.deepEqual(
+    merge([resmed], [hira, extra]).hospitals.map((h) => h.listed),
+    [false, false],
+  )
+})
+
+// 학회 목록의 병원. 레즈메드 병원과 전화번호가 같고 이름이 같다.
+const clinic: SleepnetClinic = {
+  name: "봄봄이비인후과의원",
+  address: "경기 고양시 덕양구 권율대로 672 3층",
+  phone: "031-966-0300",
+  homepage: "https://bombom.example/sleep",
+}
+
+const other: Hospital = { ...added, name: "숨편한의원", address: "서울특별시 중구 을지로 1, 2층 (을지로동)", phone: "02-000-0000" }
+
+test("학회 목록과 맞춘 병원만 listed가 true다", () => {
+  const result = markListed([saved, other], [clinic])
+  assert.deepEqual(
+    result.hospitals.map((h) => [h.id, h.listed]),
+    [
+      ["gyeonggibomboment", true],
+      ["hira-df7e70e502", false],
+    ],
+  )
+  assert.equal(result.matched.length, 1)
+  assert.equal(result.matched[0].clinic, clinic)
+  assert.deepEqual(result.unmatched, [])
+})
+
+test("맞는 병원이 없는 학회 병원은 못 맞춘 목록에 남고 배지를 붙이지 않는다", () => {
+  const nowhere = { ...clinic, name: "어디에도없는수면의원", address: "부산 해운대구 해운대로 1", phone: "051-111-2222" }
+  const result = markListed([saved, other], [nowhere])
+  assert.deepEqual(
+    result.hospitals.map((h) => h.listed),
+    [false, false],
+  )
+  assert.deepEqual(result.unmatched, [nowhere])
+})
+
+test("학회 병원 하나가 여러 병원에 맞으면 붙이지 않는다", () => {
+  const twin = { ...saved, id: "twin", sourceUrl: "https://www.resmed.kr/psg-finder/twin", phone: "031-000-0000" }
+  const byAddress = { ...clinic, phone: null }
+  const result = markListed([saved, twin], [byAddress])
+  assert.deepEqual(
+    result.hospitals.map((h) => h.listed),
+    [false, false],
+  )
+  assert.deepEqual(result.unmatched, [byAddress])
+})
+
+test("병원 홈페이지가 비어 있을 때만 학회 홈페이지로 채운다", () => {
+  const empty = { ...saved, homepage: null }
+  const filled = markListed([empty], [clinic])
+  assert.equal(filled.hospitals[0].homepage, "https://bombom.example/sleep")
+  assert.equal(filled.homepageFilled.length, 1)
+
+  const kept = markListed([saved], [clinic])
+  assert.equal(kept.hospitals[0].homepage, "http://bombom.example")
+  assert.deepEqual(kept.homepageFilled, [])
+
+  const invalid = markListed([empty], [{ ...clinic, homepage: "https://없음" }])
+  assert.equal(invalid.hospitals[0].homepage, null)
+  assert.equal(invalid.hospitals[0].listed, true)
+})
+
+test("학회 목록이 비면 모든 병원의 listed가 false다", () => {
+  const result = markListed([{ ...saved, listed: true }], [])
+  assert.equal(result.hospitals[0].listed, false)
 })

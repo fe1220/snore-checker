@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-02T16:19:30.707Z",
+  "crawledAt": "2026-10-02T16:27:56.713Z",
   "hiraVersion": "2026.6",
   "items": [
     {
@@ -11,7 +11,8 @@
       "lat": 37.5222543,
       "lng": 129.1152178,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonnugaent",
-      "homepage": "http://cafe.naver.com/lukebeauty"
+      "homepage": "http://cafe.naver.com/lukebeauty",
+      "listed": false
     },
     {
       "id": "gangwonkysent",
@@ -22,7 +23,8 @@
       "lat": 37.3297852,
       "lng": 127.9503251,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonkysent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gangwonyeonsewonjuseverance",
@@ -33,7 +35,8 @@
       "lat": 37.3490013,
       "lng": 127.9456638,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonyeonsewonjuseverance",
-      "homepage": "https://www.ywmc.or.kr/"
+      "homepage": "https://www.ywmc.or.kr/",
+      "listed": true
     },
     {
       "id": "gangwonhkent",
@@ -44,7 +47,8 @@
       "lat": 37.3494603,
       "lng": 127.9506579,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhkent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gangwonuniv",
@@ -55,7 +59,8 @@
       "lat": 37.8751611,
       "lng": 127.7448909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonuniv",
-      "homepage": "http://www.knuh.or.kr/main/main.asp"
+      "homepage": "http://www.knuh.or.kr/main/main.asp",
+      "listed": true
     },
     {
       "id": "gangwonhanlimchuncheon",
@@ -66,7 +71,8 @@
       "lat": 37.8840791,
       "lng": 127.7399592,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhanlimchuncheon",
-      "homepage": "http://chuncheon.hallym.or.kr/"
+      "homepage": "http://chuncheon.hallym.or.kr/",
+      "listed": false
     },
     {
       "id": "gyeonggibomboment",
@@ -77,7 +83,8 @@
       "lat": 37.6498655,
       "lng": 126.8741742,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibomboment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidoorient",
@@ -88,7 +95,8 @@
       "lat": 37.5989344,
       "lng": 126.8924137,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggicoaent",
@@ -99,7 +107,8 @@
       "lat": 37.6565394,
       "lng": 126.8369751,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggimyungji",
@@ -110,7 +119,8 @@
       "lat": 37.6419949,
       "lng": 126.8312622,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimyungji",
-      "homepage": "https://mjh.or.kr"
+      "homepage": "https://mjh.or.kr",
+      "listed": false
     },
     {
       "id": "gyeonggiilsanbudist",
@@ -121,7 +131,8 @@
       "lat": 37.6763969,
       "lng": 126.8064233,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanbudist",
-      "homepage": "http://www.dumc.or.kr/isom"
+      "homepage": "http://www.dumc.or.kr/isom",
+      "listed": true
     },
     {
       "id": "gyeonggiilsanent",
@@ -132,7 +143,8 @@
       "lat": 37.6634852,
       "lng": 126.7685053,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanent",
-      "homepage": "http://ilsanent.web2002.kr/"
+      "homepage": "http://ilsanent.web2002.kr/",
+      "listed": false
     },
     {
       "id": "gyeongginhimilsan",
@@ -143,7 +155,8 @@
       "lat": 37.6454754,
       "lng": 126.7930401,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginhimilsan",
-      "homepage": "http://www.nhimc.or.kr"
+      "homepage": "http://www.nhimc.or.kr",
+      "listed": false
     },
     {
       "id": "gyeonggisoom",
@@ -154,7 +167,8 @@
       "lat": 37.6423617,
       "lng": 126.7879067,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoom",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiheavenly",
@@ -165,7 +179,8 @@
       "lat": 37.6825551,
       "lng": 126.7810874,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheavenly",
-      "homepage": "http://www.heavenlyhospital.com/"
+      "homepage": "http://www.heavenlyhospital.com/",
+      "listed": true
     },
     {
       "id": "gyeonggiilsanpaik",
@@ -176,7 +191,8 @@
       "lat": 37.6742736,
       "lng": 126.7503802,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanpaik",
-      "homepage": "http://www.paik.ac.kr/ilsan/"
+      "homepage": "http://www.paik.ac.kr/ilsan/",
+      "listed": true
     },
     {
       "id": "gyeonggihansarangent",
@@ -187,7 +203,8 @@
       "lat": 37.6698137,
       "lng": 126.7629904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihansarangent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiseoulasanent",
@@ -198,7 +215,8 @@
       "lat": 37.4752559,
       "lng": 126.8658275,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulasanent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiseoulsaintent",
@@ -209,7 +227,8 @@
       "lat": 37.4760713,
       "lng": 126.8659802,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsaintent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggihanyanggooli",
@@ -220,7 +239,8 @@
       "lat": 37.6012985,
       "lng": 127.1324272,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanyanggooli",
-      "homepage": "http://guri.hyumc.com/index.asp?"
+      "homepage": "http://guri.hyumc.com/index.asp?",
+      "listed": false
     },
     {
       "id": "gyeonggiopenent",
@@ -231,7 +251,8 @@
       "lat": 37.6016252,
       "lng": 127.1416566,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiopenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiseoulasancentral",
@@ -242,7 +263,8 @@
       "lat": 37.31628,
       "lng": 126.91957,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulasancentral",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiflowerdreament",
@@ -253,7 +275,8 @@
       "lat": 37.3162411,
       "lng": 126.9242324,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiflowerdreament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiverygoodent",
@@ -264,7 +287,8 @@
       "lat": 37.6333238,
       "lng": 126.7036514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiverygoodent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggitreeent",
@@ -275,7 +299,8 @@
       "lat": 37.5934718,
       "lng": 126.7636061,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitreeent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiheezmedi",
@@ -286,7 +311,8 @@
       "lat": 37.6112497,
       "lng": 126.7346708,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheezmedi",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidreament",
@@ -297,7 +323,8 @@
       "lat": 37.6122466,
       "lng": 126.7318476,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidreament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggikimpohanaent",
@@ -308,7 +335,8 @@
       "lat": 37.65416,
       "lng": 126.6826066,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikimpohanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggihient",
@@ -319,7 +347,8 @@
       "lat": 37.6453959,
       "lng": 126.6610517,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihient",
-      "homepage": "http://blog.daum.net/pearch"
+      "homepage": "http://blog.daum.net/pearch",
+      "listed": false
     },
     {
       "id": "gyeonggibaroent",
@@ -330,7 +359,8 @@
       "lat": 37.6461192,
       "lng": 126.6275368,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibaroent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiclearent",
@@ -341,7 +371,8 @@
       "lat": 37.6067257,
       "lng": 126.7249838,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiyunseiandetooent",
@@ -352,7 +383,8 @@
       "lat": 37.5981071,
       "lng": 126.7202018,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiandetooent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggikangim",
@@ -363,7 +395,8 @@
       "lat": 37.5792733,
       "lng": 127.2198089,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikangim",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggierooment",
@@ -374,7 +407,8 @@
       "lat": 37.7117942,
       "lng": 127.1864721,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggierooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggilhospital",
@@ -385,7 +419,8 @@
       "lat": 37.64877,
       "lng": 127.14088,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggilhospital",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiclearsaintent",
@@ -396,7 +431,8 @@
       "lat": 37.5039147,
       "lng": 126.7611243,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearsaintent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggibusheoncoeent",
@@ -407,7 +443,8 @@
       "lat": 37.5232578,
       "lng": 126.8052029,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibusheoncoeent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggischmcbucheon",
@@ -418,7 +455,8 @@
       "lat": 37.4986998,
       "lng": 126.7629626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggischmcbucheon",
-      "homepage": "https://www.schmc.ac.kr/bucheon/kor/index.do"
+      "homepage": "https://www.schmc.ac.kr/bucheon/kor/index.do",
+      "listed": true
     },
     {
       "id": "gyeonggisnubh",
@@ -429,7 +467,8 @@
       "lat": 37.3516694,
       "lng": 127.1234066,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisnubh",
-      "homepage": "http://www.snubh.org/index.do"
+      "homepage": "http://www.snubh.org/index.do",
+      "listed": true
     },
     {
       "id": "gyeonggidmcbundang",
@@ -440,7 +479,8 @@
       "lat": 37.3882035,
       "lng": 127.1217783,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidmcbundang",
-      "homepage": "http://www.dmc.or.kr"
+      "homepage": "http://www.dmc.or.kr",
+      "listed": false
     },
     {
       "id": "gyeonggi365syseoulent",
@@ -451,7 +491,8 @@
       "lat": 37.3858444,
       "lng": 127.1240452,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggi365syseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggileehongent",
@@ -462,7 +503,8 @@
       "lat": 37.36546,
       "lng": 127.1072126,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggileehongent",
-      "homepage": "http://www.hongsent.co.kr/"
+      "homepage": "http://www.hongsent.co.kr/",
+      "listed": false
     },
     {
       "id": "gyeonggibundangchamc",
@@ -473,7 +515,8 @@
       "lat": 37.4102384,
       "lng": 127.1254535,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibundangchamc",
-      "homepage": "https://bundang.chamc.co.kr"
+      "homepage": "https://bundang.chamc.co.kr",
+      "listed": true
     },
     {
       "id": "gyeonggiwingent",
@@ -484,7 +527,8 @@
       "lat": 37.3942126,
       "lng": 127.1102892,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwingent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiyshappyent",
@@ -495,7 +539,8 @@
       "lat": 37.4399478,
       "lng": 127.1440896,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyshappyent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggitheclearent",
@@ -506,7 +551,8 @@
       "lat": 37.45109,
       "lng": 127.1471734,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheclearent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiysboment",
@@ -517,7 +563,8 @@
       "lat": 37.4727089,
       "lng": 127.142939,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiysboment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiwereahanaent",
@@ -528,7 +575,8 @@
       "lat": 37.4727089,
       "lng": 127.142939,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereahanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiwereacentalent",
@@ -539,7 +587,8 @@
       "lat": 37.4722451,
       "lng": 127.1429497,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereacentalent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiwereaplusent",
@@ -550,7 +599,8 @@
       "lat": 37.4734999,
       "lng": 127.1501737,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereaplusent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggihanaent",
@@ -561,7 +611,8 @@
       "lat": 37.250558,
       "lng": 127.0229514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggijohnsbilent",
@@ -572,7 +623,8 @@
       "lat": 37.2495391,
       "lng": 127.022569,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijohnsbilent",
-      "homepage": "http://www.co75.com/index.asp"
+      "homepage": "http://www.co75.com/index.asp",
+      "listed": false
     },
     {
       "id": "gyeonggiseoulsamsungplusim",
@@ -583,7 +635,8 @@
       "lat": 37.2452684,
       "lng": 126.9628724,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsamsungplusim",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggihomaesilysent",
@@ -594,7 +647,8 @@
       "lat": 37.2579757,
       "lng": 126.9625695,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihomaesilysent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggikwangkyogoodsleep",
@@ -605,7 +659,8 @@
       "lat": 37.2875826,
       "lng": 127.0568585,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikwangkyogoodsleep",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggithewell",
@@ -616,7 +671,8 @@
       "lat": 37.255323,
       "lng": 127.0754725,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggithewell",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggisoomandsoopent",
@@ -627,7 +683,8 @@
       "lat": 37.2925601,
       "lng": 127.0491306,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsoopent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiajoumc",
@@ -638,7 +695,8 @@
       "lat": 37.2794612,
       "lng": 127.0476837,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajoumc",
-      "homepage": "http://hosp.ajoumc.or.kr/"
+      "homepage": "http://hosp.ajoumc.or.kr/",
+      "listed": true
     },
     {
       "id": "gyeonggiajouwellent",
@@ -649,7 +707,8 @@
       "lat": 37.2742331,
       "lng": 127.0444627,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajouwellent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggijoeunent",
@@ -660,7 +719,8 @@
       "lat": 37.2927063,
       "lng": 127.031781,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijoeunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggitomaswiylshosiptal",
@@ -671,7 +731,8 @@
       "lat": 37.2653229,
       "lng": 127.0255443,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitomaswiylshosiptal",
-      "homepage": null
+      "homepage": "https://www.allspine.com/",
+      "listed": true
     },
     {
       "id": "gyeonggihwaseotopim",
@@ -682,7 +743,8 @@
       "lat": 37.2789626,
       "lng": 127.0031271,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihwaseotopim",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidswhop",
@@ -693,7 +755,8 @@
       "lat": 37.2780648,
       "lng": 127.0345486,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidswhop",
-      "homepage": "http://www.dswhosp.co.kr"
+      "homepage": "http://www.dswhosp.co.kr",
+      "listed": true
     },
     {
       "id": "gyeonggicmvincent",
@@ -704,7 +767,8 @@
       "lat": 37.2779855,
       "lng": 127.0274271,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmvincent",
-      "homepage": "http://www.cmcvincent.or.kr/skip.html"
+      "homepage": "http://www.cmcvincent.or.kr/skip.html",
+      "listed": true
     },
     {
       "id": "gyeonggitheent",
@@ -715,7 +779,8 @@
       "lat": 37.3688669,
       "lng": 126.8090412,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggisihwaent",
@@ -726,7 +791,8 @@
       "lat": 37.350347,
       "lng": 126.7359431,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisihwaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggisoomandsorient",
@@ -737,7 +803,8 @@
       "lat": 37.4372784,
       "lng": 126.8030194,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggigoodent",
@@ -748,7 +815,8 @@
       "lat": 37.3188241,
       "lng": 126.8360083,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiyounghospital",
@@ -759,7 +827,8 @@
       "lat": 37.30873,
       "lng": 126.83044,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyounghospital",
-      "homepage": null
+      "homepage": "http://www.ynr.co.kr/",
+      "listed": true
     },
     {
       "id": "gyeonggicleansament",
@@ -770,7 +839,8 @@
       "lat": 37.3275731,
       "lng": 126.8002963,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicleansament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiyeplusent",
@@ -781,7 +851,8 @@
       "lat": 37.302442,
       "lng": 126.8123402,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyeplusent",
-      "homepage": "http://www.yeent.com"
+      "homepage": "http://www.yeent.com",
+      "listed": false
     },
     {
       "id": "gyeonggiansankumc",
@@ -792,7 +863,8 @@
       "lat": 37.3185144,
       "lng": 126.8249033,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansankumc",
-      "homepage": "http://ansan.kumc.or.kr/main/index.do"
+      "homepage": "http://ansan.kumc.or.kr/main/index.do",
+      "listed": false
     },
     {
       "id": "gyeonggiansancoient",
@@ -803,7 +875,8 @@
       "lat": 37.3263064,
       "lng": 126.800391,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansancoient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggihallym",
@@ -814,7 +887,8 @@
       "lat": 37.3917575,
       "lng": 126.9620529,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihallym",
-      "homepage": "http://hallym.hallym.or.kr/"
+      "homepage": "http://hallym.hallym.or.kr/",
+      "listed": true
     },
     {
       "id": "gyeonggico365ent",
@@ -825,7 +899,8 @@
       "lat": 37.7954018,
       "lng": 127.0799504,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggico365ent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggisekyoseoulent",
@@ -836,7 +911,8 @@
       "lat": 37.1690388,
       "lng": 127.065276,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisekyoseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongginewysiseverance",
@@ -847,7 +923,8 @@
       "lat": 37.270805,
       "lng": 127.1485144,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginewysiseverance",
-      "homepage": "https://yi.severance.healthcare/yi/index.do"
+      "homepage": "https://yi.severance.healthcare/yi/index.do",
+      "listed": true
     },
     {
       "id": "gyeonggisorisaintent",
@@ -858,7 +935,8 @@
       "lat": 37.3128194,
       "lng": 127.0801982,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisorisaintent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggieuljieuijeongbu",
@@ -869,7 +947,8 @@
       "lat": 37.7518185,
       "lng": 127.0506997,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggieuljieuijeongbu",
-      "homepage": null
+      "homepage": "https://uemc.ac.kr/clinic/clinic_pg04.jsp?dept=ABOAAA",
+      "listed": true
     },
     {
       "id": "gyeonggiclearseoulent",
@@ -880,7 +959,8 @@
       "lat": 37.7445728,
       "lng": 127.0972021,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggimoduent",
@@ -891,7 +971,8 @@
       "lat": 37.7366329,
       "lng": 127.0852514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimoduent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggicmccujb",
@@ -902,7 +983,8 @@
       "lat": 37.7587045,
       "lng": 127.0777625,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmccujb",
-      "homepage": "http://www.cmcujb.or.kr/"
+      "homepage": "http://www.cmcujb.or.kr/",
+      "listed": true
     },
     {
       "id": "gyeonggipajoohanaent",
@@ -913,7 +995,8 @@
       "lat": 37.7276519,
       "lng": 126.7339335,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggipajoohanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongginelboment",
@@ -924,7 +1007,8 @@
       "lat": 37.7287093,
       "lng": 126.7363864,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginelboment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggigoduckcentralent",
@@ -935,7 +1019,8 @@
       "lat": 37.0477733,
       "lng": 127.0442098,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoduckcentralent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggivisionent",
@@ -946,7 +1031,8 @@
       "lat": 36.9988747,
       "lng": 127.1141665,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggivisionent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiseoulent",
@@ -957,7 +1043,8 @@
       "lat": 36.9919135,
       "lng": 127.0886955,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggigoodmohospital",
@@ -968,7 +1055,8 @@
       "lat": 36.9906277,
       "lng": 127.1204113,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodmohospital",
-      "homepage": "http://www.goodmhospital.co.kr"
+      "homepage": "http://www.goodmhospital.co.kr",
+      "listed": false
     },
     {
       "id": "gyeonggicomient",
@@ -979,7 +1067,8 @@
       "lat": 37.569515,
       "lng": 127.1842201,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicomient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggitheseoulent",
@@ -990,7 +1079,8 @@
       "lat": 37.5659695,
       "lng": 127.1903962,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggimisaysent",
@@ -1001,7 +1091,8 @@
       "lat": 37.5615554,
       "lng": 127.1930378,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimisaysent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggirakebomboment",
@@ -1012,7 +1103,8 @@
       "lat": 37.1713447,
       "lng": 127.1048678,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggirakebomboment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidoorient-southdongtan",
@@ -1023,7 +1115,8 @@
       "lat": 37.1676291,
       "lng": 127.1058272,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient-southdongtan",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidongtranstationent",
@@ -1034,7 +1127,8 @@
       "lat": 37.1973592,
       "lng": 127.0982637,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtranstationent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggisaintwoorient",
@@ -1045,7 +1139,8 @@
       "lat": 37.1992157,
       "lng": 127.1142339,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisaintwoorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggiseoulsomangent",
@@ -1056,7 +1151,8 @@
       "lat": 37.2003439,
       "lng": 127.1131432,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsomangent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggicozent",
@@ -1067,7 +1163,8 @@
       "lat": 37.2004684,
       "lng": 127.0714265,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicozent",
-      "homepage": "http://www.cozent.kr/index.asp"
+      "homepage": "http://www.cozent.kr/index.asp",
+      "listed": false
     },
     {
       "id": "gyeonggiyunseiprimeent",
@@ -1078,7 +1175,8 @@
       "lat": 37.1942175,
       "lng": 127.0746368,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiprimeent",
-      "homepage": "http://www.yonseiprime.com/"
+      "homepage": "http://www.yonseiprime.com/",
+      "listed": false
     },
     {
       "id": "gyeonggidongtansamsungent",
@@ -1089,7 +1187,8 @@
       "lat": 37.1660595,
       "lng": 127.1072823,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtansamsungent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggitheopenent",
@@ -1100,7 +1199,8 @@
       "lat": 37.2245561,
       "lng": 126.9471441,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheopenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeonggidongtanhallym",
@@ -1111,7 +1211,8 @@
       "lat": 37.2165141,
       "lng": 127.0799502,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtanhallym",
-      "homepage": "http://dongtan.hallym.or.kr/"
+      "homepage": "http://dongtan.hallym.or.kr/",
+      "listed": true
     },
     {
       "id": "gyeongnamgeojechildren",
@@ -1122,7 +1223,8 @@
       "lat": 34.8828723,
       "lng": 128.6262587,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgeojechildren",
-      "homepage": "https://www.geojechildren.com/"
+      "homepage": "https://www.geojechildren.com/",
+      "listed": false
     },
     {
       "id": "gyeongnamajooent",
@@ -1133,7 +1235,8 @@
       "lat": 34.8671803,
       "lng": 128.6851648,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamajooent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongnamseoulent",
@@ -1144,7 +1247,8 @@
       "lat": 35.23737,
       "lng": 128.8675561,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamseoulent",
-      "homepage": "http://www.entgimhae.com/"
+      "homepage": "http://www.entgimhae.com/",
+      "listed": false
     },
     {
       "id": "gyeongnamivyent",
@@ -1155,7 +1259,8 @@
       "lat": 35.2380812,
       "lng": 128.867684,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamivyent",
-      "homepage": "http://www.ivyent.co.kr"
+      "homepage": "http://www.ivyent.co.kr",
+      "listed": false
     },
     {
       "id": "gyeongnamyangsanent",
@@ -1166,7 +1271,8 @@
       "lat": 35.3281501,
       "lng": 129.0057274,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyangsanent",
-      "homepage": "http://www.pnuyh.co.kr/content/"
+      "homepage": "http://www.pnuyh.co.kr/content/",
+      "listed": true
     },
     {
       "id": "gyeongnamgnuh",
@@ -1177,7 +1283,8 @@
       "lat": 35.1759944,
       "lng": 128.0964924,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgnuh",
-      "homepage": "http://www.gnuh.co.kr/"
+      "homepage": "http://www.gnuh.co.kr/",
+      "listed": true
     },
     {
       "id": "gyeongnamyaleent",
@@ -1188,7 +1295,8 @@
       "lat": 35.2309744,
       "lng": 128.576436,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyaleent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongnamskkuchangwon",
@@ -1199,7 +1307,8 @@
       "lat": 35.2424957,
       "lng": 128.5923771,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamskkuchangwon",
-      "homepage": "http://smc.skku.edu"
+      "homepage": "http://smc.skku.edu",
+      "listed": true
     },
     {
       "id": "gyeongnamsmcskku",
@@ -1210,7 +1319,8 @@
       "lat": 35.1990872,
       "lng": 128.7078463,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamsmcskku",
-      "homepage": null
+      "homepage": "https://www.gnuch.co.kr/gnuh/treat/docList.do?rbsIdx=55&it=2&code=NR",
+      "listed": true
     },
     {
       "id": "gyeongbukseoulsamsung",
@@ -1221,7 +1331,8 @@
       "lat": 35.2592748,
       "lng": 128.627529,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukseoulsamsung",
-      "homepage": null
+      "homepage": "https://blog.naver.com/ssneuro21",
+      "listed": true
     },
     {
       "id": "gyeongbukdosin",
@@ -1232,7 +1343,8 @@
       "lat": 34.8604052,
       "lng": 128.425197,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukdosin",
-      "homepage": null
+      "homepage": "http://www.doneuro.co.kr",
+      "listed": true
     },
     {
       "id": "gyeongbukkyungjoosaint",
@@ -1243,7 +1355,8 @@
       "lat": 35.846824,
       "lng": 129.2169822,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukkyungjoosaint",
-      "homepage": "http://www.sungmolasik.com/"
+      "homepage": "http://www.sungmolasik.com/",
+      "listed": false
     },
     {
       "id": "gyeongbukyoungchunent",
@@ -1254,7 +1367,8 @@
       "lat": 35.964831,
       "lng": 128.9386573,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukyoungchunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongbukcoaent",
@@ -1265,7 +1379,8 @@
       "lat": 36.0181554,
       "lng": 129.341997,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukcoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gyeongbukphgidok",
@@ -1276,7 +1391,8 @@
       "lat": 36.0177172,
       "lng": 129.3622256,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukphgidok",
-      "homepage": "http://www.phgidok.com/"
+      "homepage": "http://www.phgidok.com/",
+      "listed": false
     },
     {
       "id": "gwangjuhicocoent",
@@ -1287,7 +1403,8 @@
       "lat": 35.1475085,
       "lng": 126.7778703,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhicocoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjufirstent",
@@ -1298,7 +1415,8 @@
       "lat": 35.1903865,
       "lng": 126.8243182,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjufirstent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjusoowan",
@@ -1309,7 +1427,8 @@
       "lat": 35.193096,
       "lng": 126.8241888,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusoowan",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjubestent",
@@ -1320,7 +1439,8 @@
       "lat": 35.1912399,
       "lng": 126.818566,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjubestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjucentument",
@@ -1331,7 +1451,8 @@
       "lat": 35.1904601,
       "lng": 126.818775,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucentument",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjucheomdanhop",
@@ -1342,7 +1463,8 @@
       "lat": 35.2211088,
       "lng": 126.8453041,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucheomdanhop",
-      "homepage": "http://www.cheomdanhosp.co.kr"
+      "homepage": "http://www.cheomdanhosp.co.kr",
+      "listed": false
     },
     {
       "id": "gwangjusooment",
@@ -1353,7 +1475,8 @@
       "lat": 35.1336726,
       "lng": 126.9098142,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusooment",
-      "homepage": "http://www.sumclinic.com"
+      "homepage": "http://www.sumclinic.com",
+      "listed": false
     },
     {
       "id": "gwangjujhpjhent",
@@ -1364,7 +1487,8 @@
       "lat": 35.11937,
       "lng": 126.8988,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjujhpjhent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjukch",
@@ -1375,7 +1499,8 @@
       "lat": 35.136665,
       "lng": 126.9118749,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjukch",
-      "homepage": "http://www.kch.or.kr"
+      "homepage": "http://www.kch.or.kr",
+      "listed": false
     },
     {
       "id": "gwangjuroielent",
@@ -1386,7 +1511,8 @@
       "lat": 35.1237129,
       "lng": 126.9074211,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuroielent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjucoandsoopent",
@@ -1397,7 +1523,8 @@
       "lat": 35.142349,
       "lng": 126.9198157,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoandsoopent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjucnuh",
@@ -1408,7 +1535,8 @@
       "lat": 35.1418094,
       "lng": 126.9215805,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucnuh",
-      "homepage": "http://www.cnuh.com/"
+      "homepage": "http://www.cnuh.com/",
+      "listed": false
     },
     {
       "id": "gwangjuchosun",
@@ -1419,7 +1547,8 @@
       "lat": 35.1390537,
       "lng": 126.9261467,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuchosun",
-      "homepage": "http://hosp.chosun.ac.kr"
+      "homepage": "http://hosp.chosun.ac.kr",
+      "listed": false
     },
     {
       "id": "gwangjugooddoctor",
@@ -1430,7 +1559,8 @@
       "lat": 35.1620234,
       "lng": 126.9354978,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjugooddoctor",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjuhappyview",
@@ -1441,7 +1571,8 @@
       "lat": 35.1586417,
       "lng": 126.906773,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhappyview",
-      "homepage": null
+      "homepage": "http://www.hview.co.kr/Content/Content.asp?FolderName=sub04&FileName=sub04_06",
+      "listed": true
     },
     {
       "id": "gwangjuntopent",
@@ -1452,7 +1583,8 @@
       "lat": 35.1906309,
       "lng": 126.8988872,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuntopent",
-      "homepage": "http://www.entop.co.kr"
+      "homepage": "http://www.entop.co.kr",
+      "listed": false
     },
     {
       "id": "gwangjucoyoung",
@@ -1463,7 +1595,8 @@
       "lat": 35.14873,
       "lng": 126.8516673,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoyoung",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gwangjuhohoent",
@@ -1474,7 +1607,8 @@
       "lat": 35.148097,
       "lng": 126.8849813,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhohoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegudcmc",
@@ -1485,7 +1619,8 @@
       "lat": 35.8436078,
       "lng": 128.5679969,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudcmc",
-      "homepage": "http://www.dcmc.co.kr/"
+      "homepage": "http://www.dcmc.co.kr/",
+      "listed": true
     },
     {
       "id": "daegubarunent",
@@ -1496,7 +1631,8 @@
       "lat": 35.8444691,
       "lng": 128.6003533,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegubarunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegukwakandsinent",
@@ -1507,7 +1643,8 @@
       "lat": 35.8352749,
       "lng": 128.556279,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegukwakandsinent",
-      "homepage": "http://www.ksnose.com/"
+      "homepage": "http://www.ksnose.com/",
+      "listed": false
     },
     {
       "id": "daeguyumc",
@@ -1518,7 +1655,8 @@
       "lat": 35.848107,
       "lng": 128.58205,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyumc",
-      "homepage": "http://www.yumc.ac.kr/00_main/main.htm"
+      "homepage": "http://www.yumc.ac.kr/00_main/main.htm",
+      "listed": false
     },
     {
       "id": "daegudsmc",
@@ -1529,7 +1667,8 @@
       "lat": 35.8538856,
       "lng": 128.4801315,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudsmc",
-      "homepage": "http://www.dsmc.or.kr/"
+      "homepage": "http://www.dsmc.or.kr/",
+      "listed": true
     },
     {
       "id": "daegudanielent",
@@ -1540,7 +1679,8 @@
       "lat": 35.8262782,
       "lng": 128.5291303,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudanielent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daeguchungmyungent",
@@ -1551,7 +1691,8 @@
       "lat": 35.8247073,
       "lng": 128.5250912,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguchungmyungent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daeguthenaenent",
@@ -1562,7 +1703,8 @@
       "lat": 35.8039069,
       "lng": 128.4990111,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguthenaenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegupatima",
@@ -1573,7 +1715,8 @@
       "lat": 35.8842611,
       "lng": 128.6244071,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegupatima",
-      "homepage": "http://www.fatima.or.kr"
+      "homepage": "http://www.fatima.or.kr",
+      "listed": false
     },
     {
       "id": "daeguisaent",
@@ -1584,7 +1727,8 @@
       "lat": 35.92288,
       "lng": 128.6390057,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguisaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daeguknumc",
@@ -1595,7 +1739,8 @@
       "lat": 35.9564207,
       "lng": 128.5646727,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguknumc",
-      "homepage": "https://www.knumc.org"
+      "homepage": "https://www.knumc.org",
+      "listed": true
     },
     {
       "id": "daegusamsung",
@@ -1606,7 +1751,8 @@
       "lat": 35.8597503,
       "lng": 128.6252844,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegusamsung",
-      "homepage": null
+      "homepage": "https://blog.naver.com/neuroclinic",
+      "listed": true
     },
     {
       "id": "daegumacsumyunent",
@@ -1617,7 +1763,8 @@
       "lat": 35.8603108,
       "lng": 128.6289865,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegumacsumyunent",
-      "homepage": "http://www.macnose.com"
+      "homepage": "http://www.macnose.com",
+      "listed": false
     },
     {
       "id": "daeguyaleent",
@@ -1628,7 +1775,8 @@
       "lat": 35.8178443,
       "lng": 128.6454414,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyaleent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegutheoneent",
@@ -1639,7 +1787,8 @@
       "lat": 35.8449688,
       "lng": 128.6130207,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegutheoneent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegukoreaent",
@@ -1650,7 +1799,8 @@
       "lat": 35.8639732,
       "lng": 128.5820692,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegukoreaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daegucentralent",
@@ -1661,7 +1811,8 @@
       "lat": 35.8625005,
       "lng": 128.6076256,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegucentralent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daeguhooent",
@@ -1672,7 +1823,8 @@
       "lat": 35.865193,
       "lng": 128.5976655,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguhooent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daejeoncobbulsoent",
@@ -1683,7 +1835,8 @@
       "lat": 36.3412676,
       "lng": 127.3901908,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncobbulsoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daejeonkyuh",
@@ -1694,7 +1847,8 @@
       "lat": 36.306642,
       "lng": 127.342613,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonkyuh",
-      "homepage": "http://www.kyuh.ac.kr/"
+      "homepage": "http://www.kyuh.ac.kr/",
+      "listed": true
     },
     {
       "id": "daejeonrafael",
@@ -1705,7 +1859,8 @@
       "lat": 36.3492979,
       "lng": 127.3895146,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonrafael",
-      "homepage": "http://www.iraphael.co.kr"
+      "homepage": "http://www.iraphael.co.kr",
+      "listed": false
     },
     {
       "id": "daejeonyounyounent",
@@ -1716,7 +1871,8 @@
       "lat": 36.352251,
       "lng": 127.3872557,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyounyounent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daejeonemc",
@@ -1727,7 +1883,8 @@
       "lat": 36.3553098,
       "lng": 127.3819888,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonemc",
-      "homepage": "http://www.emc.ac.kr/default.asp"
+      "homepage": "http://www.emc.ac.kr/default.asp",
+      "listed": false
     },
     {
       "id": "daejeonyangent",
@@ -1738,7 +1895,8 @@
       "lat": 36.3600497,
       "lng": 127.3772719,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyangent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daejeonyuseonhsunhospital",
@@ -1749,7 +1907,8 @@
       "lat": 36.3751715,
       "lng": 127.3249507,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyuseonhsunhospital",
-      "homepage": "http://yuseongsunhospital.com/main/"
+      "homepage": "http://yuseongsunhospital.com/main/",
+      "listed": true
     },
     {
       "id": "daejeonjoenent",
@@ -1760,7 +1919,8 @@
       "lat": 36.3526651,
       "lng": 127.3429741,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonjoenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "daejeoncmcdj",
@@ -1771,7 +1931,8 @@
       "lat": 36.323042,
       "lng": 127.4201629,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncmcdj",
-      "homepage": "http://www.cmcdj.or.kr/"
+      "homepage": "http://www.cmcdj.or.kr/",
+      "listed": true
     },
     {
       "id": "daejeonsunhopital",
@@ -1782,7 +1943,8 @@
       "lat": 36.3360669,
       "lng": 127.4104139,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonsunhopital",
-      "homepage": "http://www.sunhospital.com/main/"
+      "homepage": "http://www.sunhospital.com/main/",
+      "listed": true
     },
     {
       "id": "daejeoncnuh",
@@ -1793,7 +1955,8 @@
       "lat": 36.316908,
       "lng": 127.415363,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncnuh",
-      "homepage": "https://www.cnuh.co.kr/"
+      "homepage": "https://www.cnuh.co.kr/",
+      "listed": false
     },
     {
       "id": "busancoent",
@@ -1804,7 +1967,8 @@
       "lat": 35.3341599,
       "lng": 129.1660003,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent",
-      "homepage": "http://www.coenclinic.co.kr/"
+      "homepage": "http://www.coenclinic.co.kr/",
+      "listed": false
     },
     {
       "id": "busanbsm",
@@ -1815,7 +1979,8 @@
       "lat": 35.1104571,
       "lng": 129.109125,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbsm",
-      "homepage": "http://bsm.or.kr"
+      "homepage": "http://bsm.or.kr",
+      "listed": false
     },
     {
       "id": "busansamsungsmart",
@@ -1826,7 +1991,8 @@
       "lat": 35.2208431,
       "lng": 129.0855308,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busansamsungsmart",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanbestent",
@@ -1837,7 +2003,8 @@
       "lat": 35.2012313,
       "lng": 129.0876941,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanonhospital",
@@ -1848,7 +2015,8 @@
       "lat": 35.15778,
       "lng": 129.05014,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanonhospital",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanmedicalent",
@@ -1859,7 +2027,8 @@
       "lat": 35.1580254,
       "lng": 129.0556427,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanmedicalent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busandhps",
@@ -1870,7 +2039,8 @@
       "lat": 35.15799,
       "lng": 129.0572367,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandhps",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanpaikbusan",
@@ -1881,7 +2051,8 @@
       "lat": 35.1461809,
       "lng": 129.0208925,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikbusan",
-      "homepage": null
+      "homepage": "https://www.paik.ac.kr/busan/user/department/deptDoctorList.do?menuNo=800035&deptId=111",
+      "listed": true
     },
     {
       "id": "busanopenent",
@@ -1892,7 +2063,8 @@
       "lat": 35.1552532,
       "lng": 129.059521,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanopenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanyangchngkookhospital",
@@ -1903,7 +2075,8 @@
       "lat": 35.1561411,
       "lng": 129.0594806,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanyangchngkookhospital",
-      "homepage": "http://www.healthymindclinic.com/"
+      "homepage": "http://www.healthymindclinic.com/",
+      "listed": false
     },
     {
       "id": "busansooment",
@@ -1914,7 +2087,8 @@
       "lat": 35.1057921,
       "lng": 128.966083,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busansooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busankosinmed",
@@ -1925,7 +2099,8 @@
       "lat": 35.0809636,
       "lng": 129.0139595,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busankosinmed",
-      "homepage": "http://www.kosinmed.or.kr/"
+      "homepage": "http://www.kosinmed.or.kr/",
+      "listed": true
     },
     {
       "id": "busanbusanunivhiopi",
@@ -1936,7 +2111,8 @@
       "lat": 35.1008477,
       "lng": 129.0188032,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbusanunivhiopi",
-      "homepage": null
+      "homepage": "https://www.pnuh.or.kr/pnuh/medical/doctor-info.do?tCode=NL&dno=83493",
+      "listed": true
     },
     {
       "id": "busandamc",
@@ -1947,7 +2123,8 @@
       "lat": 35.1201682,
       "lng": 129.0175391,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandamc",
-      "homepage": "http://www.damc.or.kr"
+      "homepage": "http://www.damc.or.kr",
+      "listed": true
     },
     {
       "id": "busandalpangeent",
@@ -1958,7 +2135,8 @@
       "lat": 35.1659533,
       "lng": 129.1144938,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandalpangeent",
-      "homepage": "https://www.busansnail.co.kr"
+      "homepage": "https://www.busansnail.co.kr",
+      "listed": false
     },
     {
       "id": "busanent",
@@ -1969,7 +2147,8 @@
       "lat": 35.184312,
       "lng": 129.0798349,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanent",
-      "homepage": "http://www.busanent.kr"
+      "homepage": "http://www.busanent.kr",
+      "listed": false
     },
     {
       "id": "busanhappyent",
@@ -1980,7 +2159,8 @@
       "lat": 35.1867689,
       "lng": 129.0811097,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanhappyent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busaneasysooment",
@@ -1991,7 +2171,8 @@
       "lat": 35.0984623,
       "lng": 129.0315676,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busaneasysooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanheojunent",
@@ -2002,7 +2183,8 @@
       "lat": 35.1671978,
       "lng": 129.1320258,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanheojunent",
-      "homepage": "https://www.코골이이비인후과.kr/"
+      "homepage": "https://www.코골이이비인후과.kr/",
+      "listed": false
     },
     {
       "id": "busanjungkiment",
@@ -2013,7 +2195,8 @@
       "lat": 35.1776265,
       "lng": 129.1750479,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanjungkiment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "busanpaikhaeundae",
@@ -2024,7 +2207,8 @@
       "lat": 35.173443,
       "lng": 129.182013,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikhaeundae",
-      "homepage": "http://www.paik.ac.kr/haeundae/"
+      "homepage": "http://www.paik.ac.kr/haeundae/",
+      "listed": true
     },
     {
       "id": "seoulfreshent",
@@ -2035,7 +2219,8 @@
       "lat": 37.4851832,
       "lng": 127.0358917,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulfreshent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulleetaekyu",
@@ -2046,7 +2231,8 @@
       "lat": 37.51156,
       "lng": 127.03216,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulleetaekyu",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsleephopital",
@@ -2057,7 +2243,8 @@
       "lat": 37.5146045,
       "lng": 127.0307899,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsleephopital",
-      "homepage": "http://www.sleepclinic.kr/"
+      "homepage": "http://www.sleepclinic.kr/",
+      "listed": false
     },
     {
       "id": "seoulseoulspecialsleep",
@@ -2068,7 +2255,8 @@
       "lat": 37.5159635,
       "lng": 127.0295561,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulspecialsleep",
-      "homepage": "http://www.seoulsleepcenter.com"
+      "homepage": "http://www.seoulsleepcenter.com",
+      "listed": false
     },
     {
       "id": "seouljeilent",
@@ -2079,7 +2267,8 @@
       "lat": 37.5139668,
       "lng": 127.0285406,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouljeilent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulgoodsleep",
@@ -2090,7 +2279,8 @@
       "lat": 37.522913,
       "lng": 127.0266474,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodsleep",
-      "homepage": null
+      "homepage": "http://www.gsleep.co.kr/",
+      "listed": true
     },
     {
       "id": "seouldreamsleep",
@@ -2101,7 +2291,8 @@
       "lat": 37.5167803,
       "lng": 127.0201081,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouldreamsleep",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulforest",
@@ -2112,7 +2303,8 @@
       "lat": 37.5230216,
       "lng": 127.0422013,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulforest",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsoomsleep",
@@ -2123,7 +2315,8 @@
       "lat": 37.5091679,
       "lng": 127.0409847,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomsleep",
-      "homepage": "http://www.thesuum.com/"
+      "homepage": "http://www.thesuum.com/",
+      "listed": false
     },
     {
       "id": "seoulysbent",
@@ -2134,7 +2327,8 @@
       "lat": 37.5102889,
       "lng": 127.0429841,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulysbent",
-      "homepage": "https://ysbent.com"
+      "homepage": "https://ysbent.com",
+      "listed": false
     },
     {
       "id": "seoulgsiseverance",
@@ -2145,7 +2339,8 @@
       "lat": 37.4929296,
       "lng": 127.0462683,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgsiseverance",
-      "homepage": "http://gs.iseverance.com"
+      "homepage": "http://gs.iseverance.com",
+      "listed": false
     },
     {
       "id": "seoulhanaent",
@@ -2156,7 +2351,8 @@
       "lat": 37.4979277,
       "lng": 127.0429904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhanaent",
-      "homepage": "http://www.hanaent.co.kr"
+      "homepage": "http://www.hanaent.co.kr",
+      "listed": false
     },
     {
       "id": "seoulgandg",
@@ -2167,7 +2363,8 @@
       "lat": 37.5162595,
       "lng": 127.0597063,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgandg",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsamsungseoulhosp",
@@ -2178,7 +2375,8 @@
       "lat": 37.4882977,
       "lng": 127.0851508,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungseoulhosp",
-      "homepage": "http://www.samsunghospital.com"
+      "homepage": "http://www.samsunghospital.com",
+      "listed": true
     },
     {
       "id": "seouldanaivyent",
@@ -2189,7 +2387,8 @@
       "lat": 37.5028561,
       "lng": 127.0447712,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouldanaivyent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulcosleep",
@@ -2200,7 +2399,8 @@
       "lat": 37.5047001,
       "lng": 127.048034,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcosleep",
-      "homepage": "https://www.bestsleeper.com"
+      "homepage": "https://www.bestsleeper.com",
+      "listed": false
     },
     {
       "id": "seoulyounseisooment",
@@ -2211,7 +2411,8 @@
       "lat": 37.5049841,
       "lng": 127.0491606,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulcheongdament",
@@ -2222,7 +2423,8 @@
       "lat": 37.517346,
       "lng": 127.0401342,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcheongdament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulkhnmc",
@@ -2233,7 +2435,8 @@
       "lat": 37.553536,
       "lng": 127.1576732,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhnmc",
-      "homepage": "http://www.khnmc.or.kr"
+      "homepage": "http://www.khnmc.or.kr",
+      "listed": true
     },
     {
       "id": "seoulkdc",
@@ -2244,7 +2447,8 @@
       "lat": 37.5359971,
       "lng": 127.135378,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkdc",
-      "homepage": "https://www.kdh.or.kr"
+      "homepage": "https://www.kdh.or.kr",
+      "listed": true
     },
     {
       "id": "seoulyounyounent",
@@ -2255,7 +2459,8 @@
       "lat": 37.551009,
       "lng": 127.1275705,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounyounent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulseoulbohun",
@@ -2266,7 +2471,8 @@
       "lat": 37.5303393,
       "lng": 127.1478691,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulbohun",
-      "homepage": "http://seoul.bohun.or.kr"
+      "homepage": "http://seoul.bohun.or.kr",
+      "listed": false
     },
     {
       "id": "seoulkangbookboasent",
@@ -2277,7 +2483,8 @@
       "lat": 37.6305902,
       "lng": 127.0249115,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangbookboasent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsoomhopital",
@@ -2288,7 +2495,8 @@
       "lat": 37.5546873,
       "lng": 126.8365498,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomhopital",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulgshanaent",
@@ -2299,7 +2507,8 @@
       "lat": 37.5315298,
       "lng": 126.8465161,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgshanaent",
-      "homepage": "http://www.gshana.com"
+      "homepage": "http://www.gshana.com",
+      "listed": false
     },
     {
       "id": "seoulehwahospital",
@@ -2310,7 +2519,8 @@
       "lat": 37.5572629,
       "lng": 126.8362668,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulehwahospital",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsamsungsleepandmind",
@@ -2321,7 +2531,8 @@
       "lat": 37.5672498,
       "lng": 126.825303,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungsleepandmind",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulcoolent",
@@ -2332,7 +2543,8 @@
       "lat": 37.567121,
       "lng": 126.8185936,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcoolent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsamsungwoorient",
@@ -2343,7 +2555,8 @@
       "lat": 37.5686086,
       "lng": 126.8130151,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungwoorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulkwanaksaintent",
@@ -2354,7 +2567,8 @@
       "lat": 37.4816641,
       "lng": 126.9531444,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkwanaksaintent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulhplusyangji",
@@ -2365,7 +2579,8 @@
       "lat": 37.4841536,
       "lng": 126.9325692,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhplusyangji",
-      "homepage": "http://www.newyjh.com"
+      "homepage": "http://www.newyjh.com",
+      "listed": false
     },
     {
       "id": "seoulsinlim",
@@ -2376,7 +2591,8 @@
       "lat": 37.4855079,
       "lng": 126.9299291,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsinlim",
-      "homepage": null
+      "homepage": "https://sillimnr.qshop.ai/80ea66tc",
+      "listed": true
     },
     {
       "id": "seoulkuh",
@@ -2387,7 +2603,8 @@
       "lat": 37.5403764,
       "lng": 127.0718276,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkuh",
-      "homepage": "http://www.kuh.ac.kr"
+      "homepage": "http://www.kuh.ac.kr",
+      "listed": false
     },
     {
       "id": "seoulnationalcenter",
@@ -2398,7 +2615,8 @@
       "lat": 37.5650897,
       "lng": 127.0856522,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnationalcenter",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulgurokumc",
@@ -2409,7 +2627,8 @@
       "lat": 37.492052,
       "lng": 126.8848701,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgurokumc",
-      "homepage": "http://guro.kumc.or.kr/main/index.do"
+      "homepage": "http://guro.kumc.or.kr/main/index.do",
+      "listed": true
     },
     {
       "id": "seoulsindorimhanaent",
@@ -2420,7 +2639,8 @@
       "lat": 37.5056084,
       "lng": 126.8898406,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsindorimhanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulpaiksanggye",
@@ -2431,7 +2651,8 @@
       "lat": 37.6485408,
       "lng": 127.0629909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulpaiksanggye",
-      "homepage": "http://www.paik.ac.kr/sanggye"
+      "homepage": "http://www.paik.ac.kr/sanggye",
+      "listed": false
     },
     {
       "id": "seoulnewskyent",
@@ -2442,7 +2663,8 @@
       "lat": 37.6666795,
       "lng": 127.0576424,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnewskyent",
-      "homepage": "http://www.nskyn.com/"
+      "homepage": "http://www.nskyn.com/",
+      "listed": false
     },
     {
       "id": "seoulclearsooment",
@@ -2453,7 +2675,8 @@
       "lat": 37.6305211,
       "lng": 127.0576337,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulclearsooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulnowoneulji",
@@ -2464,7 +2687,8 @@
       "lat": 37.6364793,
       "lng": 127.0699354,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnowoneulji",
-      "homepage": "http://www.eulji.or.kr/default.asp"
+      "homepage": "http://www.eulji.or.kr/default.asp",
+      "listed": false
     },
     {
       "id": "seoulkhuh",
@@ -2475,7 +2699,8 @@
       "lat": 37.5941195,
       "lng": 127.051852,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhuh",
-      "homepage": "http://www.khuh.or.kr/"
+      "homepage": "http://www.khuh.or.kr/",
+      "listed": true
     },
     {
       "id": "seoulsymcs",
@@ -2486,7 +2711,8 @@
       "lat": 37.5879909,
       "lng": 127.0653065,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsymcs",
-      "homepage": "http://www.symcs.co.kr"
+      "homepage": "http://www.symcs.co.kr",
+      "listed": false
     },
     {
       "id": "seoulnaturem",
@@ -2497,7 +2723,8 @@
       "lat": 37.4863191,
       "lng": 126.9802911,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnaturem",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulboramae",
@@ -2508,7 +2735,8 @@
       "lat": 37.4934414,
       "lng": 126.9239058,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboramae",
-      "homepage": "http://www.brmh.org"
+      "homepage": "http://www.brmh.org",
+      "listed": false
     },
     {
       "id": "seoulcauhs",
@@ -2519,7 +2747,8 @@
       "lat": 37.5067481,
       "lng": 126.9607839,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcauhs",
-      "homepage": "http://ch.cauhs.or.kr/"
+      "homepage": "http://ch.cauhs.or.kr/",
+      "listed": true
     },
     {
       "id": "seoulrapent",
@@ -2530,7 +2759,8 @@
       "lat": 37.5508044,
       "lng": 126.9150557,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulrapent",
-      "homepage": "http://labent.modoo.at"
+      "homepage": "http://labent.modoo.at",
+      "listed": false
     },
     {
       "id": "seoulyuhseverance",
@@ -2541,7 +2771,8 @@
       "lat": 37.5623446,
       "lng": 126.9408265,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyuhseverance",
-      "homepage": "http://www.yuhs.or.kr"
+      "homepage": "http://www.yuhs.or.kr",
+      "listed": false
     },
     {
       "id": "seoulcmcseoul",
@@ -2552,7 +2783,8 @@
       "lat": 37.5009444,
       "lng": 127.0051154,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcseoul",
-      "homepage": "http://www.cmcseoul.or.kr/"
+      "homepage": "http://www.cmcseoul.or.kr/",
+      "listed": true
     },
     {
       "id": "seouldeepsleep",
@@ -2563,7 +2795,8 @@
       "lat": 37.48562,
       "lng": 127.011,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouldeepsleep",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulseochosaintent",
@@ -2574,7 +2807,8 @@
       "lat": 37.4896931,
       "lng": 127.0076047,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochosaintent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulwithent",
@@ -2585,7 +2819,8 @@
       "lat": 37.4929935,
       "lng": 127.0134514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulwithent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulseochoent",
@@ -2596,7 +2831,8 @@
       "lat": 37.4889159,
       "lng": 127.0277491,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulhyumc",
@@ -2607,7 +2843,8 @@
       "lat": 37.5596569,
       "lng": 127.0441339,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhyumc",
-      "homepage": "http://seoul.hyumc.com"
+      "homepage": "http://seoul.hyumc.com",
+      "listed": false
     },
     {
       "id": "seoulanamkumc",
@@ -2618,7 +2855,8 @@
       "lat": 37.5870165,
       "lng": 127.0263537,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulanamkumc",
-      "homepage": "http://anam.kumc.or.kr/main/index.do"
+      "homepage": "http://anam.kumc.or.kr/main/index.do",
+      "listed": false
     },
     {
       "id": "seoulgoodayent",
@@ -2629,7 +2867,8 @@
       "lat": 37.6066611,
       "lng": 127.0610515,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodayent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsamheyent",
@@ -2640,7 +2879,8 @@
       "lat": 37.5891533,
       "lng": 127.0083036,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamheyent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulstarent",
@@ -2651,7 +2891,8 @@
       "lat": 37.5052718,
       "lng": 127.1063142,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulstarent",
-      "homepage": "http://bestent.co.kr"
+      "homepage": "http://bestent.co.kr",
+      "listed": false
     },
     {
       "id": "seoulthehanstarent",
@@ -2662,7 +2903,8 @@
       "lat": 37.5004131,
       "lng": 127.1110937,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulthehanstarent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulace",
@@ -2673,7 +2915,8 @@
       "lat": 37.5056285,
       "lng": 127.1063375,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulace",
-      "homepage": null
+      "homepage": "http://www.aceneuro.co.kr/",
+      "listed": true
     },
     {
       "id": "seouleasybrainsongpa",
@@ -2684,7 +2927,8 @@
       "lat": 37.5114327,
       "lng": 127.0819814,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouleasybrainsongpa",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulamcseoul",
@@ -2695,7 +2939,8 @@
       "lat": 37.5265762,
       "lng": 127.107935,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulamcseoul",
-      "homepage": "http://www.amc.seoul.kr"
+      "homepage": "http://www.amc.seoul.kr",
+      "listed": true
     },
     {
       "id": "seoulmokdongcentralent",
@@ -2706,7 +2951,8 @@
       "lat": 37.5465353,
       "lng": 126.8747144,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcentralent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seouleumc",
@@ -2717,7 +2963,8 @@
       "lat": 37.536602,
       "lng": 126.8862043,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouleumc",
-      "homepage": "http://www.eumc.ac.kr/mokdong/"
+      "homepage": "http://www.eumc.ac.kr/mokdong/",
+      "listed": false
     },
     {
       "id": "seoulmokdongcoent",
@@ -2728,7 +2975,8 @@
       "lat": 37.52609,
       "lng": 126.871084,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulcmcsungmo",
@@ -2739,7 +2987,8 @@
       "lat": 37.5183253,
       "lng": 126.9367517,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcsungmo",
-      "homepage": "http://www.cmcujb.or.kr/"
+      "homepage": "http://www.cmcujb.or.kr/",
+      "listed": true
     },
     {
       "id": "seoulmoonraecoent",
@@ -2750,7 +2999,8 @@
       "lat": 37.5174632,
       "lng": 126.8964938,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmoonraecoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulsinchangim",
@@ -2761,7 +3011,8 @@
       "lat": 37.49046,
       "lng": 126.9009,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsinchangim",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulkangnamsungsim",
@@ -2772,7 +3023,8 @@
       "lat": 37.4937262,
       "lng": 126.9086527,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangnamsungsim",
-      "homepage": "http://kangnam.hallym.or.kr"
+      "homepage": "http://kangnam.hallym.or.kr",
+      "listed": true
     },
     {
       "id": "seoulschmc",
@@ -2783,7 +3035,8 @@
       "lat": 37.533804,
       "lng": 127.0042579,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulschmc",
-      "homepage": "http://www.schmc.ac.kr/seoul/kor/index.do"
+      "homepage": "http://www.schmc.ac.kr/seoul/kor/index.do",
+      "listed": false
     },
     {
       "id": "seoulasanent",
@@ -2794,7 +3047,8 @@
       "lat": 37.6106539,
       "lng": 126.9287147,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulasanent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulenpyungsaint",
@@ -2805,7 +3059,8 @@
       "lat": 37.6334945,
       "lng": 126.9161912,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulenpyungsaint",
-      "homepage": "http://www.cmcep.or.kr/"
+      "homepage": "http://www.cmcep.or.kr/",
+      "listed": false
     },
     {
       "id": "seoulsnuh",
@@ -2816,7 +3071,8 @@
       "lat": 37.5797151,
       "lng": 126.9990168,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsnuh",
-      "homepage": "http://www.snuh.org"
+      "homepage": "http://www.snuh.org",
+      "listed": true
     },
     {
       "id": "seoulkbsmc",
@@ -2827,7 +3083,8 @@
       "lat": 37.5684083,
       "lng": 126.96775,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkbsmc",
-      "homepage": "http://www.kbsmc.co.kr"
+      "homepage": "http://www.kbsmc.co.kr",
+      "listed": true
     },
     {
       "id": "seoulcocoent",
@@ -2838,7 +3095,8 @@
       "lat": 37.5712072,
       "lng": 127.0005649,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcocoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulyounseisolent",
@@ -2849,7 +3107,8 @@
       "lat": 37.5732589,
       "lng": 127.0153386,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisolent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulboasent",
@@ -2860,7 +3119,8 @@
       "lat": 37.5540157,
       "lng": 127.0098676,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboasent",
-      "homepage": "http://www.boazent.co.kr"
+      "homepage": "http://www.boazent.co.kr",
+      "listed": false
     },
     {
       "id": "seoulpaik",
@@ -2871,7 +3131,8 @@
       "lat": 37.56475,
       "lng": 126.98886,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulpaik",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "seoulmyungdongent",
@@ -2882,7 +3143,8 @@
       "lat": 37.5651994,
       "lng": 126.983942,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmyungdongent",
-      "homepage": "http://www.earent.co.kr"
+      "homepage": "http://www.earent.co.kr",
+      "listed": false
     },
     {
       "id": "seoulnmc",
@@ -2893,7 +3155,8 @@
       "lat": 37.5672137,
       "lng": 127.0056709,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnmc",
-      "homepage": "http://www.nmc.or.kr"
+      "homepage": "http://www.nmc.or.kr",
+      "listed": false
     },
     {
       "id": "seoulsunent",
@@ -2904,7 +3167,8 @@
       "lat": 37.5982973,
       "lng": 127.0903644,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "ghmsclinic",
@@ -2915,7 +3179,8 @@
       "lat": 37.571881,
       "lng": 126.9794965,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ghmsclinic",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "sejongsorisooment",
@@ -2926,7 +3191,8 @@
       "lat": 36.487879,
       "lng": 127.2610026,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongsorisooment",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "sejongchoongnamuniv",
@@ -2937,7 +3203,8 @@
       "lat": 36.5195133,
       "lng": 127.2579427,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongchoongnamuniv",
-      "homepage": null
+      "homepage": "https://www.cnush.co.kr/prog/cnushTreatment/main/view.do?gwaCode=NR&mno=sub01_0101&tabGubun=tab2",
+      "listed": true
     },
     {
       "id": "sejongcoalent",
@@ -2948,7 +3215,8 @@
       "lat": 36.4847414,
       "lng": 127.2993632,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongcoalent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "sejongdoomiso",
@@ -2959,7 +3227,8 @@
       "lat": 36.4864392,
       "lng": 127.2574385,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongdoomiso",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "sejongseoulsamsungent",
@@ -2970,7 +3239,8 @@
       "lat": 36.4888054,
       "lng": 127.2563759,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongseoulsamsungent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "ulsangoodmornigent",
@@ -2981,7 +3251,8 @@
       "lat": 35.5377216,
       "lng": 129.3471946,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsangoodmornigent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "ulsanhanaent",
@@ -2992,7 +3263,8 @@
       "lat": 35.5364362,
       "lng": 129.3223954,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanhanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "ulsanuuhulsan",
@@ -3003,7 +3275,8 @@
       "lat": 35.5200702,
       "lng": 129.4289116,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanuuhulsan",
-      "homepage": "http://www.uuh.ulsan.kr/main/main.asp"
+      "homepage": "http://www.uuh.ulsan.kr/main/main.asp",
+      "listed": true
     },
     {
       "id": "incheonincheonsejong",
@@ -3014,7 +3287,8 @@
       "lat": 37.5324735,
       "lng": 126.7368717,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonincheonsejong",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonbscoaent",
@@ -3025,7 +3299,8 @@
       "lat": 37.5296552,
       "lng": 126.723235,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbscoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheongilhospital",
@@ -3036,7 +3311,8 @@
       "lat": 37.452171,
       "lng": 126.7092258,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheongilhospital",
-      "homepage": "https://www.gilhospital.com/"
+      "homepage": "https://www.gilhospital.com/",
+      "listed": false
     },
     {
       "id": "incheonsoomsleep",
@@ -3047,7 +3323,8 @@
       "lat": 37.4497834,
       "lng": 126.7016055,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsoomsleep",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonnonhyunseoulent",
@@ -3058,7 +3335,8 @@
       "lat": 37.4012832,
       "lng": 126.7235904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnonhyunseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheoncleancoaent",
@@ -3069,7 +3347,8 @@
       "lat": 37.4582979,
       "lng": 126.6447404,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncleancoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheondainent",
@@ -3080,7 +3359,8 @@
       "lat": 37.4876012,
       "lng": 126.7088392,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheondainent",
-      "homepage": "http://www.dainent.co.kr"
+      "homepage": "http://www.dainent.co.kr",
+      "listed": false
     },
     {
       "id": "incheoncmcism",
@@ -3091,7 +3371,8 @@
       "lat": 37.4848309,
       "lng": 126.7248987,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncmcism",
-      "homepage": "http://www.cmcism.or.kr/"
+      "homepage": "http://www.cmcism.or.kr/",
+      "listed": false
     },
     {
       "id": "incheoncoaent",
@@ -3102,7 +3383,8 @@
       "lat": 37.5080933,
       "lng": 126.7038419,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonopenent",
@@ -3113,7 +3395,8 @@
       "lat": 37.5293069,
       "lng": 126.6656791,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonopenent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonish",
@@ -3124,7 +3407,8 @@
       "lat": 37.5423431,
       "lng": 126.6835685,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonish",
-      "homepage": "https://www.ish.or.kr"
+      "homepage": "https://www.ish.or.kr",
+      "listed": true
     },
     {
       "id": "incheonlooganaen",
@@ -3135,7 +3419,8 @@
       "lat": 37.4890717,
       "lng": 126.6797292,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonlooganaen",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonkumdanysent",
@@ -3146,7 +3431,8 @@
       "lat": 37.5939028,
       "lng": 126.7125995,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkumdanysent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonbestent",
@@ -3157,7 +3443,8 @@
       "lat": 37.415667,
       "lng": 126.6199381,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonnlent",
@@ -3168,7 +3455,8 @@
       "lat": 37.4105318,
       "lng": 126.6269232,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnlent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonkimyounghyoent",
@@ -3179,7 +3467,8 @@
       "lat": 37.3975947,
       "lng": 126.6484388,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkimyounghyoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheonsongdocoent",
@@ -3190,7 +3479,8 @@
       "lat": 37.3950206,
       "lng": 126.6456509,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsongdocoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "incheoninha",
@@ -3201,7 +3491,8 @@
       "lat": 37.4586786,
       "lng": 126.6340954,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoninha",
-      "homepage": "http://www.inha.com/mainpage/index.htm"
+      "homepage": "http://www.inha.com/mainpage/index.htm",
+      "listed": false
     },
     {
       "id": "incheonclearskyent",
@@ -3212,7 +3503,8 @@
       "lat": 37.4903649,
       "lng": 126.5606632,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonclearskyent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "gdcentralentclinic",
@@ -3223,7 +3515,8 @@
       "lat": 37.6034746,
       "lng": 126.698893,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gdcentralentclinic",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamhadangdreament",
@@ -3234,7 +3527,8 @@
       "lat": 34.8039717,
       "lng": 126.4199762,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangdreament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamjoyunent",
@@ -3245,7 +3539,8 @@
       "lat": 34.8035707,
       "lng": 126.4206704,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamjoyunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamhadangmokpoent",
@@ -3256,7 +3551,8 @@
       "lat": 34.8082908,
       "lng": 126.4289425,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangmokpoent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamenosent",
@@ -3267,7 +3563,8 @@
       "lat": 34.9637664,
       "lng": 127.5210363,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamenosent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamhanaent",
@@ -3278,7 +3575,8 @@
       "lat": 34.9533732,
       "lng": 127.5172374,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhanaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnamschwang",
@@ -3289,7 +3587,8 @@
       "lat": 34.9540717,
       "lng": 127.5190029,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamschwang",
-      "homepage": "http://www.schwang.co.kr"
+      "homepage": "http://www.schwang.co.kr",
+      "listed": true
     },
     {
       "id": "jeonnamsooent",
@@ -3300,7 +3599,8 @@
       "lat": 34.9516326,
       "lng": 127.4835143,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamsooent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonnambestent",
@@ -3311,7 +3611,8 @@
       "lat": 34.7400417,
       "lng": 127.7310295,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnambestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbukgssokim",
@@ -3322,7 +3623,8 @@
       "lat": 35.9715393,
       "lng": 126.6817394,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukgssokim",
-      "homepage": "https://www.gssok.co.kr/"
+      "homepage": "https://www.gssok.co.kr/",
+      "listed": false
     },
     {
       "id": "jeonbukdreament",
@@ -3333,7 +3635,8 @@
       "lat": 35.959157,
       "lng": 126.9730147,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdreament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbukcuh",
@@ -3344,7 +3647,8 @@
       "lat": 35.8470974,
       "lng": 127.1411626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukcuh",
-      "homepage": "http://www.cuh.co.kr/"
+      "homepage": "http://www.cuh.co.kr/",
+      "listed": true
     },
     {
       "id": "jeonbukdaejain",
@@ -3355,7 +3659,8 @@
       "lat": 35.8459659,
       "lng": 127.1534706,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdaejain",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbukjeonjoodoolove",
@@ -3366,7 +3671,8 @@
       "lat": 35.8437749,
       "lng": 127.1442301,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukjeonjoodoolove",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbukchament",
@@ -3377,7 +3683,8 @@
       "lat": 35.86362,
       "lng": 127.12708,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukchament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbukbestent",
@@ -3388,7 +3695,8 @@
       "lat": 35.8025546,
       "lng": 127.0999077,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukbestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jeonbuktopent",
@@ -3399,7 +3707,8 @@
       "lat": 35.8342015,
       "lng": 127.1201024,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbuktopent",
-      "homepage": "http://www.top-ent.co.kr"
+      "homepage": "http://www.top-ent.co.kr",
+      "listed": false
     },
     {
       "id": "jeonbukkybent",
@@ -3410,7 +3719,8 @@
       "lat": 35.8063133,
       "lng": 127.1175122,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukkybent",
-      "homepage": "https://www.kypent.net/main.htm"
+      "homepage": "https://www.kypent.net/main.htm",
+      "listed": false
     },
     {
       "id": "jejuseoulasanent",
@@ -3421,7 +3731,8 @@
       "lat": 33.2531944,
       "lng": 126.5595429,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejuseoulasanent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jejusamsunggood",
@@ -3432,7 +3743,8 @@
       "lat": 33.2547871,
       "lng": 126.560455,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejusamsunggood",
-      "homepage": null
+      "homepage": "http://www.samsungneuro.com/",
+      "listed": true
     },
     {
       "id": "jejubestent",
@@ -3443,7 +3755,8 @@
       "lat": 33.4834118,
       "lng": 126.4761333,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejubestent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jejuclearent",
@@ -3454,7 +3767,8 @@
       "lat": 33.29088,
       "lng": 126.16729,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejuclearent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "jejujejujuuh",
@@ -3465,7 +3779,8 @@
       "lat": 33.4671105,
       "lng": 126.5452109,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejujejujuuh",
-      "homepage": "http://www.jejunuh.co.kr/main.jsp"
+      "homepage": "http://www.jejunuh.co.kr/main.jsp",
+      "listed": true
     },
     {
       "id": "jejucleanent",
@@ -3476,7 +3791,8 @@
       "lat": 33.4840028,
       "lng": 126.4807247,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejucleanent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamcoaent",
@@ -3487,7 +3803,8 @@
       "lat": 36.8936304,
       "lng": 126.6303801,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamchament",
@@ -3498,7 +3815,8 @@
       "lat": 36.7733586,
       "lng": 126.4495239,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamchament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamclearent",
@@ -3509,7 +3827,8 @@
       "lat": 36.7724603,
       "lng": 127.0550792,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamclearent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamasandoorient",
@@ -3520,7 +3839,8 @@
       "lat": 36.7845453,
       "lng": 127.0151626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamasandoorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamtangjungent",
@@ -3531,7 +3851,8 @@
       "lat": 36.7867244,
       "lng": 127.0831809,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamtangjungent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamdkuh",
@@ -3542,7 +3863,8 @@
       "lat": 36.8415904,
       "lng": 127.172575,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdkuh",
-      "homepage": "http://www.dkuh.co.kr/main/default.asp"
+      "homepage": "http://www.dkuh.co.kr/main/default.asp",
+      "listed": false
     },
     {
       "id": "chungnamschmccheonan",
@@ -3553,7 +3875,8 @@
       "lat": 36.8027381,
       "lng": 127.1358588,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamschmccheonan",
-      "homepage": "http://www.schmc.ac.kr/cheonan/kor/index.do"
+      "homepage": "http://www.schmc.ac.kr/cheonan/kor/index.do",
+      "listed": true
     },
     {
       "id": "chungnamcleanent",
@@ -3564,7 +3887,8 @@
       "lat": 36.8147888,
       "lng": 127.1087327,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcleanent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungnamsamsungsmartkjs",
@@ -3575,7 +3899,8 @@
       "lat": 36.8132654,
       "lng": 127.1082812,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamsamsungsmartkjs",
-      "homepage": null
+      "homepage": "https://www.ksjneuro.com",
+      "listed": true
     },
     {
       "id": "chungnamdoorient",
@@ -3586,7 +3911,8 @@
       "lat": 36.8013837,
       "lng": 127.1192222,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdoorient",
-      "homepage": "http://www.doorient.co.kr/sub_ca/main.php"
+      "homepage": "http://www.doorient.co.kr/sub_ca/main.php",
+      "listed": false
     },
     {
       "id": "chungbukchoongbookuniv",
@@ -3597,7 +3923,8 @@
       "lat": 36.6242237,
       "lng": 127.4614843,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukchoongbookuniv",
-      "homepage": "http://www.cbnuh.or.kr/business/main.action"
+      "homepage": "http://www.cbnuh.or.kr/business/main.action",
+      "listed": true
     },
     {
       "id": "chungbukcoaent",
@@ -3608,7 +3935,8 @@
       "lat": 36.6345718,
       "lng": 127.4591959,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcoaent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukseoulent",
@@ -3619,7 +3947,8 @@
       "lat": 36.6684367,
       "lng": 127.4855403,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukseoulent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukhanaent",
@@ -3630,7 +3959,8 @@
       "lat": 36.6545367,
       "lng": 127.488336,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukhanaent",
-      "homepage": "http://www.hanacj.com/entCh/"
+      "homepage": "http://www.hanacj.com/entCh/",
+      "listed": false
     },
     {
       "id": "chungbukdreament",
@@ -3641,7 +3971,8 @@
       "lat": 36.670732,
       "lng": 127.4963136,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdreament",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukdoctoryounent",
@@ -3652,7 +3983,8 @@
       "lat": 36.6258617,
       "lng": 127.4298069,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoctoryounent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukcjhana",
@@ -3663,7 +3995,8 @@
       "lat": 36.6235046,
       "lng": 127.4308626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcjhana",
-      "homepage": "http://www.cjhana.co.kr"
+      "homepage": "http://www.cjhana.co.kr",
+      "listed": false
     },
     {
       "id": "chungbukdoorient",
@@ -3674,7 +4007,8 @@
       "lat": 36.6081276,
       "lng": 127.4445909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoorient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukbrain",
@@ -3685,7 +4019,8 @@
       "lat": 36.6415742,
       "lng": 127.4284295,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukbrain",
-      "homepage": "http://www.brainneuro.co.kr/"
+      "homepage": "http://www.brainneuro.co.kr/",
+      "listed": false
     },
     {
       "id": "chungbukyounseient",
@@ -3696,7 +4031,8 @@
       "lat": 36.6263715,
       "lng": 127.4341128,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukyounseient",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "chungbukankihyunent",
@@ -3707,7 +4043,8 @@
       "lat": 36.9821179,
       "lng": 127.9176397,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukankihyunent",
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c6ca7011d8",
@@ -3718,7 +4055,8 @@
       "lat": 35.1500685,
       "lng": 129.1106218,
       "sourceUrl": null,
-      "homepage": "http://gang-an.or.kr/index.php"
+      "homepage": "http://gang-an.or.kr/index.php",
+      "listed": false
     },
     {
       "id": "hira-35653a0e4d",
@@ -3729,7 +4067,8 @@
       "lat": 35.1969224,
       "lng": 129.0961355,
       "sourceUrl": null,
-      "homepage": "http://www.drbs.or.kr"
+      "homepage": "http://www.drbs.or.kr",
+      "listed": false
     },
     {
       "id": "hira-7d347289c5",
@@ -3740,7 +4079,8 @@
       "lat": 35.1610639,
       "lng": 129.1683764,
       "sourceUrl": null,
-      "homepage": "https://www.han1004.co.kr/"
+      "homepage": "https://www.han1004.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-72cbecdf7a",
@@ -3751,7 +4091,8 @@
       "lat": 35.104234,
       "lng": 129.0245281,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-145dcf3fbd",
@@ -3762,7 +4103,8 @@
       "lat": 35.1679024,
       "lng": 129.1154764,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0a0c29d90c",
@@ -3773,7 +4115,8 @@
       "lat": 35.1852745,
       "lng": 129.0815241,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "https://hyunclinic.co.kr/",
+      "listed": true
     },
     {
       "id": "hira-48187aac9e",
@@ -3784,7 +4127,8 @@
       "lat": 35.164601,
       "lng": 129.1612447,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4715a41d79",
@@ -3795,7 +4139,8 @@
       "lat": 35.2208431,
       "lng": 129.0855308,
       "sourceUrl": null,
-      "homepage": "https://sumplus.co.kr/"
+      "homepage": "https://sumplus.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-a5709dbfdb",
@@ -3806,7 +4151,8 @@
       "lat": 35.2104608,
       "lng": 129.007765,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-76753bd497",
@@ -3817,7 +4163,8 @@
       "lat": 35.208727,
       "lng": 129.0696459,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1edd414ff3",
@@ -3828,7 +4175,8 @@
       "lat": 35.168815,
       "lng": 129.1757451,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-65240a1179",
@@ -3839,7 +4187,8 @@
       "lat": 35.2058681,
       "lng": 129.0679328,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5981ac031e",
@@ -3850,7 +4199,8 @@
       "lat": 35.2461629,
       "lng": 129.2170108,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e904053f3d",
@@ -3861,7 +4211,8 @@
       "lat": 35.24662,
       "lng": 129.0886141,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-78b2cd7606",
@@ -3872,7 +4223,8 @@
       "lat": 35.0984094,
       "lng": 128.9198442,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ad2585694c",
@@ -3883,7 +4235,8 @@
       "lat": 35.1524467,
       "lng": 129.0588341,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6e2706d785",
@@ -3894,7 +4247,8 @@
       "lat": 35.1858648,
       "lng": 128.9907076,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c3d68e91bf",
@@ -3905,7 +4259,8 @@
       "lat": 35.2663011,
       "lng": 129.2260207,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-23f0a319b8",
@@ -3916,7 +4271,8 @@
       "lat": 35.1678259,
       "lng": 129.1406828,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-71bfeacd6f",
@@ -3927,7 +4283,8 @@
       "lat": 35.1361106,
       "lng": 129.0920138,
       "sourceUrl": null,
-      "homepage": "https://www.knping.com"
+      "homepage": "https://www.knping.com",
+      "listed": false
     },
     {
       "id": "hira-6cd40a04ce",
@@ -3938,7 +4295,8 @@
       "lat": 35.1500418,
       "lng": 129.0027505,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c29ec219bc",
@@ -3949,7 +4307,8 @@
       "lat": 35.0968186,
       "lng": 129.0264069,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5389b20456",
@@ -3960,7 +4319,8 @@
       "lat": 35.1669113,
       "lng": 129.1411817,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4ecfc844f3",
@@ -3971,7 +4331,8 @@
       "lat": 37.4245975,
       "lng": 126.88591,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "https://gh.cauhs.or.kr/home/medical/profView.do?deptNo=110&profNo=1224&empNo=01880",
+      "listed": true
     },
     {
       "id": "hira-8793f5c6be",
@@ -3982,7 +4343,8 @@
       "lat": 37.6323325,
       "lng": 126.7107331,
       "sourceUrl": null,
-      "homepage": "http://www.gwhospital.co.kr/"
+      "homepage": "http://www.gwhospital.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-17af723cfa",
@@ -3993,7 +4355,8 @@
       "lat": 37.827471,
       "lng": 127.1481863,
       "sourceUrl": null,
-      "homepage": "http://www.swoori.co.kr/"
+      "homepage": "http://www.swoori.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-c29716178f",
@@ -4004,7 +4367,8 @@
       "lat": 37.4615989,
       "lng": 126.6429995,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d67c15d3ed",
@@ -4015,7 +4379,8 @@
       "lat": 37.0084186,
       "lng": 127.0743334,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-95d594bf59",
@@ -4026,7 +4391,8 @@
       "lat": 37.5320982,
       "lng": 126.7343513,
       "sourceUrl": null,
-      "homepage": "http://www.hallym.net/"
+      "homepage": "http://www.hallym.net/",
+      "listed": false
     },
     {
       "id": "hira-c0eb448b1b",
@@ -4037,7 +4403,8 @@
       "lat": 37.2739388,
       "lng": 127.0482227,
       "sourceUrl": null,
-      "homepage": "http://www.nanoori.co.kr/sub09/sub09.php?sb=011&area_code=n002"
+      "homepage": "http://www.nanoori.co.kr/sub09/sub09.php?sb=011&area_code=n002",
+      "listed": false
     },
     {
       "id": "hira-8356cf6321",
@@ -4048,7 +4415,8 @@
       "lat": 37.2361844,
       "lng": 127.0617747,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-92bc9337d9",
@@ -4059,7 +4427,8 @@
       "lat": 37.4995278,
       "lng": 126.7309501,
       "sourceUrl": null,
-      "homepage": "http://www.nanoori.co.kr/sub09/sub09.php?sb=011&area_code=n002"
+      "homepage": "http://www.nanoori.co.kr/sub09/sub09.php?sb=011&area_code=n002",
+      "listed": false
     },
     {
       "id": "hira-2b7dd12599",
@@ -4070,7 +4439,8 @@
       "lat": 37.4573948,
       "lng": 126.6811633,
       "sourceUrl": null,
-      "homepage": "https://www.ainwh.co.kr/"
+      "homepage": "https://www.ainwh.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-1393e2ae1b",
@@ -4081,7 +4451,8 @@
       "lat": 37.7112839,
       "lng": 127.1876577,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "https://www.baekhospital.co.kr/sub/r10/s1030.php",
+      "listed": true
     },
     {
       "id": "hira-f6c255710b",
@@ -4092,7 +4463,8 @@
       "lat": 37.8184324,
       "lng": 128.8578411,
       "sourceUrl": null,
-      "homepage": "http://www.gnah.co.kr"
+      "homepage": "http://www.gnah.co.kr",
+      "listed": true
     },
     {
       "id": "hira-1128f44274",
@@ -4103,7 +4475,8 @@
       "lat": 37.8920735,
       "lng": 127.0538357,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2e714dfa4d",
@@ -4114,7 +4487,8 @@
       "lat": 37.390518,
       "lng": 126.9522651,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6692968740",
@@ -4125,7 +4499,8 @@
       "lat": 37.6828997,
       "lng": 126.778375,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-83a22b7ee2",
@@ -4136,7 +4511,8 @@
       "lat": 37.3232084,
       "lng": 127.0780476,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5257058718",
@@ -4147,7 +4523,8 @@
       "lat": 37.3888874,
       "lng": 127.2300769,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ad4c3c59f2",
@@ -4158,7 +4535,8 @@
       "lat": 37.3414184,
       "lng": 127.9712715,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4db88470f9",
@@ -4169,7 +4547,8 @@
       "lat": 37.343921,
       "lng": 127.9302984,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-001f09c3cf",
@@ -4180,7 +4559,8 @@
       "lat": 37.8675179,
       "lng": 127.7208602,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a558620350",
@@ -4191,7 +4571,8 @@
       "lat": 37.3244739,
       "lng": 127.9586014,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d15be90fb9",
@@ -4202,7 +4583,8 @@
       "lat": 36.64235,
       "lng": 127.4276321,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8b9d544d7d",
@@ -4213,7 +4595,8 @@
       "lat": 36.7138974,
       "lng": 127.4290813,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1c0e0ddf55",
@@ -4224,7 +4607,8 @@
       "lat": 36.9818348,
       "lng": 127.9162208,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-42e9b979c0",
@@ -4235,7 +4619,8 @@
       "lat": 36.6198471,
       "lng": 127.3154017,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5c38c2089c",
@@ -4246,7 +4631,8 @@
       "lat": 36.6681696,
       "lng": 127.4529226,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-387df439c6",
@@ -4257,7 +4643,8 @@
       "lat": 35.9549526,
       "lng": 126.7117406,
       "sourceUrl": null,
-      "homepage": "https://www.gunmed.or.kr/"
+      "homepage": "https://www.gunmed.or.kr/",
+      "listed": false
     },
     {
       "id": "hira-e120a1e806",
@@ -4268,7 +4655,8 @@
       "lat": 35.9646389,
       "lng": 126.9595793,
       "sourceUrl": null,
-      "homepage": "http://www.wkuh.org/"
+      "homepage": "http://www.wkuh.org/",
+      "listed": true
     },
     {
       "id": "hira-5ab2d5102e",
@@ -4279,7 +4667,8 @@
       "lat": 36.793159,
       "lng": 127.1222263,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f1aaf2dd98",
@@ -4290,7 +4679,8 @@
       "lat": 36.599946,
       "lng": 126.6666291,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-acc04b143b",
@@ -4301,7 +4691,8 @@
       "lat": 36.4505922,
       "lng": 127.4247092,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4e9c2cab62",
@@ -4312,7 +4703,8 @@
       "lat": 36.2967233,
       "lng": 127.3385471,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9489c23367",
@@ -4323,7 +4715,8 @@
       "lat": 36.2966963,
       "lng": 127.3363261,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-659d34a449",
@@ -4334,7 +4727,8 @@
       "lat": 36.3072511,
       "lng": 127.4568732,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8c74e9e1bd",
@@ -4345,7 +4739,8 @@
       "lat": 36.3752114,
       "lng": 127.3184196,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4ab098cf96",
@@ -4356,7 +4751,8 @@
       "lat": 36.2889261,
       "lng": 127.2411447,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c158a86822",
@@ -4367,7 +4763,8 @@
       "lat": 36.3251928,
       "lng": 127.4096292,
       "sourceUrl": null,
-      "homepage": "http://www.koalent.com"
+      "homepage": "http://www.koalent.com",
+      "listed": false
     },
     {
       "id": "hira-7d6e06fbfc",
@@ -4378,7 +4775,8 @@
       "lat": 36.3218449,
       "lng": 127.4138062,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fbb2b22448",
@@ -4389,7 +4787,8 @@
       "lat": 36.4951815,
       "lng": 127.2492573,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3f666ef3ea",
@@ -4400,7 +4799,8 @@
       "lat": 36.7984032,
       "lng": 127.0634819,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cc9f62e315",
@@ -4411,7 +4811,8 @@
       "lat": 36.336407,
       "lng": 127.3330739,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-90935bc93e",
@@ -4422,7 +4823,8 @@
       "lat": 36.3502396,
       "lng": 127.3772812,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b71a1882d8",
@@ -4433,7 +4835,8 @@
       "lat": 36.8185514,
       "lng": 127.1549801,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8bb714e00b",
@@ -4444,7 +4847,8 @@
       "lat": 35.9596897,
       "lng": 126.7136932,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-beefba8877",
@@ -4455,7 +4859,8 @@
       "lat": 35.9761995,
       "lng": 126.7440842,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-dad68153bd",
@@ -4466,7 +4871,8 @@
       "lat": 35.9488889,
       "lng": 126.9405414,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-015046d080",
@@ -4477,7 +4883,8 @@
       "lat": 35.8380511,
       "lng": 127.0590112,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5e29b101f0",
@@ -4488,7 +4895,8 @@
       "lat": 35.8173356,
       "lng": 127.1225429,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-378ad252a9",
@@ -4499,7 +4907,8 @@
       "lat": 35.5622551,
       "lng": 126.8647645,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c839749068",
@@ -4510,7 +4919,8 @@
       "lat": 35.1600894,
       "lng": 126.8837676,
       "sourceUrl": null,
-      "homepage": "http://mediphilent.com"
+      "homepage": "http://mediphilent.com",
+      "listed": false
     },
     {
       "id": "hira-5bdd1e6108",
@@ -4521,7 +4931,8 @@
       "lat": 35.1282409,
       "lng": 126.9108053,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f58658a7cc",
@@ -4532,7 +4943,8 @@
       "lat": 35.1388695,
       "lng": 126.8950825,
       "sourceUrl": null,
-      "homepage": "http://www.bestent.net"
+      "homepage": "http://www.bestent.net",
+      "listed": false
     },
     {
       "id": "hira-1750242d51",
@@ -4543,7 +4955,8 @@
       "lat": 35.1528099,
       "lng": 126.9192088,
       "sourceUrl": null,
-      "homepage": "https://www.hjent.co.kr/"
+      "homepage": "https://www.hjent.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-34bda95583",
@@ -4554,7 +4967,8 @@
       "lat": 35.1540192,
       "lng": 126.9087867,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ff489b1c3c",
@@ -4565,7 +4979,8 @@
       "lat": 35.160123,
       "lng": 126.9311666,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bdb0686dce",
@@ -4576,7 +4991,8 @@
       "lat": 35.1218033,
       "lng": 126.9333433,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f27fbcea1f",
@@ -4587,7 +5003,8 @@
       "lat": 35.1195748,
       "lng": 126.8986876,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fbfff935d2",
@@ -4598,7 +5015,8 @@
       "lat": 35.1918146,
       "lng": 126.8234384,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-84e7781528",
@@ -4609,7 +5027,8 @@
       "lat": 34.9335454,
       "lng": 127.5502658,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5059db4290",
@@ -4620,7 +5039,8 @@
       "lat": 35.157841,
       "lng": 126.9166271,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cfddd64183",
@@ -4631,7 +5051,8 @@
       "lat": 35.099737,
       "lng": 126.8772897,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3f145c31a8",
@@ -4642,7 +5063,8 @@
       "lat": 35.1824378,
       "lng": 126.9320839,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a7483cd5e4",
@@ -4653,7 +5075,8 @@
       "lat": 34.9366756,
       "lng": 127.695303,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-61838cafd0",
@@ -4664,7 +5087,8 @@
       "lat": 35.1526982,
       "lng": 126.9165164,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5b7fe9db9b",
@@ -4675,7 +5099,8 @@
       "lat": 36.1029182,
       "lng": 128.3827377,
       "sourceUrl": null,
-      "homepage": "http://www.schmc.ac.kr/gumi/kor/index.do"
+      "homepage": "http://www.schmc.ac.kr/gumi/kor/index.do",
+      "listed": false
     },
     {
       "id": "hira-62ff410a0f",
@@ -4686,7 +5111,8 @@
       "lat": 35.8662525,
       "lng": 128.604703,
       "sourceUrl": null,
-      "homepage": "http://knumc.knu.ac.kr"
+      "homepage": "http://knumc.knu.ac.kr",
+      "listed": false
     },
     {
       "id": "hira-71ebd58f9d",
@@ -4697,7 +5123,8 @@
       "lat": 35.85964,
       "lng": 128.540587,
       "sourceUrl": null,
-      "homepage": "http://www.daegumc.co.kr"
+      "homepage": "http://www.daegumc.co.kr",
+      "listed": false
     },
     {
       "id": "hira-3fe92c3dcc",
@@ -4708,7 +5135,8 @@
       "lat": 35.6916581,
       "lng": 128.4538535,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0b39582245",
@@ -4719,7 +5147,8 @@
       "lat": 35.5828446,
       "lng": 129.3590343,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-51356d72a1",
@@ -4730,7 +5159,8 @@
       "lat": 35.1915159,
       "lng": 128.0555143,
       "sourceUrl": null,
-      "homepage": "https://www.jinjugoodmh.com"
+      "homepage": "https://www.jinjugoodmh.com",
+      "listed": false
     },
     {
       "id": "hira-101b207707",
@@ -4741,7 +5171,8 @@
       "lat": 35.2234911,
       "lng": 128.6808106,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d3f216186b",
@@ -4752,7 +5183,8 @@
       "lat": 33.2555354,
       "lng": 126.5639215,
       "sourceUrl": null,
-      "homepage": "http://www.smed.or.kr"
+      "homepage": "http://www.smed.or.kr",
+      "listed": false
     },
     {
       "id": "hira-1b98c4032f",
@@ -4763,7 +5195,8 @@
       "lat": 35.840373,
       "lng": 128.6226801,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-37cc434644",
@@ -4774,7 +5207,8 @@
       "lat": 35.8653031,
       "lng": 128.5965835,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-65073eb7f5",
@@ -4785,7 +5219,8 @@
       "lat": 35.8887489,
       "lng": 128.5918283,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-74803cc2ed",
@@ -4796,7 +5231,8 @@
       "lat": 35.8628184,
       "lng": 128.602441,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2d89204f05",
@@ -4807,7 +5243,8 @@
       "lat": 35.942695,
       "lng": 128.5584531,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9a4454319e",
@@ -4818,7 +5255,8 @@
       "lat": 35.8590733,
       "lng": 128.6205286,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-dbd2e3024d",
@@ -4829,7 +5267,8 @@
       "lat": 35.8394617,
       "lng": 128.6245928,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-47626f28c9",
@@ -4840,7 +5279,8 @@
       "lat": 35.8584149,
       "lng": 128.6296014,
       "sourceUrl": null,
-      "homepage": "https://www.senent.co.kr"
+      "homepage": "https://www.senent.co.kr",
+      "listed": false
     },
     {
       "id": "hira-e2c64fe431",
@@ -4851,7 +5291,8 @@
       "lat": 35.9707566,
       "lng": 129.4022501,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-51fe9debf9",
@@ -4862,7 +5303,8 @@
       "lat": 35.8503551,
       "lng": 128.5360949,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2e9a7b1027",
@@ -4873,7 +5315,8 @@
       "lat": 35.9956289,
       "lng": 128.3993881,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3b4ab55417",
@@ -4884,7 +5327,8 @@
       "lat": 35.8500787,
       "lng": 128.5332904,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f523dc84ac",
@@ -4895,7 +5339,8 @@
       "lat": 35.839349,
       "lng": 128.7082758,
       "sourceUrl": null,
-      "homepage": "http://www.freshent.co.kr/index.asp"
+      "homepage": "http://www.freshent.co.kr/index.asp",
+      "listed": false
     },
     {
       "id": "hira-dc4f1dd8e5",
@@ -4906,7 +5351,8 @@
       "lat": 35.8989007,
       "lng": 128.6112316,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fa3200a4b4",
@@ -4917,7 +5363,8 @@
       "lat": 36.1382147,
       "lng": 128.4202436,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f17c588d12",
@@ -4928,7 +5375,8 @@
       "lat": 36.1558528,
       "lng": 128.4317468,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-98b119e82b",
@@ -4939,7 +5387,8 @@
       "lat": 35.8188922,
       "lng": 128.5212413,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-acd6b87a31",
@@ -4950,7 +5399,8 @@
       "lat": 35.3369759,
       "lng": 129.0276538,
       "sourceUrl": null,
-      "homepage": "http://www.kimyrent.co.kr"
+      "homepage": "http://www.kimyrent.co.kr",
+      "listed": false
     },
     {
       "id": "hira-bc7a2c90eb",
@@ -4961,7 +5411,8 @@
       "lat": 35.3043536,
       "lng": 128.7350147,
       "sourceUrl": null,
-      "homepage": "https://www.kowaent.co.kr/"
+      "homepage": "https://www.kowaent.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-3f1f0627d0",
@@ -4972,7 +5423,8 @@
       "lat": 35.3161516,
       "lng": 129.025635,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-33a828c8dc",
@@ -4983,7 +5435,8 @@
       "lat": 35.3091745,
       "lng": 129.006185,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5e193dbf6a",
@@ -4994,7 +5447,8 @@
       "lat": 35.5648131,
       "lng": 129.3362675,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0b34900469",
@@ -5005,7 +5459,8 @@
       "lat": 35.5396876,
       "lng": 129.3376525,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ca22e0f604",
@@ -5016,7 +5471,8 @@
       "lat": 35.2590751,
       "lng": 128.6268254,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-af802b4ee7",
@@ -5027,7 +5483,8 @@
       "lat": 35.2090632,
       "lng": 128.7067075,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-81fddc5a6f",
@@ -5038,7 +5495,8 @@
       "lat": 35.1522387,
       "lng": 128.11781,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1824c27872",
@@ -5049,7 +5507,8 @@
       "lat": 35.5246861,
       "lng": 129.3308903,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-465f61075c",
@@ -5060,7 +5519,8 @@
       "lat": 35.5886182,
       "lng": 129.3673296,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0de211526a",
@@ -5071,7 +5531,8 @@
       "lat": 37.4856196,
       "lng": 127.0396045,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-82c0d126e7",
@@ -5082,7 +5543,8 @@
       "lat": 37.5751835,
       "lng": 126.9574606,
       "sourceUrl": null,
-      "homepage": "http://www.seran.co.kr/"
+      "homepage": "http://www.seran.co.kr/",
+      "listed": true
     },
     {
       "id": "hira-510bc07e58",
@@ -5093,7 +5555,8 @@
       "lat": 37.6288667,
       "lng": 127.0824198,
       "sourceUrl": null,
-      "homepage": "http://www.kcch.re.kr"
+      "homepage": "http://www.kcch.re.kr",
+      "listed": false
     },
     {
       "id": "hira-f846e7c339",
@@ -5104,7 +5567,8 @@
       "lat": 37.4963836,
       "lng": 127.1235089,
       "sourceUrl": null,
-      "homepage": "http://www.nph.go.kr"
+      "homepage": "http://www.nph.go.kr",
+      "listed": false
     },
     {
       "id": "hira-e048cd77fa",
@@ -5115,7 +5579,8 @@
       "lat": 37.6132762,
       "lng": 127.0978309,
       "sourceUrl": null,
-      "homepage": "http://www.seoulmc.or.kr"
+      "homepage": "http://www.seoulmc.or.kr",
+      "listed": true
     },
     {
       "id": "hira-0ca657e8ba",
@@ -5126,7 +5591,8 @@
       "lat": 37.5288694,
       "lng": 127.1230135,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cc267ca897",
@@ -5137,7 +5603,8 @@
       "lat": 37.4998129,
       "lng": 127.0271777,
       "sourceUrl": null,
-      "homepage": "http://www.coenclinic.com"
+      "homepage": "http://www.coenclinic.com",
+      "listed": false
     },
     {
       "id": "hira-8a3e7f1186",
@@ -5148,7 +5615,8 @@
       "lat": 37.6542666,
       "lng": 127.0617327,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-972ff7d3e9",
@@ -5159,7 +5627,8 @@
       "lat": 37.5664963,
       "lng": 126.9836985,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5fdafe95c2",
@@ -5170,7 +5639,8 @@
       "lat": 37.5073723,
       "lng": 127.0222723,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3641d818a6",
@@ -5181,7 +5651,8 @@
       "lat": 37.5153483,
       "lng": 127.0995242,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ce99c1c25b",
@@ -5192,7 +5663,8 @@
       "lat": 37.5708721,
       "lng": 126.9123057,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-07a536ff8d",
@@ -5203,7 +5675,8 @@
       "lat": 37.5370783,
       "lng": 126.88051,
       "sourceUrl": null,
-      "homepage": "http://cafe.naver.com/ycseoulent"
+      "homepage": "http://cafe.naver.com/ycseoulent",
+      "listed": false
     },
     {
       "id": "hira-58c1b00783",
@@ -5214,7 +5687,8 @@
       "lat": 37.4870229,
       "lng": 126.9828023,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5a5ebccd6d",
@@ -5225,7 +5699,8 @@
       "lat": 37.4855763,
       "lng": 127.0162228,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ee8e3e345f",
@@ -5236,7 +5711,8 @@
       "lat": 37.5728378,
       "lng": 126.9176131,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8a3c19b3bd",
@@ -5247,7 +5723,8 @@
       "lat": 37.5672092,
       "lng": 126.9832338,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-97ed100eae",
@@ -5258,7 +5735,8 @@
       "lat": 37.4933081,
       "lng": 127.0140553,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-74932accf9",
@@ -5269,7 +5747,8 @@
       "lat": 37.6095093,
       "lng": 127.0776477,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-95042da283",
@@ -5280,7 +5759,8 @@
       "lat": 37.4960271,
       "lng": 127.029122,
       "sourceUrl": null,
-      "homepage": "http://ssdream.co.kr/"
+      "homepage": "http://ssdream.co.kr/",
+      "listed": false
     },
     {
       "id": "hira-b89fa7ce48",
@@ -5291,7 +5771,8 @@
       "lat": 37.5601067,
       "lng": 126.838266,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-69aabc6e24",
@@ -5302,7 +5783,8 @@
       "lat": 37.5321866,
       "lng": 126.8631828,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-69b5485c4d",
@@ -5313,7 +5795,8 @@
       "lat": 37.5053236,
       "lng": 126.9462924,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9dd642dca1",
@@ -5324,7 +5807,8 @@
       "lat": 37.4800778,
       "lng": 126.9521225,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b893e1839e",
@@ -5335,7 +5819,8 @@
       "lat": 37.5571351,
       "lng": 127.1645103,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-964195a2ae",
@@ -5346,7 +5831,8 @@
       "lat": 37.505889,
       "lng": 127.1089568,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d43bdaf002",
@@ -5357,7 +5843,8 @@
       "lat": 37.5592737,
       "lng": 126.8261369,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ef4eb0a565",
@@ -5368,7 +5855,8 @@
       "lat": 37.5071711,
       "lng": 127.0227046,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-72487481c7",
@@ -5379,7 +5867,8 @@
       "lat": 37.5054427,
       "lng": 126.9114513,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-248edb4131",
@@ -5390,7 +5879,8 @@
       "lat": 37.6112565,
       "lng": 126.928754,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3d1902a901",
@@ -5401,7 +5891,8 @@
       "lat": 37.5717707,
       "lng": 127.1733282,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-593c90045b",
@@ -5412,7 +5903,8 @@
       "lat": 37.6538336,
       "lng": 127.0601763,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-31f41e6826",
@@ -5423,7 +5915,8 @@
       "lat": 37.4924379,
       "lng": 127.0579693,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bafff2a1dd",
@@ -5434,7 +5927,8 @@
       "lat": 37.5071422,
       "lng": 127.0631027,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4a02dfd9dc",
@@ -5445,7 +5939,8 @@
       "lat": 37.5609223,
       "lng": 126.8246494,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c0530d60cd",
@@ -5456,7 +5951,8 @@
       "lat": 37.4800346,
       "lng": 126.8870915,
       "sourceUrl": null,
-      "homepage": "http://seoulgoodsleep.com/"
+      "homepage": "http://seoulgoodsleep.com/",
+      "listed": false
     },
     {
       "id": "hira-9b0e4bd2f9",
@@ -5467,7 +5963,8 @@
       "lat": 37.5472856,
       "lng": 126.8745461,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-582699219c",
@@ -5478,7 +5975,8 @@
       "lat": 37.5662713,
       "lng": 127.1596219,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "http://www.seoulhoho.com/",
+      "listed": true
     },
     {
       "id": "hira-f25539fef2",
@@ -5489,7 +5987,8 @@
       "lat": 37.5459185,
       "lng": 127.1433489,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5c2d764b94",
@@ -5500,7 +5999,8 @@
       "lat": 37.4998101,
       "lng": 126.9095583,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0f3a052ace",
@@ -5511,7 +6011,8 @@
       "lat": 37.5274745,
       "lng": 127.1370449,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bdfed1c3be",
@@ -5522,7 +6023,8 @@
       "lat": 37.4861896,
       "lng": 127.0326405,
       "sourceUrl": null,
-      "homepage": "https://www.smartbrain.kr"
+      "homepage": "https://www.smartbrain.kr",
+      "listed": false
     },
     {
       "id": "hira-ea15d5166e",
@@ -5533,7 +6035,8 @@
       "lat": 37.5409724,
       "lng": 127.1280172,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-92b191ff03",
@@ -5544,7 +6047,8 @@
       "lat": 37.4938697,
       "lng": 127.0629614,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-341580870e",
@@ -5555,7 +6059,8 @@
       "lat": 37.49071,
       "lng": 127.0561424,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d723b6341d",
@@ -5566,7 +6071,8 @@
       "lat": 37.6479686,
       "lng": 127.014666,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-00b2fea574",
@@ -5577,7 +6083,8 @@
       "lat": 37.6690847,
       "lng": 127.0438543,
       "sourceUrl": null,
-      "homepage": "https://banghakyonseient.com"
+      "homepage": "https://banghakyonseient.com",
+      "listed": false
     },
     {
       "id": "hira-f810fb357a",
@@ -5588,7 +6095,8 @@
       "lat": 37.5635978,
       "lng": 126.8258228,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a16987a8d6",
@@ -5599,7 +6107,8 @@
       "lat": 37.5189066,
       "lng": 126.9307891,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5989fa1863",
@@ -5610,7 +6119,8 @@
       "lat": 37.5366969,
       "lng": 127.0878216,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-694d8b7dd5",
@@ -5621,7 +6131,8 @@
       "lat": 37.5225179,
       "lng": 126.9245977,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-77653b2600",
@@ -5632,7 +6143,8 @@
       "lat": 37.4952765,
       "lng": 126.9549874,
       "sourceUrl": null,
-      "homepage": "https://oneulsiwon.com"
+      "homepage": "https://oneulsiwon.com",
+      "listed": false
     },
     {
       "id": "hira-93cee97374",
@@ -5643,7 +6155,8 @@
       "lat": 37.5590959,
       "lng": 126.9738597,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "http://firstier.kr",
+      "listed": true
     },
     {
       "id": "hira-dd3988edb8",
@@ -5654,7 +6167,8 @@
       "lat": 37.4868641,
       "lng": 127.120416,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-93ad4f5d1e",
@@ -5665,7 +6179,8 @@
       "lat": 37.5267086,
       "lng": 126.8638157,
       "sourceUrl": null,
-      "homepage": "https://mokdongent.com/"
+      "homepage": "https://mokdongent.com/",
+      "listed": false
     },
     {
       "id": "hira-75f8b727d2",
@@ -5676,7 +6191,8 @@
       "lat": 37.5143632,
       "lng": 127.0115904,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d33dc03112",
@@ -5687,7 +6203,8 @@
       "lat": 37.4763821,
       "lng": 126.9780869,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8dd023fef3",
@@ -5698,7 +6215,8 @@
       "lat": 37.5074428,
       "lng": 127.0900425,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-24598a52d8",
@@ -5709,7 +6227,8 @@
       "lat": 37.4921392,
       "lng": 127.1443242,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-225b69fa23",
@@ -5720,7 +6239,8 @@
       "lat": 37.5649573,
       "lng": 126.9025601,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f1acf519e8",
@@ -5731,7 +6251,8 @@
       "lat": 37.5984489,
       "lng": 127.0627196,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-808589c5c2",
@@ -5742,7 +6263,8 @@
       "lat": 37.5984489,
       "lng": 127.0627196,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1db4f163be",
@@ -5753,7 +6275,8 @@
       "lat": 37.5862021,
       "lng": 126.9464449,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-923f50bfbd",
@@ -5764,7 +6287,8 @@
       "lat": 37.5191414,
       "lng": 127.1094233,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-df486aa46e",
@@ -5775,7 +6299,8 @@
       "lat": 37.6508514,
       "lng": 127.0760126,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-300a1ebbfa",
@@ -5786,7 +6311,8 @@
       "lat": 37.563797,
       "lng": 126.9752249,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-48c2a97d44",
@@ -5797,7 +6323,8 @@
       "lat": 37.540661,
       "lng": 127.0714121,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8b339346ed",
@@ -5808,7 +6335,8 @@
       "lat": 37.5719099,
       "lng": 127.0723918,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-07adc2db9f",
@@ -5819,7 +6347,8 @@
       "lat": 37.4991057,
       "lng": 127.0362587,
       "sourceUrl": null,
-      "homepage": "https://www.soomnsoriys.com/"
+      "homepage": "https://www.soomnsoriys.com/",
+      "listed": false
     },
     {
       "id": "hira-35b1eb7c6d",
@@ -5830,7 +6359,8 @@
       "lat": 37.5812609,
       "lng": 126.9506059,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-504f4bff71",
@@ -5841,7 +6371,8 @@
       "lat": 37.50127,
       "lng": 127.0363876,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8738672cf7",
@@ -5852,7 +6383,8 @@
       "lat": 37.5652304,
       "lng": 127.0542501,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cc26501434",
@@ -5863,7 +6395,8 @@
       "lat": 37.5217184,
       "lng": 127.0330134,
       "sourceUrl": null,
-      "homepage": "https://pain.seoul.kr"
+      "homepage": "https://pain.seoul.kr",
+      "listed": false
     },
     {
       "id": "hira-715fb223f5",
@@ -5874,7 +6407,8 @@
       "lat": 37.4986887,
       "lng": 127.0250619,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-7822daac58",
@@ -5885,7 +6419,8 @@
       "lat": 37.5068743,
       "lng": 127.0228728,
       "sourceUrl": null,
-      "homepage": "http://chaminst.com/"
+      "homepage": "http://chaminst.com/",
+      "listed": false
     },
     {
       "id": "hira-2c24407329",
@@ -5896,7 +6431,8 @@
       "lat": 37.5505838,
       "lng": 127.1435166,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-157468a64e",
@@ -5907,7 +6443,8 @@
       "lat": 37.5665549,
       "lng": 127.0062707,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-aba625ab4a",
@@ -5918,7 +6455,8 @@
       "lat": 37.5423992,
       "lng": 127.1004998,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-89500b2b25",
@@ -5929,7 +6467,8 @@
       "lat": 37.566156,
       "lng": 126.9658718,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9cb9eb902a",
@@ -5940,7 +6479,8 @@
       "lat": 37.4920292,
       "lng": 126.9084725,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bb12e2858f",
@@ -5951,7 +6491,8 @@
       "lat": 37.4992011,
       "lng": 126.857744,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fd2bedbdea",
@@ -5962,7 +6503,8 @@
       "lat": 37.5546873,
       "lng": 126.8365498,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5a405feb3d",
@@ -5973,7 +6515,8 @@
       "lat": 37.4825674,
       "lng": 126.9427765,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-86285dcdd9",
@@ -5984,7 +6527,8 @@
       "lat": 37.5960164,
       "lng": 127.0617455,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a71af5364d",
@@ -5995,7 +6539,8 @@
       "lat": 37.5667937,
       "lng": 126.9662598,
       "sourceUrl": null,
-      "homepage": "http://doorienthwang.modoo.at/"
+      "homepage": "http://doorienthwang.modoo.at/",
+      "listed": false
     },
     {
       "id": "hira-f5e9dff194",
@@ -6006,7 +6551,8 @@
       "lat": 37.5653052,
       "lng": 127.021854,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-787c2c5844",
@@ -6017,7 +6563,8 @@
       "lat": 37.5595837,
       "lng": 126.8547379,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-feed65e33c",
@@ -6028,7 +6575,8 @@
       "lat": 37.6116383,
       "lng": 127.1015814,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b6ee9dc03c",
@@ -6039,7 +6587,8 @@
       "lat": 37.619489,
       "lng": 127.0755262,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-01e513de95",
@@ -6050,7 +6599,8 @@
       "lat": 37.4999844,
       "lng": 126.9279174,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-24fa8d48b4",
@@ -6061,7 +6611,8 @@
       "lat": 37.5629139,
       "lng": 126.9746764,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d5f09de4ee",
@@ -6072,7 +6623,8 @@
       "lat": 37.568279,
       "lng": 127.057299,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-7f53a76eac",
@@ -6083,7 +6635,8 @@
       "lat": 37.6108952,
       "lng": 127.0565538,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-901235139a",
@@ -6094,7 +6647,8 @@
       "lat": 37.4953009,
       "lng": 127.0527051,
       "sourceUrl": null,
-      "homepage": "http://dseoul.kr"
+      "homepage": "http://dseoul.kr",
+      "listed": false
     },
     {
       "id": "hira-7f34c28167",
@@ -6105,7 +6659,8 @@
       "lat": 37.4855311,
       "lng": 127.1417988,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8e27efea59",
@@ -6116,7 +6671,8 @@
       "lat": 37.5049309,
       "lng": 126.9995048,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f876bde26a",
@@ -6127,7 +6683,8 @@
       "lat": 37.5960164,
       "lng": 127.0617455,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e28b93a668",
@@ -6138,7 +6695,8 @@
       "lat": 37.5787365,
       "lng": 127.0418316,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-dd372f7ec1",
@@ -6149,7 +6707,8 @@
       "lat": 37.5293678,
       "lng": 126.9198852,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4b2dfe102d",
@@ -6160,7 +6719,8 @@
       "lat": 37.568266,
       "lng": 126.8403595,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-146b03ba81",
@@ -6171,7 +6731,8 @@
       "lat": 37.5407975,
       "lng": 127.0958444,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-53f681c491",
@@ -6182,7 +6743,8 @@
       "lat": 37.4959922,
       "lng": 127.0280376,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2ef3e901f2",
@@ -6193,7 +6755,8 @@
       "lat": 37.4996579,
       "lng": 126.9309795,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-284687ab8e",
@@ -6204,7 +6767,8 @@
       "lat": 37.5792201,
       "lng": 127.0434748,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-db06e6a62a",
@@ -6215,7 +6779,8 @@
       "lat": 37.5995202,
       "lng": 127.0975571,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-25f31ce0a3",
@@ -6226,7 +6791,8 @@
       "lat": 37.6479976,
       "lng": 127.0622888,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e411f64537",
@@ -6237,7 +6803,8 @@
       "lat": 37.5174126,
       "lng": 127.0187507,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2ce910360d",
@@ -6248,7 +6815,8 @@
       "lat": 37.4593625,
       "lng": 126.6898691,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c6c783dfba",
@@ -6259,7 +6827,8 @@
       "lat": 37.4931554,
       "lng": 126.7224885,
       "sourceUrl": null,
-      "homepage": "http://wonderclinic.com"
+      "homepage": "http://wonderclinic.com",
+      "listed": false
     },
     {
       "id": "hira-1c295e8a4b",
@@ -6270,7 +6839,8 @@
       "lat": 36.9998013,
       "lng": 127.170316,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-561448f29e",
@@ -6281,7 +6851,8 @@
       "lat": 37.3957057,
       "lng": 126.6509615,
       "sourceUrl": null,
-      "homepage": "http://www.coaclinic.com"
+      "homepage": "http://www.coaclinic.com",
+      "listed": false
     },
     {
       "id": "hira-3dfecc47ec",
@@ -6292,7 +6863,8 @@
       "lat": 37.4784504,
       "lng": 126.503879,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a27355b579",
@@ -6303,7 +6875,8 @@
       "lat": 37.5083726,
       "lng": 126.7320632,
       "sourceUrl": null,
-      "homepage": "http://www.cocoent.net/index.asp"
+      "homepage": "http://www.cocoent.net/index.asp",
+      "listed": false
     },
     {
       "id": "hira-6b8461401d",
@@ -6314,7 +6887,8 @@
       "lat": 37.2821547,
       "lng": 127.1594371,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f7cf677c0a",
@@ -6325,7 +6899,8 @@
       "lat": 37.2798505,
       "lng": 127.1115354,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fc5a8434ba",
@@ -6336,7 +6911,8 @@
       "lat": 37.4444063,
       "lng": 127.142518,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a75452e927",
@@ -6347,7 +6923,8 @@
       "lat": 37.4435334,
       "lng": 126.7023931,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b83b91af0e",
@@ -6358,7 +6935,8 @@
       "lat": 37.1298871,
       "lng": 126.9218938,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-aba945fc8a",
@@ -6369,7 +6947,8 @@
       "lat": 37.4671922,
       "lng": 126.6789996,
       "sourceUrl": null,
-      "homepage": "http://juanent.co.kr/index.asp"
+      "homepage": "http://juanent.co.kr/index.asp",
+      "listed": false
     },
     {
       "id": "hira-3012e76697",
@@ -6380,7 +6959,8 @@
       "lat": 37.5321086,
       "lng": 126.6502646,
       "sourceUrl": null,
-      "homepage": "http://coaclinic.net/"
+      "homepage": "http://coaclinic.net/",
+      "listed": false
     },
     {
       "id": "hira-71e4540225",
@@ -6391,7 +6971,8 @@
       "lat": 37.3920898,
       "lng": 126.72681,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bf235c11ee",
@@ -6402,7 +6983,8 @@
       "lat": 37.2983853,
       "lng": 127.0699527,
       "sourceUrl": null,
-      "homepage": "http://www.bounclinic.co.kr"
+      "homepage": "http://www.bounclinic.co.kr",
+      "listed": false
     },
     {
       "id": "hira-f9f2b4d77f",
@@ -6413,7 +6995,8 @@
       "lat": 37.1490571,
       "lng": 127.0748375,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8af17ee784",
@@ -6424,7 +7007,8 @@
       "lat": 37.1386476,
       "lng": 127.0731132,
       "sourceUrl": null,
-      "homepage": "http://www.doorient.com/"
+      "homepage": "http://www.doorient.com/",
+      "listed": false
     },
     {
       "id": "hira-3b5c1c9a8c",
@@ -6435,7 +7019,8 @@
       "lat": 37.1928999,
       "lng": 127.0729529,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-424ff84e17",
@@ -6446,7 +7031,8 @@
       "lat": 37.8185483,
       "lng": 127.0927954,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a084c74d42",
@@ -6457,7 +7043,8 @@
       "lat": 37.3511826,
       "lng": 127.1095077,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-7d0af7abfb",
@@ -6468,7 +7055,8 @@
       "lat": 37.7086755,
       "lng": 127.1178956,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d7bda505a5",
@@ -6479,7 +7067,8 @@
       "lat": 37.4860272,
       "lng": 126.7835458,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b5c8cf4ace",
@@ -6490,7 +7079,8 @@
       "lat": 37.3891409,
       "lng": 126.6444427,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9048a268f1",
@@ -6501,7 +7091,8 @@
       "lat": 37.4211738,
       "lng": 126.9912596,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e79f13c26b",
@@ -6512,7 +7103,8 @@
       "lat": 37.4248367,
       "lng": 126.7489215,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d3c4e3d7e0",
@@ -6523,7 +7115,8 @@
       "lat": 37.4673246,
       "lng": 126.8220331,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-18d0bc3a42",
@@ -6534,7 +7127,8 @@
       "lat": 37.1984814,
       "lng": 126.8260365,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b5ce878be5",
@@ -6545,7 +7139,8 @@
       "lat": 37.7515204,
       "lng": 127.0698807,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-febd95942e",
@@ -6556,7 +7151,8 @@
       "lat": 37.6496436,
       "lng": 127.1135541,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e62033dc22",
@@ -6567,7 +7163,8 @@
       "lat": 37.3775746,
       "lng": 127.1135454,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fe3191618a",
@@ -6578,7 +7175,8 @@
       "lat": 37.3809617,
       "lng": 126.6566654,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f8fdd354e6",
@@ -6589,7 +7187,8 @@
       "lat": 37.440672,
       "lng": 126.7854777,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c475a3779e",
@@ -6600,7 +7199,8 @@
       "lat": 37.5610822,
       "lng": 127.1932982,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2d6d241e48",
@@ -6611,7 +7211,8 @@
       "lat": 37.6538757,
       "lng": 126.8947404,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b2e4577972",
@@ -6622,7 +7223,8 @@
       "lat": 37.8189751,
       "lng": 127.0921402,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8eeb9245a0",
@@ -6633,7 +7235,8 @@
       "lat": 37.3359633,
       "lng": 127.0918191,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c14d4e83fc",
@@ -6644,7 +7247,8 @@
       "lat": 37.3455123,
       "lng": 126.7376709,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-62a04253a2",
@@ -6655,7 +7259,8 @@
       "lat": 37.5598038,
       "lng": 127.1850099,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-06f3299447",
@@ -6666,7 +7271,8 @@
       "lat": 37.437419,
       "lng": 126.8021924,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8198f5605e",
@@ -6677,7 +7283,8 @@
       "lat": 37.6013677,
       "lng": 126.7708131,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0ef3723b92",
@@ -6688,7 +7295,8 @@
       "lat": 37.3866584,
       "lng": 127.2339738,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-5ffd732794",
@@ -6699,7 +7307,8 @@
       "lat": 37.4872993,
       "lng": 126.5574799,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c21c03df49",
@@ -6710,7 +7319,8 @@
       "lat": 37.2841454,
       "lng": 126.8290491,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-951dfbfd30",
@@ -6721,7 +7331,8 @@
       "lat": 37.3854615,
       "lng": 126.9611624,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-29b6a34f05",
@@ -6732,7 +7343,8 @@
       "lat": 37.3471216,
       "lng": 126.9432556,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9737b48abd",
@@ -6743,7 +7355,8 @@
       "lat": 37.4093602,
       "lng": 127.2602217,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f32c850582",
@@ -6754,7 +7367,8 @@
       "lat": 37.6497705,
       "lng": 127.1133526,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-15dd34fda9",
@@ -6765,7 +7379,8 @@
       "lat": 37.3705496,
       "lng": 126.7290674,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3f72ef3699",
@@ -6776,7 +7391,8 @@
       "lat": 37.3969322,
       "lng": 126.6375938,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b82b957f5b",
@@ -6787,7 +7403,8 @@
       "lat": 37.6464376,
       "lng": 127.124913,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8f894ffab0",
@@ -6798,7 +7415,8 @@
       "lat": 37.4241594,
       "lng": 126.7495132,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ff3c9a18b1",
@@ -6809,7 +7427,8 @@
       "lat": 37.2870278,
       "lng": 127.0577371,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6b1e815d6c",
@@ -6820,7 +7439,8 @@
       "lat": 37.1165843,
       "lng": 126.9129009,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cf840655ed",
@@ -6831,7 +7451,8 @@
       "lat": 37.2605906,
       "lng": 127.4765445,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9c1a75356a",
@@ -6842,7 +7463,8 @@
       "lat": 37.4373532,
       "lng": 126.8025633,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-82e4c5c34e",
@@ -6853,7 +7475,8 @@
       "lat": 37.6006999,
       "lng": 126.8952168,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-dd56f3a6b2",
@@ -6864,7 +7487,8 @@
       "lat": 37.4428515,
       "lng": 127.1393087,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3515bd63cd",
@@ -6875,7 +7499,8 @@
       "lat": 37.3929706,
       "lng": 126.644882,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a772055967",
@@ -6886,7 +7511,8 @@
       "lat": 37.750768,
       "lng": 127.1180814,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-56135f0903",
@@ -6897,7 +7523,8 @@
       "lat": 37.3841229,
       "lng": 127.1226448,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ff80cb622a",
@@ -6908,7 +7535,8 @@
       "lat": 37.5943017,
       "lng": 126.714436,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-beeb3e67d4",
@@ -6919,7 +7547,8 @@
       "lat": 37.5099425,
       "lng": 127.161719,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-734533bb98",
@@ -6930,7 +7559,8 @@
       "lat": 37.3956065,
       "lng": 126.9851245,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0368d7cd2a",
@@ -6941,7 +7571,8 @@
       "lat": 37.2738628,
       "lng": 126.9412832,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a07983e2dd",
@@ -6952,7 +7583,8 @@
       "lat": 37.6894455,
       "lng": 126.5978505,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1b6ece7fa0",
@@ -6963,7 +7595,8 @@
       "lat": 37.4726432,
       "lng": 127.1500709,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d72eea52a0",
@@ -6974,7 +7607,8 @@
       "lat": 37.5698869,
       "lng": 127.1839902,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4749b43b36",
@@ -6985,7 +7619,8 @@
       "lat": 37.7279274,
       "lng": 127.0433266,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4bab679f6d",
@@ -6996,7 +7631,8 @@
       "lat": 37.5334178,
       "lng": 126.6401518,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-916b1d766a",
@@ -7007,7 +7643,8 @@
       "lat": 37.2250815,
       "lng": 126.9469963,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-21b02d42c9",
@@ -7018,7 +7655,8 @@
       "lat": 37.3534336,
       "lng": 126.7245748,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d1be580be2",
@@ -7029,7 +7667,8 @@
       "lat": 37.1310643,
       "lng": 126.9228399,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ede456dcab",
@@ -7040,7 +7679,8 @@
       "lat": 37.5242529,
       "lng": 126.6701182,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-860a31e287",
@@ -7051,7 +7691,8 @@
       "lat": 37.2097486,
       "lng": 126.8322769,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2d551dcffc",
@@ -7062,7 +7703,8 @@
       "lat": 37.2966072,
       "lng": 127.637305,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a4a111deac",
@@ -7073,7 +7715,8 @@
       "lat": 37.3825073,
       "lng": 127.2325325,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0c6ae53bb1",
@@ -7084,7 +7727,8 @@
       "lat": 37.391237,
       "lng": 127.0788318,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9834e612ad",
@@ -7095,7 +7739,8 @@
       "lat": 37.6497835,
       "lng": 126.9143221,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-820a9f8ea5",
@@ -7106,7 +7751,8 @@
       "lat": 37.7125224,
       "lng": 126.7187571,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1d38ed8117",
@@ -7117,7 +7763,8 @@
       "lat": 37.5926069,
       "lng": 126.7127253,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-fdb8f6accd",
@@ -7128,7 +7775,8 @@
       "lat": 37.3889752,
       "lng": 126.6340778,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9472c3af03",
@@ -7139,7 +7787,8 @@
       "lat": 37.2680086,
       "lng": 127.0166755,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e04f69c10f",
@@ -7150,7 +7799,8 @@
       "lat": 37.6495361,
       "lng": 126.9149833,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-eb0d0270d0",
@@ -7161,7 +7811,8 @@
       "lat": 37.0229222,
       "lng": 127.0755138,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-72707c7a69",
@@ -7172,7 +7823,8 @@
       "lat": 37.625293,
       "lng": 127.1504735,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f0192f28e1",
@@ -7183,7 +7835,8 @@
       "lat": 37.5251182,
       "lng": 126.6779803,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-454a4bf792",
@@ -7194,7 +7847,8 @@
       "lat": 37.2698734,
       "lng": 127.2178727,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b92da17cce",
@@ -7205,7 +7859,8 @@
       "lat": 37.5849315,
       "lng": 126.7128787,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-833b6177d2",
@@ -7216,7 +7871,8 @@
       "lat": 37.740076,
       "lng": 127.0477801,
       "sourceUrl": null,
-      "homepage": "http://seoulasan-ent.com"
+      "homepage": "http://seoulasan-ent.com",
+      "listed": false
     },
     {
       "id": "hira-d62d1088f5",
@@ -7227,7 +7883,8 @@
       "lat": 37.3964874,
       "lng": 127.111964,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-efdf494060",
@@ -7238,7 +7895,8 @@
       "lat": 37.6547929,
       "lng": 126.6834196,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9141b6451c",
@@ -7249,7 +7907,8 @@
       "lat": 37.5052289,
       "lng": 126.7524429,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9a23eb3e74",
@@ -7260,7 +7919,8 @@
       "lat": 37.0168881,
       "lng": 127.0937686,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-26ab000d7c",
@@ -7271,7 +7931,8 @@
       "lat": 37.0075246,
       "lng": 127.2683648,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1c210b7729",
@@ -7282,7 +7943,8 @@
       "lat": 37.7126546,
       "lng": 126.720431,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3315a7e6ec",
@@ -7293,7 +7955,8 @@
       "lat": 37.3824884,
       "lng": 127.2304057,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1c3ac44c3a",
@@ -7304,7 +7967,8 @@
       "lat": 37.3781516,
       "lng": 126.7885947,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-7d30024fbd",
@@ -7315,7 +7979,8 @@
       "lat": 37.0362879,
       "lng": 127.0282882,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-da5097eea5",
@@ -7326,7 +7991,8 @@
       "lat": 37.5888993,
       "lng": 126.7084318,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-34849191a2",
@@ -7337,7 +8003,8 @@
       "lat": 37.6361677,
       "lng": 127.1222475,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-767400e6a1",
@@ -7348,7 +8015,8 @@
       "lat": 37.8196515,
       "lng": 127.0535361,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6917a810da",
@@ -7359,7 +8027,8 @@
       "lat": 37.3724411,
       "lng": 126.9573671,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f408c2711c",
@@ -7370,7 +8039,8 @@
       "lat": 37.4000271,
       "lng": 126.9326383,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bdbb4508fb",
@@ -7381,7 +8051,8 @@
       "lat": 37.4517913,
       "lng": 126.6800704,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6b9ee9db92",
@@ -7392,7 +8063,8 @@
       "lat": 37.2040933,
       "lng": 126.9993994,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-6acda315bf",
@@ -7403,7 +8075,8 @@
       "lat": 37.6351556,
       "lng": 126.8313998,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": "https://www.isbrain.co.kr",
+      "listed": true
     },
     {
       "id": "hira-cc02da8fd2",
@@ -7414,7 +8087,8 @@
       "lat": 37.2374304,
       "lng": 127.2090163,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-99443be05b",
@@ -7425,7 +8099,8 @@
       "lat": 37.5379661,
       "lng": 127.2043444,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2e931602ef",
@@ -7436,7 +8111,8 @@
       "lat": 37.5177068,
       "lng": 126.704045,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-95b3e1ff1c",
@@ -7447,7 +8123,8 @@
       "lat": 37.2058724,
       "lng": 127.031861,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9ae57c56dd",
@@ -7458,7 +8135,8 @@
       "lat": 37.6237787,
       "lng": 126.8343319,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-991c7d4fc9",
@@ -7469,7 +8147,8 @@
       "lat": 37.6110519,
       "lng": 127.1646204,
       "sourceUrl": null,
-      "homepage": "https://dasanbit.co.kr"
+      "homepage": "https://dasanbit.co.kr",
+      "listed": false
     },
     {
       "id": "hira-3eb4dc8fcd",
@@ -7480,7 +8159,8 @@
       "lat": 37.1618176,
       "lng": 127.1102472,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-602d85d915",
@@ -7491,7 +8171,8 @@
       "lat": 37.4770644,
       "lng": 126.6979628,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9c4e9e8aac",
@@ -7502,7 +8183,8 @@
       "lat": 37.4363391,
       "lng": 127.1418088,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bcc32c68f6",
@@ -7513,7 +8195,8 @@
       "lat": 37.2739979,
       "lng": 127.0019796,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9fc98ef040",
@@ -7524,7 +8207,8 @@
       "lat": 37.5255371,
       "lng": 126.6729765,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4198766036",
@@ -7535,7 +8219,8 @@
       "lat": 37.0381535,
       "lng": 127.0263345,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-91993f2b6e",
@@ -7546,7 +8231,8 @@
       "lat": 37.6231733,
       "lng": 127.151564,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-c6bab6b448",
@@ -7557,7 +8243,8 @@
       "lat": 37.4453468,
       "lng": 127.1613166,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a52d832a29",
@@ -7568,7 +8255,8 @@
       "lat": 37.4973826,
       "lng": 126.7220321,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d7d5e450af",
@@ -7579,7 +8267,8 @@
       "lat": 37.6008591,
       "lng": 127.1397057,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ce3e3a1775",
@@ -7590,7 +8279,8 @@
       "lat": 37.3700348,
       "lng": 126.6503746,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3374c79867",
@@ -7601,7 +8291,8 @@
       "lat": 37.3588818,
       "lng": 126.9327102,
       "sourceUrl": null,
-      "homepage": "https://sbclearneuro.imweb.me"
+      "homepage": "https://sbclearneuro.imweb.me",
+      "listed": false
     },
     {
       "id": "hira-e2b33c9e15",
@@ -7612,7 +8303,8 @@
       "lat": 37.473806,
       "lng": 126.8522036,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9495339134",
@@ -7623,7 +8315,8 @@
       "lat": 37.0171554,
       "lng": 127.0889023,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-3be5209f00",
@@ -7634,7 +8327,8 @@
       "lat": 37.4119405,
       "lng": 126.9830365,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-0defc6cdeb",
@@ -7645,7 +8339,8 @@
       "lat": 37.651949,
       "lng": 126.6762415,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-11408e1557",
@@ -7656,7 +8351,8 @@
       "lat": 37.4020553,
       "lng": 126.6282699,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-94423605fa",
@@ -7667,7 +8363,8 @@
       "lat": 37.6447043,
       "lng": 126.6670912,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-99a2a2ffcd",
@@ -7678,7 +8375,8 @@
       "lat": 37.3989528,
       "lng": 126.9256804,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-757208ab5a",
@@ -7689,7 +8387,8 @@
       "lat": 37.1636863,
       "lng": 127.0504457,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-514bec3e1f",
@@ -7700,7 +8399,8 @@
       "lat": 37.609432,
       "lng": 127.1380644,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-46fd22a756",
@@ -7711,7 +8411,8 @@
       "lat": 37.0201637,
       "lng": 127.0827592,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-203f2177db",
@@ -7722,7 +8423,8 @@
       "lat": 37.3449679,
       "lng": 127.0943581,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-452b87c06b",
@@ -7733,7 +8435,8 @@
       "lat": 37.3726348,
       "lng": 126.9445261,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-bfd97a9055",
@@ -7744,7 +8447,8 @@
       "lat": 37.441324,
       "lng": 127.1464467,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-4e42f33176",
@@ -7755,7 +8459,8 @@
       "lat": 37.3909124,
       "lng": 126.9515756,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-b2d6c6f3f0",
@@ -7766,7 +8471,8 @@
       "lat": 37.5320782,
       "lng": 126.6449716,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ae4848c150",
@@ -7777,7 +8483,8 @@
       "lat": 37.3298257,
       "lng": 127.0923388,
       "sourceUrl": null,
-      "homepage": "https://blog.naver.com/sujibestent"
+      "homepage": "https://blog.naver.com/sujibestent",
+      "listed": false
     },
     {
       "id": "hira-6d2d871ad5",
@@ -7788,7 +8495,8 @@
       "lat": 37.5307918,
       "lng": 126.717116,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f12a5addfc",
@@ -7799,7 +8507,8 @@
       "lat": 37.3913538,
       "lng": 126.9504303,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-1fbdbc9abe",
@@ -7810,7 +8519,8 @@
       "lat": 37.3151617,
       "lng": 126.8242758,
       "sourceUrl": null,
-      "homepage": "https://www.shincholclinic.com"
+      "homepage": "https://www.shincholclinic.com",
+      "listed": false
     },
     {
       "id": "hira-43e7b84fea",
@@ -7821,7 +8531,8 @@
       "lat": 37.7131738,
       "lng": 126.7599678,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-2bcfed63ef",
@@ -7832,7 +8543,8 @@
       "lat": 37.4112149,
       "lng": 126.9798685,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-95e452b13b",
@@ -7843,7 +8555,8 @@
       "lat": 37.2417698,
       "lng": 127.0549928,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8132c617f6",
@@ -7854,7 +8567,8 @@
       "lat": 37.4093844,
       "lng": 127.2602612,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a801e79c57",
@@ -7865,7 +8579,8 @@
       "lat": 37.1636716,
       "lng": 127.0521088,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-df4b50405b",
@@ -7876,7 +8591,8 @@
       "lat": 37.3319453,
       "lng": 127.1254643,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-f6fbdddaf9",
@@ -7887,7 +8603,8 @@
       "lat": 37.4126689,
       "lng": 126.9807026,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d4be1c8e56",
@@ -7898,7 +8615,8 @@
       "lat": 37.4740378,
       "lng": 126.8696883,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-92743e2e8a",
@@ -7909,7 +8627,8 @@
       "lat": 37.3446133,
       "lng": 127.2536096,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-cf1a27d3fa",
@@ -7920,7 +8639,8 @@
       "lat": 37.4795248,
       "lng": 126.8549137,
       "sourceUrl": null,
-      "homepage": "https://yonseisum.com"
+      "homepage": "https://yonseisum.com",
+      "listed": false
     },
     {
       "id": "hira-71c14ed4f7",
@@ -7931,7 +8651,8 @@
       "lat": 37.5084592,
       "lng": 127.1538736,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e5087c81e8",
@@ -7942,7 +8663,8 @@
       "lat": 37.1443523,
       "lng": 127.0545831,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-ba9f1c4bab",
@@ -7953,7 +8675,8 @@
       "lat": 37.2969683,
       "lng": 127.1099499,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-34ff9a336a",
@@ -7964,7 +8687,8 @@
       "lat": 36.9992996,
       "lng": 127.1731197,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-9eba49592b",
@@ -7975,7 +8699,8 @@
       "lat": 37.2750165,
       "lng": 127.0216897,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8e68115ca4",
@@ -7986,7 +8711,8 @@
       "lat": 37.4109685,
       "lng": 127.1292477,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a82f394a69",
@@ -7997,7 +8723,8 @@
       "lat": 37.2637736,
       "lng": 127.032195,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-843164a59e",
@@ -8008,7 +8735,8 @@
       "lat": 37.2619646,
       "lng": 127.0327479,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e6c971291b",
@@ -8019,7 +8747,8 @@
       "lat": 37.2939871,
       "lng": 126.8626692,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-a0e05b0ae7",
@@ -8030,7 +8759,8 @@
       "lat": 37.2852222,
       "lng": 126.9430864,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-92e4789976",
@@ -8041,7 +8771,8 @@
       "lat": 37.2870876,
       "lng": 127.0577814,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-78a510e099",
@@ -8052,7 +8783,8 @@
       "lat": 37.3904634,
       "lng": 126.9771704,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-976ca934de",
@@ -8063,7 +8795,8 @@
       "lat": 37.2442307,
       "lng": 127.2182234,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-8fcb6a866c",
@@ -8074,7 +8807,8 @@
       "lat": 37.501901,
       "lng": 126.7759948,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-7749aa6f30",
@@ -8085,7 +8819,8 @@
       "lat": 37.5798857,
       "lng": 127.2196786,
       "sourceUrl": null,
-      "homepage": "https://www.ssjinent.com"
+      "homepage": "https://www.ssjinent.com",
+      "listed": false
     },
     {
       "id": "hira-71ea6ba45a",
@@ -8096,7 +8831,8 @@
       "lat": 37.7374495,
       "lng": 126.7624585,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-839051af55",
@@ -8107,7 +8843,8 @@
       "lat": 37.7497206,
       "lng": 127.0446218,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-410e8fa711",
@@ -8118,7 +8855,8 @@
       "lat": 37.6335929,
       "lng": 126.8327834,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-d06bb688b5",
@@ -8129,7 +8867,8 @@
       "lat": 37.7401758,
       "lng": 126.7600813,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-16000727ab",
@@ -8140,7 +8879,8 @@
       "lat": 37.6440966,
       "lng": 127.1264516,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-93d01b8a18",
@@ -8151,7 +8891,8 @@
       "lat": 37.6034634,
       "lng": 126.6981604,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-50e553e1b6",
@@ -8162,7 +8903,8 @@
       "lat": 37.4553712,
       "lng": 126.719691,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-58dd482a44",
@@ -8173,7 +8915,8 @@
       "lat": 37.4481101,
       "lng": 126.6483044,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     },
     {
       "id": "hira-e925a594b5",
@@ -8184,7 +8927,8 @@
       "lat": 37.533852,
       "lng": 126.627887,
       "sourceUrl": null,
-      "homepage": null
+      "homepage": null,
+      "listed": false
     }
   ]
 }
