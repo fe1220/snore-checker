@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import { useSyncExternalStore } from "react"
-import { ExternalLink } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Report } from "@/components/sleep/report"
@@ -57,11 +56,10 @@ export function ReportView({ shared }: { shared: boolean }) {
       </div>
       <div className="sticky bottom-0 flex flex-col gap-1 border-t bg-background p-4">
         <Link
-          href="/go/clinic"
+          href="/clinics"
           className={cn(buttonVariants(), "h-12 w-full text-base")}
         >
           근처 수면클리닉 찾기
-          <ExternalLink data-icon="inline-end" aria-hidden />
         </Link>
         {!shared && <ShareButton path={sharePath} />}
       </div>

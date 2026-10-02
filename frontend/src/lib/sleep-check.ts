@@ -85,5 +85,3 @@ export const LEVEL_COPY: Record<
     body: "그래도 걱정된다면 상담은 언제든 괜찮아요.",
   },
 }
-
-export const CLINIC_FINDER_URL = "https://www.resmed.kr/psg-finder"
