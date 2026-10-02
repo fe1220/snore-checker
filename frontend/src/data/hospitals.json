@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-02T15:07:53.989Z",
+  "crawledAt": "2026-10-02T16:11:49.129Z",
   "items": [
     {
       "id": "gangwonnugaent",
@@ -7,8 +7,8 @@
       "region": "강원",
       "address": "강원도 동해시 한섬로 111-7",
       "phone": "033-535-3600",
-      "lat": 37.52221,
-      "lng": 129.11555,
+      "lat": 37.5222543,
+      "lng": 129.1152178,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonnugaent"
     },
     {
@@ -17,8 +17,8 @@
       "region": "강원",
       "address": "강원도 원주시 원문로 116",
       "phone": "033-744-5075",
-      "lat": 37.35688,
-      "lng": 127.93463,
+      "lat": 37.3297852,
+      "lng": 127.9503251,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonkysent"
     },
     {
@@ -27,8 +27,8 @@
       "region": "강원",
       "address": "강원도 원주시 일산로 20",
       "phone": "033-741-0114",
-      "lat": 37.34904,
-      "lng": 127.9468,
+      "lat": 37.3490013,
+      "lng": 127.9456638,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonyeonsewonjuseverance"
     },
     {
@@ -37,8 +37,8 @@
       "region": "강원",
       "address": "강원도 원주시 중앙로 105",
       "phone": "033-735-7707",
-      "lat": 37.34949,
-      "lng": 127.95069,
+      "lat": 37.3494603,
+      "lng": 127.9506579,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhkent"
     },
     {
@@ -47,8 +47,8 @@
       "region": "강원",
       "address": "강원도 춘천시 백령로 156",
       "phone": "033-258-2000",
-      "lat": 37.87539,
-      "lng": 127.74394,
+      "lat": 37.8751611,
+      "lng": 127.7448909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonuniv"
     },
     {
@@ -57,8 +57,8 @@
       "region": "강원",
       "address": "강원도 춘천시 삭주로 77",
       "phone": "033-240-5000",
-      "lat": 37.88453,
-      "lng": 127.74096,
+      "lat": 37.8840791,
+      "lng": 127.7399592,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhanlimchuncheon"
     },
     {
@@ -67,8 +67,8 @@
       "region": "경기",
       "address": "경기도 고양시 덕양구 권율대로 672 3호선 원흥역 봄오피스텔 3층 313~315호 (원흥동)",
       "phone": "031-966-0300",
-      "lat": 37.287,
-      "lng": 127.05798,
+      "lat": 37.6498655,
+      "lng": 126.8741742,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibomboment"
     },
     {
@@ -77,8 +77,8 @@
       "region": "경기",
       "address": "경기도 고양시 덕양구 꽃마을로 4 퍼스트타워 4층 404호 (향동동)",
       "phone": "02-3159-7585",
-      "lat": 37.59872,
-      "lng": 126.89244,
+      "lat": 37.5989344,
+      "lng": 126.8924137,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient"
     },
     {
@@ -87,8 +87,8 @@
       "region": "경기",
       "address": "경기도 고양시 덕양구 마상로154번길 68 문덕메디칼빌딩 301호,303호호",
       "phone": "031-963-5014",
-      "lat": 37.6564,
-      "lng": 126.83692,
+      "lat": 37.6565394,
+      "lng": 126.8369751,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicoaent"
     },
     {
@@ -97,8 +97,8 @@
       "region": "경기",
       "address": "경기도 고양시 덕양구 화수로14번길 55 (화정동)",
       "phone": "031-810-5114",
-      "lat": 37.64485,
-      "lng": 126.83148,
+      "lat": 37.6419949,
+      "lng": 126.8312622,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimyungji"
     },
     {
@@ -107,8 +107,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산동구 동국로 27 (식사동, 동국대학교일산병원)",
       "phone": "031-1577-7000",
-      "lat": 37.67666,
-      "lng": 126.80721,
+      "lat": 37.6763969,
+      "lng": 126.8064233,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanbudist"
     },
     {
@@ -117,8 +117,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산동구 무궁화로 39 (장항동, 삼라마이다스 3차 206,209,210호)",
       "phone": "031-917-1155",
-      "lat": 37.6633,
-      "lng": 126.76849,
+      "lat": 37.6634852,
+      "lng": 126.7685053,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanent"
     },
     {
@@ -127,8 +127,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산동구 일산로 100",
       "phone": "1577-0013",
-      "lat": 37.64135,
-      "lng": 126.78602,
+      "lat": 37.6454754,
+      "lng": 126.7930401,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginhimilsan"
     },
     {
@@ -137,8 +137,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산동구 일산로 46 남정시티프라자 409호, 410호 (백석동)",
       "phone": "031-932-7800",
-      "lat": 37.64259,
-      "lng": 126.78787,
+      "lat": 37.6423617,
+      "lng": 126.7879067,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoom"
     },
     {
@@ -147,8 +147,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산동구 중산로 117",
       "phone": "031-922-8822",
-      "lat": 37.68255,
-      "lng": 126.78119,
+      "lat": 37.6825551,
+      "lng": 126.7810874,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheavenly"
     },
     {
@@ -157,8 +157,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산서구 주화로 170 (대화동)",
       "phone": "031-910-7114",
-      "lat": 37.67401,
-      "lng": 126.75021,
+      "lat": 37.6742736,
+      "lng": 126.7503802,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanpaik"
     },
     {
@@ -167,8 +167,8 @@
       "region": "경기",
       "address": "경기도 고양시 일산서구 중앙로 1416 7층 (주엽동, 한사랑빌딩)",
       "phone": "031-915-0469",
-      "lat": 37.66971,
-      "lng": 126.76288,
+      "lat": 37.6698137,
+      "lng": 126.7629904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihansarangent"
     },
     {
@@ -177,8 +177,8 @@
       "region": "경기",
       "address": "경기도 광명시 오리로 865 2층 1호 (철산동, 명지빌딩)",
       "phone": "02-2684-7900",
-      "lat": 37.47536,
-      "lng": 126.86597,
+      "lat": 37.4752559,
+      "lng": 126.8658275,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulasanent"
     },
     {
@@ -187,8 +187,8 @@
       "region": "경기",
       "address": "경기도 광명시 오리로 870 6층 (철산동, 스타힐스빌딩)",
       "phone": "02-6011-7700",
-      "lat": 37.47595,
-      "lng": 126.86595,
+      "lat": 37.4760713,
+      "lng": 126.8659802,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsaintent"
     },
     {
@@ -197,8 +197,8 @@
       "region": "경기",
       "address": "경기도 구리시 경춘로 153 (교문동)",
       "phone": "1644-9118",
-      "lat": 37.60093,
-      "lng": 127.1324,
+      "lat": 37.6012985,
+      "lng": 127.1324272,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanyanggooli"
     },
     {
@@ -207,8 +207,8 @@
       "region": "경기",
       "address": "경기도 구리시 경춘로227번길 14 303호",
       "phone": "031-567-2588",
-      "lat": 37.60127,
-      "lng": 127.14002,
+      "lat": 37.6016252,
+      "lng": 127.1416566,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiopenent"
     },
     {
@@ -227,8 +227,8 @@
       "region": "경기",
       "address": "경기도 군포시 송부로74번길 3-40 금강프라자 204,205,206호 (도마교동)",
       "phone": "031-365-3761",
-      "lat": 37.31633,
-      "lng": 126.92429,
+      "lat": 37.3162411,
+      "lng": 126.9242324,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiflowerdreament"
     },
     {
@@ -237,8 +237,8 @@
       "region": "경기",
       "address": "경기도 김포시 걸포2로 33 401호 (걸포동)",
       "phone": "031-981-8253",
-      "lat": 37.6333,
-      "lng": 126.7036,
+      "lat": 37.6333238,
+      "lng": 126.7036514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiverygoodent"
     },
     {
@@ -247,8 +247,8 @@
       "region": "경기",
       "address": "경기도 김포시 고촌읍 수기로 115 센트럴타워 501~2호",
       "phone": "031-992-0275",
-      "lat": 37.59337,
-      "lng": 126.7637,
+      "lat": 37.5934718,
+      "lng": 126.7636061,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitreeent"
     },
     {
@@ -257,8 +257,8 @@
       "region": "경기",
       "address": "경기도 김포시 김포대로 681 (풍무동)",
       "phone": "1588-0223",
-      "lat": 37.61128,
-      "lng": 126.73477,
+      "lat": 37.6112497,
+      "lng": 126.7346708,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheezmedi"
     },
     {
@@ -267,8 +267,8 @@
       "region": "경기",
       "address": "경기도 김포시 김포대로 709 퍼스트블루 503~4호 (풍무동)",
       "phone": "031-985-9831",
-      "lat": 37.61234,
-      "lng": 126.73194,
+      "lat": 37.6122466,
+      "lng": 126.7318476,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidreament"
     },
     {
@@ -277,8 +277,8 @@
       "region": "경기",
       "address": "경기도 김포시 김포한강1로 227 광장프라자 306호 (운양동)",
       "phone": "031-981-7979",
-      "lat": 37.65395,
-      "lng": 126.68245,
+      "lat": 37.65416,
+      "lng": 126.6826066,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikimpohanaent"
     },
     {
@@ -287,8 +287,8 @@
       "region": "경기",
       "address": "경기도 김포시 김포한강2로 222 305,306호 (장기동, 대영메디칼아카데미)",
       "phone": "031-985-3117",
-      "lat": 37.64028,
-      "lng": 126.6759,
+      "lat": 37.6453959,
+      "lng": 126.6610517,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihient"
     },
     {
@@ -297,8 +297,8 @@
       "region": "경기",
       "address": "경기도 김포시 김포한강4로 507 2층 207호 (구래동)",
       "phone": "031-986-8550",
-      "lat": 37.64624,
-      "lng": 126.62751,
+      "lat": 37.6461192,
+      "lng": 126.6275368,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibaroent"
     },
     {
@@ -307,8 +307,8 @@
       "region": "경기",
       "address": "경기도 김포시 양도로 23 오성프라자 3층 302호 (풍무동)",
       "phone": "031-983-0900",
-      "lat": 37.60665,
-      "lng": 126.72518,
+      "lat": 37.6067257,
+      "lng": 126.7249838,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearent"
     },
     {
@@ -317,8 +317,8 @@
       "region": "경기",
       "address": "경기도 김포시 풍무로 25 303호",
       "phone": "031-988-5075",
-      "lat": 37.59798,
-      "lng": 126.72025,
+      "lat": 37.5981071,
+      "lng": 126.7202018,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiandetooent"
     },
     {
@@ -327,8 +327,8 @@
       "region": "경기",
       "address": "경기도 남양주시 와부읍 덕소로 214 ()",
       "phone": "031-521-7577",
-      "lat": 37.57942,
-      "lng": 127.22005,
+      "lat": 37.5792733,
+      "lng": 127.2198089,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikangim"
     },
     {
@@ -337,8 +337,8 @@
       "region": "경기",
       "address": "경기도 남양주시 진접읍 해밀예당1로 30 센타프라자 6층",
       "phone": "031-571-5075",
-      "lat": 37.71175,
-      "lng": 127.18636,
+      "lat": 37.7117942,
+      "lng": 127.1864721,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggierooment"
     },
     {
@@ -357,8 +357,8 @@
       "region": "경기",
       "address": "경기도 부천시 석천로183번길 35 301호",
       "phone": "032-324-1615",
-      "lat": 37.504,
-      "lng": 126.76103,
+      "lat": 37.5039147,
+      "lng": 126.7611243,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearsaintent"
     },
     {
@@ -367,8 +367,8 @@
       "region": "경기",
       "address": "경기도 부천시 소사로 754 2층일부, 3층일부 (원종동)",
       "phone": "032-677-5075",
-      "lat": 37.5232,
-      "lng": 126.80507,
+      "lat": 37.5232578,
+      "lng": 126.8052029,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibusheoncoeent"
     },
     {
@@ -377,8 +377,8 @@
       "region": "경기",
       "address": "경기도 부천시 조마루로 170 (중동)",
       "phone": "032-621-5114",
-      "lat": 37.49912,
-      "lng": 126.76256,
+      "lat": 37.4986998,
+      "lng": 126.7629626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggischmcbucheon"
     },
     {
@@ -387,8 +387,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 구미로173번길 82 (구미동, 분당서울대학교병원)",
       "phone": "031-787-2114",
-      "lat": 37.34517,
-      "lng": 127.12503,
+      "lat": 37.3516694,
+      "lng": 127.1234066,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisnubh"
     },
     {
@@ -397,8 +397,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 서현로180번길 20 (서현동)",
       "phone": "031-779-0114",
-      "lat": 37.38779,
-      "lng": 127.12196,
+      "lat": 37.3882035,
+      "lng": 127.1217783,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidmcbundang"
     },
     {
@@ -407,8 +407,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 서현로210번길 20 3,4층 305-3,306,402호 (서현동, 코코프라자)",
       "phone": "031-704-5275",
-      "lat": 37.37439,
-      "lng": 127.13613,
+      "lat": 37.3858444,
+      "lng": 127.1240452,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggi365syseoulent"
     },
     {
@@ -417,8 +417,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 성남대로331번길 7 401호 402-1일부호 (정자동, 정자스타빌딩)",
       "phone": "031-714-1077",
-      "lat": 37.37109,
-      "lng": 127.10739,
+      "lat": 37.36546,
+      "lng": 127.1072126,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggileehongent"
     },
     {
@@ -427,8 +427,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 야탑로 59 (야탑동)",
       "phone": "031-780-5000",
-      "lat": 37.40758,
-      "lng": 127.14436,
+      "lat": 37.4102384,
+      "lng": 127.1254535,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibundangchamc"
     },
     {
@@ -437,8 +437,8 @@
       "region": "경기",
       "address": "경기도 성남시 분당구 판교역로 152 알파돔타워 2층 202호 (백현동)",
       "phone": "031-622-7299",
-      "lat": 37.39421,
-      "lng": 127.11023,
+      "lat": 37.3942126,
+      "lng": 127.1102892,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwingent"
     },
     {
@@ -447,8 +447,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 산성대로 241 5층 (신흥동)",
       "phone": "031-723-6789",
-      "lat": 37.45022,
-      "lng": 127.15041,
+      "lat": 37.4399478,
+      "lng": 127.1440896,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyshappyent"
     },
     {
@@ -457,8 +457,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 수정로 291 상가1동 3층 302호 (신흥동)",
       "phone": "031-733-5002",
-      "lat": 37.44975,
-      "lng": 127.15081,
+      "lat": 37.45109,
+      "lng": 127.1471734,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheclearent"
     },
     {
@@ -467,8 +467,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 위례광장로 310 5층 503,504호 (창곡동, 우성트램타워)",
       "phone": "031-746-7575",
-      "lat": 37.4727,
-      "lng": 127.14316,
+      "lat": 37.4727089,
+      "lng": 127.142939,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiysboment"
     },
     {
@@ -477,8 +477,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 위례광장로 310 우성트램타워 A동 301호, 302 일부호",
       "phone": "031-778-6811",
-      "lat": 37.4727,
-      "lng": 127.14316,
+      "lat": 37.4727089,
+      "lng": 127.142939,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereahanaent"
     },
     {
@@ -487,8 +487,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 위례광장로 320 5층 515,516호 (창곡동, 아이에스센트럴타워)",
       "phone": "031-721-7852",
-      "lat": 37.47211,
-      "lng": 127.14269,
+      "lat": 37.4722451,
+      "lng": 127.1429497,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereacentalent"
     },
     {
@@ -497,8 +497,8 @@
       "region": "경기",
       "address": "경기도 성남시 수정구 위례동로 153 4층 403호 (창곡동, 에이플타워)",
       "phone": "031-753-5550",
-      "lat": 37.47358,
-      "lng": 127.15029,
+      "lat": 37.4734999,
+      "lng": 127.1501737,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereaplusent"
     },
     {
@@ -507,8 +507,8 @@
       "region": "경기",
       "address": "경기도 수원시 권선구 덕영대로1201번길 34 3층 (권선동)",
       "phone": "031-238-0100",
-      "lat": 37.25063,
-      "lng": 127.02288,
+      "lat": 37.250558,
+      "lng": 127.0229514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanaent"
     },
     {
@@ -517,8 +517,8 @@
       "region": "경기",
       "address": "경기도 수원시 권선구 덕영대로1201번길 8 3층",
       "phone": "031-235-7633",
-      "lat": 37.24955,
-      "lng": 127.02251,
+      "lat": 37.2495391,
+      "lng": 127.022569,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijohnsbilent"
     },
     {
@@ -527,8 +527,8 @@
       "region": "경기",
       "address": "경기도 수원시 권선구 매송고색로 526 201, 202호 (오목천동)",
       "phone": "031-895-5353",
-      "lat": 37.24546,
-      "lng": 126.96258,
+      "lat": 37.2452684,
+      "lng": 126.9628724,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsamsungplusim"
     },
     {
@@ -537,8 +537,8 @@
       "region": "경기",
       "address": "경기도 수원시 권선구 호매실로104번길 24-43 401~405호 (호매실동)",
       "phone": "031-293-7582",
-      "lat": 37.25808,
-      "lng": 126.96265,
+      "lat": 37.2579757,
+      "lng": 126.9625695,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihomaesilysent"
     },
     {
@@ -547,8 +547,8 @@
       "region": "경기",
       "address": "경기도 수원시 영통구 도청로18번길 26 힐스테이트광교중앙역 3층 338호~341호 (이의동)",
       "phone": "031-216-7077",
-      "lat": 37.28795,
-      "lng": 127.05657,
+      "lat": 37.2875826,
+      "lng": 127.0568585,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikwangkyogoodsleep"
     },
     {
@@ -557,8 +557,8 @@
       "region": "경기",
       "address": "경기도 수원시 영통구 봉영로 1620 (영통동, 대우월드마크영통 3,5,6,7,8층)",
       "phone": "031-202-1144",
-      "lat": 37.25507,
-      "lng": 127.07539,
+      "lat": 37.255323,
+      "lng": 127.0754725,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggithewell"
     },
     {
@@ -567,8 +567,8 @@
       "region": "경기",
       "address": "경기도 수원시 영통구 센트럴타운로 111 301호,302호 (이의동, 광교서희스타힐스)",
       "phone": "031-212-7907",
-      "lat": 37.29269,
-      "lng": 127.04913,
+      "lat": 37.2925601,
+      "lng": 127.0491306,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsoopent"
     },
     {
@@ -577,8 +577,8 @@
       "region": "경기",
       "address": "경기도 수원시 영통구 월드컵로 164 (원천동)",
       "phone": "031-219-5114",
-      "lat": 37.2746,
-      "lng": 127.05332,
+      "lat": 37.2794612,
+      "lng": 127.0476837,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajoumc"
     },
     {
@@ -587,8 +587,8 @@
       "region": "경기",
       "address": "경기도 수원시 영통구 중부대로 264 3층, 4층 일부층 (매탄동)",
       "phone": "031-213-5453",
-      "lat": 37.27149,
-      "lng": 127.05768,
+      "lat": 37.2742331,
+      "lng": 127.0444627,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajouwellent"
     },
     {
@@ -597,8 +597,8 @@
       "region": "경기",
       "address": "경기도 수원시 장안구 창룡대로 197 (연무동)",
       "phone": "031-241-9006",
-      "lat": 37.2929,
-      "lng": 127.03182,
+      "lat": 37.2927063,
+      "lng": 127.031781,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijoeunent"
     },
     {
@@ -607,8 +607,8 @@
       "region": "경기",
       "address": "경기도 수원시 팔달구 경수대로 437 (인계동)",
       "phone": "031-223-2233",
-      "lat": 37.28051,
-      "lng": 127.0301,
+      "lat": 37.2653229,
+      "lng": 127.0255443,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitomaswiylshosiptal"
     },
     {
@@ -617,8 +617,8 @@
       "region": "경기",
       "address": "경기도 수원시 팔달구 동말로 81 3층 (화서동)",
       "phone": "031-253-7575",
-      "lat": 37.2789,
-      "lng": 127.00317,
+      "lat": 37.2789626,
+      "lng": 127.0031271,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihwaseotopim"
     },
     {
@@ -627,8 +627,8 @@
       "region": "경기",
       "address": "경기도 수원시 팔달구 중부대로 165 (우만동)",
       "phone": "031-210-0114",
-      "lat": 37.27855,
-      "lng": 127.03177,
+      "lat": 37.2780648,
+      "lng": 127.0345486,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidswhop"
     },
     {
@@ -637,8 +637,8 @@
       "region": "경기",
       "address": "경기도 수원시 팔달구 중부대로 93 (지동)",
       "phone": "031-1577-8588",
-      "lat": 37.27688,
-      "lng": 127.02675,
+      "lat": 37.2779855,
+      "lng": 127.0274271,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmvincent"
     },
     {
@@ -647,8 +647,8 @@
       "region": "경기",
       "address": "경기도 시흥시 승지로59번길 12 시티타워 2층 204~206호 (능곡동)",
       "phone": "031-504-5335",
-      "lat": 37.3692,
-      "lng": 126.80941,
+      "lat": 37.3688669,
+      "lng": 126.8090412,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheent"
     },
     {
@@ -657,8 +657,8 @@
       "region": "경기",
       "address": "경기도 시흥시 옥구천동로374번길 83 송산빌딩 202~204호 (정왕동)",
       "phone": "031-5189-0977",
-      "lat": 37.35027,
-      "lng": 126.73562,
+      "lat": 37.350347,
+      "lng": 126.7359431,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisihwaent"
     },
     {
@@ -667,8 +667,8 @@
       "region": "경기",
       "address": "경기도 시흥시 은계번영길 19 은계 디스퀘어큐브 5층 503~506호 (은행동)",
       "phone": "031-507-5123",
-      "lat": 37.43743,
-      "lng": 126.80303,
+      "lat": 37.4372784,
+      "lng": 126.8030194,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsorient"
     },
     {
@@ -677,8 +677,8 @@
       "region": "경기",
       "address": "경기도 안산시 단원구 고잔로 88 606호, 예술대학로 17, 919호 (고잔동)",
       "phone": "031-439-5075",
-      "lat": 37.31894,
-      "lng": 126.83604,
+      "lat": 37.3188241,
+      "lng": 126.8360083,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodent"
     },
     {
@@ -697,8 +697,8 @@
       "region": "경기",
       "address": "경기도 안산시 단원구 라성로 43 벽산블루밍아파트 401,402,403,404,404-1호 (원곡동)",
       "phone": "031-401-3175",
-      "lat": 37.3279,
-      "lng": 126.80067,
+      "lat": 37.3275731,
+      "lng": 126.8002963,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicleansament"
     },
     {
@@ -707,8 +707,8 @@
       "region": "경기",
       "address": "경기도 안산시 단원구 원포공원1로 49 태영타운 308,309일부,314,315호 (초지동)",
       "phone": "031-405-6780",
-      "lat": 37.30263,
-      "lng": 126.81238,
+      "lat": 37.302442,
+      "lng": 126.8123402,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyeplusent"
     },
     {
@@ -717,8 +717,8 @@
       "region": "경기",
       "address": "경기도 안산시 단원구 적금로 123 (고잔동)",
       "phone": "031-1577-7516",
-      "lat": 37.31913,
-      "lng": 126.82582,
+      "lat": 37.3185144,
+      "lng": 126.8249033,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansankumc"
     },
     {
@@ -727,8 +727,8 @@
       "region": "경기",
       "address": "경기도 안산시 단원구 화랑로 102 e편한세상초지역센트럴포레상가 1동 3층 322~326호 (원곡동)",
       "phone": "031-8042-2290",
-      "lat": 37.32637,
-      "lng": 126.79988,
+      "lat": 37.3263064,
+      "lng": 126.800391,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansancoient"
     },
     {
@@ -737,8 +737,8 @@
       "region": "경기",
       "address": "경기도 안양시 동안구 관평로170번길 22 (평촌동)",
       "phone": "031-380-1500",
-      "lat": 37.39242,
-      "lng": 126.96206,
+      "lat": 37.3917575,
+      "lng": 126.9620529,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihallym"
     },
     {
@@ -747,8 +747,8 @@
       "region": "경기",
       "address": "경기도 양주시 고읍남로 10 302, 303호",
       "phone": "031-845-8200",
-      "lat": 37.04251,
-      "lng": 127.04993,
+      "lat": 37.7954018,
+      "lng": 127.0799504,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggico365ent"
     },
     {
@@ -757,8 +757,8 @@
       "region": "경기",
       "address": "경기도 오산시 내삼미로79번길 11 2층 207,208호 (수청동, 선우중앙타워)",
       "phone": "031-373-3993",
-      "lat": 37.16914,
-      "lng": 127.06519,
+      "lat": 37.1690388,
+      "lng": 127.065276,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisekyoseoulent"
     },
     {
@@ -767,8 +767,8 @@
       "region": "경기",
       "address": "경기도 용인시 기흥구 동백죽전대로 363 (중동)",
       "phone": "1899-1004",
-      "lat": 37.27188,
-      "lng": 127.14806,
+      "lat": 37.270805,
+      "lng": 127.1485144,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginewysiseverance"
     },
     {
@@ -777,8 +777,8 @@
       "region": "경기",
       "address": "경기도 용인시 수지구 성복2로 37 정환빌딩 3층 (성복동)",
       "phone": "031-261-1233",
-      "lat": 37.34967,
-      "lng": 127.08375,
+      "lat": 37.3128194,
+      "lng": 127.0801982,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisorisaintent"
     },
     {
@@ -787,8 +787,8 @@
       "region": "경기",
       "address": "경기도 의정부시 동일로 712 을지대학교 의정부캠퍼스 및 부속병원 (금오동)",
       "phone": "031-951-1000",
-      "lat": 37.74852,
-      "lng": 127.09996,
+      "lat": 37.7518185,
+      "lng": 127.0506997,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggieuljieuijeongbu"
     },
     {
@@ -797,8 +797,8 @@
       "region": "경기",
       "address": "경기도 의정부시 오목로225번길 177 폴리프라자 401-406호 (민락동)",
       "phone": "031-851-5475",
-      "lat": 37.74444,
-      "lng": 127.09705,
+      "lat": 37.7445728,
+      "lng": 127.0972021,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearseoulent"
     },
     {
@@ -807,8 +807,8 @@
       "region": "경기",
       "address": "경기도 의정부시 용민로 60 3층 (용현동)",
       "phone": "031-851-7585",
-      "lat": 37.73663,
-      "lng": 127.08514,
+      "lat": 37.7366329,
+      "lng": 127.0852514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimoduent"
     },
     {
@@ -817,8 +817,8 @@
       "region": "경기",
       "address": "경기도 의정부시 천보로 271 의정부성모병원 (금오동)",
       "phone": "1661-7500",
-      "lat": 37.75843,
-      "lng": 127.07772,
+      "lat": 37.7587045,
+      "lng": 127.0777625,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmccujb"
     },
     {
@@ -827,8 +827,8 @@
       "region": "경기",
       "address": "경기도 파주시 교하로 87 삼성프라자 501호 (목동동)",
       "phone": "031-949-8083",
-      "lat": 37.72768,
-      "lng": 126.73383,
+      "lat": 37.7276519,
+      "lng": 126.7339335,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggipajoohanaent"
     },
     {
@@ -837,8 +837,8 @@
       "region": "경기",
       "address": "경기도 파주시 청암로17번길 33 701~703호 (목동동)",
       "phone": "031-947-4477",
-      "lat": 37.72869,
-      "lng": 126.73621,
+      "lat": 37.7287093,
+      "lng": 126.7363864,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginelboment"
     },
     {
@@ -847,8 +847,8 @@
       "region": "경기",
       "address": "경기도 평택시 고덕면 고덕중앙로 200-4 우성고덕타워 409,410,411호",
       "phone": "031-8029-7500",
-      "lat": 37.01776,
-      "lng": 127.03113,
+      "lat": 37.0477733,
+      "lng": 127.0442098,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoduckcentralent"
     },
     {
@@ -857,8 +857,8 @@
       "region": "경기",
       "address": "경기도 평택시 비전5로 20-24 312,313호 (비전동)",
       "phone": "031-647-3500",
-      "lat": 36.99898,
-      "lng": 127.11427,
+      "lat": 36.9988747,
+      "lng": 127.1141665,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggivisionent"
     },
     {
@@ -867,8 +867,8 @@
       "region": "경기",
       "address": "경기도 평택시 중앙2로 13",
       "phone": "031-652-0023",
-      "lat": 36.99183,
-      "lng": 127.08856,
+      "lat": 36.9919135,
+      "lng": 127.0886955,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulent"
     },
     {
@@ -877,8 +877,8 @@
       "region": "경기",
       "address": "경기도 평택시 중앙로 338 (합정동)",
       "phone": "031-5182-7700",
-      "lat": 36.99434,
-      "lng": 127.09018,
+      "lat": 36.9906277,
+      "lng": 127.1204113,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodmohospital"
     },
     {
@@ -887,8 +887,8 @@
       "region": "경기",
       "address": "경기도 하남시 미사강변대로 222 502호503호 (망월동)",
       "phone": "031-792-6987",
-      "lat": 37.56947,
-      "lng": 127.18415,
+      "lat": 37.569515,
+      "lng": 127.1842201,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicomient"
     },
     {
@@ -897,8 +897,8 @@
       "region": "경기",
       "address": "경기도 하남시 미사강변동로 127 경서타워 406,407호 (망월동)",
       "phone": "031-795-8375",
-      "lat": 37.56623,
-      "lng": 127.1913,
+      "lat": 37.5659695,
+      "lng": 127.1903962,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheseoulent"
     },
     {
@@ -907,8 +907,8 @@
       "region": "경기",
       "address": "경기도 하남시 미사강변동로 73 508호~512호 (망월동, 미사강변노블레스)",
       "phone": "031-794-2460",
-      "lat": 37.56158,
-      "lng": 127.19322,
+      "lat": 37.5615554,
+      "lng": 127.1930378,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimisaysent"
     },
     {
@@ -917,8 +917,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄대로 181 301~303호,307~309일부호 (송동, 동탄린스트라우스더레이크)",
       "phone": "031-372-5975",
-      "lat": 37.17059,
-      "lng": 127.10638,
+      "lat": 37.1713447,
+      "lng": 127.1048678,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggirakebomboment"
     },
     {
@@ -927,8 +927,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄대로 198 드림타워 306호 (산척동)",
       "phone": "031-376-7581",
-      "lat": 37.17219,
-      "lng": 127.10713,
+      "lat": 37.1676291,
+      "lng": 127.1058272,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient-southdongtan"
     },
     {
@@ -937,8 +937,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄대로 489 동탄역우성타워 304~305 211호 904일부 (오산동)",
       "phone": "031-377-5082",
-      "lat": 37.19735,
-      "lng": 127.09843,
+      "lat": 37.1973592,
+      "lng": 127.0982637,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtranstationent"
     },
     {
@@ -947,8 +947,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄대로시범길 134 판매시설 2125호~2132호 (청계동, 시범 반도유보라 아이비파크4.0)",
       "phone": "031-8055-8642",
-      "lat": 37.16811,
-      "lng": 126.95389,
+      "lat": 37.1992157,
+      "lng": 127.1142339,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisaintwoorient"
     },
     {
@@ -957,8 +957,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄대로시범길 146 4층 403호 (청계동, 포트센트럴시티)",
       "phone": "031-372-7119",
-      "lat": 37.16869,
-      "lng": 126.62421,
+      "lat": 37.2003439,
+      "lng": 127.1131432,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsomangent"
     },
     {
@@ -967,8 +967,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄반석로 130 602호 (반송동, 드림프라자)",
       "phone": "031-613-3223",
-      "lat": 37.20047,
-      "lng": 127.07126,
+      "lat": 37.2004684,
+      "lng": 127.0714265,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicozent"
     },
     {
@@ -977,8 +977,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄솔빛로 64 가희프라자2 302호,506일부호 (반송동)",
       "phone": "031-8003-5075",
-      "lat": 37.19431,
-      "lng": 127.07456,
+      "lat": 37.1942175,
+      "lng": 127.0746368,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiprimeent"
     },
     {
@@ -987,8 +987,8 @@
       "region": "경기",
       "address": "경기도 화성시 동탄순환대로 127-5 우성센트럴타워 4층 408~410호 (산척동)",
       "phone": "031-374-1003",
-      "lat": 37.16614,
-      "lng": 127.10747,
+      "lat": 37.1660595,
+      "lng": 127.1072823,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtansamsungent"
     },
     {
@@ -997,8 +997,8 @@
       "region": "경기",
       "address": "경기도 화성시 봉담읍 상리2길 51 503,504호",
       "phone": "031-295-5825",
-      "lat": 37.22456,
-      "lng": 126.94729,
+      "lat": 37.2245561,
+      "lng": 126.9471441,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheopenent"
     },
     {
@@ -1007,8 +1007,8 @@
       "region": "경기",
       "address": "경기도 화성시 큰재봉길 7 (석우동)",
       "phone": "031-8086-3000",
-      "lat": 37.21678,
-      "lng": 127.08047,
+      "lat": 37.2165141,
+      "lng": 127.0799502,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtanhallym"
     },
     {
@@ -1017,8 +1017,8 @@
       "region": "경남",
       "address": "경상남도 거제시 동문천로 52 (고현동)",
       "phone": "055-632-8225",
-      "lat": 34.88304,
-      "lng": 128.62614,
+      "lat": 34.8828723,
+      "lng": 128.6262587,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgeojechildren"
     },
     {
@@ -1027,8 +1027,8 @@
       "region": "경남",
       "address": "경상남도 거제시 아주1로2길 65 1,2,3,4층 (아주동)",
       "phone": "055-731-1275",
-      "lat": 34.86725,
-      "lng": 128.68517,
+      "lat": 34.8671803,
+      "lng": 128.6851648,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamajooent"
     },
     {
@@ -1037,8 +1037,8 @@
       "region": "경남",
       "address": "경상남도 김해시 내외중앙로 84 10.11층 (내동, 서울메디컬센터)",
       "phone": "055-336-0660",
-      "lat": 35.2374,
-      "lng": 128.86745,
+      "lat": 35.23737,
+      "lng": 128.8675561,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamseoulent"
     },
     {
@@ -1047,8 +1047,8 @@
       "region": "경남",
       "address": "경상남도 김해시 내외중앙로 92 4층 (내동)",
       "phone": "055-312-2575",
-      "lat": 35.23818,
-      "lng": 128.86755,
+      "lat": 35.2380812,
+      "lng": 128.867684,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamivyent"
     },
     {
@@ -1057,8 +1057,8 @@
       "region": "경남",
       "address": "경상남도 양산시 물금읍 금오로 20 ()",
       "phone": "055-360-1000",
-      "lat": 35.3289,
-      "lng": 129.00778,
+      "lat": 35.3281501,
+      "lng": 129.0057274,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyangsanent"
     },
     {
@@ -1067,8 +1067,8 @@
       "region": "경남",
       "address": "경상남도 진주시 강남로 79",
       "phone": "055-750-8000",
-      "lat": 35.18405,
-      "lng": 128.09398,
+      "lat": 35.1759944,
+      "lng": 128.0964924,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgnuh"
     },
     {
@@ -1077,8 +1077,8 @@
       "region": "경남",
       "address": "경상남도 창원시 마산회원구 3·15대로 645 예일메디컬센터 2,8,9층 3층(303)호 (석전동)",
       "phone": "055-293-5775",
-      "lat": 35.24354,
-      "lng": 128.5859,
+      "lat": 35.2309744,
+      "lng": 128.576436,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyaleent"
     },
     {
@@ -1087,8 +1087,8 @@
       "region": "경남",
       "address": "경상남도 창원시 마산회원구 팔용로 158-158 (합성동, 삼성창원병원)",
       "phone": "055-233-8899",
-      "lat": 35.243,
-      "lng": 128.59135,
+      "lat": 35.2424957,
+      "lng": 128.5923771,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamskkuchangwon"
     },
     {
@@ -1097,28 +1097,28 @@
       "region": "경남",
       "address": "경상남도 창원시 성산구 삼정자로 11 (성주동, 창원경상대학교병원)",
       "phone": "055-214-2000",
-      "lat": 35.19763,
-      "lng": 128.7058,
+      "lat": 35.1990872,
+      "lng": 128.7078463,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamsmcskku"
     },
     {
       "id": "gyeongbukseoulsamsung",
       "name": "서울삼성신경과의원",
-      "region": "경북",
+      "region": "경남",
       "address": "경상남도 창원시 의창구 중동중앙로 83 D7Park 5층 512-516호 (중동)",
       "phone": "055-713-6387",
-      "lat": 35.25885,
-      "lng": 128.62715,
+      "lat": 35.2592748,
+      "lng": 128.627529,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukseoulsamsung"
     },
     {
       "id": "gyeongbukdosin",
       "name": "DO두신경과의원",
-      "region": "경북",
+      "region": "경남",
       "address": "경상남도 통영시 무전대로 41 201~401호 (무전동)",
       "phone": "055-725-7979",
-      "lat": 34.86034,
-      "lng": 128.42526,
+      "lat": 34.8604052,
+      "lng": 128.425197,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukdosin"
     },
     {
@@ -1127,8 +1127,8 @@
       "region": "경북",
       "address": "경상북도 경주시 원화로 293 성모클리닉빌딩 (성동동)",
       "phone": "054-772-9922",
-      "lat": 35.84684,
-      "lng": 129.21709,
+      "lat": 35.846824,
+      "lng": 129.2169822,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukkyungjoosaint"
     },
     {
@@ -1137,8 +1137,8 @@
       "region": "경북",
       "address": "경상북도 영천시 완산로 53 3층 (완산동)",
       "phone": "054-336-7582",
-      "lat": 35.96481,
-      "lng": 128.9387,
+      "lat": 35.964831,
+      "lng": 128.9386573,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukyoungchunent"
     },
     {
@@ -1147,8 +1147,8 @@
       "region": "경북",
       "address": "경상북도 포항시 남구 시청로 5 (대잠동)",
       "phone": "054-250-6666",
-      "lat": 35.90551,
-      "lng": 129.52704,
+      "lat": 36.0181554,
+      "lng": 129.341997,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukcoaent"
     },
     {
@@ -1157,8 +1157,8 @@
       "region": "경북",
       "address": "경상북도 포항시 남구 포스코대로 351",
       "phone": "054-275-0005",
-      "lat": 36.01768,
-      "lng": 129.36203,
+      "lat": 36.0177172,
+      "lng": 129.3622256,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukphgidok"
     },
     {
@@ -1167,8 +1167,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 동곡로 739 3층 303, 304, 305호 (선암동)",
       "phone": "062-944-7575",
-      "lat": 35.14755,
-      "lng": 126.77799,
+      "lat": 35.1475085,
+      "lng": 126.7778703,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhicocoent"
     },
     {
@@ -1177,8 +1177,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 임방울대로 342 (수완동)",
       "phone": "062-961-5665",
-      "lat": 35.19185,
-      "lng": 126.82465,
+      "lat": 35.1903865,
+      "lng": 126.8243182,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjufirstent"
     },
     {
@@ -1187,8 +1187,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 임방울대로 370 (수완동)",
       "phone": "062-958-1111",
-      "lat": 35.1931,
-      "lng": 126.82409,
+      "lat": 35.193096,
+      "lng": 126.8241888,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusoowan"
     },
     {
@@ -1197,8 +1197,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 장신로 77 301~303호 (장덕동)",
       "phone": "062-452-3000",
-      "lat": 35.19106,
-      "lng": 126.81855,
+      "lat": 35.1912399,
+      "lng": 126.818566,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjubestent"
     },
     {
@@ -1207,8 +1207,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 장신로 82",
       "phone": "062-973-5300",
-      "lat": 35.19058,
-      "lng": 126.81876,
+      "lat": 35.1904601,
+      "lng": 126.818775,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucentument"
     },
     {
@@ -1217,8 +1217,8 @@
       "region": "광주",
       "address": "광주광역시 광산구 첨단중앙로170번길 59 (쌍암동)",
       "phone": "062-601-8000",
-      "lat": 35.22085,
-      "lng": 126.84517,
+      "lat": 35.2211088,
+      "lng": 126.8453041,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucheomdanhop"
     },
     {
@@ -1227,8 +1227,8 @@
       "region": "광주",
       "address": "광주광역시 남구 대남대로 139 2층 (봉선동)",
       "phone": "062-714-2838",
-      "lat": 35.13376,
-      "lng": 126.9098,
+      "lat": 35.1336726,
+      "lng": 126.9098142,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusooment"
     },
     {
@@ -1247,8 +1247,8 @@
       "region": "광주",
       "address": "광주광역시 남구 양림로 37 (양림동)",
       "phone": "062-650-5000",
-      "lat": 35.13679,
-      "lng": 126.91312,
+      "lat": 35.136665,
+      "lng": 126.9118749,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjukch"
     },
     {
@@ -1257,8 +1257,8 @@
       "region": "광주",
       "address": "광주광역시 남구 제석로 104 6층 (봉선동)",
       "phone": "062-710-3927",
-      "lat": 35.12371,
-      "lng": 126.90723,
+      "lat": 35.1237129,
+      "lng": 126.9074211,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuroielent"
     },
     {
@@ -1267,8 +1267,8 @@
       "region": "광주",
       "address": "광주광역시 동구 백서로 133 금동 180-3 제2종근린생활시설 (금동)",
       "phone": "062-232-7588",
-      "lat": 35.1423,
-      "lng": 126.91984,
+      "lat": 35.142349,
+      "lng": 126.9198157,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoandsoopent"
     },
     {
@@ -1277,8 +1277,8 @@
       "region": "광주",
       "address": "광주광역시 동구 제봉로 42 (학동)",
       "phone": "062-1899-0000",
-      "lat": 35.14247,
-      "lng": 126.92085,
+      "lat": 35.1418094,
+      "lng": 126.9215805,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucnuh"
     },
     {
@@ -1287,8 +1287,8 @@
       "region": "광주",
       "address": "광주광역시 동구 필문대로 365 (학동)",
       "phone": "062-220-3321",
-      "lat": 35.15004,
-      "lng": 126.92854,
+      "lat": 35.1390537,
+      "lng": 126.9261467,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuchosun"
     },
     {
@@ -1297,8 +1297,8 @@
       "region": "광주",
       "address": "광주광역시 북구 갈마로 45 3,4층 (두암동)",
       "phone": "062-431-3000",
-      "lat": 35.16183,
-      "lng": 126.93552,
+      "lat": 35.1620234,
+      "lng": 126.9354978,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjugooddoctor"
     },
     {
@@ -1307,8 +1307,8 @@
       "region": "광주",
       "address": "광주광역시 북구 경열로 216-0 해피뷰병원",
       "phone": "062-519-9000",
-      "lat": 35.1586,
-      "lng": 126.90661,
+      "lat": 35.1586417,
+      "lng": 126.906773,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhappyview"
     },
     {
@@ -1317,8 +1317,8 @@
       "region": "광주",
       "address": "광주광역시 북구 설죽로 347 (매곡동)",
       "phone": "062-717-7500",
-      "lat": 35.19661,
-      "lng": 126.89995,
+      "lat": 35.1906309,
+      "lng": 126.8988872,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuntopent"
     },
     {
@@ -1327,8 +1327,8 @@
       "region": "광주",
       "address": "광주광역시 서구 시청로 3 2,3층 (치평동)",
       "phone": "062-1577-0693",
-      "lat": 35.12312,
-      "lng": 126.85742,
+      "lat": 35.14873,
+      "lng": 126.8516673,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoyoung"
     },
     {
@@ -1337,8 +1337,8 @@
       "region": "광주",
       "address": "광주광역시 서구 화정로 259 4층 401, 404호",
       "phone": "062-367-5533",
-      "lat": 35.14796,
-      "lng": 126.88497,
+      "lat": 35.148097,
+      "lng": 126.8849813,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhohoent"
     },
     {
@@ -1347,8 +1347,8 @@
       "region": "대구",
       "address": "대구광역시 남구 두류공원로17길 33 (대명동)",
       "phone": "053-650-3000",
-      "lat": 35.84412,
-      "lng": 128.56812,
+      "lat": 35.8436078,
+      "lng": 128.5679969,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudcmc"
     },
     {
@@ -1357,8 +1357,8 @@
       "region": "대구",
       "address": "대구광역시 남구 봉덕로 90 3층 (봉덕동)",
       "phone": "053-476-0077",
-      "lat": 35.84455,
-      "lng": 128.60042,
+      "lat": 35.8444691,
+      "lng": 128.6003533,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegubarunent"
     },
     {
@@ -1367,8 +1367,8 @@
       "region": "대구",
       "address": "대구광역시 남구 월배로 474 4층 (대명동)",
       "phone": "053-638-7582",
-      "lat": 35.83523,
-      "lng": 128.55614,
+      "lat": 35.8352749,
+      "lng": 128.556279,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegukwakandsinent"
     },
     {
@@ -1377,8 +1377,8 @@
       "region": "대구",
       "address": "대구광역시 남구 현충로 170 (대명동)",
       "phone": "053-623-8001",
-      "lat": 35.848,
-      "lng": 128.5804,
+      "lat": 35.848107,
+      "lng": 128.58205,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyumc"
     },
     {
@@ -1387,8 +1387,8 @@
       "region": "대구",
       "address": "대구광역시 달서구 달구벌대로 1035 (신당동)",
       "phone": "1577-6622",
-      "lat": 35.85357,
-      "lng": 128.48022,
+      "lat": 35.8538856,
+      "lng": 128.4801315,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudsmc"
     },
     {
@@ -1397,8 +1397,8 @@
       "region": "대구",
       "address": "대구광역시 달서구 조암로 4 4층 (월성동, 그루메디컬빌딩)",
       "phone": "053-719-2882",
-      "lat": 35.82616,
-      "lng": 128.52919,
+      "lat": 35.8262782,
+      "lng": 128.5291303,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegudanielent"
     },
     {
@@ -1407,8 +1407,8 @@
       "region": "대구",
       "address": "대구광역시 달서구 조암로 42 플러스타워 201,202,402,403호 (월성동)",
       "phone": "053-641-5050",
-      "lat": 35.82469,
-      "lng": 128.52527,
+      "lat": 35.8247073,
+      "lng": 128.5250912,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguchungmyungent"
     },
     {
@@ -1417,8 +1417,8 @@
       "region": "대구",
       "address": "대구광역시 달성군 화원읍 비슬로 2579-4 ()",
       "phone": "053-632-8275",
-      "lat": 35.80393,
-      "lng": 128.49895,
+      "lat": 35.8039069,
+      "lng": 128.4990111,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguthenaenent"
     },
     {
@@ -1427,8 +1427,8 @@
       "region": "대구",
       "address": "대구광역시 동구 아양로 99 (신암동)",
       "phone": "053-1688-7770",
-      "lat": 35.88357,
-      "lng": 128.62404,
+      "lat": 35.8842611,
+      "lng": 128.6244071,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegupatima"
     },
     {
@@ -1437,8 +1437,8 @@
       "region": "대구",
       "address": "대구광역시 동구 팔공로51길 17 2층 (봉무동)",
       "phone": "053-985-7585",
-      "lat": 35.92293,
-      "lng": 128.63907,
+      "lat": 35.92288,
+      "lng": 128.6390057,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguisaent"
     },
     {
@@ -1447,8 +1447,8 @@
       "region": "대구",
       "address": "대구광역시 북구 호국로 807 칠곡경북대학교병원(임살실습동 1~11층 포함) (학정동)",
       "phone": "053-200-2000",
-      "lat": 35.95677,
-      "lng": 128.56541,
+      "lat": 35.9564207,
+      "lng": 128.5646727,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguknumc"
     },
     {
@@ -1457,8 +1457,8 @@
       "region": "대구",
       "address": "대구광역시 수성구 달구벌대로 2401 3층 (범어동)",
       "phone": "053-753-5566",
-      "lat": 35.85969,
-      "lng": 128.62529,
+      "lat": 35.8597503,
+      "lng": 128.6252844,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegusamsung"
     },
     {
@@ -1467,8 +1467,8 @@
       "region": "대구",
       "address": "대구광역시 수성구 달구벌대로 2435 상가동 205, 205-2, 205-6호 (범어동, 두산위브더제니스)",
       "phone": "053-427-7585",
-      "lat": 35.85854,
-      "lng": 128.63612,
+      "lat": 35.8603108,
+      "lng": 128.6289865,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegumacsumyunent"
     },
     {
@@ -1477,8 +1477,8 @@
       "region": "대구",
       "address": "대구광역시 수성구 범안로 70 5층 (범물동)",
       "phone": "053-782-0841",
-      "lat": 35.81787,
-      "lng": 128.64536,
+      "lat": 35.8178443,
+      "lng": 128.6454414,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyaleent"
     },
     {
@@ -1487,8 +1487,8 @@
       "region": "대구",
       "address": "대구광역시 수성구 수성로 218 4~6층 (중동)",
       "phone": "053-716-1811",
-      "lat": 35.84492,
-      "lng": 128.61285,
+      "lat": 35.8449688,
+      "lng": 128.6130207,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegutheoneent"
     },
     {
@@ -1497,8 +1497,8 @@
       "region": "대구",
       "address": "대구광역시 중구 남산로 83-1 3-5층 (남산동)",
       "phone": "053-255-4220",
-      "lat": 35.87673,
-      "lng": 128.5802,
+      "lat": 35.8639732,
+      "lng": 128.5820692,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegukoreaent"
     },
     {
@@ -1507,8 +1507,8 @@
       "region": "대구",
       "address": "대구광역시 중구 달구벌대로 2233 1,3,4,5층 (삼덕동3가)",
       "phone": "053-423-2332",
-      "lat": 35.87234,
-      "lng": 128.59984,
+      "lat": 35.8625005,
+      "lng": 128.6076256,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daegucentralent"
     },
     {
@@ -1517,8 +1517,8 @@
       "region": "대구",
       "address": "대구광역시 중구 동성로1길 81 3층,9층",
       "phone": "053-424-8815",
-      "lat": 35.86518,
-      "lng": 128.59764,
+      "lat": 35.865193,
+      "lng": 128.5976655,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daeguhooent"
     },
     {
@@ -1527,8 +1527,8 @@
       "region": "대전",
       "address": "대전광역시 서구 계룡로 599 MG한밭빌딩 5층 (탄방동)",
       "phone": "042-538-8885",
-      "lat": 36.34124,
-      "lng": 127.39003,
+      "lat": 36.3412676,
+      "lng": 127.3901908,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncobbulsoent"
     },
     {
@@ -1537,8 +1537,8 @@
       "region": "대전",
       "address": "대전광역시 서구 관저동로 158 (관저동)",
       "phone": "042-600-9999",
-      "lat": 36.30629,
-      "lng": 127.34088,
+      "lat": 36.306642,
+      "lng": 127.342613,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonkyuh"
     },
     {
@@ -1547,8 +1547,8 @@
       "region": "대전",
       "address": "대전광역시 서구 둔산남로 107 9층 (둔산동)",
       "phone": "042-488-8204",
-      "lat": 36.34922,
-      "lng": 127.38943,
+      "lat": 36.3492979,
+      "lng": 127.3895146,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonrafael"
     },
     {
@@ -1557,8 +1557,8 @@
       "region": "대전",
       "address": "대전광역시 서구 둔산로123번길 21 4층 (둔산동)",
       "phone": "042-721-1515",
-      "lat": 36.35232,
-      "lng": 127.38754,
+      "lat": 36.352251,
+      "lng": 127.3872557,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyounyounent"
     },
     {
@@ -1567,8 +1567,8 @@
       "region": "대전",
       "address": "대전광역시 서구 둔산서로 95 (둔산동)",
       "phone": "042-611-3000",
-      "lat": 36.35531,
-      "lng": 127.38254,
+      "lat": 36.3553098,
+      "lng": 127.3819888,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonemc"
     },
     {
@@ -1577,8 +1577,8 @@
       "region": "대전",
       "address": "대전광역시 서구 청사로 121 5층 청사서로 26 미래빌딩2층호 (월평동)",
       "phone": "042-486-2031",
-      "lat": 36.35998,
-      "lng": 127.37718,
+      "lat": 36.3600497,
+      "lng": 127.3772719,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyangent"
     },
     {
@@ -1587,8 +1587,8 @@
       "region": "대전",
       "address": "대전광역시 유성구 북유성대로 93 (지족동)",
       "phone": "042-609-1000",
-      "lat": 36.37166,
-      "lng": 127.32695,
+      "lat": 36.3751715,
+      "lng": 127.3249507,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyuseonhsunhospital"
     },
     {
@@ -1597,8 +1597,8 @@
       "region": "대전",
       "address": "대전광역시 유성구 지족동로 152 코오롱빌딩 2,3층 201,303호 (지족동)",
       "phone": "042-824-7525",
-      "lat": 36.3874,
-      "lng": 127.30868,
+      "lat": 36.3526651,
+      "lng": 127.3429741,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonjoenent"
     },
     {
@@ -1607,8 +1607,8 @@
       "region": "대전",
       "address": "대전광역시 중구 대흥로 64 (대흥동)",
       "phone": "042-220-9114",
-      "lat": 36.32274,
-      "lng": 127.42343,
+      "lat": 36.323042,
+      "lng": 127.4201629,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncmcdj"
     },
     {
@@ -1617,8 +1617,8 @@
       "region": "대전",
       "address": "대전광역시 중구 목중로 29 (목동)",
       "phone": "042-220-8114",
-      "lat": 36.33716,
-      "lng": 127.40991,
+      "lat": 36.3360669,
+      "lng": 127.4104139,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonsunhopital"
     },
     {
@@ -1627,18 +1627,18 @@
       "region": "대전",
       "address": "대전광역시 중구 문화로 282- (대사동)",
       "phone": "042-1599-7123",
-      "lat": 36.31773,
-      "lng": 127.41564,
+      "lat": 36.316908,
+      "lng": 127.415363,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncnuh"
     },
     {
       "id": "busancoent",
-      "name": "코엔이비인후과의원부산성모병원(재단법인 천주교부산교구유지재단)베스트이비인후과의원연세대학교 원주세브란스기독병원한림대학교성심병원두리이비인후과의원",
+      "name": "코엔이비인후과의원",
       "region": "부산",
       "address": "부산광역시 기장군 정관면 정관로 395 (금양프라자 3층)",
       "phone": "051-728-1026",
-      "lat": 35.33405,
-      "lng": 129.1659,
+      "lat": 35.3341599,
+      "lng": 129.1660003,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent"
     },
     {
@@ -1647,8 +1647,8 @@
       "region": "부산",
       "address": "부산광역시 남구 용호로232번길 25-14 (용호동)",
       "phone": "051-933-7114",
-      "lat": 35.11122,
-      "lng": 129.10965,
+      "lat": 35.1104571,
+      "lng": 129.109125,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbsm"
     },
     {
@@ -1657,8 +1657,8 @@
       "region": "부산",
       "address": "부산광역시 동래구 중앙대로 1523 SKHUBSKY 2,4층 B2-6~9,12~15호, B4-5,6호 (온천동)",
       "phone": "051-558-5898",
-      "lat": 35.22129,
-      "lng": 129.08607,
+      "lat": 35.2208431,
+      "lng": 129.0855308,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busansamsungsmart"
     },
     {
@@ -1667,8 +1667,8 @@
       "region": "부산",
       "address": "부산광역시 동래구 충렬대로 259 동호 디시티 2층,3층 일부호 (낙민동)",
       "phone": "051-555-0110",
-      "lat": 35.19415,
-      "lng": 129.11266,
+      "lat": 35.2012313,
+      "lng": 129.0876941,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbestent"
     },
     {
@@ -1687,8 +1687,8 @@
       "region": "부산",
       "address": "부산광역시 부산진구 가야대로 767-1 (부전동)",
       "phone": "051-809-7700",
-      "lat": 35.15786,
-      "lng": 129.0556,
+      "lat": 35.1580254,
+      "lng": 129.0556427,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanmedicalent"
     },
     {
@@ -1697,8 +1697,8 @@
       "region": "부산",
       "address": "부산광역시 부산진구 가야대로784번길 21 5~8층, 가야대로 783, 11~12층 (부전동)",
       "phone": "051-711-7520",
-      "lat": 35.163433,
-      "lng": 129.05257,
+      "lat": 35.15799,
+      "lng": 129.0572367,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandhps"
     },
     {
@@ -1707,8 +1707,8 @@
       "region": "부산",
       "address": "부산광역시 부산진구 복지로 75, 진사로83번길 75 진사로83번길 81, 1층(일부), 3층 (개금동)",
       "phone": "051-890-6114",
-      "lat": 35.14422,
-      "lng": 129.02032,
+      "lat": 35.1461809,
+      "lng": 129.0208925,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikbusan"
     },
     {
@@ -1717,8 +1717,8 @@
       "region": "부산",
       "address": "부산광역시 부산진구 중앙대로 700 7층",
       "phone": "051-819-6600",
-      "lat": 35.15522,
-      "lng": 129.05936,
+      "lat": 35.1552532,
+      "lng": 129.059521,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanopenent"
     },
     {
@@ -1727,8 +1727,8 @@
       "region": "부산",
       "address": "부산광역시 부산진구 중앙대로 708 12층",
       "phone": "051-818-2526",
-      "lat": 35.15596,
-      "lng": 129.05937,
+      "lat": 35.1561411,
+      "lng": 129.0594806,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanyangchngkookhospital"
     },
     {
@@ -1737,8 +1737,8 @@
       "region": "부산",
       "address": "부산광역시 사하구 낙동남로 1412 경부빌딩 7층일부,8층 (하단동)",
       "phone": "051-710-7579",
-      "lat": 35.10597,
-      "lng": 128.96608,
+      "lat": 35.1057921,
+      "lng": 128.966083,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busansooment"
     },
     {
@@ -1747,8 +1747,8 @@
       "region": "부산",
       "address": "부산광역시 서구 감천로 262 (암남동)",
       "phone": "051-990-6114",
-      "lat": 35.08144,
-      "lng": 129.0155,
+      "lat": 35.0809636,
+      "lng": 129.0139595,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busankosinmed"
     },
     {
@@ -1757,8 +1757,8 @@
       "region": "부산",
       "address": "부산광역시 서구 구덕로 179 (아미동1가)",
       "phone": "051-240-7000",
-      "lat": 35.10065,
-      "lng": 129.01962,
+      "lat": 35.1008477,
+      "lng": 129.0188032,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbusanunivhiopi"
     },
     {
@@ -1767,8 +1767,8 @@
       "region": "부산",
       "address": "부산광역시 서구 대신공원로 26 (동대신동3가)",
       "phone": "051-240-2400",
-      "lat": 35.1202,
-      "lng": 129.01659,
+      "lat": 35.1201682,
+      "lng": 129.0175391,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandamc"
     },
     {
@@ -1777,8 +1777,8 @@
       "region": "부산",
       "address": "부산광역시 수영구 수영로 675 큐비 메디컬센터 6층 (광안동)",
       "phone": "051-784-7582",
-      "lat": 35.15511,
-      "lng": 129.11348,
+      "lat": 35.1659533,
+      "lng": 129.1144938,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busandalpangeent"
     },
     {
@@ -1787,8 +1787,8 @@
       "region": "부산",
       "address": "부산광역시 연제구 중앙대로 1077 상계빌딩 1층 (연산동)",
       "phone": "051-862-5000",
-      "lat": 35.18424,
-      "lng": 129.07986,
+      "lat": 35.184312,
+      "lng": 129.0798349,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanent"
     },
     {
@@ -1797,8 +1797,8 @@
       "region": "부산",
       "address": "부산광역시 연제구 중앙대로 1111 9층 901호 (연산동, 위드타워)",
       "phone": "051-852-8553",
-      "lat": 35.18672,
-      "lng": 129.08122,
+      "lat": 35.1867689,
+      "lng": 129.0811097,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanhappyent"
     },
     {
@@ -1807,8 +1807,8 @@
       "region": "부산",
       "address": "부산광역시 중구 구덕로 40 (남포동2가)",
       "phone": "051-243-0002",
-      "lat": 35.097,
-      "lng": 129.0081,
+      "lat": 35.0984623,
+      "lng": 129.0315676,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busaneasysooment"
     },
     {
@@ -1817,8 +1817,8 @@
       "region": "부산",
       "address": "부산광역시 해운대구 센텀2로 20 1204호 (우동, 센텀타워메디칼)",
       "phone": "051-781-6226",
-      "lat": 35.16727,
-      "lng": 129.13213,
+      "lat": 35.1671978,
+      "lng": 129.1320258,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanheojunent"
     },
     {
@@ -1827,8 +1827,8 @@
       "region": "부산",
       "address": "부산광역시 해운대구 좌동순환로 174 거성빌딩 402,802일부,901,902호 (좌동)",
       "phone": "051-702-3937",
-      "lat": 35.17771,
-      "lng": 129.17513,
+      "lat": 35.1776265,
+      "lng": 129.1750479,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanjungkiment"
     },
     {
@@ -1837,8 +1837,8 @@
       "region": "부산",
       "address": "부산광역시 해운대구 해운대로 875 (좌동)",
       "phone": "051-797-0100",
-      "lat": 35.17311,
-      "lng": 129.18289,
+      "lat": 35.173443,
+      "lng": 129.182013,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikhaeundae"
     },
     {
@@ -1847,8 +1847,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 남부순환로 2615 203~207,209,304호 (도곡동, 극동스타클래스)",
       "phone": "02-575-2033",
-      "lat": 37.48504,
-      "lng": 127.03589,
+      "lat": 37.4851832,
+      "lng": 127.0358917,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulfreshent"
     },
     {
@@ -1867,8 +1867,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 논현로 704 2층 / 강남구 학동로 203, 3층 (논현동)",
       "phone": "02-511-0777",
-      "lat": 37.51437,
-      "lng": 127.03121,
+      "lat": 37.5146045,
+      "lng": 127.0307899,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsleephopital"
     },
     {
@@ -1877,8 +1877,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 논현로 717 1층일부, 2층~4층 (논현동)",
       "phone": "0507-1481-3304",
-      "lat": 37.51596,
-      "lng": 127.02957,
+      "lat": 37.5159635,
+      "lng": 127.0295561,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulspecialsleep"
     },
     {
@@ -1887,8 +1887,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 논현로131길 23 지상2층, 3층, 4층, 5층 (논현동)",
       "phone": "02-517-5085",
-      "lat": 37.51404,
-      "lng": 127.02856,
+      "lat": 37.5139668,
+      "lng": 127.0285406,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouljeilent"
     },
     {
@@ -1897,8 +1897,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 논현로159길 17 202호 (신사동)",
       "phone": "02-514-0209",
-      "lat": 37.52296,
-      "lng": 127.02668,
+      "lat": 37.522913,
+      "lng": 127.0266474,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodsleep"
     },
     {
@@ -1907,8 +1907,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 도산대로 107 BIO, 8층 일부 (신사동)",
       "phone": "02-511-1939",
-      "lat": 37.51671,
-      "lng": 127.02021,
+      "lat": 37.5167803,
+      "lng": 127.0201081,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouldreamsleep"
     },
     {
@@ -1917,8 +1917,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 도산대로 420 청담스퀘어 212호 (청담동)",
       "phone": "02-6480-8777",
-      "lat": 37.52329,
-      "lng": 127.04227,
+      "lat": 37.5230216,
+      "lng": 127.0422013,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulforest"
     },
     {
@@ -1927,8 +1927,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 봉은사로 310 숨빌딩 2,3,4층 (역삼동)",
       "phone": "02-3416-0002",
-      "lat": 37.50922,
-      "lng": 127.04096,
+      "lat": 37.5091679,
+      "lng": 127.0409847,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomsleep"
     },
     {
@@ -1937,8 +1937,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 봉은사로 331 SH타워 2층 (논현동)",
       "phone": "02-3446-6177",
-      "lat": 37.51023,
-      "lng": 127.04304,
+      "lat": 37.5102889,
+      "lng": 127.0429841,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulysbent"
     },
     {
@@ -1947,8 +1947,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 언주로 211 강남세브란스병원 (도곡동)",
       "phone": "02-2019-3114",
-      "lat": 37.49269,
-      "lng": 127.0468,
+      "lat": 37.4929296,
+      "lng": 127.0462683,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgsiseverance"
     },
     {
@@ -1957,8 +1957,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 역삼로 245 (역삼동, 지하2층일부 1층일부 2층~6층)",
       "phone": "02-6925-1111",
-      "lat": 37.49786,
-      "lng": 127.04304,
+      "lat": 37.4979277,
+      "lng": 127.0429904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhanaent"
     },
     {
@@ -1967,8 +1967,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 영동대로 626 2~10층",
       "phone": "1522-2030",
-      "lat": 37.51627,
-      "lng": 127.0596,
+      "lat": 37.5162595,
+      "lng": 127.0597063,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgandg"
     },
     {
@@ -1977,8 +1977,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 일원로 81 (일원동, 삼성의료원)",
       "phone": "02-3410-2114",
-      "lat": 37.48687,
-      "lng": 127.08304,
+      "lat": 37.4882977,
+      "lng": 127.0851508,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungseoulhosp"
     },
     {
@@ -1987,8 +1987,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 테헤란로 310 두꺼비빌딩 3층 (역삼동)",
       "phone": "02-545-7799",
-      "lat": 37.5029,
-      "lng": 127.04466,
+      "lat": 37.5028561,
+      "lng": 127.0447712,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouldanaivyent"
     },
     {
@@ -1997,8 +1997,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 테헤란로 333 7층일부, 12층 (역삼동)",
       "phone": "02-561-7606",
-      "lat": 37.50456,
-      "lng": 127.04807,
+      "lat": 37.5047001,
+      "lng": 127.048034,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcosleep"
     },
     {
@@ -2007,8 +2007,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 테헤란로 401 남경센타 10층 2호 (삼성동)",
       "phone": "0507-1397-9449",
-      "lat": 37.50491,
-      "lng": 127.04917,
+      "lat": 37.5049841,
+      "lng": 127.0491606,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisooment"
     },
     {
@@ -2017,8 +2017,8 @@
       "region": "서울",
       "address": "서울특별시 강남구 학동로53길 3-2 2층 (논현동)",
       "phone": null,
-      "lat": 37.51714,
-      "lng": 127.03951,
+      "lat": 37.517346,
+      "lng": 127.0401342,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcheongdament"
     },
     {
@@ -2027,8 +2027,8 @@
       "region": "서울",
       "address": "서울특별시 강동구 동남로 892 (상일동)",
       "phone": "02-440-7114",
-      "lat": 37.55332,
-      "lng": 127.15731,
+      "lat": 37.553536,
+      "lng": 127.1576732,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhnmc"
     },
     {
@@ -2037,8 +2037,8 @@
       "region": "서울",
       "address": "서울특별시 강동구 성안로 150 (길동)",
       "phone": "02-2224-2114",
-      "lat": 37.53641,
-      "lng": 127.1351,
+      "lat": 37.5359971,
+      "lng": 127.135378,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkdc"
     },
     {
@@ -2047,8 +2047,8 @@
       "region": "서울",
       "address": "서울특별시 강동구 올림픽로 781 우리들클리닉 3층",
       "phone": "02-481-8275",
-      "lat": 37.55095,
-      "lng": 127.12761,
+      "lat": 37.551009,
+      "lng": 127.1275705,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounyounent"
     },
     {
@@ -2057,8 +2057,8 @@
       "region": "서울",
       "address": "서울특별시 강동구 진황도로61길 53 (둔촌동)",
       "phone": "02-2225-1111",
-      "lat": 37.52853,
-      "lng": 127.14616,
+      "lat": 37.5303393,
+      "lng": 127.1478691,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulbohun"
     },
     {
@@ -2067,8 +2067,8 @@
       "region": "서울",
       "address": "서울특별시 강북구 도봉로 255 나라빌딩 2,7,9층",
       "phone": "02-980-1530",
-      "lat": 37.6312,
-      "lng": 127.02396,
+      "lat": 37.6305902,
+      "lng": 127.0249115,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangbookboasent"
     },
     {
@@ -2077,8 +2077,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 강서로 323 4~8층",
       "phone": "02-6953-8226",
-      "lat": 37.55478,
-      "lng": 126.83649,
+      "lat": 37.5546873,
+      "lng": 126.8365498,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomhopital"
     },
     {
@@ -2087,8 +2087,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 강서로 43 203,202일부호 (화곡동, 도양라비앙타워)",
       "phone": "02-2699-1442",
-      "lat": 37.53158,
-      "lng": 126.84661,
+      "lat": 37.5315298,
+      "lng": 126.8465161,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgshanaent"
     },
     {
@@ -2097,8 +2097,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 공항대로 260 이화의대부속서울병원 (마곡동)",
       "phone": "02-6986-5707",
-      "lat": 37.55784,
-      "lng": 126.83622,
+      "lat": 37.5572629,
+      "lng": 126.8362668,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulehwahospital"
     },
     {
@@ -2107,8 +2107,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 마곡중앙5로 22 504층 (마곡동)",
       "phone": "02-2135-2507",
-      "lat": 37.56709,
-      "lng": 126.82532,
+      "lat": 37.5672498,
+      "lng": 126.825303,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungsleepandmind"
     },
     {
@@ -2117,8 +2117,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 마곡중앙5로 81 에스비타운 2층 202,203,204호 (마곡동)",
       "phone": "02-2659-9930",
-      "lat": 37.56018,
-      "lng": 126.83636,
+      "lat": 37.567121,
+      "lng": 126.8185936,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcoolent"
     },
     {
@@ -2127,8 +2127,8 @@
       "region": "서울",
       "address": "서울특별시 강서구 방화동로 92 에스메디컬 3,4,5층 (방화동)",
       "phone": "02-6737-7582",
-      "lat": 37.5686,
-      "lng": 126.81292,
+      "lat": 37.5686086,
+      "lng": 126.8130151,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungwoorient"
     },
     {
@@ -2137,8 +2137,8 @@
       "region": "서울",
       "address": "서울특별시 관악구 관악로 186-2 (봉천동)",
       "phone": "02-883-7570",
-      "lat": 37.48166,
-      "lng": 126.95316,
+      "lat": 37.4816641,
+      "lng": 126.9531444,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkwanaksaintent"
     },
     {
@@ -2147,8 +2147,8 @@
       "region": "서울",
       "address": "서울특별시 관악구 남부순환로 1636 양지병원 (신림동)",
       "phone": "02-1877-8875",
-      "lat": 37.48439,
-      "lng": 126.93247,
+      "lat": 37.4841536,
+      "lng": 126.9325692,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhplusyangji"
     },
     {
@@ -2157,8 +2157,8 @@
       "region": "서울",
       "address": "서울특별시 관악구 신림로 350 5층 (신림동, 서원프라자, 태영아파트)",
       "phone": "02-875-9992",
-      "lat": 37.48546,
-      "lng": 126.92977,
+      "lat": 37.4855079,
+      "lng": 126.9299291,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsinlim"
     },
     {
@@ -2167,8 +2167,8 @@
       "region": "서울",
       "address": "서울특별시 광진구 능동로 120-1 (화양동)",
       "phone": "1588-1533",
-      "lat": 37.54131,
-      "lng": 127.07193,
+      "lat": 37.5403764,
+      "lng": 127.0718276,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkuh"
     },
     {
@@ -2177,8 +2177,8 @@
       "region": "서울",
       "address": "서울특별시 광진구 용마산로 127 (중곡동, 국립정신건강센터)",
       "phone": "02-2204-0114",
-      "lat": 37.56501,
-      "lng": 127.08617,
+      "lat": 37.5650897,
+      "lng": 127.0856522,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnationalcenter"
     },
     {
@@ -2187,8 +2187,8 @@
       "region": "서울",
       "address": "서울특별시 구로구 구로동로 148 고려대부속구로병원 (구로동)",
       "phone": "02-2626-1114",
-      "lat": 37.49189,
-      "lng": 126.88394,
+      "lat": 37.492052,
+      "lng": 126.8848701,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgurokumc"
     },
     {
@@ -2197,8 +2197,8 @@
       "region": "서울",
       "address": "서울특별시 구로구 새말로 89 태영빌딩 202,501호 (구로동)",
       "phone": "02-859-5011",
-      "lat": 37.50557,
-      "lng": 126.88982,
+      "lat": 37.5056084,
+      "lng": 126.8898406,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsindorimhanaent"
     },
     {
@@ -2207,8 +2207,8 @@
       "region": "서울",
       "address": "서울특별시 노원구 동일로 1342 상계백병원 (상계동)",
       "phone": "02-950-1114",
-      "lat": 37.64858,
-      "lng": 127.06277,
+      "lat": 37.6485408,
+      "lng": 127.0629909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulpaiksanggye"
     },
     {
@@ -2217,8 +2217,8 @@
       "region": "서울",
       "address": "서울특별시 노원구 동일로 1548 (상계동)",
       "phone": "02-951-9518",
-      "lat": 37.66669,
-      "lng": 127.05753,
+      "lat": 37.6666795,
+      "lng": 127.0576424,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnewskyent"
     },
     {
@@ -2227,8 +2227,8 @@
       "region": "서울",
       "address": "서울특별시 노원구 초안산로2라길 26 상가동 201,202,203,205호 (월계동, 월계센트럴아이파크아파트)",
       "phone": "02-993-0555",
-      "lat": 37.63123,
-      "lng": 127.05773,
+      "lat": 37.6305211,
+      "lng": 127.0576337,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulclearsooment"
     },
     {
@@ -2237,8 +2237,8 @@
       "region": "서울",
       "address": "서울특별시 노원구 한글비석로 68 을지병원 (하계동)",
       "phone": "02-970-8000",
-      "lat": 37.63669,
-      "lng": 127.06986,
+      "lat": 37.6364793,
+      "lng": 127.0699354,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnowoneulji"
     },
     {
@@ -2247,8 +2247,8 @@
       "region": "서울",
       "address": "서울특별시 동대문구 경희대로 23 (회기동)",
       "phone": "02-958-8114",
-      "lat": 37.59375,
-      "lng": 127.05257,
+      "lat": 37.5941195,
+      "lng": 127.051852,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhuh"
     },
     {
@@ -2257,8 +2257,8 @@
       "region": "서울",
       "address": "서울특별시 동대문구 망우로 82 (휘경동)",
       "phone": "02-2244-0191",
-      "lat": 37.58986,
-      "lng": 127.06253,
+      "lat": 37.5879909,
+      "lng": 127.0653065,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsymcs"
     },
     {
@@ -2267,8 +2267,8 @@
       "region": "서울",
       "address": "서울특별시 동작구 동작대로27다길 26 2층 (사당동, 사당동 주상복합)",
       "phone": "02-525-4275",
-      "lat": 37.48707,
-      "lng": 126.98005,
+      "lat": 37.4863191,
+      "lng": 126.9802911,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnaturem"
     },
     {
@@ -2277,8 +2277,8 @@
       "region": "서울",
       "address": "서울특별시 동작구 보라매로5길 20 (신대방동)",
       "phone": "02-870-2114",
-      "lat": 37.49303,
-      "lng": 126.92417,
+      "lat": 37.4934414,
+      "lng": 126.9239058,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboramae"
     },
     {
@@ -2287,8 +2287,8 @@
       "region": "서울",
       "address": "서울특별시 동작구 흑석로 102 (흑석동)",
       "phone": "1800-1114",
-      "lat": 37.50758,
-      "lng": 126.96085,
+      "lat": 37.5067481,
+      "lng": 126.9607839,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcauhs"
     },
     {
@@ -2297,8 +2297,8 @@
       "region": "서울",
       "address": "서울특별시 마포구 양화로 61 두암빌딩",
       "phone": "02-6015-5075",
-      "lat": 37.55077,
-      "lng": 126.91505,
+      "lat": 37.5508044,
+      "lng": 126.9150557,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulrapent"
     },
     {
@@ -2307,8 +2307,8 @@
       "region": "서울",
       "address": "서울특별시 서대문구 연세로 50-1 (신촌동)",
       "phone": "02-2228-0114",
-      "lat": 37.5558,
-      "lng": 126.9367,
+      "lat": 37.5623446,
+      "lng": 126.9408265,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyuhseverance"
     },
     {
@@ -2317,8 +2317,8 @@
       "region": "서울",
       "address": "서울특별시 서초구 반포대로 222 (반포동)",
       "phone": "02-1588-1511",
-      "lat": 37.49964,
-      "lng": 127.00429,
+      "lat": 37.5009444,
+      "lng": 127.0051154,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcseoul"
     },
     {
@@ -2337,8 +2337,8 @@
       "region": "서울",
       "address": "서울특별시 서초구 반포대로27길 13 2층 203,204,205호 (서초동, 서초꽃마을 주얼리)",
       "phone": "02-581-0075",
-      "lat": 37.48985,
-      "lng": 127.00756,
+      "lat": 37.4896931,
+      "lng": 127.0076047,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochosaintent"
     },
     {
@@ -2347,8 +2347,8 @@
       "region": "서울",
       "address": "서울특별시 서초구 서초중앙로 125 로이어즈타워 8층 803(일부),804호 (서초동)",
       "phone": "02-525-8885",
-      "lat": 37.49295,
-      "lng": 127.01355,
+      "lat": 37.4929935,
+      "lng": 127.0134514,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulwithent"
     },
     {
@@ -2357,8 +2357,8 @@
       "region": "서울",
       "address": "서울특별시 서초구 효령로 403 서초그랑자이 상가 408,409,410 일부호 (서초동)",
       "phone": "02-523-2202",
-      "lat": 37.48865,
-      "lng": 127.02776,
+      "lat": 37.4889159,
+      "lng": 127.0277491,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochoent"
     },
     {
@@ -2367,8 +2367,8 @@
       "region": "서울",
       "address": "서울특별시 성동구 왕십리로 222-1 (사근동)",
       "phone": "02-2290-8114",
-      "lat": 37.55741,
-      "lng": 127.04291,
+      "lat": 37.5596569,
+      "lng": 127.0441339,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhyumc"
     },
     {
@@ -2377,8 +2377,8 @@
       "region": "서울",
       "address": "서울특별시 성북구 고려대로 73 고려대병원 (안암동5가)",
       "phone": "1577-0083",
-      "lat": 37.5865,
-      "lng": 127.02745,
+      "lat": 37.5870165,
+      "lng": 127.0263537,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulanamkumc"
     },
     {
@@ -2387,8 +2387,8 @@
       "region": "서울",
       "address": "서울특별시 성북구 돌곶이로 25 2층 (석관동, 씨티홈)",
       "phone": "02-966-9002",
-      "lat": 37.6067,
-      "lng": 127.06108,
+      "lat": 37.6066611,
+      "lng": 127.0610515,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodayent"
     },
     {
@@ -2397,8 +2397,8 @@
       "region": "서울",
       "address": "서울특별시 성북구 동소문로 18-1 2, 3층 (동소문동2가, 애산빌딩)",
       "phone": "02-742-6522",
-      "lat": 37.58921,
-      "lng": 127.00828,
+      "lat": 37.5891533,
+      "lng": 127.0083036,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamheyent"
     },
     {
@@ -2407,8 +2407,8 @@
       "region": "서울",
       "address": "서울특별시 송파구 백제고분로 365 7층 (석촌동)",
       "phone": "02-415-3335",
-      "lat": 37.50523,
-      "lng": 127.10642,
+      "lat": 37.5052718,
+      "lng": 127.1063142,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulstarent"
     },
     {
@@ -2417,8 +2417,8 @@
       "region": "서울",
       "address": "서울특별시 송파구 송파대로 365 2층,3층 (석촌동)",
       "phone": "02-415-3650",
-      "lat": 37.50044,
-      "lng": 127.11111,
+      "lat": 37.5004131,
+      "lng": 127.1110937,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulthehanstarent"
     },
     {
@@ -2427,8 +2427,8 @@
       "region": "서울",
       "address": "서울특별시 송파구 송파대로 437 청솔학원 5층",
       "phone": "02-422-1145",
-      "lat": 37.50566,
-      "lng": 127.10637,
+      "lat": 37.5056285,
+      "lng": 127.1063375,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulace"
     },
     {
@@ -2437,8 +2437,8 @@
       "region": "서울",
       "address": "서울특별시 송파구 올림픽로 102 서일빌딩 6층 603호 (잠실동)",
       "phone": "02-2202-1075",
-      "lat": 37.5115,
-      "lng": 127.08201,
+      "lat": 37.5114327,
+      "lng": 127.0819814,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouleasybrainsongpa"
     },
     {
@@ -2447,8 +2447,8 @@
       "region": "서울",
       "address": "서울특별시 송파구 올림픽로43길 88 서울아산병원 (풍납동)",
       "phone": "02-3010-3114",
-      "lat": 37.52488,
-      "lng": 127.10789,
+      "lat": 37.5265762,
+      "lng": 127.107935,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulamcseoul"
     },
     {
@@ -2457,8 +2457,8 @@
       "region": "서울",
       "address": "서울특별시 양천구 공항대로 630 3층 302,303호",
       "phone": "02-6951-3366",
-      "lat": 37.54669,
-      "lng": 126.8748,
+      "lat": 37.5465353,
+      "lng": 126.8747144,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcentralent"
     },
     {
@@ -2467,8 +2467,8 @@
       "region": "서울",
       "address": "서울특별시 양천구 안양천로 1071 (목동)",
       "phone": "02-2650-5114",
-      "lat": 37.53707,
-      "lng": 126.88657,
+      "lat": 37.536602,
+      "lng": 126.8862043,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seouleumc"
     },
     {
@@ -2477,8 +2477,8 @@
       "region": "서울",
       "address": "서울특별시 양천구 오목로 299 4층 404호 (목동, 트라팰리스웨스턴에비뉴)",
       "phone": "02-2644-5119",
-      "lat": 37.52536,
-      "lng": 126.87109,
+      "lat": 37.52609,
+      "lng": 126.871084,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcoent"
     },
     {
@@ -2487,8 +2487,8 @@
       "region": "서울",
       "address": "서울특별시 영등포구 63로 10 여의도성모병원 (여의도동)",
       "phone": "1661-7575",
-      "lat": 37.51809,
-      "lng": 126.93606,
+      "lat": 37.5183253,
+      "lng": 126.9367517,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcsungmo"
     },
     {
@@ -2497,8 +2497,8 @@
       "region": "서울",
       "address": "서울특별시 영등포구 당산로 34 로데오 ？ 쇼핑몰 A동 3층 301호 (문래동3가)",
       "phone": "02-2135-6799",
-      "lat": 37.5176,
-      "lng": 126.89505,
+      "lat": 37.5174632,
+      "lng": 126.8964938,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmoonraecoent"
     },
     {
@@ -2517,8 +2517,8 @@
       "region": "서울",
       "address": "서울특별시 영등포구 신길로 1 (대림동, 강남성심병원)",
       "phone": "02-829-5114",
-      "lat": 37.49265,
-      "lng": 126.90878,
+      "lat": 37.4937262,
+      "lng": 126.9086527,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangnamsungsim"
     },
     {
@@ -2527,8 +2527,8 @@
       "region": "서울",
       "address": "서울특별시 용산구 대사관로 59 (한남동)",
       "phone": "02-709-9114",
-      "lat": 37.53345,
-      "lng": 127.00472,
+      "lat": 37.533804,
+      "lng": 127.0042579,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulschmc"
     },
     {
@@ -2537,8 +2537,8 @@
       "region": "서울",
       "address": "서울특별시 은평구 불광로 25 2,3층 (대조동)",
       "phone": "02-6952-0808",
-      "lat": 37.61066,
-      "lng": 126.92874,
+      "lat": 37.6106539,
+      "lng": 126.9287147,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulasanent"
     },
     {
@@ -2547,8 +2547,8 @@
       "region": "서울",
       "address": "서울특별시 은평구 통일로 1021 (진관동)",
       "phone": "02-1811-7755",
-      "lat": 37.63363,
-      "lng": 126.9168,
+      "lat": 37.6334945,
+      "lng": 126.9161912,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulenpyungsaint"
     },
     {
@@ -2557,8 +2557,8 @@
       "region": "서울",
       "address": "서울특별시 종로구 대학로 101 (연건동)",
       "phone": "1588-5700",
-      "lat": 37.5802,
-      "lng": 127.0019,
+      "lat": 37.5797151,
+      "lng": 126.9990168,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsnuh"
     },
     {
@@ -2567,8 +2567,8 @@
       "region": "서울",
       "address": "서울특별시 종로구 새문안로 29 (평동)",
       "phone": "02-2001-2001",
-      "lat": 37.56813,
-      "lng": 126.96859,
+      "lat": 37.5684083,
+      "lng": 126.96775,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkbsmc"
     },
     {
@@ -2577,8 +2577,8 @@
       "region": "서울",
       "address": "서울특별시 종로구 종로 205 (종로5가)",
       "phone": "02-763-1333",
-      "lat": 37.57112,
-      "lng": 127.00063,
+      "lat": 37.5712072,
+      "lng": 127.0005649,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcocoent"
     },
     {
@@ -2587,8 +2587,8 @@
       "region": "서울",
       "address": "서울특별시 종로구 지봉로 37-1 6층 (창신동)",
       "phone": "02-6952-0009",
-      "lat": 37.57335,
-      "lng": 127.01538,
+      "lat": 37.5732589,
+      "lng": 127.0153386,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisolent"
     },
     {
@@ -2597,8 +2597,8 @@
       "region": "서울",
       "address": "서울특별시 중구 다산로 111 3층 (신당동, 한미빌딩)",
       "phone": "02-2234-1530",
-      "lat": 37.55395,
-      "lng": 127.00994,
+      "lat": 37.5540157,
+      "lng": 127.0098676,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboasent"
     },
     {
@@ -2617,8 +2617,8 @@
       "region": "서울",
       "address": "서울특별시 중구 명동9가길 12 2,3,4층 (을지로2가)",
       "phone": "02-3789-9898",
-      "lat": 37.56505,
-      "lng": 126.98389,
+      "lat": 37.5651994,
+      "lng": 126.983942,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmyungdongent"
     },
     {
@@ -2627,8 +2627,8 @@
       "region": "서울",
       "address": "서울특별시 중구 을지로 245 (을지로6가)",
       "phone": "02-2260-7114",
-      "lat": 37.5666,
-      "lng": 127.00545,
+      "lat": 37.5672137,
+      "lng": 127.0056709,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnmc"
     },
     {
@@ -2637,8 +2637,8 @@
       "region": "서울",
       "address": "서울특별시 중랑구 망우로 353 c동 314호 (상봉동, 상봉 프레미어스 엠코)",
       "phone": "02-6403-9898",
-      "lat": 37.59809,
-      "lng": 127.09132,
+      "lat": 37.5982973,
+      "lng": 127.0903644,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsunent"
     },
     {
@@ -2647,8 +2647,8 @@
       "region": "서울",
       "address": "서울 종로구 종로3길 34 삼송빌딩 6층",
       "phone": "02-722-7977",
-      "lat": 37.57165,
-      "lng": 126.978485,
+      "lat": 37.571881,
+      "lng": 126.9794965,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ghmsclinic"
     },
     {
@@ -2657,8 +2657,8 @@
       "region": "세종",
       "address": "세종특별자치시 나성로 96 더센트럴 421호 (나성동)",
       "phone": "044-868-1177",
-      "lat": 36.48774,
-      "lng": 127.26065,
+      "lat": 36.487879,
+      "lng": 127.2610026,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongsorisooment"
     },
     {
@@ -2667,8 +2667,8 @@
       "region": "세종",
       "address": "세종특별자치시 보듬7로 20 세종충남대학교병원 (도담동)",
       "phone": "044-995-4101",
-      "lat": 36.51924,
-      "lng": 127.25767,
+      "lat": 36.5195133,
+      "lng": 127.2579427,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongchoongnamuniv"
     },
     {
@@ -2677,8 +2677,8 @@
       "region": "세종",
       "address": "세종특별자치시 한누리대로 2018 사이언스타운 4층 403~406호 (소담동)",
       "phone": "044-865-3650",
-      "lat": 36.50605,
-      "lng": 127.25172,
+      "lat": 36.4847414,
+      "lng": 127.2993632,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongcoalent"
     },
     {
@@ -2687,8 +2687,8 @@
       "region": "세종",
       "address": "세종특별자치시 한누리대로 249 408~410호",
       "phone": "044-867-6119",
-      "lat": 36.48654,
-      "lng": 127.25758,
+      "lat": 36.4864392,
+      "lng": 127.2574385,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongdoomiso"
     },
     {
@@ -2697,8 +2697,8 @@
       "region": "세종",
       "address": "세종특별자치시 한누리대로 275 형성프라자 401호,402호 (나성동)",
       "phone": "044-864-1864",
-      "lat": 36.50605,
-      "lng": 127.25172,
+      "lat": 36.4888054,
+      "lng": 127.2563759,
       "sourceUrl": "https://www.resmed.kr/psg-finder/sejongseoulsamsungent"
     },
     {
@@ -2707,8 +2707,8 @@
       "region": "울산",
       "address": "울산광역시 남구 남중로 37 5,6,7층 (삼산동)",
       "phone": "052-256-7000",
-      "lat": 35.53773,
-      "lng": 129.3473,
+      "lat": 35.5377216,
+      "lng": 129.3471946,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsangoodmornigent"
     },
     {
@@ -2717,8 +2717,8 @@
       "region": "울산",
       "address": "울산광역시 남구 삼산로 139 (달동)",
       "phone": "052-708-1111",
-      "lat": 35.53638,
-      "lng": 129.3225,
+      "lat": 35.5364362,
+      "lng": 129.3223954,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanhanaent"
     },
     {
@@ -2727,8 +2727,8 @@
       "region": "울산",
       "address": "울산광역시 동구 대학병원로 25 울산대학교병원 (전하동)",
       "phone": "052-250-7000",
-      "lat": 35.548676,
-      "lng": 129.315,
+      "lat": 35.5200702,
+      "lng": 129.4289116,
       "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanuuhulsan"
     },
     {
@@ -2737,8 +2737,8 @@
       "region": "인천",
       "address": "인천광역시 계양구 계양문화로 20- (작전동)",
       "phone": "032-240-8000",
-      "lat": 37.53252,
-      "lng": 126.73643,
+      "lat": 37.5324735,
+      "lng": 126.7368717,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonincheonsejong"
     },
     {
@@ -2747,8 +2747,8 @@
       "region": "인천",
       "address": "인천광역시 계양구 봉오대로 668 2,3,5층 201,202,303,501호 (작전동)",
       "phone": "032-548-0005",
-      "lat": 37.5029,
-      "lng": 126.66093,
+      "lat": 37.5296552,
+      "lng": 126.723235,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbscoaent"
     },
     {
@@ -2757,8 +2757,8 @@
       "region": "인천",
       "address": "인천광역시 남동구 남동대로774번길 21-0 의료법인길의료재단길병원",
       "phone": null,
-      "lat": 37.4514,
-      "lng": 126.70928,
+      "lat": 37.452171,
+      "lng": 126.7092258,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheongilhospital"
     },
     {
@@ -2767,8 +2767,8 @@
       "region": "인천",
       "address": "인천광역시 남동구 인주대로 582 신현프라자 6층 602호 (구월동)",
       "phone": "032-719-9525",
-      "lat": 37.44985,
-      "lng": 126.70153,
+      "lat": 37.4497834,
+      "lng": 126.7016055,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsoomsleep"
     },
     {
@@ -2777,8 +2777,8 @@
       "region": "인천",
       "address": "인천광역시 남동구 청능대로 581 광성프라자 2층 202,203호 (논현동)",
       "phone": "032-215-2100",
-      "lat": 37.40121,
-      "lng": 126.72368,
+      "lat": 37.4012832,
+      "lng": 126.7235904,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnonhyunseoulent"
     },
     {
@@ -2787,8 +2787,8 @@
       "region": "인천",
       "address": "인천광역시 미추홀구 낙섬중로 138 미추홀프라자 3층일부층 (용현동)",
       "phone": "032-888-6159",
-      "lat": 37.45837,
-      "lng": 126.64424,
+      "lat": 37.4582979,
+      "lng": 126.6447404,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncleancoaent"
     },
     {
@@ -2797,8 +2797,8 @@
       "region": "인천",
       "address": "인천광역시 부평구 경원대로 1242 지하1(일부)층, 1(일부)층, 3층, 4(일부)층, 5층, 6층, 7(일부)층 우암빌딩 (산곡동)",
       "phone": "032-515-2325",
-      "lat": 37.4877,
-      "lng": 126.70882,
+      "lat": 37.4876012,
+      "lng": 126.7088392,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheondainent"
     },
     {
@@ -2807,8 +2807,8 @@
       "region": "인천",
       "address": "인천광역시 부평구 동수로 56- (부평동)",
       "phone": "032-1544-9004",
-      "lat": 37.48473,
-      "lng": 126.72526,
+      "lat": 37.4848309,
+      "lng": 126.7248987,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncmcism"
     },
     {
@@ -2817,8 +2817,8 @@
       "region": "인천",
       "address": "인천광역시 부평구 마장로 338 2층 일부호 (산곡동)",
       "phone": "032-521-7773",
-      "lat": 37.50816,
-      "lng": 126.7037,
+      "lat": 37.5080933,
+      "lng": 126.7038419,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncoaent"
     },
     {
@@ -2827,8 +2827,8 @@
       "region": "인천",
       "address": "인천광역시 서구 봉오재3로 44 2층 (가정동, 명문프라자)",
       "phone": "032-565-0938",
-      "lat": 37.52935,
-      "lng": 126.66576,
+      "lat": 37.5293069,
+      "lng": 126.6656791,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonopenent"
     },
     {
@@ -2837,8 +2837,8 @@
       "region": "인천",
       "address": "인천광역시 서구 심곡로100번길 25-0 인천국제성모병원",
       "phone": "032-1600-8291",
-      "lat": 37.5423,
-      "lng": 126.68368,
+      "lat": 37.5423431,
+      "lng": 126.6835685,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonish"
     },
     {
@@ -2847,8 +2847,8 @@
       "region": "인천",
       "address": "인천광역시 서구 원적로 23- 23",
       "phone": "032-584-0114",
-      "lat": 37.48923,
-      "lng": 126.67992,
+      "lat": 37.4890717,
+      "lng": 126.6797292,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonlooganaen"
     },
     {
@@ -2857,8 +2857,8 @@
       "region": "인천",
       "address": "인천광역시 서구 이음대로 378 로뎀타워 604, 605, 606호 (원당동)",
       "phone": "032-567-9800",
-      "lat": 37.62222,
-      "lng": 126.6742,
+      "lat": 37.5939028,
+      "lng": 126.7125995,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkumdanysent"
     },
     {
@@ -2867,8 +2867,8 @@
       "region": "인천",
       "address": "인천광역시 연수구 랜드마크로 68 301동 2층 234,266,267,268호 (송도동, 랜드마크시티센트럴더샵)",
       "phone": "032-851-8575",
-      "lat": 37.41492,
-      "lng": 126.62098,
+      "lat": 37.415667,
+      "lng": 126.6199381,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbestent"
     },
     {
@@ -2877,8 +2877,8 @@
       "region": "인천",
       "address": "인천광역시 연수구 센트럴로 415 힐스테이트 송도 더테라스 판매시설동 2층 233,234,235,236,237호 (송도동)",
       "phone": "032-833-3650",
-      "lat": 37.478092,
-      "lng": 126.64029,
+      "lat": 37.4105318,
+      "lng": 126.6269232,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnlent"
     },
     {
@@ -2887,8 +2887,8 @@
       "region": "인천",
       "address": "인천광역시 연수구 신송로 161 송도 하이츠 3층 305,306호 (송도동)",
       "phone": "032-832-8505",
-      "lat": 37.478092,
-      "lng": 126.64029,
+      "lat": 37.3975947,
+      "lng": 126.6484388,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkimyounghyoent"
     },
     {
@@ -2897,8 +2897,8 @@
       "region": "인천",
       "address": "인천광역시 연수구 해돋이로 168-2",
       "phone": "032-859-5119",
-      "lat": 37.38114,
-      "lng": 126.65648,
+      "lat": 37.3950206,
+      "lng": 126.6456509,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsongdocoent"
     },
     {
@@ -2907,8 +2907,8 @@
       "region": "인천",
       "address": "인천광역시 중구 인항로 27 (신흥동3가)",
       "phone": "032-890-2114",
-      "lat": 37.45788,
-      "lng": 126.63363,
+      "lat": 37.4586786,
+      "lng": 126.6340954,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheoninha"
     },
     {
@@ -2917,8 +2917,8 @@
       "region": "인천",
       "address": "인천광역시 중구 하늘중앙로 193 조양타워 603호 (중산동)",
       "phone": "032-746-1017",
-      "lat": 37.49042,
-      "lng": 126.56043,
+      "lat": 37.4903649,
+      "lng": 126.5606632,
       "sourceUrl": "https://www.resmed.kr/psg-finder/incheonclearskyent"
     },
     {
@@ -2927,8 +2927,8 @@
       "region": "인천",
       "address": "인천 서구 고산후로 222 푸리마더타워 601~604호",
       "phone": "032-710-2159",
-      "lat": 37.627647,
-      "lng": 126.70702,
+      "lat": 37.6034746,
+      "lng": 126.698893,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gdcentralentclinic"
     },
     {
@@ -2937,8 +2937,8 @@
       "region": "전남",
       "address": "전라남도 목포시 백년대로 295 2층 (상동)",
       "phone": "061-281-7075",
-      "lat": 34.80386,
-      "lng": 126.41996,
+      "lat": 34.8039717,
+      "lng": 126.4199762,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangdreament"
     },
     {
@@ -2947,8 +2947,8 @@
       "region": "전남",
       "address": "전라남도 목포시 백년대로 298 (상동)",
       "phone": "061-287-6610",
-      "lat": 34.80352,
-      "lng": 126.42055,
+      "lat": 34.8035707,
+      "lng": 126.4206704,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamjoyunent"
     },
     {
@@ -2957,8 +2957,8 @@
       "region": "전남",
       "address": "전라남도 목포시 백년대로 391 (옥암동)",
       "phone": "061-802-2200",
-      "lat": 34.80822,
-      "lng": 126.42902,
+      "lat": 34.8082908,
+      "lng": 126.4289425,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangmokpoent"
     },
     {
@@ -2967,8 +2967,8 @@
       "region": "전남",
       "address": "전라남도 순천시 봉화3길 14-28 (조례동)",
       "phone": "061-720-9900",
-      "lat": 34.96399,
-      "lng": 127.52097,
+      "lat": 34.9637664,
+      "lng": 127.5210363,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamenosent"
     },
     {
@@ -2977,8 +2977,8 @@
       "region": "전남",
       "address": "전라남도 순천시 이수로 305 2층~4층층 (조례동, 동부클라이밍,NEPA)",
       "phone": "061-726-6001",
-      "lat": 34.95325,
-      "lng": 127.51734,
+      "lat": 34.9533732,
+      "lng": 127.5172374,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhanaent"
     },
     {
@@ -2987,8 +2987,8 @@
       "region": "전남",
       "address": "전라남도 순천시 이수로 321 6층 (조례동)",
       "phone": "061-724-5577",
-      "lat": 34.95397,
-      "lng": 127.51899,
+      "lat": 34.9540717,
+      "lng": 127.5190029,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamschwang"
     },
     {
@@ -2997,8 +2997,8 @@
       "region": "전남",
       "address": "전라남도 순천시 중앙로 67 3층 (저전동)",
       "phone": "061-746-7575",
-      "lat": 34.95164,
-      "lng": 127.48361,
+      "lat": 34.9516326,
+      "lng": 127.4835143,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamsooent"
     },
     {
@@ -3007,8 +3007,8 @@
       "region": "전남",
       "address": "전라남도 여수시 중앙로 30 2층 (교동)",
       "phone": "061-920-7575",
-      "lat": 34.74023,
-      "lng": 127.73144,
+      "lat": 34.7400417,
+      "lng": 127.7310295,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnambestent"
     },
     {
@@ -3017,8 +3017,8 @@
       "region": "전북",
       "address": "전라북도 군산시 공단대로 589",
       "phone": "063-471-9475",
-      "lat": 35.97154,
-      "lng": 126.68185,
+      "lat": 35.9715393,
+      "lng": 126.6817394,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukgssokim"
     },
     {
@@ -3027,8 +3027,8 @@
       "region": "전북",
       "address": "전라북도 익산시 무왕로9길 7",
       "phone": "063-834-2958",
-      "lat": 35.95909,
-      "lng": 126.97312,
+      "lat": 35.959157,
+      "lng": 126.9730147,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdreament"
     },
     {
@@ -3037,8 +3037,8 @@
       "region": "전북",
       "address": "전라북도 전주시 덕진구 건지로 20",
       "phone": "063-250-1114",
-      "lat": 35.84507,
-      "lng": 127.14285,
+      "lat": 35.8470974,
+      "lng": 127.1411626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukcuh"
     },
     {
@@ -3047,8 +3047,8 @@
       "region": "전북",
       "address": "전라북도 전주시 덕진구 견훤로 390",
       "phone": "063-240-2000",
-      "lat": 35.84594,
-      "lng": 127.15313,
+      "lat": 35.8459659,
+      "lng": 127.1534706,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdaejain"
     },
     {
@@ -3057,8 +3057,8 @@
       "region": "전북",
       "address": "전라북도 전주시 덕진구 백제대로 686",
       "phone": "063-246-7001",
-      "lat": 35.84373,
-      "lng": 127.14427,
+      "lat": 35.8437749,
+      "lng": 127.1442301,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukjeonjoodoolove"
     },
     {
@@ -3077,8 +3077,8 @@
       "region": "전북",
       "address": "전라북도 전주시 완산구 쑥고개로 317",
       "phone": "063-717-7575",
-      "lat": 35.80248,
-      "lng": 127.0999,
+      "lat": 35.8025546,
+      "lng": 127.0999077,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukbestent"
     },
     {
@@ -3087,8 +3087,8 @@
       "region": "전북",
       "address": "전라북도 전주시 완산구 온고을로 26",
       "phone": "063-255-9981",
-      "lat": 35.83405,
-      "lng": 127.12011,
+      "lat": 35.8342015,
+      "lng": 127.1201024,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbuktopent"
     },
     {
@@ -3097,8 +3097,8 @@
       "region": "전북",
       "address": "전라북도 전주시 완산구 용머리로 66",
       "phone": "063-226-3232",
-      "lat": 35.80815,
-      "lng": 127.12868,
+      "lat": 35.8063133,
+      "lng": 127.1175122,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukkybent"
     },
     {
@@ -3107,8 +3107,8 @@
       "region": "제주",
       "address": "제주특별자치도 서귀포시 일주동로 8694",
       "phone": "064-767-7582",
-      "lat": 33.2531,
-      "lng": 126.55953,
+      "lat": 33.2531944,
+      "lng": 126.5595429,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejuseoulasanent"
     },
     {
@@ -3117,8 +3117,8 @@
       "region": "제주",
       "address": "제주특별자치도 서귀포시 중앙로 113 2층",
       "phone": "064-733-9119",
-      "lat": 33.25476,
-      "lng": 126.56054,
+      "lat": 33.2547871,
+      "lng": 126.560455,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejusamsunggood"
     },
     {
@@ -3127,8 +3127,8 @@
       "region": "제주",
       "address": "제주특별자치도 제주시 노형로 376 2층",
       "phone": "064-745-8575",
-      "lat": 33.48348,
-      "lng": 126.47611,
+      "lat": 33.4834118,
+      "lng": 126.4761333,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejubestent"
     },
     {
@@ -3147,8 +3147,8 @@
       "region": "제주",
       "address": "제주특별자치도 제주시 아란13길 15- 제주대학교병원 (아라일동)",
       "phone": "064-717-1114",
-      "lat": 33.47114,
-      "lng": 126.5433,
+      "lat": 33.4671105,
+      "lng": 126.5452109,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejujejujuuh"
     },
     {
@@ -3157,8 +3157,8 @@
       "region": "제주",
       "address": "제주특별자치도 제주시 원노형남1길 1 더현빌딩 2,3층 (노형동)",
       "phone": "064-747-0595",
-      "lat": 33.48271,
-      "lng": 126.48363,
+      "lat": 33.4840028,
+      "lng": 126.4807247,
       "sourceUrl": "https://www.resmed.kr/psg-finder/jejucleanent"
     },
     {
@@ -3167,8 +3167,8 @@
       "region": "충남",
       "address": "충남 당진시 당진중앙2로 96",
       "phone": "041-355-3163",
-      "lat": 36.8937,
-      "lng": 126.63035,
+      "lat": 36.8936304,
+      "lng": 126.6303801,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcoaent"
     },
     {
@@ -3177,8 +3177,8 @@
       "region": "충남",
       "address": "충청남도 서산시 호수공원6로 53",
       "phone": "041-669-8275",
-      "lat": 36.77331,
-      "lng": 126.44952,
+      "lat": 36.7733586,
+      "lng": 126.4495239,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamchament"
     },
     {
@@ -3187,8 +3187,8 @@
       "region": "충남",
       "address": "충청남도 아산시 배방읍 배방로 49 ()",
       "phone": "041-541-9753",
-      "lat": 36.77248,
-      "lng": 127.05498,
+      "lat": 36.7724603,
+      "lng": 127.0550792,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamclearent"
     },
     {
@@ -3197,8 +3197,8 @@
       "region": "충남",
       "address": "충청남도 아산시 번영로 223 3층 301호",
       "phone": "041-546-5551",
-      "lat": 36.78437,
-      "lng": 127.01535,
+      "lat": 36.7845453,
+      "lng": 127.0151626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamasandoorient"
     },
     {
@@ -3207,8 +3207,8 @@
       "region": "충남",
       "address": "충청남도 아산시 탕정면 한들물빛도시로 85 2,3,4층",
       "phone": "041-533-7118",
-      "lat": 36.8097,
-      "lng": 127.04463,
+      "lat": 36.7867244,
+      "lng": 127.0831809,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamtangjungent"
     },
     {
@@ -3217,8 +3217,8 @@
       "region": "충남",
       "address": "충청남도 천안시 동남구 망향로 201 (안서동)",
       "phone": "041-1588-0063",
-      "lat": 36.79219,
-      "lng": 127.35582,
+      "lat": 36.8415904,
+      "lng": 127.172575,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdkuh"
     },
     {
@@ -3227,8 +3227,8 @@
       "region": "충남",
       "address": "충청남도 천안시 동남구 순천향6길 31 5동 (봉명동,순천향대학교병원)",
       "phone": "041-570-2114",
-      "lat": 36.80214,
-      "lng": 127.13528,
+      "lat": 36.8027381,
+      "lng": 127.1358588,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamschmccheonan"
     },
     {
@@ -3237,8 +3237,8 @@
       "region": "충남",
       "address": "충청남도 천안시 서북구 불당21로 67-26 2층 201,202,203호 (불당동)",
       "phone": "041-522-7553",
-      "lat": 36.82114,
-      "lng": 127.10769,
+      "lat": 36.8147888,
+      "lng": 127.1087327,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcleanent"
     },
     {
@@ -3247,8 +3247,8 @@
       "region": "충남",
       "address": "충청남도 천안시 서북구 불당21로 67-8 5층 503호 (불당동)",
       "phone": "041-417-7507",
-      "lat": 36.84434,
-      "lng": 127.1602,
+      "lat": 36.8132654,
+      "lng": 127.1082812,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamsamsungsmartkjs"
     },
     {
@@ -3257,8 +3257,8 @@
       "region": "충남",
       "address": "충청남도 천안시 서북구 쌍용1길 21 2,3,4층 (쌍용동)",
       "phone": "041-578-5578",
-      "lat": 36.80132,
-      "lng": 127.11946,
+      "lat": 36.8013837,
+      "lng": 127.1192222,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdoorient"
     },
     {
@@ -3267,8 +3267,8 @@
       "region": "충북",
       "address": "충청북도 청주시 서원구 1순환로 776-0 충북대학교병원",
       "phone": "043-269-6114",
-      "lat": 36.60642,
-      "lng": 127.48943,
+      "lat": 36.6242237,
+      "lng": 127.4614843,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukchoongbookuniv"
     },
     {
@@ -3277,8 +3277,8 @@
       "region": "충북",
       "address": "충청북도 청주시 서원구 사직대로 108 하나로상호저축은행 지하1,지상1층 (사창동)",
       "phone": "043-262-4300",
-      "lat": 36.63466,
-      "lng": 127.45929,
+      "lat": 36.6345718,
+      "lng": 127.4591959,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcoaent"
     },
     {
@@ -3287,8 +3287,8 @@
       "region": "충북",
       "address": "충청북도 청주시 청원구 공항로 126 3층",
       "phone": "043-214-8275",
-      "lat": 36.66842,
-      "lng": 127.48536,
+      "lat": 36.6684367,
+      "lng": 127.4855403,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukseoulent"
     },
     {
@@ -3297,8 +3297,8 @@
       "region": "충북",
       "address": "충청북도 청주시 청원구 상당로 291 (내덕동)",
       "phone": "043-254-5075",
-      "lat": 36.65447,
-      "lng": 127.48837,
+      "lat": 36.6545367,
+      "lng": 127.488336,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukhanaent"
     },
     {
@@ -3307,8 +3307,8 @@
       "region": "충북",
       "address": "충청북도 청주시 청원구 주성로 269 미래빌딩 3층 301호 (주성동)",
       "phone": "043-214-3993",
-      "lat": 36.67064,
-      "lng": 127.49623,
+      "lat": 36.670732,
+      "lng": 127.4963136,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdreament"
     },
     {
@@ -3317,8 +3317,8 @@
       "region": "충북",
       "address": "충청북도 청주시 흥덕구 2순환로 1234 3층 301호",
       "phone": "043-239-2700",
-      "lat": 36.62591,
-      "lng": 127.42988,
+      "lat": 36.6258617,
+      "lng": 127.4298069,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoctoryounent"
     },
     {
@@ -3327,8 +3327,8 @@
       "region": "충북",
       "address": "충청북도 청주시 흥덕구 2순환로 1262-0 하나병원",
       "phone": "043-230-6114",
-      "lat": 36.62378,
-      "lng": 127.43144,
+      "lat": 36.6235046,
+      "lng": 127.4308626,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcjhana"
     },
     {
@@ -3337,8 +3337,8 @@
       "region": "충북",
       "address": "충청북도 청주시 흥덕구 가경로 8",
       "phone": "043-233-2275",
-      "lat": 36.6174,
-      "lng": 127.44409,
+      "lat": 36.6081276,
+      "lng": 127.4445909,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoorient"
     },
     {
@@ -3347,8 +3347,8 @@
       "region": "충북",
       "address": "충청북도 청주시 흥덕구 복대동 대농로 56",
       "phone": "043-238-7588",
-      "lat": 36.64172,
-      "lng": 127.42843,
+      "lat": 36.6415742,
+      "lng": 127.4284295,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukbrain"
     },
     {
@@ -3357,8 +3357,8 @@
       "region": "충북",
       "address": "충청북도 청주시 흥덕구 풍산로 32 1층 2층 (가경동)",
       "phone": "043-268-5925",
-      "lat": 36.62641,
-      "lng": 127.43399,
+      "lat": 36.6263715,
+      "lng": 127.4341128,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukyounseient"
     },
     {
@@ -3367,8 +3367,8 @@
       "region": "충북",
       "address": "대한민국 충청북도 충주시 칠금동 867",
       "phone": "043-843-8866",
-      "lat": 36.98218,
-      "lng": 127.91767,
+      "lat": 36.9821179,
+      "lng": 127.9176397,
       "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukankihyunent"
     }
   ]

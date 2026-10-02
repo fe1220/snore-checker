@@ -134,4 +134,22 @@ describe("getHospitalData", () => {
       items.length,
     )
   })
+
+  // 레즈메드 원본 좌표·시·도가 틀렸던 병원이다. 크롤러가 공공 데이터로 고친 값이 유지되는지 본다.
+  it("좌표가 한국 안에 있고 알려진 원본 오류가 고쳐져 있다", () => {
+    const { items } = getHospitalData()
+    for (const h of items) {
+      expect(h.lat).toBeGreaterThan(33)
+      expect(h.lat).toBeLessThan(39)
+      expect(h.lng).toBeGreaterThan(124)
+      expect(h.lng).toBeLessThan(132)
+      expect(h.name.length).toBeLessThanOrEqual(40)
+    }
+    const byId = new Map(items.map((h) => [h.id, h]))
+    expect(byId.get("gyeonggibomboment")?.lat).toBeCloseTo(37.65, 1)
+    expect(byId.get("gyeonggico365ent")?.lat).toBeCloseTo(37.8, 1)
+    for (const h of items.filter((h) => h.address.startsWith("경상남도"))) {
+      expect(h.region).toBe("경남")
+    }
+  })
 })
