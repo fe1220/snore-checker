@@ -51,21 +51,23 @@ export function CheckFlow() {
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col px-4">
-      <div className="flex h-14 items-center">
+      <div className="flex min-h-14 items-center">
         {step > 0 && (
           <Button
             variant="ghost"
             size="icon-lg"
-            aria-label="이전 질문"
+            className="size-12"
+            aria-label="이전 질문으로 가기"
             onClick={() => setStep(step - 1)}
           >
-            <ArrowLeft className="size-5" />
+            <ArrowLeft className="size-6" />
           </Button>
         )}
       </div>
       <div
         className="h-1 w-full overflow-hidden rounded-full bg-muted"
         role="progressbar"
+        aria-label="진행 상황"
         aria-valuemin={0}
         aria-valuemax={total}
         aria-valuenow={step + 1}
@@ -75,8 +77,8 @@ export function CheckFlow() {
           style={{ width: `${((step + 1) / total) * 100}%` }}
         />
       </div>
-      <p className="mt-6 text-sm text-muted-foreground tabular-nums">
-        {step + 1} / {total} · 옆에서 본 대로 답해 주세요
+      <p className="mt-6 text-base text-muted-foreground tabular-nums">
+        {step + 1} / {total} · 남편을 옆에서 본 대로 답해 주세요
       </p>
       <div
         key={step}
@@ -90,7 +92,7 @@ export function CheckFlow() {
             <Button
               key={option.value}
               variant={selected === option.value ? "default" : "outline"}
-              className="h-14 w-full justify-start px-4 text-base"
+              className="h-auto min-h-14 w-full justify-start px-4 py-3 text-left text-lg whitespace-normal"
               onClick={() => pick(option.value)}
             >
               {option.label}

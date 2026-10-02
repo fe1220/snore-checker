@@ -11,9 +11,9 @@ export const HEADLINES = {
 export type HeadlineKey = keyof typeof HEADLINES
 
 const POINTS = [
-  "옆에서 본 것만 답하면 돼요",
-  "수면무호흡 검사는 건강보험이 돼요",
-  "근처 수면클리닉까지 알려드려요",
+  "3분 무료진단으로 수면무호흡증 가능성 확인",
+  "수면다원검사가 필요한지, 비용은 얼마인지 안내",
+  "근처 수면클리닉 찾기",
 ]
 
 const SPARKLE =
@@ -49,30 +49,39 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">
       <div className="flex flex-1 flex-col px-4 pt-6">
-        <p className="text-sm font-semibold text-muted-foreground">
-          코골이체커
+        <p className="text-base font-semibold text-muted-foreground">
+          코골이 체크
         </p>
         <h1 className="mt-8 text-3xl leading-tight font-extrabold tracking-tight whitespace-pre-line">
           {HEADLINES[headline]}
         </h1>
         <p className="mt-4 text-lg font-semibold text-balance text-primary">
-          숨이 멈추는 코골이는 치료로 나아질 수 있는 병일 수 있어요
+          숨이 멈추는 코골이는 병일 수 있어요. 치료하면 나아질 수 있어요
         </p>
         <NightSky className="min-h-32 flex-1" />
         <ul className="divide-y border-t">
           {POINTS.map((text) => (
-            <li key={text} className="py-3 text-base">
+            <li key={text} className="py-3 text-lg">
               {text}
             </li>
           ))}
         </ul>
       </div>
-      <div className="sticky bottom-0 border-t bg-background p-4">
+      <div className="sticky bottom-0 flex flex-col gap-2 border-t bg-background p-4">
         <Link
           href={`/check?from=${headline}`}
-          className={cn(buttonVariants(), "h-12 w-full text-base")}
+          className={cn(
+            buttonVariants(),
+            "h-auto min-h-14 w-full py-2 text-lg whitespace-normal",
+          )}
         >
-          지금 바로 3분 체크하기
+          3분 무료진단 시작하기
+        </Link>
+        <Link
+          href="/privacy"
+          className="flex min-h-12 items-center justify-center text-base text-muted-foreground underline underline-offset-4"
+        >
+          개인정보처리방침 보기
         </Link>
       </div>
     </main>
