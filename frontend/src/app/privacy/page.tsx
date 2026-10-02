@@ -34,7 +34,7 @@ export default function PrivacyPage() {
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold">개인정보처리방침</h1>
         <p className="text-base text-muted-foreground">
-          코골이 진단 · 2026년 10월 2일부터 적용
+          코골이체커 · 2026년 10월 2일부터 적용
         </p>
       </div>
       {SECTIONS.map((section) => (

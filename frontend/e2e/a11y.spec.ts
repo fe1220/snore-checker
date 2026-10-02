@@ -204,7 +204,7 @@ test.describe("스크린샷", () => {
           await open(page, screen)
           if (scale !== 1) await scaleText(page, scale)
           await page.screenshot({
-            path: `../docs/05-verification/a11y/${screen.name}-${width}-${scale * 100}.png`,
+            path: `../docs/work/02-a11y-copy/screenshots/${screen.name}-${width}-${scale * 100}.png`,
             fullPage: !screen.name.startsWith("s4"),
           })
         })

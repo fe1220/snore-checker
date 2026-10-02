@@ -9,7 +9,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://snore-check.vercel.app"),
-  title: "코골이 진단",
+  title: "코골이체커 · 3분 코골이 무료진단",
   description:
     "옆에서 본 코골이, 수면무호흡증일 수 있는지 3분 무료진단으로 확인해요",
 }

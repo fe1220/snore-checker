@@ -1,4 +1,4 @@
-const USER_AGENT = "SleepCheckCrawler/1.0 (+https://github.com/fe1220/next-django-assignment)"
+const USER_AGENT = "SleepCheckCrawler/1.0 (+https://github.com/fe1220/snore-checker)"
 const REQUEST_INTERVAL_MS = 500
 
 let lastRequestAt = 0

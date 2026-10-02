@@ -1,7 +1,5 @@
 # frontend/CLAUDE.md
 
-@AGENTS.md
-
 ## 레이어
 
 `app → components → lib → data` 방향으로만 import한다. ESLint(`no-restricted-imports`)가 강제한다.
