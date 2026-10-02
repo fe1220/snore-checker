@@ -1,0 +1,71 @@
+<script>
+  var locations = [];
+  var google;
+  var center = {lat: 37.532600, lng: 127.024612};
+
+  var html = "<div class=\"store-item \">"+
+      "<div class=\"item-title title3\">누가이비인후과의원</div>"+
+  "<div class=\"item-address\">"+
+    "<p>강원도 동해시 한섬로 111-7<br> 25769</p>"+
+  "</div>"+
+    "<div class=\"item-phone\">033-535-3600</div>"+
+  "<div class=\"item-details\">"+
+    "<a href=\"psg-finder/gangwonnugaent\">세부 정보보기</p>"+
+      "</div>"+
+      "<div class=\"item-links\">";
+
+  html += "</div></div>";
+
+  locations.push({
+    'id': 101645632429,
+    'html': html,
+    'name': "누가이비인후과의원",
+    'district_kr': "강원도",
+    'lat': 37.52221,
+    'lng': 129.11555
+  });
+
+
+  var html = "<div class=\"store-item \">"+
+      "<div class=\"item-title title3\">값이빠진의원</div>"+
+    "<div class=\"item-phone\">02-000-0000</div>"+
+      "<div class=\"item-links\">";
+
+  html += "</div></div>";
+
+  locations.push({
+    'id': 1,
+    'html': html,
+    'name': "값이빠진의원",
+    'district_kr': "서울",
+    'lat': 37.5,
+    'lng': 127.0
+  });
+
+
+  var html = "<div class=\"store-item \">"+
+      "<div class=\"item-title title3\">청담성모이비인후과의원</div>"+
+  "<div class=\"item-address\">"+
+    "<p>서울특별시 강남구 학동로53길 3-2 2층 (논현동)<br> 6060</p>"+
+  "</div>"+
+    "<div class=\"item-phone\"></div>"+
+  "<div class=\"item-details\">"+
+    "<a href=\"psg-finder/seoulcheongdament\">세부 정보보기</p>"+
+      "</div>"+
+      "<div class=\"item-links\">";
+
+  html += "</div></div>";
+
+  locations.push({
+    'id': 101645632770,
+    'html': html,
+    'name': "청담성모이비인후과의원",
+    'district_kr': "서울",
+    'lat': 37.51714,
+    'lng': 127.03951
+  });
+
+  $('.listInnerWrapper ul li').click(function() {
+    var info = `<div class=\"store-item \"><div class=\"item-title title3\">${nameAttr}</div><div class=\"item-address\"><p>${listLocationAddr}<br> 46008</p></div><div class=\"item-phone\">${phAttr}</div><div class=\"item-details\"><a href=\"psg-finder/${indAttr}">세부 정보보기</a></div></div>`
+  });
+</script>

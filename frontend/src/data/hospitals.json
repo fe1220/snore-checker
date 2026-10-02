@@ -1,0 +1,3375 @@
+{
+  "crawledAt": "2026-10-02T10:58:50.821Z",
+  "items": [
+    {
+      "id": "gangwonnugaent",
+      "name": "누가이비인후과의원",
+      "region": "강원",
+      "address": "강원도 동해시 한섬로 111-7",
+      "phone": "033-535-3600",
+      "lat": 37.52221,
+      "lng": 129.11555,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonnugaent"
+    },
+    {
+      "id": "gangwonkysent",
+      "name": "김영석이비인후과의원",
+      "region": "강원",
+      "address": "강원도 원주시 원문로 116",
+      "phone": "033-744-5075",
+      "lat": 37.35688,
+      "lng": 127.93463,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonkysent"
+    },
+    {
+      "id": "gangwonyeonsewonjuseverance",
+      "name": "연세대학교 원주세브란스기독병원",
+      "region": "강원",
+      "address": "강원도 원주시 일산로 20",
+      "phone": "033-741-0114",
+      "lat": 37.34904,
+      "lng": 127.9468,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonyeonsewonjuseverance"
+    },
+    {
+      "id": "gangwonhkent",
+      "name": "홍&권이비인후과의원",
+      "region": "강원",
+      "address": "강원도 원주시 중앙로 105",
+      "phone": "033-735-7707",
+      "lat": 37.34949,
+      "lng": 127.95069,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhkent"
+    },
+    {
+      "id": "gangwonuniv",
+      "name": "강원대학교병원",
+      "region": "강원",
+      "address": "강원도 춘천시 백령로 156",
+      "phone": "033-258-2000",
+      "lat": 37.87539,
+      "lng": 127.74394,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonuniv"
+    },
+    {
+      "id": "gangwonhanlimchuncheon",
+      "name": "한림대학교부속 춘천성심병원",
+      "region": "강원",
+      "address": "강원도 춘천시 삭주로 77",
+      "phone": "033-240-5000",
+      "lat": 37.88453,
+      "lng": 127.74096,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gangwonhanlimchuncheon"
+    },
+    {
+      "id": "gyeonggibomboment",
+      "name": "봄봄이비인후과의원",
+      "region": "경기",
+      "address": "경기도 고양시 덕양구 권율대로 672 3호선 원흥역 봄오피스텔 3층 313~315호 (원흥동)",
+      "phone": "031-966-0300",
+      "lat": 37.287,
+      "lng": 127.05798,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibomboment"
+    },
+    {
+      "id": "gyeonggidoorient",
+      "name": "향동두리이비인후과의원",
+      "region": "경기",
+      "address": "경기도 고양시 덕양구 꽃마을로 4 퍼스트타워 4층 404호 (향동동)",
+      "phone": "02-3159-7585",
+      "lat": 37.59872,
+      "lng": 126.89244,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient"
+    },
+    {
+      "id": "gyeonggicoaent",
+      "name": "코아이비인후과의원",
+      "region": "경기",
+      "address": "경기도 고양시 덕양구 마상로154번길 68 문덕메디칼빌딩 301호,303호호",
+      "phone": "031-963-5014",
+      "lat": 37.6564,
+      "lng": 126.83692,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicoaent"
+    },
+    {
+      "id": "gyeonggimyungji",
+      "name": "의료법인명지의료재단명지병원",
+      "region": "경기",
+      "address": "경기도 고양시 덕양구 화수로14번길 55 (화정동)",
+      "phone": "031-810-5114",
+      "lat": 37.64485,
+      "lng": 126.83148,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimyungji"
+    },
+    {
+      "id": "gyeonggiilsanbudist",
+      "name": "동국대학교일산불교병원",
+      "region": "경기",
+      "address": "경기도 고양시 일산동구 동국로 27 (식사동, 동국대학교일산병원)",
+      "phone": "031-1577-7000",
+      "lat": 37.67666,
+      "lng": 126.80721,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanbudist"
+    },
+    {
+      "id": "gyeonggiilsanent",
+      "name": "일산이비인후과의원",
+      "region": "경기",
+      "address": "경기도 고양시 일산동구 무궁화로 39 (장항동, 삼라마이다스 3차 206,209,210호)",
+      "phone": "031-917-1155",
+      "lat": 37.6633,
+      "lng": 126.76849,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanent"
+    },
+    {
+      "id": "gyeongginhimilsan",
+      "name": "국민건강보험공단일산병원",
+      "region": "경기",
+      "address": "경기도 고양시 일산동구 일산로 100",
+      "phone": "1577-0013",
+      "lat": 37.64135,
+      "lng": 126.78602,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginhimilsan"
+    },
+    {
+      "id": "gyeonggisoom",
+      "name": "숨수면의원",
+      "region": "경기",
+      "address": "경기도 고양시 일산동구 일산로 46 남정시티프라자 409호, 410호 (백석동)",
+      "phone": "031-932-7800",
+      "lat": 37.64259,
+      "lng": 126.78787,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoom"
+    },
+    {
+      "id": "gyeonggiheavenly",
+      "name": "해븐리병원",
+      "region": "경기",
+      "address": "경기도 고양시 일산동구 중산로 117",
+      "phone": "031-922-8822",
+      "lat": 37.68255,
+      "lng": 126.78119,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheavenly"
+    },
+    {
+      "id": "gyeonggiilsanpaik",
+      "name": "인제대학교일산백병원",
+      "region": "경기",
+      "address": "경기도 고양시 일산서구 주화로 170 (대화동)",
+      "phone": "031-910-7114",
+      "lat": 37.67401,
+      "lng": 126.75021,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiilsanpaik"
+    },
+    {
+      "id": "gyeonggihansarangent",
+      "name": "한사랑그린이비인후과의원",
+      "region": "경기",
+      "address": "경기도 고양시 일산서구 중앙로 1416 7층 (주엽동, 한사랑빌딩)",
+      "phone": "031-915-0469",
+      "lat": 37.66971,
+      "lng": 126.76288,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihansarangent"
+    },
+    {
+      "id": "gyeonggiseoulasanent",
+      "name": "서울아산이비인후과의원",
+      "region": "경기",
+      "address": "경기도 광명시 오리로 865 2층 1호 (철산동, 명지빌딩)",
+      "phone": "02-2684-7900",
+      "lat": 37.47536,
+      "lng": 126.86597,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulasanent"
+    },
+    {
+      "id": "gyeonggiseoulsaintent",
+      "name": "서울성모이비인후과의원",
+      "region": "경기",
+      "address": "경기도 광명시 오리로 870 6층 (철산동, 스타힐스빌딩)",
+      "phone": "02-6011-7700",
+      "lat": 37.47595,
+      "lng": 126.86595,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsaintent"
+    },
+    {
+      "id": "gyeonggihanyanggooli",
+      "name": "한양대학교구리병원",
+      "region": "경기",
+      "address": "경기도 구리시 경춘로 153 (교문동)",
+      "phone": "1644-9118",
+      "lat": 37.60093,
+      "lng": 127.1324,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanyanggooli"
+    },
+    {
+      "id": "gyeonggiopenent",
+      "name": "열린이비인후과의원",
+      "region": "경기",
+      "address": "경기도 구리시 경춘로227번길 14 303호",
+      "phone": "031-567-2588",
+      "lat": 37.60127,
+      "lng": 127.14002,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiopenent"
+    },
+    {
+      "id": "gyeonggiseoulasancentral",
+      "name": "서울아산센트럴의원",
+      "region": "경기",
+      "address": "경기도 군포시 송부로34번길 35 센트럴프라자 2층 (도마교동)",
+      "phone": "031-419-8877",
+      "lat": 37.31628,
+      "lng": 126.91957,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulasancentral"
+    },
+    {
+      "id": "gyeonggiflowerdreament",
+      "name": "꽃드림이비인후과의원",
+      "region": "경기",
+      "address": "경기도 군포시 송부로74번길 3-40 금강프라자 204,205,206호 (도마교동)",
+      "phone": "031-365-3761",
+      "lat": 37.31633,
+      "lng": 126.92429,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiflowerdreament"
+    },
+    {
+      "id": "gyeonggiverygoodent",
+      "name": "참좋은이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 걸포2로 33 401호 (걸포동)",
+      "phone": "031-981-8253",
+      "lat": 37.6333,
+      "lng": 126.7036,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiverygoodent"
+    },
+    {
+      "id": "gyeonggitreeent",
+      "name": "트리이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 고촌읍 수기로 115 센트럴타워 501~2호",
+      "phone": "031-992-0275",
+      "lat": 37.59337,
+      "lng": 126.7637,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitreeent"
+    },
+    {
+      "id": "gyeonggiheezmedi",
+      "name": "히즈메디병원",
+      "region": "경기",
+      "address": "경기도 김포시 김포대로 681 (풍무동)",
+      "phone": "1588-0223",
+      "lat": 37.61128,
+      "lng": 126.73477,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiheezmedi"
+    },
+    {
+      "id": "gyeonggidreament",
+      "name": "드림이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 김포대로 709 퍼스트블루 503~4호 (풍무동)",
+      "phone": "031-985-9831",
+      "lat": 37.61234,
+      "lng": 126.73194,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidreament"
+    },
+    {
+      "id": "gyeonggikimpohanaent",
+      "name": "김포하나이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 김포한강1로 227 광장프라자 306호 (운양동)",
+      "phone": "981-7979",
+      "lat": 37.65395,
+      "lng": 126.68245,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikimpohanaent"
+    },
+    {
+      "id": "gyeonggihient",
+      "name": "하이이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 김포한강2로 222 305,306호 (장기동, 대영메디칼아카데미)",
+      "phone": "031-985-3117",
+      "lat": 37.64028,
+      "lng": 126.6759,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihient"
+    },
+    {
+      "id": "gyeonggibaroent",
+      "name": "바로이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 김포한강4로 507 2층 207호 (구래동)",
+      "phone": "031-986-8550",
+      "lat": 37.64624,
+      "lng": 126.62751,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibaroent"
+    },
+    {
+      "id": "gyeonggiclearent",
+      "name": "상쾌한이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 양도로 23 오성프라자 3층 302호 (풍무동)",
+      "phone": "031-983-0900",
+      "lat": 37.60665,
+      "lng": 126.72518,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearent"
+    },
+    {
+      "id": "gyeonggiyunseiandetooent",
+      "name": "연세와이투이비인후과의원",
+      "region": "경기",
+      "address": "경기도 김포시 풍무로 25 303호",
+      "phone": "031-988-5075",
+      "lat": 37.59798,
+      "lng": 126.72025,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiandetooent"
+    },
+    {
+      "id": "gyeonggikangim",
+      "name": "강내과의원",
+      "region": "경기",
+      "address": "경기도 남양주시 와부읍 덕소로 214 ()",
+      "phone": "031-521-7577",
+      "lat": 37.57942,
+      "lng": 127.22005,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikangim"
+    },
+    {
+      "id": "gyeonggierooment",
+      "name": "이룸이비인후과의원",
+      "region": "경기",
+      "address": "경기도 남양주시 진접읍 해밀예당1로 30 센타프라자 6층",
+      "phone": "031-571-5075",
+      "lat": 37.71175,
+      "lng": 127.18636,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggierooment"
+    },
+    {
+      "id": "gyeonggilhospital",
+      "name": "엘병원",
+      "region": "경기",
+      "address": "경기도 남양주시 퇴계원읍 퇴계원로 20 지하2~지상7층 일부제외호",
+      "phone": "1899-3377",
+      "lat": 37.64877,
+      "lng": 127.14088,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggilhospital"
+    },
+    {
+      "id": "gyeonggiclearsaintent",
+      "name": "맑은성모이비인후과의원",
+      "region": "경기",
+      "address": "경기도 부천시 석천로183번길 35 301호",
+      "phone": "032-324-1615",
+      "lat": 37.504,
+      "lng": 126.76103,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearsaintent"
+    },
+    {
+      "id": "gyeonggibusheoncoeent",
+      "name": "부천코엔이비인후과의원",
+      "region": "경기",
+      "address": "경기도 부천시 소사로 754 2층일부, 3층일부 (원종동)",
+      "phone": "032-677-5075",
+      "lat": 37.5232,
+      "lng": 126.80507,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibusheoncoeent"
+    },
+    {
+      "id": "gyeonggischmcbucheon",
+      "name": "순천향대학교부속부천병원",
+      "region": "경기",
+      "address": "경기도 부천시 조마루로 170 (중동)",
+      "phone": "032-621-5114",
+      "lat": 37.49912,
+      "lng": 126.76256,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggischmcbucheon"
+    },
+    {
+      "id": "gyeonggisnubh",
+      "name": "분당서울대학교병원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 구미로173번길 82 (구미동, 분당서울대학교병원)",
+      "phone": "031-787-2114",
+      "lat": 37.34517,
+      "lng": 127.12503,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisnubh"
+    },
+    {
+      "id": "gyeonggidmcbundang",
+      "name": "대진의료재단 분당제생병원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 서현로180번길 20 (서현동)",
+      "phone": "031-779-0114",
+      "lat": 37.38779,
+      "lng": 127.12196,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidmcbundang"
+    },
+    {
+      "id": "gyeonggi365syseoulent",
+      "name": "365에스와이(SY)서울연세이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 서현로210번길 20 3,4층 305-3,306,402호 (서현동, 코코프라자)",
+      "phone": "031-704-5275",
+      "lat": 37.37439,
+      "lng": 127.13613,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggi365syseoulent"
+    },
+    {
+      "id": "gyeonggileehongent",
+      "name": "리앤홍이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 성남대로331번길 7 401호 402-1일부호 (정자동, 정자스타빌딩)",
+      "phone": "714-1077",
+      "lat": 37.37109,
+      "lng": 127.10739,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggileehongent"
+    },
+    {
+      "id": "gyeonggibundangchamc",
+      "name": "차의과학대학교분당차병원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 야탑로 59 (야탑동)",
+      "phone": "031-780-5000",
+      "lat": 37.40758,
+      "lng": 127.14436,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggibundangchamc"
+    },
+    {
+      "id": "gyeonggiwingent",
+      "name": "윙이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 분당구 판교역로 152 알파돔타워 2층 202호 (백현동)",
+      "phone": "031-622-7299",
+      "lat": 37.39421,
+      "lng": 127.11023,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwingent"
+    },
+    {
+      "id": "gyeonggiyshappyent",
+      "name": "연세해피이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 산성대로 241 5층 (신흥동)",
+      "phone": "031-723-6789",
+      "lat": 37.45022,
+      "lng": 127.15041,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyshappyent"
+    },
+    {
+      "id": "gyeonggitheclearent",
+      "name": "더맑은이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 수정로 291 상가1동 3층 302호 (신흥동)",
+      "phone": "031-733-5002",
+      "lat": 37.44975,
+      "lng": 127.15081,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheclearent"
+    },
+    {
+      "id": "gyeonggiysboment",
+      "name": "연세봄이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 위례광장로 310 5층 503,504호 (창곡동, 우성트램타워)",
+      "phone": "031-746-7575",
+      "lat": 37.4727,
+      "lng": 127.14316,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiysboment"
+    },
+    {
+      "id": "gyeonggiwereahanaent",
+      "name": "위례하나이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 위례광장로 310 우성트램타워 A동 301호, 302 일부호",
+      "phone": "031-778-6811",
+      "lat": 37.4727,
+      "lng": 127.14316,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereahanaent"
+    },
+    {
+      "id": "gyeonggiwereacentalent",
+      "name": "위례센트럴이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 위례광장로 320 5층 515,516호 (창곡동, 아이에스센트럴타워)",
+      "phone": "031-721-7852",
+      "lat": 37.47211,
+      "lng": 127.14269,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereacentalent"
+    },
+    {
+      "id": "gyeonggiwereaplusent",
+      "name": "위례플러스이비인후과의원",
+      "region": "경기",
+      "address": "경기도 성남시 수정구 위례동로 153 4층 403호 (창곡동, 에이플타워)",
+      "phone": "031-753-5550",
+      "lat": 37.47358,
+      "lng": 127.15029,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiwereaplusent"
+    },
+    {
+      "id": "gyeonggihanaent",
+      "name": "하나이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 권선구 덕영대로1201번길 34 3층 (권선동)",
+      "phone": "031-238-0100",
+      "lat": 37.25063,
+      "lng": 127.02288,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihanaent"
+    },
+    {
+      "id": "gyeonggijohnsbilent",
+      "name": "존스빌이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 권선구 덕영대로1201번길 8 3층",
+      "phone": "031-235-7633",
+      "lat": 37.24955,
+      "lng": 127.02251,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijohnsbilent"
+    },
+    {
+      "id": "gyeonggiseoulsamsungplusim",
+      "name": "서울삼성플러스내과의원",
+      "region": "경기",
+      "address": "경기도 수원시 권선구 매송고색로 526 201, 202호 (오목천동)",
+      "phone": "031-895-5353",
+      "lat": 37.24546,
+      "lng": 126.96258,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsamsungplusim"
+    },
+    {
+      "id": "gyeonggihomaesilysent",
+      "name": "호매실연세이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 권선구 호매실로104번길 24-43 401~405호 (호매실동)",
+      "phone": "031-293-7582",
+      "lat": 37.25808,
+      "lng": 126.96265,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihomaesilysent"
+    },
+    {
+      "id": "gyeonggikwangkyogoodsleep",
+      "name": "광교굿슬립의원",
+      "region": "경기",
+      "address": "경기도 수원시 영통구 도청로18번길 26 힐스테이트광교중앙역 3층 338호~341호 (이의동)",
+      "phone": "031-216-7077",
+      "lat": 37.28795,
+      "lng": 127.05657,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikwangkyogoodsleep"
+    },
+    {
+      "id": "gyeonggithewell",
+      "name": "더웰병원",
+      "region": "경기",
+      "address": "경기도 수원시 영통구 봉영로 1620 (영통동, 대우월드마크영통 3,5,6,7,8층)",
+      "phone": "031-202-1144",
+      "lat": 37.25507,
+      "lng": 127.07539,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggithewell"
+    },
+    {
+      "id": "gyeonggisoomandsoopent",
+      "name": "숨앤숲이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 영통구 센트럴타운로 111 301호,302호 (이의동, 광교서희스타힐스)",
+      "phone": "031-212-7907",
+      "lat": 37.29269,
+      "lng": 127.04913,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsoopent"
+    },
+    {
+      "id": "gyeonggiajoumc",
+      "name": "아주대학교병원",
+      "region": "경기",
+      "address": "경기도 수원시 영통구 월드컵로 164 (원천동)",
+      "phone": "031-219-5114",
+      "lat": 37.2746,
+      "lng": 127.05332,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajoumc"
+    },
+    {
+      "id": "gyeonggiajouwellent",
+      "name": "아주웰이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 영통구 중부대로 264 3층, 4층 일부층 (매탄동)",
+      "phone": "031-213-5453",
+      "lat": 37.27149,
+      "lng": 127.05768,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiajouwellent"
+    },
+    {
+      "id": "gyeonggijoeunent",
+      "name": "조은이비인후과의원",
+      "region": "경기",
+      "address": "경기도 수원시 장안구 창룡대로 197 (연무동)",
+      "phone": "031-241-9006",
+      "lat": 37.2929,
+      "lng": 127.03182,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggijoeunent"
+    },
+    {
+      "id": "gyeonggitomaswiylshosiptal",
+      "name": "의료법인 토마스의료재단 윌스기념병원",
+      "region": "경기",
+      "address": "경기도 수원시 팔달구 경수대로 437 (인계동)",
+      "phone": "031-223-2233",
+      "lat": 37.28051,
+      "lng": 127.0301,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitomaswiylshosiptal"
+    },
+    {
+      "id": "gyeonggihwaseotopim",
+      "name": "화서탑내과의원",
+      "region": "경기",
+      "address": "경기도 수원시 팔달구 동말로 81 3층 (화서동)",
+      "phone": "031-253-7575",
+      "lat": 37.2789,
+      "lng": 127.00317,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihwaseotopim"
+    },
+    {
+      "id": "gyeonggidswhop",
+      "name": "의료법인 녹산의료재단동수원병원",
+      "region": "경기",
+      "address": "경기도 수원시 팔달구 중부대로 165 (우만동)",
+      "phone": "031-210-0114",
+      "lat": 37.27855,
+      "lng": 127.03177,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidswhop"
+    },
+    {
+      "id": "gyeonggicmvincent",
+      "name": "가톨릭대학교 성빈센트병원",
+      "region": "경기",
+      "address": "경기도 수원시 팔달구 중부대로 93 (지동)",
+      "phone": "031-1577-8588",
+      "lat": 37.27688,
+      "lng": 127.02675,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmvincent"
+    },
+    {
+      "id": "gyeonggitheent",
+      "name": "더이비인후과의원",
+      "region": "경기",
+      "address": "경기도 시흥시 승지로59번길 12 시티타워 2층 204~206호 (능곡동)",
+      "phone": "031-504-5335",
+      "lat": 37.3692,
+      "lng": 126.80941,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheent"
+    },
+    {
+      "id": "gyeonggisihwaent",
+      "name": "시화이비인후과의원",
+      "region": "경기",
+      "address": "경기도 시흥시 옥구천동로374번길 83 송산빌딩 202~204호 (정왕동)",
+      "phone": "031-5189-0977",
+      "lat": 37.35027,
+      "lng": 126.73562,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisihwaent"
+    },
+    {
+      "id": "gyeonggisoomandsorient",
+      "name": "숨앤소리이비인후과의원",
+      "region": "경기",
+      "address": "경기도 시흥시 은계번영길 19 은계 디스퀘어큐브 5층 503~506호 (은행동)",
+      "phone": "031-507-5123",
+      "lat": 37.43743,
+      "lng": 126.80303,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisoomandsorient"
+    },
+    {
+      "id": "gyeonggigoodent",
+      "name": "굿이비인후과의원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 고잔로 88 606호, 예술대학로 17, 919호 (고잔동)",
+      "phone": "031-439-5075",
+      "lat": 37.31894,
+      "lng": 126.83604,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodent"
+    },
+    {
+      "id": "gyeonggiyounghospital",
+      "name": "젊은신경과의원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 광덕대로 138 305~309호 (고잔동, 골든에이스프라자)",
+      "phone": "031-483-7075",
+      "lat": 37.30873,
+      "lng": 126.83044,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyounghospital"
+    },
+    {
+      "id": "gyeonggicleansament",
+      "name": "맑은샘이비인후과의원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 라성로 43 벽산블루밍아파트 401,402,403,404,404-1호 (원곡동)",
+      "phone": "031-401-3175",
+      "lat": 37.3279,
+      "lng": 126.80067,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicleansament"
+    },
+    {
+      "id": "gyeonggiyeplusent",
+      "name": "예플러스이비인후과의원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 원포공원1로 49 태영타운 308,309일부,314,315호 (초지동)",
+      "phone": "031-405-6780",
+      "lat": 37.30263,
+      "lng": 126.81238,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyeplusent"
+    },
+    {
+      "id": "gyeonggiansankumc",
+      "name": "고려대학교의과대학부속안산병원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 적금로 123 (고잔동)",
+      "phone": "031-1577-7516",
+      "lat": 37.31913,
+      "lng": 126.82582,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansankumc"
+    },
+    {
+      "id": "gyeonggiansancoient",
+      "name": "안산코아이비인후과의원",
+      "region": "경기",
+      "address": "경기도 안산시 단원구 화랑로 102 e편한세상초지역센트럴포레상가 1동 3층 322~326호 (원곡동)",
+      "phone": "031-8042-2290",
+      "lat": 37.32637,
+      "lng": 126.79988,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiansancoient"
+    },
+    {
+      "id": "gyeonggihallym",
+      "name": "한림대학교성심병원",
+      "region": "경기",
+      "address": "경기도 안양시 동안구 관평로170번길 22 (평촌동)",
+      "phone": "031-380-1500",
+      "lat": 37.39242,
+      "lng": 126.96206,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggihallym"
+    },
+    {
+      "id": "gyeonggico365ent",
+      "name": "코앤365이비인후과의원",
+      "region": "경기",
+      "address": "경기도 양주시 고읍남로 10 302, 303호",
+      "phone": "031-845-8200",
+      "lat": 37.04251,
+      "lng": 127.04993,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggico365ent"
+    },
+    {
+      "id": "gyeonggisekyoseoulent",
+      "name": "세교서울이비인후과의원",
+      "region": "경기",
+      "address": "경기도 오산시 내삼미로79번길 11 2층 207,208호 (수청동, 선우중앙타워)",
+      "phone": "031-373-3993",
+      "lat": 37.16914,
+      "lng": 127.06519,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisekyoseoulent"
+    },
+    {
+      "id": "gyeongginewysiseverance",
+      "name": "연세대학교 의과대학 용인세브란스병원",
+      "region": "경기",
+      "address": "경기도 용인시 기흥구 동백죽전대로 363 (중동)",
+      "phone": "1899-1004",
+      "lat": 37.27188,
+      "lng": 127.14806,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginewysiseverance"
+    },
+    {
+      "id": "gyeonggisorisaintent",
+      "name": "소리성모이비인후과의원",
+      "region": "경기",
+      "address": "경기도 용인시 수지구 성복2로 37 정환빌딩 3층 (성복동)",
+      "phone": "031-261-1233",
+      "lat": 37.34967,
+      "lng": 127.08375,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisorisaintent"
+    },
+    {
+      "id": "gyeonggieuljieuijeongbu",
+      "name": "학교법인 을지학원 의정부을지대학교병원",
+      "region": "경기",
+      "address": "경기도 의정부시 동일로 712 을지대학교 의정부캠퍼스 및 부속병원 (금오동)",
+      "phone": "031-951-1000",
+      "lat": 37.74852,
+      "lng": 127.09996,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggieuljieuijeongbu"
+    },
+    {
+      "id": "gyeonggiclearseoulent",
+      "name": "맑은서울이비인후과의원",
+      "region": "경기",
+      "address": "경기도 의정부시 오목로225번길 177 폴리프라자 401-406호 (민락동)",
+      "phone": "031-851-5475",
+      "lat": 37.74444,
+      "lng": 127.09705,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiclearseoulent"
+    },
+    {
+      "id": "gyeonggimoduent",
+      "name": "모두이비인후과의원",
+      "region": "경기",
+      "address": "경기도 의정부시 용민로 60 3층 (용현동)",
+      "phone": "031-851-7585",
+      "lat": 37.73663,
+      "lng": 127.08514,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimoduent"
+    },
+    {
+      "id": "gyeonggicmccujb",
+      "name": "가톨릭대학교의정부성모병원",
+      "region": "경기",
+      "address": "경기도 의정부시 천보로 271 의정부성모병원 (금오동)",
+      "phone": "1661-7500",
+      "lat": 37.75843,
+      "lng": 127.07772,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicmccujb"
+    },
+    {
+      "id": "gyeonggipajoohanaent",
+      "name": "파주하나이비인후과의원",
+      "region": "경기",
+      "address": "경기도 파주시 교하로 87 삼성프라자 501호 (목동동)",
+      "phone": "031-949-8083",
+      "lat": 37.72768,
+      "lng": 126.73383,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggipajoohanaent"
+    },
+    {
+      "id": "gyeongginelboment",
+      "name": "늘봄이비인후과의원",
+      "region": "경기",
+      "address": "경기도 파주시 청암로17번길 33 701~703호 (목동동)",
+      "phone": "031-947-4477",
+      "lat": 37.72869,
+      "lng": 126.73621,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongginelboment"
+    },
+    {
+      "id": "gyeonggigoduckcentralent",
+      "name": "고덕센트럴이비인후과의원",
+      "region": "경기",
+      "address": "경기도 평택시 고덕면 고덕중앙로 200-4 우성고덕타워 409,410,411호",
+      "phone": "031-8029-7500",
+      "lat": 37.01776,
+      "lng": 127.03113,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoduckcentralent"
+    },
+    {
+      "id": "gyeonggivisionent",
+      "name": "비전이비인후과소아청소년과의원",
+      "region": "경기",
+      "address": "경기도 평택시 비전5로 20-24 312,313호 (비전동)",
+      "phone": "031-647-3500",
+      "lat": 36.99898,
+      "lng": 127.11427,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggivisionent"
+    },
+    {
+      "id": "gyeonggiseoulent",
+      "name": "서울이비인후과의원",
+      "region": "경기",
+      "address": "경기도 평택시 중앙2로 13",
+      "phone": "031-652-0023",
+      "lat": 36.99183,
+      "lng": 127.08856,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulent"
+    },
+    {
+      "id": "gyeonggigoodmohospital",
+      "name": "의료법인백송의료재단 굿모닝병원",
+      "region": "경기",
+      "address": "경기도 평택시 중앙로 338 (합정동)",
+      "phone": "031-5182-7700",
+      "lat": 36.99434,
+      "lng": 127.09018,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggigoodmohospital"
+    },
+    {
+      "id": "gyeonggicomient",
+      "name": "코미이비인후과의원",
+      "region": "경기",
+      "address": "경기도 하남시 미사강변대로 222 502호503호 (망월동)",
+      "phone": "031-792-6987",
+      "lat": 37.56947,
+      "lng": 127.18415,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicomient"
+    },
+    {
+      "id": "gyeonggitheseoulent",
+      "name": "더서울이비인후과의원",
+      "region": "경기",
+      "address": "경기도 하남시 미사강변동로 127 경서타워 406,407호 (망월동)",
+      "phone": "031-795-8375",
+      "lat": 37.56623,
+      "lng": 127.1913,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheseoulent"
+    },
+    {
+      "id": "gyeonggimisaysent",
+      "name": "미사연세이비인후과의원",
+      "region": "경기",
+      "address": "경기도 하남시 미사강변동로 73 508호~512호 (망월동, 미사강변노블레스)",
+      "phone": "031-794-2460",
+      "lat": 37.56158,
+      "lng": 127.19322,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggimisaysent"
+    },
+    {
+      "id": "gyeonggirakebomboment",
+      "name": "레이크봄봄이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄대로 181 301~303호,307~309일부호 (송동, 동탄린스트라우스더레이크)",
+      "phone": "031-372-5975",
+      "lat": 37.17059,
+      "lng": 127.10638,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggirakebomboment"
+    },
+    {
+      "id": "gyeonggidoorient-southdongtan",
+      "name": "두리이비인후과의원 남동탄점",
+      "region": "경기",
+      "address": "경기도 화성시 동탄대로 198 드림타워 306호 (산척동)",
+      "phone": "031-376-7581",
+      "lat": 37.17219,
+      "lng": 127.10713,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidoorient-southdongtan"
+    },
+    {
+      "id": "gyeonggidongtranstationent",
+      "name": "동탄역아주시원한이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄대로 489 동탄역우성타워 304~305 211호 904일부 (오산동)",
+      "phone": "031-377-5082",
+      "lat": 37.19735,
+      "lng": 127.09843,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtranstationent"
+    },
+    {
+      "id": "gyeonggisaintwoorient",
+      "name": "성모우리이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄대로시범길 134 판매시설 2125호~2132호 (청계동, 시범 반도유보라 아이비파크4.0)",
+      "phone": "031-8055-8642",
+      "lat": 37.16811,
+      "lng": 126.95389,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggisaintwoorient"
+    },
+    {
+      "id": "gyeonggiseoulsomangent",
+      "name": "서울소망이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄대로시범길 146 4층 403호 (청계동, 포트센트럴시티)",
+      "phone": "031-372-7119",
+      "lat": 37.16869,
+      "lng": 126.62421,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiseoulsomangent"
+    },
+    {
+      "id": "gyeonggicozent",
+      "name": "코즈이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄반석로 130 602호 (반송동, 드림프라자)",
+      "phone": "031-613-3223",
+      "lat": 37.20047,
+      "lng": 127.07126,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggicozent"
+    },
+    {
+      "id": "gyeonggiyunseiprimeent",
+      "name": "연세프라임이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄솔빛로 64 가희프라자2 302호,506일부호 (반송동)",
+      "phone": "031-8003-5075",
+      "lat": 37.19431,
+      "lng": 127.07456,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggiyunseiprimeent"
+    },
+    {
+      "id": "gyeonggidongtansamsungent",
+      "name": "동탄삼성이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 동탄순환대로 127-5 우성센트럴타워 4층 408~410호 (산척동)",
+      "phone": "031-374-1003",
+      "lat": 37.16614,
+      "lng": 127.10747,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtansamsungent"
+    },
+    {
+      "id": "gyeonggitheopenent",
+      "name": "더열린이비인후과의원",
+      "region": "경기",
+      "address": "경기도 화성시 봉담읍 상리2길 51 503,504호",
+      "phone": "031-295-5825",
+      "lat": 37.22456,
+      "lng": 126.94729,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggitheopenent"
+    },
+    {
+      "id": "gyeonggidongtanhallym",
+      "name": "한림대학교동탄성심병원",
+      "region": "경기",
+      "address": "경기도 화성시 큰재봉길 7 (석우동)",
+      "phone": "031-8086-3000",
+      "lat": 37.21678,
+      "lng": 127.08047,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidongtanhallym"
+    },
+    {
+      "id": "gyeongnamgeojechildren",
+      "name": "거제아동병원",
+      "region": "경남",
+      "address": "경상남도 거제시 동문천로 52 (고현동)",
+      "phone": "055-632-8225",
+      "lat": 34.88304,
+      "lng": 128.62614,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgeojechildren"
+    },
+    {
+      "id": "gyeongnamajooent",
+      "name": "아주대우아동의원",
+      "region": "경남",
+      "address": "경상남도 거제시 아주1로2길 65 1,2,3,4층 (아주동)",
+      "phone": "055-731-1275",
+      "lat": 34.86725,
+      "lng": 128.68517,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamajooent"
+    },
+    {
+      "id": "gyeongnamseoulent",
+      "name": "서울이비인후과의원",
+      "region": "경남",
+      "address": "경상남도 김해시 내외중앙로 84 10.11층 (내동, 서울메디컬센터)",
+      "phone": "055-336-0660",
+      "lat": 35.2374,
+      "lng": 128.86745,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamseoulent"
+    },
+    {
+      "id": "gyeongnamivyent",
+      "name": "아이비이비인후과의원",
+      "region": "경남",
+      "address": "경상남도 김해시 내외중앙로 92 4층 (내동)",
+      "phone": "055-312-2575",
+      "lat": 35.23818,
+      "lng": 128.86755,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamivyent"
+    },
+    {
+      "id": "gyeongnamyangsanent",
+      "name": "양산부산대학교병원",
+      "region": "경남",
+      "address": "경상남도 양산시 물금읍 금오로 20 ()",
+      "phone": "055-360-1000",
+      "lat": 35.3289,
+      "lng": 129.00778,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyangsanent"
+    },
+    {
+      "id": "gyeongnamgnuh",
+      "name": "경상국립대학교병원",
+      "region": "경남",
+      "address": "경상남도 진주시 강남로 79",
+      "phone": "055-750-8000",
+      "lat": 35.18405,
+      "lng": 128.09398,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamgnuh"
+    },
+    {
+      "id": "gyeongnamyaleent",
+      "name": "예일이비인후과의원",
+      "region": "경남",
+      "address": "경상남도 창원시 마산회원구 3·15대로 645 예일메디컬센터 2,8,9층 3층(303)호 (석전동)",
+      "phone": "055-293-5775",
+      "lat": 35.24354,
+      "lng": 128.5859,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamyaleent"
+    },
+    {
+      "id": "gyeongnamskkuchangwon",
+      "name": "학교법인성균관대학삼성창원병원",
+      "region": "경남",
+      "address": "경상남도 창원시 마산회원구 팔용로 158-158 (합성동, 삼성창원병원)",
+      "phone": "055-233-8899",
+      "lat": 35.243,
+      "lng": 128.59135,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamskkuchangwon"
+    },
+    {
+      "id": "gyeongnamsmcskku",
+      "name": "창원경상국립대학교병원",
+      "region": "경남",
+      "address": "경상남도 창원시 성산구 삼정자로 11 (성주동, 창원경상대학교병원)",
+      "phone": "055-214-2000",
+      "lat": 35.19763,
+      "lng": 128.7058,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamsmcskku"
+    },
+    {
+      "id": "gyeongbukseoulsamsung",
+      "name": "서울삼성신경과의원",
+      "region": "경북",
+      "address": "경상남도 창원시 의창구 중동중앙로 83 D7Park 5층 512-516호 (중동)",
+      "phone": "055-713-6387",
+      "lat": 35.25885,
+      "lng": 128.62715,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukseoulsamsung"
+    },
+    {
+      "id": "gyeongbukdosin",
+      "name": "DO두신경과의원",
+      "region": "경북",
+      "address": "경상남도 통영시 무전대로 41 201~401호 (무전동)",
+      "phone": "055-725-7979",
+      "lat": 34.86034,
+      "lng": 128.42526,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukdosin"
+    },
+    {
+      "id": "gyeongbukkyungjoosaint",
+      "name": "경주성모안과의원",
+      "region": "경북",
+      "address": "경상북도 경주시 원화로 293 성모클리닉빌딩 (성동동)",
+      "phone": "054-772-9922",
+      "lat": 35.84684,
+      "lng": 129.21709,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukkyungjoosaint"
+    },
+    {
+      "id": "gyeongbukyoungchunent",
+      "name": "영천중앙이비인후과의원",
+      "region": "경북",
+      "address": "경상북도 영천시 완산로 53 3층 (완산동)",
+      "phone": "054-336-7582",
+      "lat": 35.96481,
+      "lng": 128.9387,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukyoungchunent"
+    },
+    {
+      "id": "gyeongbukcoaent",
+      "name": "코아 이비인후과 의원",
+      "region": "경북",
+      "address": "경상북도 포항시 남구 시청로 5 (대잠동)",
+      "phone": "054-250-6666",
+      "lat": 35.90551,
+      "lng": 129.52704,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukcoaent"
+    },
+    {
+      "id": "gyeongbukphgidok",
+      "name": "의료법인한성재단포항세명기독병원",
+      "region": "경북",
+      "address": "경상북도 포항시 남구 포스코대로 351",
+      "phone": "054-275-0005",
+      "lat": 36.01768,
+      "lng": 129.36203,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongbukphgidok"
+    },
+    {
+      "id": "gwangjuhicocoent",
+      "name": "하이코코이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 광산구 동곡로 739 3층 303, 304, 305호 (선암동)",
+      "phone": "062-944-7575",
+      "lat": 35.14755,
+      "lng": 126.77799,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhicocoent"
+    },
+    {
+      "id": "gwangjufirstent",
+      "name": "퍼스트이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 광산구 임방울대로 342 (수완동)",
+      "phone": "062-961-5665",
+      "lat": 35.19185,
+      "lng": 126.82465,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjufirstent"
+    },
+    {
+      "id": "gwangjusoowan",
+      "name": "광주수완병원",
+      "region": "광주",
+      "address": "광주광역시 광산구 임방울대로 370 (수완동)",
+      "phone": "062-958-1111",
+      "lat": 35.1931,
+      "lng": 126.82409,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusoowan"
+    },
+    {
+      "id": "gwangjubestent",
+      "name": "베스트이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 광산구 장신로 77 301~303호 (장덕동)",
+      "phone": "062-452-3000",
+      "lat": 35.19106,
+      "lng": 126.81855,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjubestent"
+    },
+    {
+      "id": "gwangjucentument",
+      "name": "센텀이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 광산구 장신로 82",
+      "phone": "062-973-5300",
+      "lat": 35.19058,
+      "lng": 126.81876,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucentument"
+    },
+    {
+      "id": "gwangjucheomdanhop",
+      "name": "첨단종합병원",
+      "region": "광주",
+      "address": "광주광역시 광산구 첨단중앙로170번길 59 (쌍암동)",
+      "phone": "062-601-8000",
+      "lat": 35.22085,
+      "lng": 126.84517,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucheomdanhop"
+    },
+    {
+      "id": "gwangjusooment",
+      "name": "숨편한이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 남구 대남대로 139 2층 (봉선동)",
+      "phone": "062-714-2838",
+      "lat": 35.13376,
+      "lng": 126.9098,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjusooment"
+    },
+    {
+      "id": "gwangjujhpjhent",
+      "name": "제이에이치박준희이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 남구 서문대로 671 2~3층 (진월동)",
+      "phone": "062-229-8275",
+      "lat": 35.11937,
+      "lng": 126.8988,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjujhpjhent"
+    },
+    {
+      "id": "gwangjukch",
+      "name": "광주기독병원",
+      "region": "광주",
+      "address": "광주광역시 남구 양림로 37 (양림동)",
+      "phone": "062-650-5000",
+      "lat": 35.13679,
+      "lng": 126.91312,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjukch"
+    },
+    {
+      "id": "gwangjuroielent",
+      "name": "로이엘이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 남구 제석로 104 6층 (봉선동)",
+      "phone": "062-710-3927",
+      "lat": 35.12371,
+      "lng": 126.90723,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuroielent"
+    },
+    {
+      "id": "gwangjucoandsoopent",
+      "name": "코와숲이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 동구 백서로 133 금동 180-3 제2종근린생활시설 (금동)",
+      "phone": "062-232-7588",
+      "lat": 35.1423,
+      "lng": 126.91984,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoandsoopent"
+    },
+    {
+      "id": "gwangjucnuh",
+      "name": "전남대학교병원",
+      "region": "광주",
+      "address": "광주광역시 동구 제봉로 42 (학동)",
+      "phone": "062-1899-0000",
+      "lat": 35.14247,
+      "lng": 126.92085,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucnuh"
+    },
+    {
+      "id": "gwangjuchosun",
+      "name": "조선대학교병원",
+      "region": "광주",
+      "address": "광주광역시 동구 필문대로 365 (학동)",
+      "phone": "062-220-3321",
+      "lat": 35.15004,
+      "lng": 126.92854,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuchosun"
+    },
+    {
+      "id": "gwangjugooddoctor",
+      "name": "굿닥터의원",
+      "region": "광주",
+      "address": "광주광역시 북구 갈마로 45 3,4층 (두암동)",
+      "phone": "062-431-3000",
+      "lat": 35.16183,
+      "lng": 126.93552,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjugooddoctor"
+    },
+    {
+      "id": "gwangjuhappyview",
+      "name": "해피뷰병원",
+      "region": "광주",
+      "address": "광주광역시 북구 경열로 216-0 해피뷰병원",
+      "phone": "062-519-9000",
+      "lat": 35.1586,
+      "lng": 126.90661,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhappyview"
+    },
+    {
+      "id": "gwangjuntopent",
+      "name": "엔탑이비인후과병원",
+      "region": "광주",
+      "address": "광주광역시 북구 설죽로 347 (매곡동)",
+      "phone": "062-717-7500",
+      "lat": 35.19661,
+      "lng": 126.89995,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuntopent"
+    },
+    {
+      "id": "gwangjucoyoung",
+      "name": "코앤영의원",
+      "region": "광주",
+      "address": "광주광역시 서구 시청로 3 2,3층 (치평동)",
+      "phone": "062-1577-0693",
+      "lat": 35.12312,
+      "lng": 126.85742,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjucoyoung"
+    },
+    {
+      "id": "gwangjuhohoent",
+      "name": "호호이비인후과의원",
+      "region": "광주",
+      "address": "광주광역시 서구 화정로 259 4층 401, 404호",
+      "phone": "062-367-5533",
+      "lat": 35.14796,
+      "lng": 126.88497,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuhohoent"
+    },
+    {
+      "id": "daegudcmc",
+      "name": "대구가톨릭대학교병원",
+      "region": "대구",
+      "address": "대구광역시 남구 두류공원로17길 33 (대명동)",
+      "phone": "053-650-3000",
+      "lat": 35.84412,
+      "lng": 128.56812,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegudcmc"
+    },
+    {
+      "id": "daegubarunent",
+      "name": "바른미이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 남구 봉덕로 90 3층 (봉덕동)",
+      "phone": "053-476-0077",
+      "lat": 35.84455,
+      "lng": 128.60042,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegubarunent"
+    },
+    {
+      "id": "daegukwakandsinent",
+      "name": "곽앤신연합이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 남구 월배로 474 4층 (대명동)",
+      "phone": "053-638-7582",
+      "lat": 35.83523,
+      "lng": 128.55614,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegukwakandsinent"
+    },
+    {
+      "id": "daeguyumc",
+      "name": "영남대학교병원",
+      "region": "대구",
+      "address": "대구광역시 남구 현충로 170 (대명동)",
+      "phone": "053-623-8001",
+      "lat": 35.848,
+      "lng": 128.5804,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyumc"
+    },
+    {
+      "id": "daegudsmc",
+      "name": "계명대학교동산병원",
+      "region": "대구",
+      "address": "대구광역시 달서구 달구벌대로 1035 (신당동)",
+      "phone": "1577-6622",
+      "lat": 35.85357,
+      "lng": 128.48022,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegudsmc"
+    },
+    {
+      "id": "daegudanielent",
+      "name": "다니엘이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 달서구 조암로 4 4층 (월성동, 그루메디컬빌딩)",
+      "phone": "053-719-2882",
+      "lat": 35.82616,
+      "lng": 128.52919,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegudanielent"
+    },
+    {
+      "id": "daeguchungmyungent",
+      "name": "청명연합이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 달서구 조암로 42 플러스타워 201,202,402,403호 (월성동)",
+      "phone": "053-641-5050",
+      "lat": 35.82469,
+      "lng": 128.52527,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguchungmyungent"
+    },
+    {
+      "id": "daeguthenaenent",
+      "name": "더나은이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 달성군 화원읍 비슬로 2579-4 ()",
+      "phone": "053-632-8275",
+      "lat": 35.80393,
+      "lng": 128.49895,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguthenaenent"
+    },
+    {
+      "id": "daegupatima",
+      "name": "대구파티마병원",
+      "region": "대구",
+      "address": "대구광역시 동구 아양로 99 (신암동)",
+      "phone": "053-1688-7770",
+      "lat": 35.88357,
+      "lng": 128.62404,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegupatima"
+    },
+    {
+      "id": "daeguisaent",
+      "name": "이시아이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 동구 팔공로51길 17 2층 (봉무동)",
+      "phone": "053-985-7585",
+      "lat": 35.92293,
+      "lng": 128.63907,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguisaent"
+    },
+    {
+      "id": "daeguknumc",
+      "name": "칠곡경북대학교병원",
+      "region": "대구",
+      "address": "대구광역시 북구 호국로 807 칠곡경북대학교병원(임살실습동 1~11층 포함) (학정동)",
+      "phone": "053-200-2000",
+      "lat": 35.95677,
+      "lng": 128.56541,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguknumc"
+    },
+    {
+      "id": "daegusamsung",
+      "name": "대구삼성신경과의원",
+      "region": "대구",
+      "address": "대구광역시 수성구 달구벌대로 2401 3층 (범어동)",
+      "phone": "053-753-5566",
+      "lat": 35.85969,
+      "lng": 128.62529,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegusamsung"
+    },
+    {
+      "id": "daegumacsumyunent",
+      "name": "맥수면이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 수성구 달구벌대로 2435 상가동 205, 205-2, 205-6호 (범어동, 두산위브더제니스)",
+      "phone": "053-427-7585",
+      "lat": 35.85854,
+      "lng": 128.63612,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegumacsumyunent"
+    },
+    {
+      "id": "daeguyaleent",
+      "name": "예일이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 수성구 범안로 70 5층 (범물동)",
+      "phone": "053-782-0841",
+      "lat": 35.81787,
+      "lng": 128.64536,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguyaleent"
+    },
+    {
+      "id": "daegutheoneent",
+      "name": "더원이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 수성구 수성로 218 4~6층 (중동)",
+      "phone": "053-716-1811",
+      "lat": 35.84492,
+      "lng": 128.61285,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegutheoneent"
+    },
+    {
+      "id": "daegukoreaent",
+      "name": "코리아이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 중구 남산로 83-1 3-5층 (남산동)",
+      "phone": "053-255-4220",
+      "lat": 35.87673,
+      "lng": 128.5802,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegukoreaent"
+    },
+    {
+      "id": "daegucentralent",
+      "name": "중앙이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 중구 달구벌대로 2233 1,3,4,5층 (삼덕동3가)",
+      "phone": "053-423-2332",
+      "lat": 35.87234,
+      "lng": 128.59984,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daegucentralent"
+    },
+    {
+      "id": "daeguhooent",
+      "name": "후이비인후과의원",
+      "region": "대구",
+      "address": "대구광역시 중구 동성로1길 81 3층,9층",
+      "phone": "053-424-8815",
+      "lat": 35.86518,
+      "lng": 128.59764,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daeguhooent"
+    },
+    {
+      "id": "daejeoncobbulsoent",
+      "name": "코뿔소이비인후과의원",
+      "region": "대전",
+      "address": "대전광역시 서구 계룡로 599 MG한밭빌딩 5층 (탄방동)",
+      "phone": "042-538-8885",
+      "lat": 36.34124,
+      "lng": 127.39003,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncobbulsoent"
+    },
+    {
+      "id": "daejeonkyuh",
+      "name": "학교법인 건양교육재단 건양대학교병원",
+      "region": "대전",
+      "address": "대전광역시 서구 관저동로 158 (관저동)",
+      "phone": "042-600-9999",
+      "lat": 36.30629,
+      "lng": 127.34088,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonkyuh"
+    },
+    {
+      "id": "daejeonrafael",
+      "name": "라파엘신경과의원",
+      "region": "대전",
+      "address": "대전광역시 서구 둔산남로 107 9층 (둔산동)",
+      "phone": "042-488-8204",
+      "lat": 36.34922,
+      "lng": 127.38943,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonrafael"
+    },
+    {
+      "id": "daejeonyounyounent",
+      "name": "윤앤윤이비인후과의원",
+      "region": "대전",
+      "address": "대전광역시 서구 둔산로123번길 21 4층 (둔산동)",
+      "phone": "042-721-1515",
+      "lat": 36.35232,
+      "lng": 127.38754,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyounyounent"
+    },
+    {
+      "id": "daejeonemc",
+      "name": "학교법인 을지학원 대전을지대학교병원",
+      "region": "대전",
+      "address": "대전광역시 서구 둔산서로 95 (둔산동)",
+      "phone": "042-611-3000",
+      "lat": 36.35531,
+      "lng": 127.38254,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonemc"
+    },
+    {
+      "id": "daejeonyangent",
+      "name": "양이비인후과의원",
+      "region": "대전",
+      "address": "대전광역시 서구 청사로 121 5층 청사서로 26 미래빌딩2층호 (월평동)",
+      "phone": "042-486-2031",
+      "lat": 36.35998,
+      "lng": 127.37718,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyangent"
+    },
+    {
+      "id": "daejeonyuseonhsunhospital",
+      "name": "의료법인영훈의료재단 유성선병원",
+      "region": "대전",
+      "address": "대전광역시 유성구 북유성대로 93 (지족동)",
+      "phone": "042-609-1000",
+      "lat": 36.37166,
+      "lng": 127.32695,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonyuseonhsunhospital"
+    },
+    {
+      "id": "daejeonjoenent",
+      "name": "조은이비인후과의원",
+      "region": "대전",
+      "address": "대전광역시 유성구 지족동로 152 코오롱빌딩 2,3층 201,303호 (지족동)",
+      "phone": "042-824-7525",
+      "lat": 36.3874,
+      "lng": 127.30868,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonjoenent"
+    },
+    {
+      "id": "daejeoncmcdj",
+      "name": "학교법인 가톨릭학원 가톨릭대학교 대전성모병원",
+      "region": "대전",
+      "address": "대전광역시 중구 대흥로 64 (대흥동)",
+      "phone": "042-220-9114",
+      "lat": 36.32274,
+      "lng": 127.42343,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncmcdj"
+    },
+    {
+      "id": "daejeonsunhopital",
+      "name": "의료법인 영훈의료재단 대전선병원",
+      "region": "대전",
+      "address": "대전광역시 중구 목중로 29 (목동)",
+      "phone": "042-220-8114",
+      "lat": 36.33716,
+      "lng": 127.40991,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonsunhopital"
+    },
+    {
+      "id": "daejeoncnuh",
+      "name": "충남대학교병원",
+      "region": "대전",
+      "address": "대전광역시 중구 문화로 282- (대사동)",
+      "phone": "042-1599-7123",
+      "lat": 36.31773,
+      "lng": 127.41564,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/daejeoncnuh"
+    },
+    {
+      "id": "busancoent",
+      "name": "코엔이비인후과의원부산성모병원(재단법인 천주교부산교구유지재단)베스트이비인후과의원연세대학교 원주세브란스기독병원한림대학교성심병원두리이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 기장군 정관면 정관로 395 (금양프라자 3층)",
+      "phone": "728-1026",
+      "lat": 35.33405,
+      "lng": 129.1659,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent"
+    },
+    {
+      "id": "busanbsm",
+      "name": "부산성모병원(재단법인 천주교부산교구유지재단)",
+      "region": "부산",
+      "address": "부산광역시 남구 용호로232번길 25-14 (용호동)",
+      "phone": "051-933-7114",
+      "lat": 35.11122,
+      "lng": 129.10965,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanbsm"
+    },
+    {
+      "id": "busansamsungsmart",
+      "name": "삼성스마트신경과의원",
+      "region": "부산",
+      "address": "부산광역시 동래구 중앙대로 1523 SKHUBSKY 2,4층 B2-6~9,12~15호, B4-5,6호 (온천동)",
+      "phone": "051-558-5898",
+      "lat": 35.22129,
+      "lng": 129.08607,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busansamsungsmart"
+    },
+    {
+      "id": "busanbestent",
+      "name": "베스트이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 동래구 충렬대로 259 동호 디시티 2층,3층 일부호 (낙민동)",
+      "phone": "051-555-0110",
+      "lat": 35.19415,
+      "lng": 129.11266,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanbestent"
+    },
+    {
+      "id": "busanonhospital",
+      "name": "의료법인 온그룹의료재단 온종합병원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 가야대로 721 719, 767 (당감동)",
+      "phone": "051-607-0133",
+      "lat": 35.15778,
+      "lng": 129.05014,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanonhospital"
+    },
+    {
+      "id": "busanmedicalent",
+      "name": "메디칼이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 가야대로 767-1 (부전동)",
+      "phone": "051-809-7700",
+      "lat": 35.15786,
+      "lng": 129.0556,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanmedicalent"
+    },
+    {
+      "id": "busandhps",
+      "name": "디에이치성형외과의원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 가야대로784번길 21 5~8층, 가야대로 783, 11~12층 (부전동)",
+      "phone": "051-711-7520",
+      "lat": 35.163433,
+      "lng": 129.05257,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busandhps"
+    },
+    {
+      "id": "busanpaikbusan",
+      "name": "인제대학교부산백병원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 복지로 75, 진사로83번길 75 진사로83번길 81, 1층(일부), 3층 (개금동)",
+      "phone": "051-890-6114",
+      "lat": 35.14422,
+      "lng": 129.02032,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikbusan"
+    },
+    {
+      "id": "busanopenent",
+      "name": "열린이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 중앙대로 700 7층",
+      "phone": "051-819-6600",
+      "lat": 35.15522,
+      "lng": 129.05936,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanopenent"
+    },
+    {
+      "id": "busanyangchngkookhospital",
+      "name": "양창국의원",
+      "region": "부산",
+      "address": "부산광역시 부산진구 중앙대로 708 12층",
+      "phone": "051-818-2526",
+      "lat": 35.15596,
+      "lng": 129.05937,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanyangchngkookhospital"
+    },
+    {
+      "id": "busansooment",
+      "name": "부산숨이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 사하구 낙동남로 1412 경부빌딩 7층일부,8층 (하단동)",
+      "phone": "051-710-7579",
+      "lat": 35.10597,
+      "lng": 128.96608,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busansooment"
+    },
+    {
+      "id": "busankosinmed",
+      "name": "고신대학교복음병원",
+      "region": "부산",
+      "address": "부산광역시 서구 감천로 262 (암남동)",
+      "phone": "990-6114",
+      "lat": 35.08144,
+      "lng": 129.0155,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busankosinmed"
+    },
+    {
+      "id": "busanbusanunivhiopi",
+      "name": "부산대학교병원",
+      "region": "부산",
+      "address": "부산광역시 서구 구덕로 179 (아미동1가)",
+      "phone": "240-7000",
+      "lat": 35.10065,
+      "lng": 129.01962,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanbusanunivhiopi"
+    },
+    {
+      "id": "busandamc",
+      "name": "동아대학교병원",
+      "region": "부산",
+      "address": "부산광역시 서구 대신공원로 26 (동대신동3가)",
+      "phone": "051-240-2400",
+      "lat": 35.1202,
+      "lng": 129.01659,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busandamc"
+    },
+    {
+      "id": "busandalpangeent",
+      "name": "부산달팽이 신경과,이비인후과 의원",
+      "region": "부산",
+      "address": "부산광역시 수영구 수영로 675 큐비 메디컬센터 6층 (광안동)",
+      "phone": "051-784-7582",
+      "lat": 35.15511,
+      "lng": 129.11348,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busandalpangeent"
+    },
+    {
+      "id": "busanent",
+      "name": "부산이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 연제구 중앙대로 1077 상계빌딩 1층 (연산동)",
+      "phone": "051-862-5000",
+      "lat": 35.18424,
+      "lng": 129.07986,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanent"
+    },
+    {
+      "id": "busanhappyent",
+      "name": "부산행복이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 연제구 중앙대로 1111 9층 901호 (연산동, 위드타워)",
+      "phone": "051-852-8553",
+      "lat": 35.18672,
+      "lng": 129.08122,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanhappyent"
+    },
+    {
+      "id": "busaneasysooment",
+      "name": "이지숨 이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 중구 구덕로 40 (남포동2가)",
+      "phone": "051-243-0002",
+      "lat": 35.097,
+      "lng": 129.0081,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busaneasysooment"
+    },
+    {
+      "id": "busanheojunent",
+      "name": "허준이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 해운대구 센텀2로 20 1204호 (우동, 센텀타워메디칼)",
+      "phone": "051-781-6226",
+      "lat": 35.16727,
+      "lng": 129.13213,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanheojunent"
+    },
+    {
+      "id": "busanjungkiment",
+      "name": "정앤김이비인후과의원",
+      "region": "부산",
+      "address": "부산광역시 해운대구 좌동순환로 174 거성빌딩 402,802일부,901,902호 (좌동)",
+      "phone": "051-702-3937",
+      "lat": 35.17771,
+      "lng": 129.17513,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanjungkiment"
+    },
+    {
+      "id": "busanpaikhaeundae",
+      "name": "인제대학교 해운대백병원",
+      "region": "부산",
+      "address": "부산광역시 해운대구 해운대로 875 (좌동)",
+      "phone": "051-797-0100",
+      "lat": 35.17311,
+      "lng": 129.18289,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/busanpaikhaeundae"
+    },
+    {
+      "id": "seoulfreshent",
+      "name": "프레쉬이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 남부순환로 2615 203~207,209,304호 (도곡동, 극동스타클래스)",
+      "phone": "02-575-2033",
+      "lat": 37.48504,
+      "lng": 127.03589,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulfreshent"
+    },
+    {
+      "id": "seoulleetaekyu",
+      "name": "이태규신경과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 논현로 648 선기빌딩 4층 (논현동)",
+      "phone": "02-548-3369",
+      "lat": 37.51156,
+      "lng": 127.03216,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulleetaekyu"
+    },
+    {
+      "id": "seoulsleephopital",
+      "name": "서울수면의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 논현로 704 2층 / 강남구 학동로 203, 3층 (논현동)",
+      "phone": "511-0777",
+      "lat": 37.51437,
+      "lng": 127.03121,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsleephopital"
+    },
+    {
+      "id": "seoulseoulspecialsleep",
+      "name": "서울스페셜수면의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 논현로 717 1층일부, 2층~4층 (논현동)",
+      "phone": "0507-1481-3304",
+      "lat": 37.51596,
+      "lng": 127.02957,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulspecialsleep"
+    },
+    {
+      "id": "seouljeilent",
+      "name": "제일이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 논현로131길 23 지상2층, 3층, 4층, 5층 (논현동)",
+      "phone": "02-517-5085",
+      "lat": 37.51404,
+      "lng": 127.02856,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouljeilent"
+    },
+    {
+      "id": "seoulgoodsleep",
+      "name": "굿슬립신경과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 논현로159길 17 202호 (신사동)",
+      "phone": "02-514-0209",
+      "lat": 37.52296,
+      "lng": 127.02668,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodsleep"
+    },
+    {
+      "id": "seouldreamsleep",
+      "name": "드림수면의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 도산대로 107 BIO, 8층 일부 (신사동)",
+      "phone": "02-511-1939",
+      "lat": 37.51671,
+      "lng": 127.02021,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouldreamsleep"
+    },
+    {
+      "id": "seoulforest",
+      "name": "서울포레스트정신건강의학과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 도산대로 420 청담스퀘어 212호 (청담동)",
+      "phone": "02-6480-8777",
+      "lat": 37.52329,
+      "lng": 127.04227,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulforest"
+    },
+    {
+      "id": "seoulsoomsleep",
+      "name": "숨수면의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 봉은사로 310 숨빌딩 2,3,4층 (역삼동)",
+      "phone": "02-3416-0002",
+      "lat": 37.50922,
+      "lng": 127.04096,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomsleep"
+    },
+    {
+      "id": "seoulysbent",
+      "name": "연세봄이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 봉은사로 331 SH타워 2층 (논현동)",
+      "phone": "02-3446-6177",
+      "lat": 37.51023,
+      "lng": 127.04304,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulysbent"
+    },
+    {
+      "id": "seoulgsiseverance",
+      "name": "연세대학교의과대학 강남세브란스병원",
+      "region": "서울",
+      "address": "서울특별시 강남구 언주로 211 강남세브란스병원 (도곡동)",
+      "phone": "02-2019-3114",
+      "lat": 37.49269,
+      "lng": 127.0468,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgsiseverance"
+    },
+    {
+      "id": "seoulhanaent",
+      "name": "하나이비인후과병원",
+      "region": "서울",
+      "address": "서울특별시 강남구 역삼로 245 (역삼동, 지하2층일부 1층일부 2층~6층)",
+      "phone": "02-6925-1111",
+      "lat": 37.49786,
+      "lng": 127.04304,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhanaent"
+    },
+    {
+      "id": "seoulgandg",
+      "name": "지앤지병원",
+      "region": "서울",
+      "address": "서울특별시 강남구 영동대로 626 2~10층",
+      "phone": "1522-2030",
+      "lat": 37.51627,
+      "lng": 127.0596,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgandg"
+    },
+    {
+      "id": "seoulsamsungseoulhosp",
+      "name": "삼성서울병원",
+      "region": "서울",
+      "address": "서울특별시 강남구 일원로 81 (일원동, 삼성의료원)",
+      "phone": "02-3410-2114",
+      "lat": 37.48687,
+      "lng": 127.08304,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungseoulhosp"
+    },
+    {
+      "id": "seouldanaivyent",
+      "name": "선릉다나아이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 테헤란로 310 두꺼비빌딩 3층 (역삼동)",
+      "phone": "02-545-7799",
+      "lat": 37.5029,
+      "lng": 127.04466,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouldanaivyent"
+    },
+    {
+      "id": "seoulcosleep",
+      "name": "코슬립수면의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 테헤란로 333 7층일부, 12층 (역삼동)",
+      "phone": "02-561-7606",
+      "lat": 37.50456,
+      "lng": 127.04807,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcosleep"
+    },
+    {
+      "id": "seoulyounseisooment",
+      "name": "연세고른숨이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 테헤란로 401 남경센타 10층 2호 (삼성동)",
+      "phone": "0507-1397-9449",
+      "lat": 37.50491,
+      "lng": 127.04917,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisooment"
+    },
+    {
+      "id": "seoulcheongdament",
+      "name": "청담성모이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강남구 학동로53길 3-2 2층 (논현동)",
+      "phone": null,
+      "lat": 37.51714,
+      "lng": 127.03951,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcheongdament"
+    },
+    {
+      "id": "seoulkhnmc",
+      "name": "강동경희대학교의대병원",
+      "region": "서울",
+      "address": "서울특별시 강동구 동남로 892 (상일동)",
+      "phone": "02-440-7114",
+      "lat": 37.55332,
+      "lng": 127.15731,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhnmc"
+    },
+    {
+      "id": "seoulkdc",
+      "name": "성심의료재단강동성심병원",
+      "region": "서울",
+      "address": "서울특별시 강동구 성안로 150 (길동)",
+      "phone": "02-2224-2114",
+      "lat": 37.53641,
+      "lng": 127.1351,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkdc"
+    },
+    {
+      "id": "seoulyounyounent",
+      "name": "윤앤윤이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강동구 올림픽로 781 우리들클리닉 3층",
+      "phone": "02-481-8275",
+      "lat": 37.55095,
+      "lng": 127.12761,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounyounent"
+    },
+    {
+      "id": "seoulseoulbohun",
+      "name": "한국보훈복지의료공단 중앙보훈병원",
+      "region": "서울",
+      "address": "서울특별시 강동구 진황도로61길 53 (둔촌동)",
+      "phone": "02-2225-1111",
+      "lat": 37.52853,
+      "lng": 127.14616,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseoulbohun"
+    },
+    {
+      "id": "seoulkangbookboasent",
+      "name": "강북보아스이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강북구 도봉로 255 나라빌딩 2,7,9층",
+      "phone": "02-980-1530",
+      "lat": 37.6312,
+      "lng": 127.02396,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangbookboasent"
+    },
+    {
+      "id": "seoulsoomhopital",
+      "name": "숨이편한병원",
+      "region": "서울",
+      "address": "서울특별시 강서구 강서로 323 4~8층",
+      "phone": "02-6953-8226",
+      "lat": 37.55478,
+      "lng": 126.83649,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsoomhopital"
+    },
+    {
+      "id": "seoulgshanaent",
+      "name": "강서하나이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강서구 강서로 43 203,202일부호 (화곡동, 도양라비앙타워)",
+      "phone": "2699-1442",
+      "lat": 37.53158,
+      "lng": 126.84661,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgshanaent"
+    },
+    {
+      "id": "seoulehwahospital",
+      "name": "이화여자대학교의과대학부속서울병원",
+      "region": "서울",
+      "address": "서울특별시 강서구 공항대로 260 이화의대부속서울병원 (마곡동)",
+      "phone": "02-6986-5707",
+      "lat": 37.55784,
+      "lng": 126.83622,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulehwahospital"
+    },
+    {
+      "id": "seoulsamsungsleepandmind",
+      "name": "삼성슬립앤마인드의원",
+      "region": "서울",
+      "address": "서울특별시 강서구 마곡중앙5로 22 504층 (마곡동)",
+      "phone": "02-2135-2507",
+      "lat": 37.56709,
+      "lng": 126.82532,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungsleepandmind"
+    },
+    {
+      "id": "seoulcoolent",
+      "name": "시원한이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강서구 마곡중앙5로 81 에스비타운 2층 202,203,204호 (마곡동)",
+      "phone": "02-2659-9930",
+      "lat": 37.56018,
+      "lng": 126.83636,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcoolent"
+    },
+    {
+      "id": "seoulsamsungwoorient",
+      "name": "삼성우리이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 강서구 방화동로 92 에스메디컬 3,4,5층 (방화동)",
+      "phone": "02-6737-7582",
+      "lat": 37.5686,
+      "lng": 126.81292,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamsungwoorient"
+    },
+    {
+      "id": "seoulkwanaksaintent",
+      "name": "관악성모이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 관악구 관악로 186-2 (봉천동)",
+      "phone": "02-883-7570",
+      "lat": 37.48166,
+      "lng": 126.95316,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkwanaksaintent"
+    },
+    {
+      "id": "seoulhplusyangji",
+      "name": "에이치플러스 양지병원",
+      "region": "서울",
+      "address": "서울특별시 관악구 남부순환로 1636 양지병원 (신림동)",
+      "phone": "02-1877-8875",
+      "lat": 37.48439,
+      "lng": 126.93247,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhplusyangji"
+    },
+    {
+      "id": "seoulsinlim",
+      "name": "신림신경과의원",
+      "region": "서울",
+      "address": "서울특별시 관악구 신림로 350 5층 (신림동, 서원프라자, 태영아파트)",
+      "phone": "02-875-9992",
+      "lat": 37.48546,
+      "lng": 126.92977,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsinlim"
+    },
+    {
+      "id": "seoulkuh",
+      "name": "건국대학교병원",
+      "region": "서울",
+      "address": "서울특별시 광진구 능동로 120-1 (화양동)",
+      "phone": "1588-1533",
+      "lat": 37.54131,
+      "lng": 127.07193,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkuh"
+    },
+    {
+      "id": "seoulnationalcenter",
+      "name": "국립정신건강센터",
+      "region": "서울",
+      "address": "서울특별시 광진구 용마산로 127 (중곡동, 국립정신건강센터)",
+      "phone": "02-2204-0114",
+      "lat": 37.56501,
+      "lng": 127.08617,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnationalcenter"
+    },
+    {
+      "id": "seoulgurokumc",
+      "name": "고려대학교의과대학부속구로병원",
+      "region": "서울",
+      "address": "서울특별시 구로구 구로동로 148 고려대부속구로병원 (구로동)",
+      "phone": "02-2626-1114",
+      "lat": 37.49189,
+      "lng": 126.88394,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgurokumc"
+    },
+    {
+      "id": "seoulsindorimhanaent",
+      "name": "신도림하나이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 구로구 새말로 89 태영빌딩 202,501호 (구로동)",
+      "phone": "02-859-5011",
+      "lat": 37.50557,
+      "lng": 126.88982,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsindorimhanaent"
+    },
+    {
+      "id": "seoulpaiksanggye",
+      "name": "인제대학교 상계백병원",
+      "region": "서울",
+      "address": "서울특별시 노원구 동일로 1342 상계백병원 (상계동)",
+      "phone": "02-950-1114",
+      "lat": 37.64858,
+      "lng": 127.06277,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulpaiksanggye"
+    },
+    {
+      "id": "seoulnewskyent",
+      "name": "새하늘이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 노원구 동일로 1548 (상계동)",
+      "phone": "02-951-9518",
+      "lat": 37.66669,
+      "lng": 127.05753,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnewskyent"
+    },
+    {
+      "id": "seoulclearsooment",
+      "name": "맑은숨이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 노원구 초안산로2라길 26 상가동 201,202,203,205호 (월계동, 월계센트럴아이파크아파트)",
+      "phone": "02-993-0555",
+      "lat": 37.63123,
+      "lng": 127.05773,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulclearsooment"
+    },
+    {
+      "id": "seoulnowoneulji",
+      "name": "노원을지대학교병원",
+      "region": "서울",
+      "address": "서울특별시 노원구 한글비석로 68 을지병원 (하계동)",
+      "phone": "02-970-8000",
+      "lat": 37.63669,
+      "lng": 127.06986,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnowoneulji"
+    },
+    {
+      "id": "seoulkhuh",
+      "name": "경희대학교병원",
+      "region": "서울",
+      "address": "서울특별시 동대문구 경희대로 23 (회기동)",
+      "phone": "02-958-8114",
+      "lat": 37.59375,
+      "lng": 127.05257,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkhuh"
+    },
+    {
+      "id": "seoulsymcs",
+      "name": "삼육서울병원",
+      "region": "서울",
+      "address": "서울특별시 동대문구 망우로 82 (휘경동)",
+      "phone": "02-2244-0191",
+      "lat": 37.58986,
+      "lng": 127.06253,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsymcs"
+    },
+    {
+      "id": "seoulnaturem",
+      "name": "내이처럼치과병원",
+      "region": "서울",
+      "address": "서울특별시 동작구 동작대로27다길 26 2층 (사당동, 사당동 주상복합)",
+      "phone": "02-525-4275",
+      "lat": 37.48707,
+      "lng": 126.98005,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnaturem"
+    },
+    {
+      "id": "seoulboramae",
+      "name": "서울특별시보라매병원",
+      "region": "서울",
+      "address": "서울특별시 동작구 보라매로5길 20 (신대방동)",
+      "phone": "02-870-2114",
+      "lat": 37.49303,
+      "lng": 126.92417,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboramae"
+    },
+    {
+      "id": "seoulcauhs",
+      "name": "중앙대학교병원",
+      "region": "서울",
+      "address": "서울특별시 동작구 흑석로 102 (흑석동)",
+      "phone": "1800-1114",
+      "lat": 37.50758,
+      "lng": 126.96085,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcauhs"
+    },
+    {
+      "id": "seoulrapent",
+      "name": "랩이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 마포구 양화로 61 두암빌딩",
+      "phone": "02-6015-5075",
+      "lat": 37.55077,
+      "lng": 126.91505,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulrapent"
+    },
+    {
+      "id": "seoulyuhseverance",
+      "name": "연세대학교의과대학세브란스병원",
+      "region": "서울",
+      "address": "서울특별시 서대문구 연세로 50-1 (신촌동)",
+      "phone": "02-2228-0114",
+      "lat": 37.5558,
+      "lng": 126.9367,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyuhseverance"
+    },
+    {
+      "id": "seoulcmcseoul",
+      "name": "학교법인가톨릭학원가톨릭대학교서울성모병원",
+      "region": "서울",
+      "address": "서울특별시 서초구 반포대로 222 (반포동)",
+      "phone": "02-1588-1511",
+      "lat": 37.49964,
+      "lng": 127.00429,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcseoul"
+    },
+    {
+      "id": "seouldeepsleep",
+      "name": "딥슬립의원",
+      "region": "서울",
+      "address": "서울특별시 서초구 반포대로 58 201~210, 230호",
+      "phone": "02-6243-6243",
+      "lat": 37.48562,
+      "lng": 127.011,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouldeepsleep"
+    },
+    {
+      "id": "seoulseochosaintent",
+      "name": "서초성모이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 서초구 반포대로27길 13 2층 203,204,205호 (서초동, 서초꽃마을 주얼리)",
+      "phone": "02-581-0075",
+      "lat": 37.48985,
+      "lng": 127.00756,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochosaintent"
+    },
+    {
+      "id": "seoulwithent",
+      "name": "연세위드이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 서초구 서초중앙로 125 로이어즈타워 8층 803(일부),804호 (서초동)",
+      "phone": "02-525-8885",
+      "lat": 37.49295,
+      "lng": 127.01355,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulwithent"
+    },
+    {
+      "id": "seoulseochoent",
+      "name": "서초맑은이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 서초구 효령로 403 서초그랑자이 상가 408,409,410 일부호 (서초동)",
+      "phone": "02-523-2202",
+      "lat": 37.48865,
+      "lng": 127.02776,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulseochoent"
+    },
+    {
+      "id": "seoulhyumc",
+      "name": "한양대학교병원",
+      "region": "서울",
+      "address": "서울특별시 성동구 왕십리로 222-1 (사근동)",
+      "phone": "02-2290-8114",
+      "lat": 37.55741,
+      "lng": 127.04291,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulhyumc"
+    },
+    {
+      "id": "seoulanamkumc",
+      "name": "학교법인 고려중앙학원 고려대학교의과대학부속병원(안암병원)",
+      "region": "서울",
+      "address": "서울특별시 성북구 고려대로 73 고려대병원 (안암동5가)",
+      "phone": "1577-0083",
+      "lat": 37.5865,
+      "lng": 127.02745,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulanamkumc"
+    },
+    {
+      "id": "seoulgoodayent",
+      "name": "굿데이이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 성북구 돌곶이로 25 2층 (석관동, 씨티홈)",
+      "phone": "02-966-9002",
+      "lat": 37.6067,
+      "lng": 127.06108,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgoodayent"
+    },
+    {
+      "id": "seoulsamheyent",
+      "name": "삼혜이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 성북구 동소문로 18-1 2, 3층 (동소문동2가, 애산빌딩)",
+      "phone": "742-6522",
+      "lat": 37.58921,
+      "lng": 127.00828,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamheyent"
+    },
+    {
+      "id": "seoulstarent",
+      "name": "스타이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 송파구 백제고분로 365 7층 (석촌동)",
+      "phone": "02-415-3335",
+      "lat": 37.50523,
+      "lng": 127.10642,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulstarent"
+    },
+    {
+      "id": "seoulthehanstarent",
+      "name": "더한별이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 송파구 송파대로 365 2층,3층 (석촌동)",
+      "phone": "02-415-3650",
+      "lat": 37.50044,
+      "lng": 127.11111,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulthehanstarent"
+    },
+    {
+      "id": "seoulace",
+      "name": "에이스신경과의원",
+      "region": "서울",
+      "address": "서울특별시 송파구 송파대로 437 청솔학원 5층",
+      "phone": "02-422-1145",
+      "lat": 37.50566,
+      "lng": 127.10637,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulace"
+    },
+    {
+      "id": "seouleasybrainsongpa",
+      "name": "이지브레인송파 정신건강의학과의원",
+      "region": "서울",
+      "address": "서울특별시 송파구 올림픽로 102 서일빌딩 6층 603호 (잠실동)",
+      "phone": "02-2202-1075",
+      "lat": 37.5115,
+      "lng": 127.08201,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouleasybrainsongpa"
+    },
+    {
+      "id": "seoulamcseoul",
+      "name": "재단법인아산사회복지재단 서울아산병원",
+      "region": "서울",
+      "address": "서울특별시 송파구 올림픽로43길 88 서울아산병원 (풍납동)",
+      "phone": "02-3010-3114",
+      "lat": 37.52488,
+      "lng": 127.10789,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulamcseoul"
+    },
+    {
+      "id": "seoulmokdongcentralent",
+      "name": "목동센트럴이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 양천구 공항대로 630 3층 302,303호",
+      "phone": "02-6951-3366",
+      "lat": 37.54669,
+      "lng": 126.8748,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcentralent"
+    },
+    {
+      "id": "seouleumc",
+      "name": "이화여자대학교의과대학부속목동병원",
+      "region": "서울",
+      "address": "서울특별시 양천구 안양천로 1071 (목동)",
+      "phone": "02-2650-5114",
+      "lat": 37.53707,
+      "lng": 126.88657,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seouleumc"
+    },
+    {
+      "id": "seoulmokdongcoent",
+      "name": "목동코엔이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 양천구 오목로 299 4층 404호 (목동, 트라팰리스웨스턴에비뉴)",
+      "phone": "02-2644-5119",
+      "lat": 37.52536,
+      "lng": 126.87109,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmokdongcoent"
+    },
+    {
+      "id": "seoulcmcsungmo",
+      "name": "가톨릭대학교 여의도성모병원",
+      "region": "서울",
+      "address": "서울특별시 영등포구 63로 10 여의도성모병원 (여의도동)",
+      "phone": "1661-7575",
+      "lat": 37.51809,
+      "lng": 126.93606,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcmcsungmo"
+    },
+    {
+      "id": "seoulmoonraecoent",
+      "name": "문래코아이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 영등포구 당산로 34 로데오 ？ 쇼핑몰 A동 3층 301호 (문래동3가)",
+      "phone": "02-2135-6799",
+      "lat": 37.5176,
+      "lng": 126.89505,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmoonraecoent"
+    },
+    {
+      "id": "seoulsinchangim",
+      "name": "신창내과의원",
+      "region": "서울",
+      "address": "서울특별시 영등포구 디지털로 369 (대림동)",
+      "phone": "02-833-1228",
+      "lat": 37.49046,
+      "lng": 126.9009,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsinchangim"
+    },
+    {
+      "id": "seoulkangnamsungsim",
+      "name": "한림대학교 강남성심병원",
+      "region": "서울",
+      "address": "서울특별시 영등포구 신길로 1 (대림동, 강남성심병원)",
+      "phone": "02-829-5114",
+      "lat": 37.49265,
+      "lng": 126.90878,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkangnamsungsim"
+    },
+    {
+      "id": "seoulschmc",
+      "name": "순천향대학교 부속 서울병원",
+      "region": "서울",
+      "address": "서울특별시 용산구 대사관로 59 (한남동)",
+      "phone": "02-709-9114",
+      "lat": 37.53345,
+      "lng": 127.00472,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulschmc"
+    },
+    {
+      "id": "seoulasanent",
+      "name": "서울아산이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 은평구 불광로 25 2,3층 (대조동)",
+      "phone": "02-6952-0808",
+      "lat": 37.61066,
+      "lng": 126.92874,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulasanent"
+    },
+    {
+      "id": "seoulenpyungsaint",
+      "name": "가톨릭대학교 은평성모병원",
+      "region": "서울",
+      "address": "서울특별시 은평구 통일로 1021 (진관동)",
+      "phone": "02-1811-7755",
+      "lat": 37.63363,
+      "lng": 126.9168,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulenpyungsaint"
+    },
+    {
+      "id": "seoulsnuh",
+      "name": "서울대학교병원",
+      "region": "서울",
+      "address": "서울특별시 종로구 대학로 101 (연건동)",
+      "phone": "1588-5700",
+      "lat": 37.5802,
+      "lng": 127.0019,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsnuh"
+    },
+    {
+      "id": "seoulkbsmc",
+      "name": "강북삼성병원",
+      "region": "서울",
+      "address": "서울특별시 종로구 새문안로 29 (평동)",
+      "phone": "02-2001-2001",
+      "lat": 37.56813,
+      "lng": 126.96859,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulkbsmc"
+    },
+    {
+      "id": "seoulcocoent",
+      "name": "코코이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 종로구 종로 205 (종로5가)",
+      "phone": "02-763-1333",
+      "lat": 37.57112,
+      "lng": 127.00063,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulcocoent"
+    },
+    {
+      "id": "seoulyounseisolent",
+      "name": "연세솔이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 종로구 지봉로 37-1 6층 (창신동)",
+      "phone": "02-6952-0009",
+      "lat": 37.57335,
+      "lng": 127.01538,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulyounseisolent"
+    },
+    {
+      "id": "seoulboasent",
+      "name": "보아스이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 중구 다산로 111 3층 (신당동, 한미빌딩)",
+      "phone": "02-2234-1530",
+      "lat": 37.55395,
+      "lng": 127.00994,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboasent"
+    },
+    {
+      "id": "seoulpaik",
+      "name": "인제대학교 서울백병원",
+      "region": "서울",
+      "address": "서울특별시 중구 마른내로 9-9 (저동2가)",
+      "phone": "02-2270-0114",
+      "lat": 37.56475,
+      "lng": 126.98886,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulpaik"
+    },
+    {
+      "id": "seoulmyungdongent",
+      "name": "명동연세이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 중구 명동9가길 12 2,3,4층 (을지로2가)",
+      "phone": "02-3789-9898",
+      "lat": 37.56505,
+      "lng": 126.98389,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulmyungdongent"
+    },
+    {
+      "id": "seoulnmc",
+      "name": "국립중앙의료원",
+      "region": "서울",
+      "address": "서울특별시 중구 을지로 245 (을지로6가)",
+      "phone": "02-2260-7114",
+      "lat": 37.5666,
+      "lng": 127.00545,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnmc"
+    },
+    {
+      "id": "seoulsunent",
+      "name": "선이비인후과의원",
+      "region": "서울",
+      "address": "서울특별시 중랑구 망우로 353 c동 314호 (상봉동, 상봉 프레미어스 엠코)",
+      "phone": "02-6403-9898",
+      "lat": 37.59809,
+      "lng": 127.09132,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsunent"
+    },
+    {
+      "id": "ghmsclinic",
+      "name": "광화문숲 정신건강의학과의원",
+      "region": "서울",
+      "address": "서울 종로구 종로3길 34 삼송빌딩 6층",
+      "phone": "02-722-7977",
+      "lat": 37.57165,
+      "lng": 126.978485,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/ghmsclinic"
+    },
+    {
+      "id": "sejongsorisooment",
+      "name": "소리숨이비인후과의원",
+      "region": "세종",
+      "address": "세종특별자치시 나성로 96 더센트럴 421호 (나성동)",
+      "phone": "044-868-1177",
+      "lat": 36.48774,
+      "lng": 127.26065,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/sejongsorisooment"
+    },
+    {
+      "id": "sejongchoongnamuniv",
+      "name": "세종충남대학교병원",
+      "region": "세종",
+      "address": "세종특별자치시 보듬7로 20 세종충남대학교병원 (도담동)",
+      "phone": "044-995-4101",
+      "lat": 36.51924,
+      "lng": 127.25767,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/sejongchoongnamuniv"
+    },
+    {
+      "id": "sejongcoalent",
+      "name": "코알이비인후과의원",
+      "region": "세종",
+      "address": "세종특별자치시 한누리대로 2018 사이언스타운 4층 403~406호 (소담동)",
+      "phone": "044-865-3650",
+      "lat": 36.50605,
+      "lng": 127.25172,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/sejongcoalent"
+    },
+    {
+      "id": "sejongdoomiso",
+      "name": "두미소신경과의원",
+      "region": "세종",
+      "address": "세종특별자치시 한누리대로 249 408~410호",
+      "phone": "044-867-6119",
+      "lat": 36.48654,
+      "lng": 127.25758,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/sejongdoomiso"
+    },
+    {
+      "id": "sejongseoulsamsungent",
+      "name": "서울삼성이비인후과의원",
+      "region": "세종",
+      "address": "세종특별자치시 한누리대로 275 형성프라자 401호,402호 (나성동)",
+      "phone": "044-864-1864",
+      "lat": 36.50605,
+      "lng": 127.25172,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/sejongseoulsamsungent"
+    },
+    {
+      "id": "ulsangoodmornigent",
+      "name": "굿모닝이비인후과의원",
+      "region": "울산",
+      "address": "울산광역시 남구 남중로 37 5,6,7층 (삼산동)",
+      "phone": "052-256-7000",
+      "lat": 35.53773,
+      "lng": 129.3473,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/ulsangoodmornigent"
+    },
+    {
+      "id": "ulsanhanaent",
+      "name": "하나이비인후과병원",
+      "region": "울산",
+      "address": "울산광역시 남구 삼산로 139 (달동)",
+      "phone": "052-708-1111",
+      "lat": 35.53638,
+      "lng": 129.3225,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanhanaent"
+    },
+    {
+      "id": "ulsanuuhulsan",
+      "name": "학교법인 울산공업학원 울산대학교병원",
+      "region": "울산",
+      "address": "울산광역시 동구 대학병원로 25 울산대학교병원 (전하동)",
+      "phone": "052-250-7000",
+      "lat": 35.548676,
+      "lng": 129.315,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/ulsanuuhulsan"
+    },
+    {
+      "id": "incheonincheonsejong",
+      "name": "인천세종병원",
+      "region": "인천",
+      "address": "인천광역시 계양구 계양문화로 20- (작전동)",
+      "phone": "032-240-8000",
+      "lat": 37.53252,
+      "lng": 126.73643,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonincheonsejong"
+    },
+    {
+      "id": "incheonbscoaent",
+      "name": "비에스코아이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 계양구 봉오대로 668 2,3,5층 201,202,303,501호 (작전동)",
+      "phone": "032-548-0005",
+      "lat": 37.5029,
+      "lng": 126.66093,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbscoaent"
+    },
+    {
+      "id": "incheongilhospital",
+      "name": "의료법인 길의료재단 길병원",
+      "region": "인천",
+      "address": "인천광역시 남동구 남동대로774번길 21-0 의료법인길의료재단길병원",
+      "phone": null,
+      "lat": 37.4514,
+      "lng": 126.70928,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheongilhospital"
+    },
+    {
+      "id": "incheonsoomsleep",
+      "name": "숨수면의원",
+      "region": "인천",
+      "address": "인천광역시 남동구 인주대로 582 신현프라자 6층 602호 (구월동)",
+      "phone": "032-719-9525",
+      "lat": 37.44985,
+      "lng": 126.70153,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsoomsleep"
+    },
+    {
+      "id": "incheonnonhyunseoulent",
+      "name": "논현서울이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 남동구 청능대로 581 광성프라자 2층 202,203호 (논현동)",
+      "phone": "032-215-2100",
+      "lat": 37.40121,
+      "lng": 126.72368,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnonhyunseoulent"
+    },
+    {
+      "id": "incheoncleancoaent",
+      "name": "맑은코아이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 미추홀구 낙섬중로 138 미추홀프라자 3층일부층 (용현동)",
+      "phone": "032-888-6159",
+      "lat": 37.45837,
+      "lng": 126.64424,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncleancoaent"
+    },
+    {
+      "id": "incheondainent",
+      "name": "다인이비인후과병원",
+      "region": "인천",
+      "address": "인천광역시 부평구 경원대로 1242 지하1(일부)층, 1(일부)층, 3층, 4(일부)층, 5층, 6층, 7(일부)층 우암빌딩 (산곡동)",
+      "phone": "032-515-2325",
+      "lat": 37.4877,
+      "lng": 126.70882,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheondainent"
+    },
+    {
+      "id": "incheoncmcism",
+      "name": "가톨릭대학교인천성모병원",
+      "region": "인천",
+      "address": "인천광역시 부평구 동수로 56- (부평동)",
+      "phone": "032-1544-9004",
+      "lat": 37.48473,
+      "lng": 126.72526,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncmcism"
+    },
+    {
+      "id": "incheoncoaent",
+      "name": "코아이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 부평구 마장로 338 2층 일부호 (산곡동)",
+      "phone": "032-521-7773",
+      "lat": 37.50816,
+      "lng": 126.7037,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheoncoaent"
+    },
+    {
+      "id": "incheonopenent",
+      "name": "열린이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 서구 봉오재3로 44 2층 (가정동, 명문프라자)",
+      "phone": "032-565-0938",
+      "lat": 37.52935,
+      "lng": 126.66576,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonopenent"
+    },
+    {
+      "id": "incheonish",
+      "name": "가톨릭관동대학교 국제성모병원",
+      "region": "인천",
+      "address": "인천광역시 서구 심곡로100번길 25-0 인천국제성모병원",
+      "phone": "032-1600-8291",
+      "lat": 37.5423,
+      "lng": 126.68368,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonish"
+    },
+    {
+      "id": "incheonlooganaen",
+      "name": "의료법인루가의료재단 나은병원",
+      "region": "인천",
+      "address": "인천광역시 서구 원적로 23- 23",
+      "phone": "032-584-0114",
+      "lat": 37.48923,
+      "lng": 126.67992,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonlooganaen"
+    },
+    {
+      "id": "incheonkumdanysent",
+      "name": "검단연세이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 서구 이음대로 378 로뎀타워 604, 605, 606호 (원당동)",
+      "phone": "032-567-9800",
+      "lat": 37.62222,
+      "lng": 126.6742,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkumdanysent"
+    },
+    {
+      "id": "incheonbestent",
+      "name": "베스트이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 연수구 랜드마크로 68 301동 2층 234,266,267,268호 (송도동, 랜드마크시티센트럴더샵)",
+      "phone": "032-851-8575",
+      "lat": 37.41492,
+      "lng": 126.62098,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonbestent"
+    },
+    {
+      "id": "incheonnlent",
+      "name": "늘이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 연수구 센트럴로 415 힐스테이트 송도 더테라스 판매시설동 2층 233,234,235,236,237호 (송도동)",
+      "phone": "032-833-3650",
+      "lat": 37.478092,
+      "lng": 126.64029,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonnlent"
+    },
+    {
+      "id": "incheonkimyounghyoent",
+      "name": "김영효이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 연수구 신송로 161 송도 하이츠 3층 305,306호 (송도동)",
+      "phone": "032-832-8505",
+      "lat": 37.478092,
+      "lng": 126.64029,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonkimyounghyoent"
+    },
+    {
+      "id": "incheonsongdocoent",
+      "name": "송도코엔이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 연수구 해돋이로 168-2",
+      "phone": "032-859-5119",
+      "lat": 37.38114,
+      "lng": 126.65648,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonsongdocoent"
+    },
+    {
+      "id": "incheoninha",
+      "name": "인하대학교의과대학부속병원",
+      "region": "인천",
+      "address": "인천광역시 중구 인항로 27 (신흥동3가)",
+      "phone": "032-890-2114",
+      "lat": 37.45788,
+      "lng": 126.63363,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheoninha"
+    },
+    {
+      "id": "incheonclearskyent",
+      "name": "맑은하늘이비인후과의원",
+      "region": "인천",
+      "address": "인천광역시 중구 하늘중앙로 193 조양타워 603호 (중산동)",
+      "phone": "032-746-1017",
+      "lat": 37.49042,
+      "lng": 126.56043,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/incheonclearskyent"
+    },
+    {
+      "id": "gdcentralentclinic",
+      "name": "검단센트럴이비인후과의원",
+      "region": "인천",
+      "address": "인천 서구 고산후로 222 푸리마더타워 601~604호",
+      "phone": "032-710-2159",
+      "lat": 37.627647,
+      "lng": 126.70702,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/gdcentralentclinic"
+    },
+    {
+      "id": "jeonnamhadangdreament",
+      "name": "하당드림이비인후과의원",
+      "region": "전남",
+      "address": "전라남도 목포시 백년대로 295 2층 (상동)",
+      "phone": "061-281-7075",
+      "lat": 34.80386,
+      "lng": 126.41996,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangdreament"
+    },
+    {
+      "id": "jeonnamjoyunent",
+      "name": "조연이비인후과병원",
+      "region": "전남",
+      "address": "전라남도 목포시 백년대로 298 (상동)",
+      "phone": "061-287-6610",
+      "lat": 34.80352,
+      "lng": 126.42055,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamjoyunent"
+    },
+    {
+      "id": "jeonnamhadangmokpoent",
+      "name": "하당목포이비인후과의원",
+      "region": "전남",
+      "address": "전라남도 목포시 백년대로 391 (옥암동)",
+      "phone": "061-802-2200",
+      "lat": 34.80822,
+      "lng": 126.42902,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhadangmokpoent"
+    },
+    {
+      "id": "jeonnamenosent",
+      "name": "이노스이비인후과병원",
+      "region": "전남",
+      "address": "전라남도 순천시 봉화3길 14-28 (조례동)",
+      "phone": "061-720-9900",
+      "lat": 34.96399,
+      "lng": 127.52097,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamenosent"
+    },
+    {
+      "id": "jeonnamhanaent",
+      "name": "하나이비인후과의원",
+      "region": "전남",
+      "address": "전라남도 순천시 이수로 305 2층~4층층 (조례동, 동부클라이밍,NEPA)",
+      "phone": "061-726-6001",
+      "lat": 34.95325,
+      "lng": 127.51734,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamhanaent"
+    },
+    {
+      "id": "jeonnamschwang",
+      "name": "황인용신경과의원",
+      "region": "전남",
+      "address": "전라남도 순천시 이수로 321 6층 (조례동)",
+      "phone": "061-724-5577",
+      "lat": 34.95397,
+      "lng": 127.51899,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamschwang"
+    },
+    {
+      "id": "jeonnamsooent",
+      "name": "수이비인후과의원",
+      "region": "전남",
+      "address": "전라남도 순천시 중앙로 67 3층 (저전동)",
+      "phone": "061-746-7575",
+      "lat": 34.95164,
+      "lng": 127.48361,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnamsooent"
+    },
+    {
+      "id": "jeonnambestent",
+      "name": "최고이비인후과의원",
+      "region": "전남",
+      "address": "전라남도 여수시 중앙로 30 2층 (교동)",
+      "phone": "061-920-7575",
+      "lat": 34.74023,
+      "lng": 127.73144,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonnambestent"
+    },
+    {
+      "id": "jeonbukgssokim",
+      "name": "군산속편한내과의원",
+      "region": "전북",
+      "address": "전라북도 군산시 공단대로 589",
+      "phone": "063-471-9475",
+      "lat": 35.97154,
+      "lng": 126.68185,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukgssokim"
+    },
+    {
+      "id": "jeonbukdreament",
+      "name": "드림이비인후과의원",
+      "region": "전북",
+      "address": "전라북도 익산시 무왕로9길 7",
+      "phone": "063-834-2958",
+      "lat": 35.95909,
+      "lng": 126.97312,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdreament"
+    },
+    {
+      "id": "jeonbukcuh",
+      "name": "전북대학교병원",
+      "region": "전북",
+      "address": "전라북도 전주시 덕진구 건지로 20",
+      "phone": "063-250-1114",
+      "lat": 35.84507,
+      "lng": 127.14285,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukcuh"
+    },
+    {
+      "id": "jeonbukdaejain",
+      "name": "대자인병원",
+      "region": "전북",
+      "address": "전라북도 전주시 덕진구 견훤로 390",
+      "phone": "063-240-2000",
+      "lat": 35.84594,
+      "lng": 127.15313,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukdaejain"
+    },
+    {
+      "id": "jeonbukjeonjoodoolove",
+      "name": "전주두사랑신경과의원",
+      "region": "전북",
+      "address": "전라북도 전주시 덕진구 백제대로 686",
+      "phone": "063-246-7001",
+      "lat": 35.84373,
+      "lng": 127.14427,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukjeonjoodoolove"
+    },
+    {
+      "id": "jeonbukchament",
+      "name": "참이비인후과의원",
+      "region": "전북",
+      "address": "전라북도 전주시 덕진구 솔내로 152",
+      "phone": "063-255-0123",
+      "lat": 35.86362,
+      "lng": 127.12708,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukchament"
+    },
+    {
+      "id": "jeonbukbestent",
+      "name": "베스트이비인후과의원",
+      "region": "전북",
+      "address": "전라북도 전주시 완산구 쑥고개로 317",
+      "phone": "063-717-7575",
+      "lat": 35.80248,
+      "lng": 127.0999,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukbestent"
+    },
+    {
+      "id": "jeonbuktopent",
+      "name": "탑이비인후과의원",
+      "region": "전북",
+      "address": "전라북도 전주시 완산구 온고을로 26",
+      "phone": "063-255-9981",
+      "lat": 35.83405,
+      "lng": 127.12011,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbuktopent"
+    },
+    {
+      "id": "jeonbukkybent",
+      "name": "김양박이비인후과의원",
+      "region": "전북",
+      "address": "전라북도 전주시 완산구 용머리로 66",
+      "phone": "063-226-3232",
+      "lat": 35.80815,
+      "lng": 127.12868,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jeonbukkybent"
+    },
+    {
+      "id": "jejuseoulasanent",
+      "name": "서울아산이비인후과의원",
+      "region": "제주",
+      "address": "제주특별자치도 서귀포시 일주동로 8694",
+      "phone": "064-767-7582",
+      "lat": 33.2531,
+      "lng": 126.55953,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejuseoulasanent"
+    },
+    {
+      "id": "jejusamsunggood",
+      "name": "삼성맘편한신경과의원",
+      "region": "제주",
+      "address": "제주특별자치도 서귀포시 중앙로 113 2층",
+      "phone": "064-733-9119",
+      "lat": 33.25476,
+      "lng": 126.56054,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejusamsunggood"
+    },
+    {
+      "id": "jejubestent",
+      "name": "최고이비인후과의원",
+      "region": "제주",
+      "address": "제주특별자치도 제주시 노형로 376 2층",
+      "phone": "064-745-8575",
+      "lat": 33.48348,
+      "lng": 126.47611,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejubestent"
+    },
+    {
+      "id": "jejuclearent",
+      "name": "상쾌한이비인후과의원",
+      "region": "제주",
+      "address": "제주특별자치도 제주시 동광로 124 3,4,5층",
+      "phone": "064-752-4401",
+      "lat": 33.29088,
+      "lng": 126.16729,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejuclearent"
+    },
+    {
+      "id": "jejujejujuuh",
+      "name": "제주대학교병원",
+      "region": "제주",
+      "address": "제주특별자치도 제주시 아란13길 15- 제주대학교병원 (아라일동)",
+      "phone": "064-717-1114",
+      "lat": 33.47114,
+      "lng": 126.5433,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejujejujuuh"
+    },
+    {
+      "id": "jejucleanent",
+      "name": "맑은수면이비인후과의원",
+      "region": "제주",
+      "address": "제주특별자치도 제주시 원노형남1길 1 더현빌딩 2,3층 (노형동)",
+      "phone": "064-747-0595",
+      "lat": 33.48271,
+      "lng": 126.48363,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/jejucleanent"
+    },
+    {
+      "id": "chungnamcoaent",
+      "name": "코아이비인후과의원",
+      "region": "충남",
+      "address": "충남 당진시 당진중앙2로 96",
+      "phone": "041-355-3163",
+      "lat": 36.8937,
+      "lng": 126.63035,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcoaent"
+    },
+    {
+      "id": "chungnamchament",
+      "name": "참이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 서산시 호수공원6로 53",
+      "phone": "041-669-8275",
+      "lat": 36.77331,
+      "lng": 126.44952,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamchament"
+    },
+    {
+      "id": "chungnamclearent",
+      "name": "상쾌한이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 아산시 배방읍 배방로 49 ()",
+      "phone": "041-541-9753",
+      "lat": 36.77248,
+      "lng": 127.05498,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamclearent"
+    },
+    {
+      "id": "chungnamasandoorient",
+      "name": "아산두리이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 아산시 번영로 223 3층 301호",
+      "phone": "041-546-5551",
+      "lat": 36.78437,
+      "lng": 127.01535,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamasandoorient"
+    },
+    {
+      "id": "chungnamtangjungent",
+      "name": "탕정열린이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 아산시 탕정면 한들물빛도시로 85 2,3,4층",
+      "phone": "041-533-7118",
+      "lat": 36.8097,
+      "lng": 127.04463,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamtangjungent"
+    },
+    {
+      "id": "chungnamdkuh",
+      "name": "단국대학교의과대학부속병원",
+      "region": "충남",
+      "address": "충청남도 천안시 동남구 망향로 201 (안서동)",
+      "phone": "041-1588-0063",
+      "lat": 36.79219,
+      "lng": 127.35582,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdkuh"
+    },
+    {
+      "id": "chungnamschmccheonan",
+      "name": "순천향대학교부속 천안병원",
+      "region": "충남",
+      "address": "충청남도 천안시 동남구 순천향6길 31 5동 (봉명동,순천향대학교병원)",
+      "phone": "041-570-2114",
+      "lat": 36.80214,
+      "lng": 127.13528,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamschmccheonan"
+    },
+    {
+      "id": "chungnamcleanent",
+      "name": "맑은이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 천안시 서북구 불당21로 67-26 2층 201,202,203호 (불당동)",
+      "phone": "041-522-7553",
+      "lat": 36.82114,
+      "lng": 127.10769,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamcleanent"
+    },
+    {
+      "id": "chungnamsamsungsmartkjs",
+      "name": "삼성스마트김석재신경과의원",
+      "region": "충남",
+      "address": "충청남도 천안시 서북구 불당21로 67-8 5층 503호 (불당동)",
+      "phone": "041-417-7507",
+      "lat": 36.84434,
+      "lng": 127.1602,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamsamsungsmartkjs"
+    },
+    {
+      "id": "chungnamdoorient",
+      "name": "두리이비인후과의원",
+      "region": "충남",
+      "address": "충청남도 천안시 서북구 쌍용1길 21 2,3,4층 (쌍용동)",
+      "phone": "041-578-5578",
+      "lat": 36.80132,
+      "lng": 127.11946,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungnamdoorient"
+    },
+    {
+      "id": "chungbukchoongbookuniv",
+      "name": "충북대학교병원",
+      "region": "충북",
+      "address": "충청북도 청주시 서원구 1순환로 776-0 충북대학교병원",
+      "phone": "043-269-6114",
+      "lat": 36.60642,
+      "lng": 127.48943,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukchoongbookuniv"
+    },
+    {
+      "id": "chungbukcoaent",
+      "name": "코아이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 서원구 사직대로 108 하나로상호저축은행 지하1,지상1층 (사창동)",
+      "phone": "043-262-4300",
+      "lat": 36.63466,
+      "lng": 127.45929,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcoaent"
+    },
+    {
+      "id": "chungbukseoulent",
+      "name": "서울이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 청원구 공항로 126 3층",
+      "phone": "043-214-8275",
+      "lat": 36.66842,
+      "lng": 127.48536,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukseoulent"
+    },
+    {
+      "id": "chungbukhanaent",
+      "name": "하나이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 청원구 상당로 291 (내덕동)",
+      "phone": "043-254-5075",
+      "lat": 36.65447,
+      "lng": 127.48837,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukhanaent"
+    },
+    {
+      "id": "chungbukdreament",
+      "name": "드림이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 청원구 주성로 269 미래빌딩 3층 301호 (주성동)",
+      "phone": "043-214-3993",
+      "lat": 36.67064,
+      "lng": 127.49623,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdreament"
+    },
+    {
+      "id": "chungbukdoctoryounent",
+      "name": "닥터연이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 흥덕구 2순환로 1234 3층 301호",
+      "phone": "043-239-2700",
+      "lat": 36.62591,
+      "lng": 127.42988,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoctoryounent"
+    },
+    {
+      "id": "chungbukcjhana",
+      "name": "의료법인한마음의료재단하나병원",
+      "region": "충북",
+      "address": "충청북도 청주시 흥덕구 2순환로 1262-0 하나병원",
+      "phone": "043-230-6114",
+      "lat": 36.62378,
+      "lng": 127.43144,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukcjhana"
+    },
+    {
+      "id": "chungbukdoorient",
+      "name": "두리이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 흥덕구 가경로 8",
+      "phone": "043-233-2275",
+      "lat": 36.6174,
+      "lng": 127.44409,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukdoorient"
+    },
+    {
+      "id": "chungbukbrain",
+      "name": "브레인신경과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 흥덕구 복대동 대농로 56",
+      "phone": "043-238-7588",
+      "lat": 36.64172,
+      "lng": 127.42843,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukbrain"
+    },
+    {
+      "id": "chungbukyounseient",
+      "name": "연세이비인후과의원",
+      "region": "충북",
+      "address": "충청북도 청주시 흥덕구 풍산로 32 1층 2층 (가경동)",
+      "phone": "043-268-5925",
+      "lat": 36.62641,
+      "lng": 127.43399,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukyounseient"
+    },
+    {
+      "id": "chungbukankihyunent",
+      "name": "안기현이비인후과의원",
+      "region": "충북",
+      "address": "대한민국 충청북도 충주시 칠금동 867",
+      "phone": "043-843-8866",
+      "lat": 36.98218,
+      "lng": 127.91767,
+      "sourceUrl": "https://www.resmed.kr/psg-finder/chungbukankihyunent"
+    }
+  ]
+}
