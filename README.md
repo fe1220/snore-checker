@@ -54,6 +54,7 @@ docs/
 ├── business-impact.md       ★ 비즈니스 임팩트
 ├── validation.md            가설 검증
 ├── planning-log.md          기획 로그
+├── meta-ads.md              메타 광고 유입 검증 (소재 이미지는 meta-ads/)
 ├── research/                기획 문서의 근거 자료
 │   ├── evidence.md          수치 원출처 (환자 수·유병률·유배우율·수가)
 │   ├── benchmark.md         국내외 서비스 46건 비교
@@ -67,7 +68,6 @@ docs/
 │   ├── marketing.md         수면클리닉 마케팅
 │   ├── retention.md         진료 이후 리텐션
 │   ├── crawl-targets.md     크롤링 대상
-│   ├── meta-ads.md          메타 광고 설계
 │   ├── accessibility.md     40~60대 접근성 기준 (→ work/02)
 │   ├── copy-audit.md        화면 문구 감사 (→ work/02)
 │   ├── data-quality/        병원 데이터 품질 검사 (→ work/03)
@@ -101,7 +101,7 @@ docs/
 | 수면클리닉 전수 조사 | 학회 수면클리닉 95곳 홈페이지를 확인했다. 배우자에게 직접 말을 거는 곳은 0곳이었다 | [전수 조사](docs/research/clinic-survey.md) |
 | 사업성 | 광고주(검사하는 병원)의 문제, 시장 크기, 의료법상 가능한 수익 모델을 정리했다 | [비즈니스 임팩트](docs/business-impact.md) |
 | 공급 공백 분석 | 레즈메드 목록만으로는 시·군·구 230곳 중 124곳(인구 20.4%)에 병원이 없었다. 전체 검사기관으로 넓히면 11.0%로 준다. 군 82곳 중 78곳은 여전히 0곳이다 | [공급 공백](docs/research/supply-gap/README.md) |
-| 유입 검증 | 검색하지 않는 배우자를 데려올 수 있는지 메타 광고(10만 원, 소재 5개)로 잰다 | [메타 광고](docs/research/meta-ads.md) |
+| 유입 검증 | 검색하지 않는 배우자를 데려올 수 있는지 메타 광고(10만 원, 소재 5개)로 잰다 | [메타 광고](docs/meta-ads.md) |
 
 **서비스**
 
