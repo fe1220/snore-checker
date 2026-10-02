@@ -52,15 +52,15 @@ export function decodeSignals(code: string): Question[] | null {
 
 export const LEVEL_COPY: Record<Level, { title: string; body: string }> = {
   strong: {
-    title: "수면무호흡증\n검사를 받아 볼 만해요",
+    title: "수면무호흡증\n검사를 권해요",
     body: "숨 멈춤이나 헐떡임, 운전 중 졸음은 수면무호흡증에서 자주 보이는 신호예요.",
   },
   moderate: {
-    title: "수면무호흡증\n상담을 받아 볼 만해요",
+    title: "수면무호흡증\n상담을 권해요",
     body: "수면무호흡증과 함께 보이는 신호가 여러 개 있어요.",
   },
   weak: {
-    title: "지금은 수면무호흡증\n신호가 약해요",
+    title: "수면무호흡증\n신호가 약해요",
     body: "그래도 걱정된다면 상담은 언제든 괜찮아요.",
   },
 }
