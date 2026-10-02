@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest"
 
 import {
   clinicLink,
+  clinicTags,
   distanceKm,
   formatHiraVersion,
   mapSearchUrl,
@@ -33,6 +34,7 @@ function hospital(
     sourceUrl: `https://www.resmed.kr/psg-finder/${id}`,
     homepage: null,
     listed: false,
+    kind: "의원",
   }
 }
 
@@ -43,7 +45,6 @@ describe("clinicLink", () => {
     const link = clinicLink({ ...base, homepage: "https://a.kr" })
     expect(link.target).toBe("resmed")
     expect(link.href).toBe(base.sourceUrl)
-    expect(link.label).toBe("병원 정보 보기")
   })
 
   it("공공 데이터에만 있으면 홈페이지, 없으면 지도 검색으로 보낸다", () => {
@@ -51,11 +52,9 @@ describe("clinicLink", () => {
     expect(clinicLink({ ...onlyHira, homepage: "https://a.kr" })).toEqual({
       target: "homepage",
       href: "https://a.kr",
-      label: "병원 홈페이지 보기",
     })
     const map = clinicLink(onlyHira)
     expect(map.target).toBe("map")
-    expect(map.label).toBe("지도에서 보기")
     expect(map.href).toBe(mapSearchUrl(onlyHira))
   })
 
@@ -86,6 +85,35 @@ describe("listRegions", () => {
       { region: "서울", count: 2 },
       { region: "경기", count: 1 },
       { region: "부산", count: 1 },
+    ])
+  })
+})
+
+describe("clinicTags", () => {
+  const base = hospital("a", "서울", "서울특별시 강남구 논현로 1", 0, 0)
+
+  it("규모와 학회 등록을 한 줄로 잇는다", () => {
+    expect(clinicTags(base)).toBe("의원")
+    expect(clinicTags({ ...base, listed: true })).toBe("의원 · 수면학회 등록")
+    expect(clinicTags({ ...base, kind: null, listed: true })).toBe(
+      "수면학회 등록",
+    )
+    expect(clinicTags({ ...base, kind: null })).toBeNull()
+  })
+})
+
+describe("filterByRegion 학회 우선", () => {
+  it("같은 지역 안에서 학회 목록 병원을 먼저, 그 안에서 주소순으로 둔다", () => {
+    const a = hospital("a", "서울", "서울특별시 강남구 가로 1", 0, 0)
+    const b = {
+      ...hospital("b", "서울", "서울특별시 종로구 나로 1", 0, 0),
+      listed: true,
+    }
+    const c = hospital("c", "부산", "부산광역시 중구 다로 1", 0, 0)
+    expect(filterByRegion([a, c, b], null).map((h) => h.id)).toEqual([
+      "b",
+      "a",
+      "c",
     ])
   })
 })

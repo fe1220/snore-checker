@@ -11,6 +11,22 @@ export type Hospital = Omit<ResmedHospital, "sourceUrl"> & {
   homepage: string | null
   // 대한수면연구학회 수면클리닉 목록에 있음
   listed: boolean
+  // 병원 규모. 공공 데이터와 맞추지 못한 병원은 null
+  kind: Kind | null
+}
+
+export type Kind = "의원" | "병원" | "종합병원" | "상급종합병원"
+
+const KIND_BY_HIRA: Record<string, Kind> = {
+  의원: "의원",
+  병원: "병원",
+  종합병원: "종합병원",
+  상급종합: "상급종합병원",
+}
+
+// 화면에 보여줄 규모 네 가지만 남긴다. 치과병원·정신병원처럼 그 밖의 종별은 보여주지 않는다.
+export function kindOf(hiraKind: string): Kind | null {
+  return KIND_BY_HIRA[hiraKind] ?? null
 }
 
 const REGION_BY_SIDO: Record<string, Region> = {
@@ -103,6 +119,7 @@ function fromSnapshot(item: HiraItem): Hospital {
     sourceUrl: null,
     homepage: normalizeHomepage(item.homepage),
     listed: false,
+    kind: kindOf(item.kind),
   }
 }
 
@@ -142,7 +159,7 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
     const found = findMatch(original, snapshot)
 
     if (!found) {
-      const hospital = { ...original, region, homepage: null, listed: false }
+      const hospital = { ...original, region, homepage: null, listed: false, kind: null }
       result.hospitals.push(hospital)
       result.unmatched.push(hospital)
       continue
@@ -157,6 +174,7 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
       lng: found.lng,
       homepage: normalizeHomepage(found.homepage),
       listed: false,
+      kind: kindOf(found.kind),
     }
     result.hospitals.push(hospital)
     result.matched.push({ hospital, movedKm: distanceKm(original, found) })

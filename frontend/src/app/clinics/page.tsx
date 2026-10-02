@@ -46,7 +46,10 @@ export default function ClinicsPage() {
           {formatHiraVersion(hiraVersion)} · 대한수면연구학회 ·{" "}
           {formatCrawledAt(crawledAt)} 수집
         </p>
-        <p className="text-base">방문 전에 전화로 확인해 주세요.</p>
+        <p className="text-base">
+          모두 수면검사(수면다원검사)를 하는 병원이에요. 방문 전에 전화로 확인해
+          주세요.
+        </p>
       </header>
       <ClinicFinder items={items} />
     </main>

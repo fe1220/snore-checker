@@ -35,6 +35,14 @@ export type Hospital = {
   sourceUrl: string | null
   homepage: string | null
   listed: boolean // 대한수면연구학회 수면클리닉 찾기 목록에 있음
+  kind: "의원" | "병원" | "종합병원" | "상급종합병원" | null // 병원 규모
+}
+
+// 카드의 규모·학회 줄. 둘 다 없으면 null이라 줄을 그리지 않는다.
+export function clinicTags(hospital: Hospital): string | null {
+  const tags = [hospital.kind, hospital.listed ? "수면학회 등록" : null]
+  const text = tags.filter(Boolean).join(" · ")
+  return text === "" ? null : text
 }
 
 export type HospitalData = {
@@ -46,8 +54,10 @@ export type HospitalData = {
 export type ClinicLink = {
   target: "resmed" | "homepage" | "map"
   href: string
-  label: string
 }
+
+// 가는 곳이 달라도 모두 병원 정보를 보여주는 페이지라 버튼 이름은 하나로 둔다. 카드마다 이름이 다르면 왜 다른지 헷갈린다.
+export const CLINIC_LINK_LABEL = "병원 정보 보기"
 
 // 주소 둘째 단어(시·군·구)를 붙여 같은 이름의 다른 지역 병원이 먼저 나오지 않게 한다.
 export function mapSearchUrl(hospital: Hospital): string {
@@ -58,19 +68,9 @@ export function mapSearchUrl(hospital: Hospital): string {
 
 // 카드의 주요 버튼이다. 크롤링한 원 페이지가 있으면 그쪽이 먼저다.
 export function clinicLink(hospital: Hospital): ClinicLink {
-  if (hospital.sourceUrl)
-    return {
-      target: "resmed",
-      href: hospital.sourceUrl,
-      label: "병원 정보 보기",
-    }
-  if (hospital.homepage)
-    return {
-      target: "homepage",
-      href: hospital.homepage,
-      label: "병원 홈페이지 보기",
-    }
-  return { target: "map", href: mapSearchUrl(hospital), label: "지도에서 보기" }
+  if (hospital.sourceUrl) return { target: "resmed", href: hospital.sourceUrl }
+  if (hospital.homepage) return { target: "homepage", href: hospital.homepage }
+  return { target: "map", href: mapSearchUrl(hospital) }
 }
 
 // "2026.6" → "2026년 6월"
@@ -109,6 +109,8 @@ export function filterByRegion(
     .sort(
       (a, b) =>
         REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
+        // 같은 지역 안에서는 학회 목록 병원을 먼저 보여준다
+        Number(b.listed) - Number(a.listed) ||
         a.address.localeCompare(b.address, "ko"),
     )
 }

@@ -5,7 +5,13 @@ import { track } from "@/components/analytics/track"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { clinicLink, mapSearchUrl, type Hospital } from "@/lib/hospitals"
+import {
+  CLINIC_LINK_LABEL,
+  clinicLink,
+  clinicTags,
+  mapSearchUrl,
+  type Hospital,
+} from "@/lib/hospitals"
 import { cn } from "cn"
 
 export function ClinicCard({
@@ -17,6 +23,7 @@ export function ClinicCard({
 }) {
   const params = { hospital_id: hospital.id, region: hospital.region }
   const link = clinicLink(hospital)
+  const tags = clinicTags(hospital)
 
   return (
     <Card className="gap-3 px-4">
@@ -31,24 +38,31 @@ export function ClinicCard({
             </span>
           )}
         </div>
-        {/* 학회 명단에 있다는 뜻이다. 인증 제도인지 확인하지 못해 "인증"이라고 쓰지 않는다. */}
-        {hospital.listed && (
+        {/* 규모와 학회 명단 여부를 한 줄에 둔다. 학회는 인증 제도인지 확인하지 못해 "인증"이라고 쓰지 않는다. */}
+        {tags && (
           <Badge
             variant="outline"
-            className="h-auto w-fit px-2 py-0.5 text-base text-primary"
+            className="h-auto w-fit px-2 py-0.5 text-base whitespace-normal text-foreground"
           >
-            수면학회 등록
+            {tags}
           </Badge>
         )}
-        {/* 주소를 누르면 지도에서 위치를 볼 수 있다. 버튼을 셋으로 늘리지 않으려고 주소에 건다. */}
-        <a
-          href={mapSearchUrl(hospital)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex min-h-12 min-w-0 items-center text-base [overflow-wrap:anywhere] text-muted-foreground underline underline-offset-4"
-        >
-          {hospital.address}
-        </a>
+        {/* 주소를 누르면 지도에서 위치를 볼 수 있다. 버튼을 셋으로 늘리지 않으려고 주소에 건다.
+            주요 버튼이 이미 지도로 가는 병원은 같은 링크가 둘이 되지 않게 글자로만 둔다. */}
+        {link.target === "map" ? (
+          <p className="text-base [overflow-wrap:anywhere] text-muted-foreground">
+            {hospital.address}
+          </p>
+        ) : (
+          <a
+            href={mapSearchUrl(hospital)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex min-h-12 min-w-0 items-center text-base [overflow-wrap:anywhere] text-muted-foreground underline underline-offset-4"
+          >
+            {hospital.address}
+          </a>
+        )}
       </div>
       <div className="flex flex-wrap gap-2">
         {hospital.phone && (
@@ -77,7 +91,7 @@ export function ClinicCard({
             "h-auto min-h-12 flex-1 border-primary py-2 text-lg whitespace-normal text-primary",
           )}
         >
-          {link.label}
+          {CLINIC_LINK_LABEL}
           <ExternalLink data-icon="inline-end" aria-hidden />
         </a>
       </div>

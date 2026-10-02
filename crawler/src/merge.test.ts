@@ -1,7 +1,7 @@
 import assert from "node:assert/strict"
 import { test } from "node:test"
 
-import { assertValid, distanceKm, type Hospital, markListed, merge, normalizeHomepage, regionOf } from "./merge.ts"
+import { assertValid, distanceKm, type Hospital, kindOf, markListed, merge, normalizeHomepage, regionOf } from "./merge.ts"
 import type { HiraItem } from "./sources/hira.ts"
 import type { ResmedHospital } from "./sources/resmed.ts"
 import type { SleepnetClinic } from "./sources/sleepnet.ts"
@@ -40,7 +40,17 @@ const extra: HiraItem = {
   lng: 126.978,
 }
 
-const saved: Hospital = { ...resmed, lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example", listed: false }
+const saved: Hospital = { ...resmed, lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example", listed: false, kind: "의원" }
+
+test("병원 규모는 네 가지로만 남기고 상급종합은 상급종합병원으로 쓴다", () => {
+  assert.equal(kindOf("의원"), "의원")
+  assert.equal(kindOf("병원"), "병원")
+  assert.equal(kindOf("종합병원"), "종합병원")
+  assert.equal(kindOf("상급종합"), "상급종합병원")
+  assert.equal(kindOf("치과병원"), null)
+  assert.equal(kindOf("정신병원"), null)
+  assert.equal(merge([resmed], [{ ...hira, kind: "상급종합" }]).hospitals[0].kind, "상급종합병원")
+})
 
 test("맞춘 병원은 좌표와 홈페이지만 스냅샷 값으로 바꾸고 나머지는 레즈메드 값을 쓴다", () => {
   const result = merge([resmed], [hira])
@@ -63,7 +73,7 @@ test("이름이 40자 이하면 스냅샷 이름과 달라도 레즈메드 이�
 
 test("못 맞춘 레즈메드 병원은 좌표와 이름을 그대로 두고 홈페이지는 비운다", () => {
   const result = merge([resmed], [extra])
-  const kept = { ...resmed, homepage: null, listed: false }
+  const kept = { ...resmed, homepage: null, listed: false, kind: null }
   assert.deepEqual(result.hospitals[0], kept)
   assert.deepEqual(result.unmatched, [kept])
   assert.deepEqual(result.matched, [])
@@ -84,6 +94,7 @@ test("스냅샷에만 있는 병원은 스냅샷 값으로 추가하고 원 페�
       sourceUrl: null,
       homepage: "https://www.soom.kr/",
       listed: false,
+      kind: "의원",
     },
   ])
   assert.deepEqual(result.hospitals[1], result.added[0])
@@ -110,9 +121,9 @@ test("의원·병원·종합병원·상급종합이 아닌 기관은 스냅샷�
   }
 })
 
-test("레즈메드에 있는 병원은 기관 종류와 상관없이 그대로 둔다", () => {
+test("레즈메드에 있는 병원은 기관 종류와 상관없이 그대로 두고, 네 가지가 아닌 규모는 비운다", () => {
   const result = merge([resmed], [{ ...hira, kind: "치과병원" }])
-  assert.deepEqual(result.hospitals, [saved])
+  assert.deepEqual(result.hospitals, [{ ...saved, kind: null }])
   assert.deepEqual(result.skippedKind, [])
 })
 
