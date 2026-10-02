@@ -18,26 +18,10 @@
 - 병원이 받는 "순응관리료" 같은 별도 수가는 확인하지 못했다.
 - 국내 진단 후 치료 미시작 비율, 연간 실제 추적 방문 횟수는 미확인.
 
-## 기면증
-
-| 내용 | 출처 |
-|---|---|
-| 2019년 1인당 연 진료비 960,833원, 총 42억 원 | Park·Song·Lee, J Clin Neurol 2023 https://thejcn.com/DOIx.php?id=10.3988%2Fjcn.2023.19.1.83 |
-| 미국 1형 기면증 신규 580명 중 12개월 내 **첫 약** 중단 69.9%. 치료 자체의 중단이 아니라 약 교체·병용을 포함한 수치로 보이며, 전체 치료 지속률은 미확인. 이탈 근거로 쓰지 않는다 | Crawford et al., ISPOR 2026 포스터 https://www.rtihs.org/publications/treatment-patterns-among-people-newly-diagnosed-narcolepsy-type-1-united-states-real |
-
-- 산정특례 본인부담 10%, 5년마다 재등록. 국내 복약 지속률·처방일수 제한은 미확인.
-
-## 렘수면행동장애
-
-| 내용 | 출처 |
-|---|---|
-| 특발성 RBD는 6개월~1년마다 추적 권고 | Roguski et al., Frontiers in Neurology 2020 https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2020.00610/full |
-| 평균 치료기간 클로나제팜 53.9개월, 멜라토닌 27.4개월 (원문 대조 못 함) | McCarter et al., Sleep Medicine 2013 https://www.sciencedirect.com/science/article/abs/pii/S1389945712003668 |
-
 ## 1인당 가치 (추정)
 
 - 수면무호흡: 2019년 진료비 550억 원 ÷ 환자 88,501명 ≈ 1인당 약 62만 원.
-- 병원 입장: 수면다원검사(의원 수가 578,734원)와 첫해 진찰에 수입이 몰린다. 순응 이후엔 연 1회 재진 수준.
+- 병원 입장: 수면다원검사(의원 약 66.9만 원, 2025 실적 기준)와 첫해 진찰에 수입이 몰린다. 순응 이후엔 연 1회 재진 수준.
 - 업체 입장: 순응 통과 후 대여 기준금액 기준 연 약 91만 원. 단, 장기 순응률이 낮아 실제 생애가치는 이보다 훨씬 작다.
 
 ## 시사점

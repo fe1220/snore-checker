@@ -4,7 +4,7 @@
 
 > **[사실]** 출처가 있는 수치·조사 결과 · **[추정]** 출처 수치로 직접 계산 · **[가설]** 작성자 경험·정성 사례에 기반해 아직 검증되지 않은 주장
 
-근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [voc](01-research/voc.md) · [competitors](01-research/competitors.md) · [benchmark](01-research/benchmark.md) · [clinic-survey](01-research/clinic-survey.md) · [field-research](01-research/field-research.md)
+근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [voc](01-research/voc.md) · [competitors](01-research/competitors.md) · [benchmark](01-research/benchmark.md) · [clinic-survey](01-research/clinic-survey.md)
 
 ## 가설 구조
 
@@ -70,8 +70,8 @@
 > **검색하지 않는 배우자를 데려올 수 있나, 얼마에?**
 
 - 볼 숫자: 클릭률·클릭당 비용 → 체크 완료율 → 병원 링크 클릭률 → **병원 링크 클릭 1건당 비용**.
-- 광고 세트 1개에 소재 5개, 5만 원. 배포 직후 남은 시간에 몰아서 쓴다. 어떤 메시지가 이기는지는 보지 않는다.
-- 과제 기간 안에는 초기 신호만 나온다. 배포가 늦으면 출시 후 첫 검증 계획으로 둔다.
+- 광고 세트 1개에 소재 5개, 총 10만 원, 10월 2일 밤 ~ 10월 5일. 어떤 메시지가 이기는지는 보지 않는다.
+- 과제 제출 시점에는 중간 숫자만 있어 초기 신호로만 본다.
 - 소재와 상세 설계는 [meta-ads](01-research/meta-ads.md).
 
 ## 리스크 확인
@@ -89,7 +89,7 @@
 | 방법 | 보는 가설 | 분량 |
 |---|---|---|
 | 커뮤니티 남편 코골이 글 분류 ([아래](#커뮤니티-글-분류-계획)) | H1, H3, H4, 비용 리스크 | 82cook 글 최대 400건과 댓글 |
-| 메타 광고 유입 검증 | 솔루션 0단계 "닿기" | 광고 세트 1개, 소재 5개, 5만 원 |
+| 메타 광고 유입 검증 | 솔루션 0단계 "닿기" | 광고 세트 1개, 소재 5개, 10만 원 |
 | 제품 지표 이벤트 기록 | H2 | 체크 완료 → 결과 조회 → 병원 링크 클릭 / 결과 공유 |
 
 - 실제 검사 여부는 추적할 수 없어 병원 링크 클릭을 대리 지표로 쓴다([성공 지표](01-problem-definition.md#성공-지표)).
@@ -97,7 +97,7 @@
 
 ## 커뮤니티 글 분류 계획
 
-**진행 상태 (2026-10-03):** 진행 중. 검색 목록 945건을 받았고, 본문 17건째에서 연결이 차단돼 멈췄다. 오전에 재시도할 예정이다([agent-log](agent-log.md)). 아직 분류 결과는 없다.
+**진행 상태 (2026-10-03):** 멈춤. 검색 목록 945건을 받았지만 본문 17건째에서 연결이 차단됐고, 재시도도 막혔다([troubleshooting](troubleshooting.md#82cook-글-수집이-17건에서-연결-거부로-멈췄다), [agent-log](agent-log.md)). 분류 결과가 없어 H1·H3·H4와 비용 리스크는 아직 기존 근거로만 받친다.
 
 **수집 대상: 82cook 자유게시판만 쓴다.**
 
