@@ -11,6 +11,7 @@ type Event =
   | { name: "share_click" }
   | { name: "clinic_click"; hospital_id: string; region: string }
   | { name: "clinic_call"; hospital_id: string; region: string }
+  | { name: "clinic_nearby"; result: "granted" | "denied" | "failed" }
 
 // 메타에는 건강 정보(결과 단계)를 보내지 않는다. 체크 완료와 병원 이동만 전환으로 보낸다.
 const PIXEL_EVENTS: Partial<Record<Event["name"], [string, string]>> = {
