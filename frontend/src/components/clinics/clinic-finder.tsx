@@ -108,8 +108,9 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
         <div className="flex flex-wrap gap-2">
           <Button
             variant="outline"
+            size="touch"
             className={cn(
-              "h-auto min-h-12 flex-1 justify-between px-3 py-2 text-lg whitespace-normal",
+              "flex-1 justify-between px-3",
               view.kind === "region" && "border-primary text-primary",
             )}
             onClick={() => setSheetOpen(true)}
@@ -125,8 +126,9 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             variant="outline"
             disabled={locating}
             aria-pressed={view.kind === "nearby"}
+            size="touch"
             className={cn(
-              "h-auto min-h-12 flex-1 px-3 py-2 text-lg whitespace-normal disabled:opacity-100",
+              "flex-1 px-3 disabled:opacity-100",
               view.kind === "nearby" && "border-primary text-primary",
             )}
             onClick={requestNearby}
@@ -190,7 +192,8 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
           <p className="text-lg">이 지역에는 아직 알려드릴 병원이 없어요</p>
           <Button
             variant="outline"
-            className="h-auto min-h-12 px-4 py-2 text-lg whitespace-normal"
+            size="touch"
+            className="px-4"
             onClick={() => selectRegion(null)}
           >
             전국 보기
@@ -257,8 +260,9 @@ function RegionOption({
     <Button
       variant="outline"
       aria-pressed={selected}
+      size="touch"
       className={cn(
-        "h-auto min-h-12 flex-wrap justify-between px-3 py-2 text-lg whitespace-normal",
+        "flex-wrap justify-between px-3",
         selected && "border-primary text-primary",
       )}
       onClick={onSelect}

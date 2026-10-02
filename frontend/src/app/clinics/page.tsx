@@ -25,10 +25,7 @@ export default function ClinicsPage() {
           href={CLINIC_FINDER_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className={cn(
-            buttonVariants(),
-            "h-auto min-h-14 px-4 py-2 text-lg whitespace-normal",
-          )}
+          className={cn(buttonVariants({ size: "cta" }), "px-4")}
         >
           레즈메드 병원찾기 열기
           <ExternalLink data-icon="inline-end" aria-hidden />

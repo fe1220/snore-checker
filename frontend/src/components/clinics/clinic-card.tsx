@@ -26,7 +26,8 @@ export function ClinicCard({
   const tags = clinicTags(hospital)
 
   return (
-    <Card className="gap-3 px-4">
+    // 화면 밖 카드는 그리기를 건너뛴다. li에 주면 카드 테두리(ring)가 잘려서 카드 자체에 준다.
+    <Card className="gap-3 px-4 offscreen-skip">
       <div className="flex flex-col gap-1">
         <div className="flex items-baseline justify-between gap-2">
           <h2 className="min-w-0 text-lg font-semibold [overflow-wrap:anywhere]">
@@ -70,8 +71,8 @@ export function ClinicCard({
             href={`tel:${hospital.phone}`}
             onClick={() => track({ name: "clinic_call", ...params })}
             className={cn(
-              buttonVariants({ variant: "outline" }),
-              "h-auto min-h-12 flex-1 py-2 text-lg whitespace-normal",
+              buttonVariants({ variant: "outline", size: "touch" }),
+              "flex-1",
             )}
           >
             <Phone data-icon="inline-start" aria-hidden />
@@ -87,8 +88,8 @@ export function ClinicCard({
             track({ name: "clinic_click", ...params, target: link.target })
           }
           className={cn(
-            buttonVariants({ variant: "outline" }),
-            "h-auto min-h-12 flex-1 border-primary py-2 text-lg whitespace-normal text-primary",
+            buttonVariants({ variant: "outline", size: "touch" }),
+            "flex-1 border-primary text-primary",
           )}
         >
           {CLINIC_LINK_LABEL}
