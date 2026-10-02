@@ -23,12 +23,12 @@ import {
 } from "@/lib/hospitals"
 import { cn } from "cn"
 
-// 지역으로 보거나 내 주변 순으로 본다. 둘을 조합하지 않는다.
+// 지역으로 보거나 가까운 순으로 본다. 둘을 조합하지 않는다.
 type View =
   { kind: "region"; region: Region | null } | { kind: "nearby"; origin: Coords }
 
 const LOCATION_MESSAGES = {
-  denied: "위치 권한이 꺼져 있어요. 지역을 골라 주세요",
+  denied: "휴대폰에서 위치 사용 권한이 꺼져 있어요. 지역을 골라 주세요",
   failed: "위치를 확인할 수 없어요. 지역을 골라 주세요",
 }
 
@@ -132,7 +132,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             onClick={requestNearby}
           >
             <LocateFixed data-icon="inline-start" aria-hidden />
-            {locating ? "위치 확인 중…" : "내 주변 순으로 보기"}
+            {locating ? "위치 확인 중…" : "가까운 순"}
           </Button>
         </div>
         {locationError && (
@@ -187,7 +187,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
       ) : byRegion.length === 0 ? (
         <div className="flex flex-col items-center gap-3 py-12 text-center">
           <SearchX className="size-8 text-muted-foreground" aria-hidden />
-          <p className="text-lg">이 지역에는 아직 등록된 곳이 없어요</p>
+          <p className="text-lg">이 지역에는 아직 알려드릴 병원이 없어요</p>
           <Button
             variant="outline"
             className="h-auto min-h-12 px-4 py-2 text-lg whitespace-normal"

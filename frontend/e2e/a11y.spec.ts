@@ -137,6 +137,39 @@ function tooClose(list: Target[]) {
   return found
 }
 
+// 카드처럼 넘치는 부분을 숨기는 상자 밖으로 나간 글자를 찾는다. 가로 스크롤은 없는데 글자가 잘리는 경우다.
+function clippedText(page: Page) {
+  return page.evaluate(() => {
+    const found: string[] = []
+    const walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+    )
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      const text = node.textContent?.trim()
+      const el = node.parentElement
+      if (
+        !text ||
+        !el ||
+        el.closest("[aria-hidden='true'], [role='progressbar']")
+      )
+        continue
+      const range = document.createRange()
+      range.selectNodeContents(node)
+      const rect = range.getBoundingClientRect()
+      if (rect.width === 0) continue
+      for (let box = el.parentElement; box; box = box.parentElement) {
+        if (getComputedStyle(box).overflowX === "visible") continue
+        const limit = box.getBoundingClientRect()
+        if (rect.right > limit.right + 1 || rect.left < limit.left - 1)
+          found.push(`"${text.slice(0, 20)}"`)
+        break
+      }
+    }
+    return found
+  })
+}
+
 function hasHorizontalScroll(page: Page) {
   return page.evaluate(
     () =>
@@ -179,16 +212,22 @@ for (const screen of SCREENS) {
       expect(await hasHorizontalScroll(page)).toBe(false)
     })
 
-    for (const scale of [1.3, 2]) {
-      test(`글자 ${scale * 100}%에서 넘치지 않는다`, async ({ page }) => {
-        await open(page, screen)
-        await scaleText(page, scale)
-        expect(await hasHorizontalScroll(page)).toBe(false)
-        const spilled = (await targets(page))
-          .filter((t) => t.spill)
-          .map((t) => t.label)
-        expect(spilled).toEqual([])
-      })
+    for (const width of [375, 320]) {
+      for (const scale of [1.3, 2]) {
+        test(`폭 ${width}px, 글자 ${scale * 100}%에서 넘치거나 잘리지 않는다`, async ({
+          page,
+        }) => {
+          await page.setViewportSize({ width, height: 812 })
+          await open(page, screen)
+          await scaleText(page, scale)
+          expect(await hasHorizontalScroll(page)).toBe(false)
+          const spilled = (await targets(page))
+            .filter((t) => t.spill)
+            .map((t) => t.label)
+          expect(spilled).toEqual([])
+          expect(await clippedText(page)).toEqual([])
+        })
+      }
     }
   })
 }

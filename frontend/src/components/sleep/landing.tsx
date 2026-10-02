@@ -66,6 +66,13 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
             </li>
           ))}
         </ul>
+        {/* 고정 바에 두면 큰 글씨에서 본문을 많이 가려서 본문 끝에 둔다. */}
+        <Link
+          href="/privacy"
+          className="flex min-h-12 items-center text-base text-muted-foreground underline underline-offset-4"
+        >
+          개인정보처리방침 보기
+        </Link>
       </div>
       <div className="sticky bottom-0 flex flex-col gap-2 border-t bg-background p-4">
         <Link
@@ -76,12 +83,6 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
           )}
         >
           3분 무료진단 시작하기
-        </Link>
-        <Link
-          href="/privacy"
-          className="flex min-h-12 items-center justify-center text-base text-muted-foreground underline underline-offset-4"
-        >
-          개인정보처리방침 보기
         </Link>
       </div>
     </main>

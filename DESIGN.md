@@ -47,7 +47,7 @@
 | 성공 · 주의 · 위험 | `text-success` · `text-warning` · `text-destructive` |
 | 판정 막대 "검사 권유" 칸 | `bg-danger` |
 
-- 팔레트는 메타 광고 소재([meta-ads](docs/meta-ads.md))와 같다. 모든 화면이 남색 배경(`background`) + 크림 글자(`foreground`)이고, 노랑(`primary`)은 주요 버튼·선택 상태·강조 한 줄에만 쓴다. 밝은 테마는 없다.
+- 팔레트는 메타 광고 소재([meta-ads](docs/meta-ads/strategy.md))와 같다. 모든 화면이 남색 배경(`background`) + 크림 글자(`foreground`)이고, 노랑(`primary`)은 주요 버튼·선택 상태·강조 한 줄에만 쓴다. 밝은 테마는 없다.
 - 카드는 배경보다 한 단계 밝은 남색(`bg-card`)이다. 그림자와 그라데이션은 쓰지 않는다.
 - 판정 단계 막대는 초록(`success`) → 코랄(`warning`) → 빨강(`danger`)으로 신호 약함 · 상담 권유 · 검사 권유를 나타낸다. 노랑은 주요 버튼 색이라 판정에 쓰지 않는다.
 - `warning`(코랄)은 "상담 권유" 단계와 위험 막대에만 쓴다. 노랑과 섞어 쓰지 않는다.

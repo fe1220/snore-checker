@@ -70,15 +70,22 @@ function LevelMeter({ level }: { level: Level }) {
 }
 
 // 잠이 닿아 있는 영역별로 묶는다. 치료 효과가 확인된 것만 넣는다(출처 아코디언 참고).
+// 효과는 사람마다 달라서 모든 줄을 "~수 있어요"로 맞춘다. 연구 성격은 카드 아래 출처 줄에서 밝힌다.
+// 일반인이 바로 읽을 수 있는 숫자가 원문에 있는 항목(두통, 운전, 화장실)만 숫자를 넣는다.
+// 졸림·기분·성기능은 척도 점수만 있어 숫자를 넣지 않는다. 혈압은 평균 2~3mmHg로 작아 "조금"으로 둔다.
+// 관계(다툼)는 직접 근거가 없어 뺐다.
 const SELF_BENEFITS: { area: string; text: string }[] = [
-  { area: "잠", text: "깨지 않는 통잠" },
-  { area: "머리", text: "덜 졸리고 집중이 잘 돼요" },
-  { area: "기분", text: "짜증이 줄어요" },
-  { area: "운전", text: "사고 위험이 약 70% 줄어요" },
-  { area: "관계", text: "다툼이 줄어요" },
-  { area: "혈압", text: "높았다면 조금 내려가요" },
-  { area: "화장실", text: "자다가 덜 가요" },
-  { area: "성기능", text: "나아질 수 있어요" },
+  { area: "잠", text: "밤새 깨지 않고 푹 잘 수 있어요" },
+  { area: "머리", text: "낮에 덜 졸리고 집중이 잘 될 수 있어요" },
+  { area: "두통", text: "아침 두통을 겪는 비율이 53%에서 16%로 줄 수 있어요" },
+  { area: "기분", text: "우울감이 개선되고 짜증이 줄 수 있어요" },
+  { area: "운전", text: "사고 위험이 약 70% 줄 수 있어요" },
+  { area: "혈압", text: "혈압이 조금 내려갈 수 있어요" },
+  {
+    area: "화장실",
+    text: "밤에 깨서 가는 횟수가 2.5번에서 1번 아래로 줄 수 있어요",
+  },
+  { area: "성기능", text: "성기능이 개선될 수 있어요" },
 ]
 
 const STEPS = [
@@ -298,9 +305,12 @@ export function Report({
             </div>
           ))}
         </dl>
-        <Source>사고 위험 · 치료 전후 비교 연구 (Tregear 2010)</Source>
+        <Source>
+          사고 위험 Tregear 2010 · 아침 두통 Seo 2023 · 화장실 Margel 2006, 모두
+          치료 전후 비교 연구
+        </Source>
         <Separator className="my-1" />
-        <p className="font-semibold">함께 자는 사람도 더 깊이 자요</p>
+        <p className="font-semibold">함께 자는 사람도 더 잘 자요</p>
         <p className="text-muted-foreground">
           코골이 소리에 깨지 않고 잘 수 있어요.
         </p>
@@ -314,7 +324,8 @@ export function Report({
           ]}
         />
         <Source>
-          함께 자는 사람의 수면 효율 · 부부 10쌍 소규모 연구 (Beninati 1999)
+          함께 자는 사람의 수면 효율(누워 있는 시간 중 실제로 잔 시간) · 부부
+          10쌍 소규모 연구 (Beninati 1999)
         </Source>
       </ReportCard>
 
@@ -371,11 +382,14 @@ export function Report({
             </AccordionTrigger>
             <AccordionContent className="text-base text-muted-foreground">
               교통사고 위험 Tregear 2009(JCSM) 메타분석, 심혈관 Marin
-              2005(Lancet), 배우자 수면 효율 Beninati 1999(Mayo Clin Proc), 낮
-              졸림 Cochrane 2006, 혈압 Bratton 2015(JAMA), 치료 후 사고 위험
+              2005(Lancet), 함께 자는 사람의 수면 효율 Beninati 1999(Mayo Clin
+              Proc, 10쌍), 낮 졸림 Giles 2006(Cochrane, 무작위 시험 메타분석),
+              혈압 Bratton 2015(JAMA, 무작위 시험 메타분석), 치료 후 사고 위험
               Tregear 2010(Sleep, 치료 전후 비교 연구 9개), 기분 Povitz
-              2014(PLoS Med), 야간뇨 Wang 2015(Int Neurourol J), 성기능 메타분석
-              2021(Clin Respir J), 증상·진단 기준 Kapur 2017(JCSM)
+              2014(PLoS Med, 무작위 시험 메타분석), 아침 두통 Seo 2023(Sci Rep,
+              국내 116명 관찰 연구), 야간뇨 Margel 2006(Urology, 97명 치료 전후
+              비교), 성기능 Yang 2021(Clin Respir J, 메타분석), 증상·진단 기준
+              Kapur 2017(JCSM)
             </AccordionContent>
           </AccordionItem>
         </Accordion>
