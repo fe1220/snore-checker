@@ -4,7 +4,6 @@ import {
   AnalyticsScripts,
 } from "@/components/analytics/analytics"
 import { Toaster } from "@/components/ui/sonner"
-import { Providers } from "./providers"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -25,7 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <AnalyticsScripts />
       </head>
       <body className="flex min-h-full flex-col font-sans">
-        <Providers>{children}</Providers>
+        {children}
         <Toaster />
         <AnalyticsPageView />
       </body>
