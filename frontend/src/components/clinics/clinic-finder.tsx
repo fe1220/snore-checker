@@ -116,7 +116,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
           >
             <span className="truncate tabular-nums">
               {view.kind === "region"
-                ? `${view.region ?? "전체"} · ${byRegion.length}곳`
+                ? `${view.region ?? "전국"} · ${byRegion.length}곳`
                 : "지역 선택"}
             </span>
             <ChevronDown data-icon="inline-end" aria-hidden />
@@ -157,7 +157,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
           </SheetHeader>
           <div className="grid grid-cols-2 gap-2 px-4 pb-4">
             <RegionOption
-              label="전체"
+              label="전국"
               count={items.length}
               selected={view.kind === "region" && view.region === null}
               onSelect={() => selectRegion(null)}
@@ -189,7 +189,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             className="h-11 px-4 text-base"
             onClick={() => selectRegion(null)}
           >
-            전체 보기
+            전국 보기
           </Button>
         </div>
       ) : selectedRegion === null ? (

@@ -56,7 +56,7 @@ export function listRegions(
   })).filter((r) => r.count > 0)
 }
 
-// 지역 순서 → 주소 가나다순. 같은 시·군·구 병원이 모인다. region이 null이면 전체다.
+// 지역 순서 → 주소 가나다순. 같은 시·군·구 병원이 모인다. region이 null이면 전국이다.
 export function filterByRegion(
   items: Hospital[],
   region: Region | null,
@@ -70,7 +70,7 @@ export function filterByRegion(
     )
 }
 
-// "전체" 보기에서 시·도 소제목 아래에 묶어 보여줄 때 쓴다.
+// "전국" 보기에서 시·도 소제목 아래에 묶어 보여줄 때 쓴다.
 export function groupByRegion(
   items: Hospital[],
 ): { region: Region; items: Hospital[] }[] {
