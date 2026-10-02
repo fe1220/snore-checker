@@ -29,11 +29,7 @@ export function ShareButton({ path }: { path: string }) {
   }
 
   return (
-    <Button
-      variant="ghost"
-      className="h-auto min-h-12 w-full py-2 text-lg whitespace-normal"
-      onClick={share}
-    >
+    <Button variant="ghost" size="touch" className="w-full" onClick={share}>
       <Share2 data-icon="inline-start" aria-hidden />
       리포트 보내기
     </Button>

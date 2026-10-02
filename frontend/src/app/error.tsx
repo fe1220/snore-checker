@@ -9,10 +9,7 @@ export default function ErrorPage({ retry }: { retry: () => void }) {
       <p className="text-lg text-muted-foreground">
         잠시 뒤에 다시 눌러 주세요.
       </p>
-      <Button
-        className="h-auto min-h-14 px-6 py-2 text-lg whitespace-normal"
-        onClick={() => retry()}
-      >
+      <Button size="cta" className="px-6" onClick={() => retry()}>
         다시 시도
       </Button>
     </main>

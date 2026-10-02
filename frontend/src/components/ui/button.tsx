@@ -30,6 +30,10 @@ const buttonVariants = cva(
         "icon-sm":
           "size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg",
         "icon-lg": "size-9",
+        // 40~60대 대상 터치 영역(48px)과 주요 CTA(56px). 글자가 커져 줄이 바뀌어도 넘치지 않게 높이는 최소값으로 둔다.
+        touch:
+          "h-auto min-h-12 gap-1.5 px-2.5 py-2 text-lg whitespace-normal has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",
+        cta: "h-auto min-h-14 gap-1.5 px-2.5 py-2 text-lg whitespace-normal has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",
       },
     },
     defaultVariants: {

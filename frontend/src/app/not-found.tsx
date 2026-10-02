@@ -11,13 +11,7 @@ export default function NotFound() {
       <p className="text-lg text-muted-foreground">
         주소가 바뀌었거나 잘못 들어왔어요.
       </p>
-      <Link
-        href="/"
-        className={cn(
-          buttonVariants(),
-          "h-auto min-h-14 px-6 py-2 text-lg whitespace-normal",
-        )}
-      >
+      <Link href="/" className={cn(buttonVariants({ size: "cta" }), "px-6")}>
         처음으로 가기
       </Link>
     </main>
