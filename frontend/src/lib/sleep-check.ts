@@ -20,9 +20,9 @@ export const QUESTIONS: Question[] = [
   },
   { id: "drowsy-driving", text: "운전하다 조는 걸 본 적 있어요", strong: true },
   { id: "sleepy", text: "앉아 있거나 TV를 보면 금방 졸아요" },
-  { id: "pressure", text: "고혈압이 있어요" },
-  { id: "age", text: "50세 이상이에요" },
-  { id: "body", text: "최근 몇 년 사이 체중이 늘었어요" },
+  { id: "pressure", text: "남편에게 고혈압이 있어요" },
+  { id: "age", text: "남편이 50세 이상이에요" },
+  { id: "body", text: "남편이 최근 몇 년 사이 체중이 늘었어요" },
 ]
 
 // 리포트 주소에는 "네"라고 답한 문항만 코드로 담고, 단계는 항상 여기서 다시 계산한다.
@@ -82,6 +82,6 @@ export const LEVEL_COPY: Record<
   weak: {
     chip: "신호 약함",
     title: "지금은 걱정 신호가 적어요",
-    body: "그래도 걱정된다면 상담은 언제든 괜찮아요.",
+    body: "그래도 걱정되면 언제든 상담받아 보세요.",
   },
 }

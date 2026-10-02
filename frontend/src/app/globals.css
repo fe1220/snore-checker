@@ -65,28 +65,28 @@
   --secondary: oklch(0.357 0.08 273);
   --secondary-foreground: oklch(0.981 0.018 81);
   --muted: oklch(0.357 0.08 273);
-  --muted-foreground: oklch(0.755 0.038 277);
+  --muted-foreground: oklch(0.82 0.038 277);
   --accent: oklch(0.357 0.08 273);
   --accent-foreground: oklch(0.981 0.018 81);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.981 0.018 81 / 14%);
+  --destructive: oklch(0.82 0.11 22.216);
+  --border: oklch(0.981 0.018 81 / 20%);
   --input: oklch(0.981 0.018 81 / 28%);
   --ring: oklch(0.881 0.116 91);
   --chart-1: oklch(0.881 0.116 91);
-  --chart-2: oklch(0.741 0.133 38);
-  --chart-3: oklch(0.755 0.038 277);
+  --chart-2: oklch(0.84 0.133 38);
+  --chart-3: oklch(0.82 0.038 277);
   --chart-4: oklch(0.399 0.083 274);
   --chart-5: oklch(0.357 0.08 273);
   --radius: 0.75rem;
   --success: oklch(0.81 0.092 156);
-  --warning: oklch(0.741 0.133 38);
+  --warning: oklch(0.84 0.133 38);
   --sidebar: oklch(0.309 0.072 274);
   --sidebar-foreground: oklch(0.981 0.018 81);
   --sidebar-primary: oklch(0.881 0.116 91);
   --sidebar-primary-foreground: oklch(0.261 0.062 274);
   --sidebar-accent: oklch(0.357 0.08 273);
   --sidebar-accent-foreground: oklch(0.981 0.018 81);
-  --sidebar-border: oklch(0.981 0.018 81 / 14%);
+  --sidebar-border: oklch(0.981 0.018 81 / 20%);
   --sidebar-ring: oklch(0.881 0.116 91);
 }
 
@@ -105,5 +105,16 @@
   h1,
   h2 {
     text-wrap: balance;
+  }
+  /* "동작 줄이기"를 켠 사람에게는 전환 효과를 보여주지 않는다. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
