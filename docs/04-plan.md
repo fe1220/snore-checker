@@ -1305,3 +1305,32 @@ git add docs/05-verification.md docs/troubleshooting.md
 git commit -m "docs: record sleep clinic list verification results"
 git push
 ```
+
+---
+
+## 검증 후 수정 (1차 검증에서 나온 것)
+
+[05-verification](05-verification.md#체크리스트-밖에서-발견한-것)의 F1·F2·F3·F5다. F4(320px)와 새 접근성 기준은 전 화면 접근성 작업에서 함께 한다.
+
+| # | 작업 | 담당 | 소유 파일 | 의존 |
+|---|---|---|---|---|
+| 6 | 지역번호 없는 전화번호에 지역번호 붙이기 (F1) | data-implementer | `crawler/`, `frontend/src/data/` | - |
+| 7a | `groupByRegion` 추가 | 메인 | `frontend/src/lib/hospitals*.ts` | - |
+| 7b | 긴 병원명 줄바꿈(F2), 시트 닫기 버튼(F3), "전체" 보기 시·도 소제목(F5) | frontend-implementer | `frontend/src/components/clinics/` | 7a |
+
+### 작업 6: 지역번호 붙이기
+
+- `crawler/src/sources/resmed.ts`: 시·도별 지역번호 표(서울 02, 경기 031, 인천 032, 부산 051, 대구 053, 광주 062, 대전 042, 울산 052, 세종 044, 강원 033, 충북 043, 충남 041, 전북 063, 전남 061, 경북 054, 경남 055, 제주 064)를 두고, 전화번호가 `/^\d{3,4}-\d{4}$/`이면서 `/^1\d{3}-/`(대표번호)이 아니면 `{지역번호}-{번호}`로 바꾼다. 그 밖의 번호는 그대로 둔다.
+- 테스트(`resmed.test.ts`): 지역번호 없는 번호 → 붙음, 대표번호 `1577-0083` → 그대로, 이미 지역번호가 있는 번호 → 그대로, `0507-` 번호 → 그대로.
+- `make crawl`로 다시 수집한다. 기대: 지역번호 없는 번호 0건, 전화번호 없음 2건, 337건.
+- 커밋: `fix: add the area code to clinic phone numbers that lack one`
+
+### 작업 7: 화면 수정
+
+- 7a `groupByRegion(items): { region: Region; items: Hospital[] }[]` — 병원이 있는 지역만 정해진 순서로, 지역 안은 주소 가나다순. vitest 추가.
+- 7b
+  - `clinic-card.tsx`: 병원명 `h2`에 `min-w-0 [overflow-wrap:anywhere]`. 360px에서 `busancoent` 카드의 제목과 거리가 카드 안에 들어오는지 확인한다.
+  - `clinic-finder.tsx`: `SheetContent`에 `showCloseButton={false}`, 시트 머리말 오른쪽에 `aria-label="닫기"`인 `size-11` ghost 버튼(lucide `X`). `components/ui/sheet.tsx`는 고치지 않는다.
+  - `clinic-finder.tsx`: 지역 방식이고 지역이 "전체"일 때만 `groupByRegion`으로 묶어 지역마다 소제목 `h2`("서울" + 보조색 "81곳", `text-lg font-semibold`)와 그 아래 카드 목록을 그린다. 이때 카드 제목은 소제목 아래 단계가 되도록 `ClinicCard`에 `headingLevel`을 두지 않고, 소제목이 있는 보기에서도 카드 제목 태그는 그대로 둔다(보기마다 태그가 달라지지 않게).
+- 커밋: `fix: wrap long clinic names, label the sheet close button, and group the full list by region`
+- 끝나면 `make gate`와 05의 V5~V9를 다시 확인하고 05에 2차 결과를 적는다.
