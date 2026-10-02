@@ -2,76 +2,39 @@
 
 > 과제 개요와 문제 정의는 [docs/01-problem-definition.md](docs/01-problem-definition.md)에 있습니다.
 
-## 사전 준비
+- 서비스 링크: (배포 후 추가)
 
-Python 3.12+, Node.js 20+, pnpm이 필요합니다. `make setup`이 먼저 확인하고, 없으면 설치 방법을 안내합니다.
+## 로컬 실행
 
-이미 있다면 건너뛰세요. 없다면 macOS 기준으로 [Homebrew](https://brew.sh)를 설치한 뒤 실행합니다.
-
-```bash
-brew install python@3.13 node
-corepack enable pnpm
-```
-
-## 빠르게 실행하기
+Node.js 20+, pnpm이 필요합니다 (`corepack enable pnpm`).
 
 ```bash
-git clone https://github.com/fe1220/next-django-assignment.git
-cd next-django-assignment
-make setup   # 의존성 설치, 환경변수 파일 생성, DB 마이그레이션
-make dev     # 백엔드 + 프론트 동시 실행 (Ctrl+C로 종료)
+make setup   # 의존성 설치, frontend/.env.local 생성
+make dev     # http://localhost:3000
 ```
 
-| 주소 | 내용 |
-|---|---|
-| http://localhost:3000 | 웹 화면 |
-| http://localhost:8000/api/docs/ | API 문서 (Swagger) |
-| http://localhost:8000/admin/ | 관리자 (`backend/.venv/bin/python backend/manage.py createsuperuser`로 계정 생성) |
-
-별도 DB 설치 없이 SQLite로 바로 실행됩니다.
-
-## Postgres로 실행하기 (선택)
-
-운영과 같은 환경으로 확인하려면 Docker(또는 OrbStack)가 필요합니다.
-
-```bash
-make db-up   # Postgres 컨테이너 실행
-```
-
-`backend/.env`에서 `DATABASE_URL` 줄의 주석을 해제한 뒤 마이그레이션합니다.
-
-```bash
-backend/.venv/bin/python backend/manage.py migrate
-```
+`frontend/.env.local`에 Supabase 프로젝트의 URL과 publishable key를 넣습니다.
 
 ## 검증
 
 ```bash
-make gate    # 백엔드 린트·마이그레이션·테스트·API 스키마 + 프론트 타입체크·린트
+make gate    # 프론트 타입체크·린트·포맷·빌드
 ```
 
 ## 문서
 
 | 문서 | 내용 |
 |---|---|
+| [docs/00-assignment.pdf](docs/00-assignment.pdf) | 과제 원문 |
 | [docs/01-problem-definition.md](docs/01-problem-definition.md) | 문제 정의, 목표, 스코프 |
 | [docs/02-design-pass.md](docs/02-design-pass.md) | 화면 구조와 UX 결정 |
-| [docs/03-tech-spec.md](docs/03-tech-spec.md) | 데이터 모델, API 계약 |
+| [docs/03-tech-spec.md](docs/03-tech-spec.md) | 데이터 모델, 크롤링 대상 |
 | [docs/04-plan.md](docs/04-plan.md) | 구현 작업 분할 |
 | [docs/05-verification.md](docs/05-verification.md) | 검증 기준과 결과 |
+| [docs/tech-stack.md](docs/tech-stack.md) | 기술 스택 선택 근거 |
+| [docs/troubleshooting.md](docs/troubleshooting.md) | 주요 트러블슈팅 기록 |
 | [DESIGN.md](DESIGN.md) | 디자인 시스템 규칙 |
 
 ## 기술 스택
 
-- **Backend:** Django 5.2, Django REST Framework, drf-spectacular, pytest
-- **Frontend:** Next.js (App Router), Tailwind CSS v4, shadcn/ui, TanStack Query
-- **DB:** PostgreSQL 17 (로컬 기본값 SQLite)
-
-## 문제 해결
-
-| 증상 | 해결 |
-|---|---|
-| `Python 3.12+ 가 필요합니다` | `brew install python@3.13` 후 `make setup` 재실행 |
-| `pnpm: command not found` | `corepack enable pnpm` |
-| 3000/8000 포트 사용 중 | 사용 중인 프로세스 종료 후 `make dev` |
-| 화면에 "연결 실패" 표시 | 백엔드가 떠 있는지 확인 (http://localhost:8000/api/health/) |
+Next.js (App Router) · Tailwind CSS v4 · shadcn/ui · Supabase · GitHub Actions (크롤러) · Vercel

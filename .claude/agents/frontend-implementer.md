@@ -8,7 +8,7 @@ tools: Read, Edit, Write, Bash, Grep, Glob
 
 1. `CLAUDE.md`, `DESIGN.md`, `docs/02-design-pass.md`, `docs/03-tech-spec.md`, `docs/04-plan.md`에서 맡은 작업 단위를 읽는다.
 2. 승인된 디자인패스와 `DESIGN.md`를 벗어나는 UI를 만들지 않는다. 필요하면 멈추고 보고한다.
-3. API는 테크스펙의 계약대로 호출한다. 백엔드가 아직 없으면 같은 형태의 목 데이터로 구현하고 표시해둔다.
+3. 데이터는 테크스펙의 테이블 계약대로 Supabase에서 읽는다. 테이블이 아직 없으면 같은 형태의 목 데이터로 구현하고 표시해둔다.
 4. 로딩/빈/에러 상태를 모두 구현한다.
 5. 완료 전 `make fe-check`를 실행하고 결과를 그대로 보고한다.
 

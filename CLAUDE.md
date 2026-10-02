@@ -22,14 +22,16 @@
 
 ## 이 프로젝트의 맥락
 
-- 엔지니어 과제다. 평가 포인트는 **비즈니스 임팩트를 고려한 문제 정의**와 **UX 완성도**다. 백엔드는 기본 설계 원칙을 지킨 깔끔함이 목표이며, 과한 추상화는 감점 요소다.
+- 엔지니어 과제다(원문: `docs/00-assignment.pdf`). 평가 포인트는 **비즈니스 임팩트를 고려한 문제 정의**와 **UX 완성도**다. 과한 추상화는 감점 요소다.
+- 필수 제출물: 배포 링크, 문제 정의·기획 과정, 트러블슈팅 기록. 크롤링한 실제 상품·콘텐츠에서 원 페이지로 가는 외부 링크가 반드시 있어야 한다. 트러블슈팅은 겪은 즉시 `docs/troubleshooting.md`에 남긴다.
+- 스택은 Next.js(Vercel) + Supabase + 크롤러(GitHub Actions)다. 근거는 `docs/tech-stack.md`. 별도 백엔드 서버를 만들지 않는다.
 - 작업 순서: `docs/01-problem-definition` → `02-design-pass` → `03-tech-spec` → `04-plan` → 구현 → `05-verification`. 앞 단계 문서가 승인되기 전에 다음 단계로 넘어가지 않는다.
-- 단계별 스킬: 스펙은 superpowers `brainstorming` → `writing-plans`, 병렬 구현은 `subagent-driven-development` + `.claude/agents/*-implementer`, 검증은 `/gate` → `verifier` → gstack `/qa`. 스킬이 없는 환경이면 `make setup-agent`를 안내하고, 설치 전까지는 같은 순서를 수동으로 따른다.
+- 단계별 스킬: 스펙은 superpowers `brainstorming` → `writing-plans`, 병렬 구현은 `subagent-driven-development` + `.claude/agents/*-implementer`, 검증은 `/gate` → `verifier` + `design-reviewer` → gstack `/qa`. 스킬이 없는 환경이면 `make setup-agent`를 안내하고, 설치 전까지는 같은 순서를 수동으로 따른다.
 - 스킬 산출물은 스킬 기본 경로가 아니라 위 `docs/` 파일에 저장한다.
 - 1인 48시간 과제라 브랜치·PR 없이 메인 체크아웃에서 `main`에 직접 커밋한다. `04-plan` 작업 단위마다 커밋 1개, 푸시 전 `make gate` 통과 필수.
-- 워크트리를 만들지 않는다. implementer 서브에이전트도 메인 체크아웃에서 병렬 실행한다. 워크트리마다 `.venv`·`node_modules` 셋업이 필요하고 Postgres 5432 포트가 겹친다. 공통 파일(`config/`, `apps/core/`)은 메인 세션이 수정한다.
+- 워크트리를 만들지 않는다. implementer 서브에이전트도 메인 체크아웃에서 병렬 실행한다. 워크트리마다 `node_modules` 셋업이 필요하다. 공통 파일(`frontend/src/lib/`, 루트 설정)은 메인 세션이 수정한다.
 - PRD와 테크스펙은 **`docs/`에만** 작성한다. 이 과제에서는 Linear 티켓을 만들거나 수정하지 않는다. 전역 워크플로우보다 이 규칙이 우선한다.
-- 개발 DB는 Postgres(`make db-up` 후 `backend/.env`의 `DATABASE_URL` 설정)다. SQLite 기본값은 Docker 없는 평가자 환경용 폴백이므로, 기능은 Postgres 기준으로 만들되 SQLite에서도 깨지지 않게 한다.
+- Supabase 원격 프로젝트 하나를 개발·운영에 같이 쓴다. 스키마 변경은 `supabase/migrations/` SQL 파일로만 하고, 적용은 Supabase MCP `apply_migration`으로 한다. `service_role` 키는 크롤러(GitHub Secrets)에서만 쓰고 프론트에 노출하지 않는다.
 - 프론트 포맷은 Prettier(`semi: false`, Tailwind 클래스 정렬)이고 수정 시 훅이 자동 적용한다. `shadcn add`처럼 CLI가 만든 파일은 훅이 안 도니 `pnpm --dir frontend format`을 실행한다.
 - `frontend`의 `import { cn } from "cn"`은 최신 shadcn의 정식 방식이다. clsx + tailwind-merge로 바꾸지 않는다.
 
@@ -37,5 +39,5 @@
 
 - UI 작업 전에 반드시 `DESIGN.md`를 읽는다. 원시 색상값(`bg-blue-500`, hex)과 임의 간격을 쓰지 않는다.
 - 데이터를 보여주는 모든 영역에 로딩, 빈 상태, 에러 상태를 구현한다. 정상 상태만 만들고 끝내지 않는다.
-- 모델을 변경하면 같은 작업 안에서 마이그레이션을 생성한다.
+- 스키마를 바꾸면 같은 작업 안에서 마이그레이션 파일을 만들고 RLS 정책도 함께 둔다.
 - 완료를 보고하기 전에 해당 범위의 테스트, 린트, 타입 체크를 실제로 실행하고 결과를 확인한다.

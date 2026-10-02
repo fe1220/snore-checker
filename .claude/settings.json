@@ -6,12 +6,6 @@
   "permissions": {
     "allow": [
       "Bash(make:*)",
-      "Bash(backend/.venv/bin/python manage.py:*)",
-      "Bash(backend/.venv/bin/pytest:*)",
-      "Bash(backend/.venv/bin/ruff:*)",
-      "Bash(.venv/bin/python manage.py:*)",
-      "Bash(.venv/bin/pytest:*)",
-      "Bash(.venv/bin/ruff:*)",
       "Bash(pnpm --dir frontend:*)",
       "Bash(pnpm exec tsc:*)",
       "Bash(pnpm lint:*)",
@@ -24,7 +18,6 @@
       "Bash(git push:*)",
       "Bash(git reset:*)",
       "Bash(rm -rf:*)",
-      "Bash(pip install:*)",
       "Bash(pnpm add:*)"
     ]
   },
@@ -33,14 +26,11 @@
       {
         "matcher": "Edit|Write|MultiEdit",
         "hooks": [
-          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py-format.sh" },
-          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/fe-format.sh" }
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/fe-format.sh"
+          }
         ]
-      }
-    ],
-    "Stop": [
-      {
-        "hooks": [{ "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/backend-gate.sh", "timeout": 120 }]
       }
     ]
   }
