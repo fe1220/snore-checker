@@ -1,6 +1,14 @@
-import { findMatch } from "./match.ts"
+import { createHash } from "node:crypto"
+
+import { coreName, findMatch, normalizeName, normalizePhone } from "./match.ts"
 import { type HiraItem, inKorea } from "./sources/hira.ts"
-import type { Hospital, Region } from "./sources/resmed.ts"
+import { type Region, type ResmedHospital, withAreaCode } from "./sources/resmed.ts"
+
+export type Hospital = Omit<ResmedHospital, "sourceUrl"> & {
+  // 레즈메드 상세 페이지. 공공 데이터에만 있는 병원은 원 페이지가 없어 null
+  sourceUrl: string | null
+  homepage: string | null
+}
 
 const REGION_BY_SIDO: Record<string, Region> = {
   서울: "서울", 서울특별시: "서울",
@@ -52,42 +60,124 @@ export function distanceKm(a: Point, b: Point): number {
 // 레즈메드 원본에 여러 병원 이름이 한 칸에 이어 붙은 병원이 있다. 정상 이름 중 가장 긴 것이 30자 안쪽이다.
 const MAX_NAME_LENGTH = 40
 
+// 스냅샷 홈페이지 칸은 "www.knping.com"처럼 스킴 없이 적힌 값이 섞여 있다. 링크로 열 수 없는 값은 버린다.
+export function normalizeHomepage(value: string | null): string | null {
+  const text = value?.trim() ?? ""
+  if (text === "") return null
+  const withScheme = /^[a-z][a-z0-9+.-]*:/i.test(text) ? text : `https://${text}`
+  if (!URL.canParse(withScheme)) return null
+  const url = new URL(withScheme)
+  if (url.protocol !== "http:" && url.protocol !== "https:") return null
+  if (!url.hostname.includes(".")) return null
+  return withScheme
+}
+
+// 수면다원검사를 받으러 가는 곳으로 안내할 수 있는 종류만 추가한다. 치과병원·정신병원 등은 뺀다.
+const ADDABLE_KINDS = new Set(["의원", "병원", "종합병원", "상급종합"])
+
+function hiraId(ykiho: string): string {
+  return `hira-${createHash("sha256").update(ykiho).digest("hex").slice(0, 10)}`
+}
+
+// 시·도 표기가 출처마다 갈려 약칭으로 바꾼 뒤 시·군·구를 붙인다. 세종시는 시·군·구가 없다.
+function districtOf(address: string): string {
+  const tokens = address.trim().split(/\s+/)
+  if (tokens[0] === "대한민국") tokens.shift()
+  const region = regionOf(address)
+  return region === "세종" ? region : `${region} ${tokens[1]}`
+}
+
+function fromSnapshot(item: HiraItem): Hospital {
+  const region = regionOf(item.address)
+  return {
+    id: hiraId(item.ykiho),
+    name: item.name,
+    region,
+    address: item.address,
+    phone: item.phone === null ? null : withAreaCode(item.phone, region),
+    lat: item.lat,
+    lng: item.lng,
+    sourceUrl: null,
+    homepage: normalizeHomepage(item.homepage),
+  }
+}
+
+// 맞추기 규칙으로는 못 맞췄지만 같은 병원일 수 있는 경우(이름이 "온종합병원"↔"온병원"으로 바뀜 등).
+// 둘 다 올리면 같은 병원이 두 번 나오므로, 이런 스냅샷 병원은 추가하지 않고 로그로 확인한다.
+function mayBeSame(hospital: Hospital, candidate: Hospital): boolean {
+  // 같은 번호를 쓰는 다른 구의 병원이 있어(광주 남구 이비인후과 ↔ 동구 정신건강의학과) 시·군·구가 같을 때만 본다
+  if (districtOf(hospital.address) !== districtOf(candidate.address)) return false
+  const phone = normalizePhone(hospital.phone)
+  if (phone !== "" && phone === normalizePhone(candidate.phone)) return true
+  // "온종합병원"↔"온병원"은 정리한 이름끼리는 서로 품지 않아, 진료과·기관 종류·"종합"을 지운 부분도 본다
+  const core = (name: string) => coreName(name).replace("종합", "")
+  return contains(normalizeName(hospital.name), normalizeName(candidate.name)) || contains(core(hospital.name), core(candidate.name))
+}
+
+function contains(a: string, b: string): boolean {
+  return a !== "" && b !== "" && (a.includes(b) || b.includes(a))
+}
+
 export type MergeResult = {
   hospitals: Hospital[]
   matched: { hospital: Hospital; movedKm: number }[]
   unmatched: Hospital[]
+  added: Hospital[]
+  possibleDuplicates: { hospital: Hospital; item: HiraItem }[]
+  skippedKind: HiraItem[]
 }
 
 // 레즈메드 좌표는 다른 도시를 가리키는 곳이 있어 공공 데이터 좌표로 바꾼다. 원 페이지 링크와 나머지 값은 레즈메드 것을 둔다.
-export function merge(resmed: Hospital[], snapshot: HiraItem[]): MergeResult {
-  const result: MergeResult = { hospitals: [], matched: [], unmatched: [] }
+// 레즈메드 목록에 없는 수면다원검사 실시기관은 스냅샷 값으로 추가한다.
+export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResult {
+  const result: MergeResult = { hospitals: [], matched: [], unmatched: [], added: [], possibleDuplicates: [], skippedKind: [] }
+  const used = new Set<HiraItem>()
 
   for (const original of resmed) {
     const region = regionOf(original.address)
     const found = findMatch(original, snapshot)
 
     if (!found) {
-      const hospital = { ...original, region }
+      const hospital = { ...original, region, homepage: null }
       result.hospitals.push(hospital)
       result.unmatched.push(hospital)
       continue
     }
 
+    used.add(found)
     const hospital = {
       ...original,
       name: original.name.length > MAX_NAME_LENGTH ? found.name : original.name,
       region,
       lat: found.lat,
       lng: found.lng,
+      homepage: normalizeHomepage(found.homepage),
     }
     result.hospitals.push(hospital)
     result.matched.push({ hospital, movedKm: distanceKm(original, found) })
+  }
+
+  for (const item of snapshot) {
+    if (used.has(item)) continue
+    if (!ADDABLE_KINDS.has(item.kind)) {
+      result.skippedKind.push(item)
+      continue
+    }
+    const hospital = fromSnapshot(item)
+    const same = result.unmatched.find((h) => mayBeSame(h, hospital))
+    if (same) {
+      result.possibleDuplicates.push({ hospital: same, item })
+      continue
+    }
+    result.hospitals.push(hospital)
+    result.added.push(hospital)
   }
 
   return result
 }
 
 const SOURCE_URL_PREFIX = "https://www.resmed.kr/psg-finder/"
+const HIRA_ID_PREFIX = "hira-"
 
 // 저장 직전 마지막 확인. 하나라도 어긋나면 저장하지 않아 이전 데이터가 남는다.
 export function assertValid(hospitals: Hospital[]): void {
@@ -97,7 +187,12 @@ export function assertValid(hospitals: Hospital[]): void {
     for (const field of ["id", "name", "region", "address"] as const) {
       if (typeof h[field] !== "string" || h[field].trim() === "") throw new Error(`${label}: ${field}가 비었습니다`)
     }
-    if (h.sourceUrl !== `${SOURCE_URL_PREFIX}${h.id}`) throw new Error(`${label}: sourceUrl이 원 페이지 주소가 아닙니다`)
+    // 레즈메드 병원은 원 페이지 링크가 반드시 있고, 공공 데이터에만 있는 병원은 없다
+    const expectedSourceUrl = h.id.startsWith(HIRA_ID_PREFIX) ? null : `${SOURCE_URL_PREFIX}${h.id}`
+    if (h.sourceUrl !== expectedSourceUrl) throw new Error(`${label}: sourceUrl이 원 페이지 주소가 아닙니다`)
+    if (h.homepage !== null && normalizeHomepage(h.homepage) !== h.homepage) {
+      throw new Error(`${label}: homepage가 http(s) 주소가 아닙니다 (${h.homepage})`)
+    }
     if (!inKorea(h.lat, h.lng)) throw new Error(`${label}: 좌표가 한국 범위 밖입니다 (${h.lat}, ${h.lng})`)
     if (seen.has(h.id)) throw new Error(`${label}: id가 겹칩니다`)
     seen.add(h.id)

@@ -17,6 +17,11 @@ export function normalizeName(name: string): string {
 // "종합"·"요양"은 같은 법인의 다른 기관을 가르는 말이라 지우지 않는다.
 const GENERIC_WORDS = /이비인후과|정신건강의학과|소아청소년과|가정의학과|성형외과|신경외과|신경과|내과|외과|의원|병원/g
 
+// 정리한 이름에서 진료과와 기관 종류를 지운 고유한 부분
+export function coreName(name: string): string {
+  return normalizeName(name).replace(GENERIC_WORDS, "")
+}
+
 function bigrams(text: string): string[] {
   if (text.length < 2) return [text]
   return Array.from({ length: text.length - 1 }, (_, i) => text.slice(i, i + 2))

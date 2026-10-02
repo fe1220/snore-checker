@@ -9,7 +9,12 @@ type Event =
   | { name: "check_start" }
   | { name: "check_complete"; level: string }
   | { name: "share_click" }
-  | { name: "clinic_click"; hospital_id: string; region: string }
+  | {
+      name: "clinic_click"
+      hospital_id: string
+      region: string
+      target: "resmed" | "homepage" | "map"
+    }
   | { name: "clinic_call"; hospital_id: string; region: string }
   | { name: "clinic_nearby"; result: "granted" | "denied" | "failed" }
 

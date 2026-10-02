@@ -6,7 +6,7 @@ export type Region =
   | "서울" | "경기" | "인천" | "부산" | "대구" | "광주" | "대전" | "울산" | "세종"
   | "강원" | "충북" | "충남" | "전북" | "전남" | "경북" | "경남" | "제주"
 
-export type Hospital = {
+export type ResmedHospital = {
   id: string
   name: string
   region: Region
@@ -58,8 +58,8 @@ function pick(block: string, pattern: RegExp): string | null {
 
 // 병원 하나는 `var html = "..."` 문자열과 바로 뒤 `locations.push({...})` 한 쌍이다.
 // HTML이 JS 문자열 안에 있어 따옴표가 \" 로 적혀 있다.
-export function parse(html: string): Hospital[] {
-  const hospitals: Hospital[] = []
+export function parse(html: string): ResmedHospital[] {
+  const hospitals: ResmedHospital[] = []
 
   for (const chunk of html.split("var html = ").slice(1)) {
     const end = chunk.indexOf("});")
@@ -98,6 +98,6 @@ export function parse(html: string): Hospital[] {
   return hospitals
 }
 
-export async function crawl(): Promise<Hospital[]> {
+export async function crawl(): Promise<ResmedHospital[]> {
   return parse(await fetchText(LIST_URL))
 }

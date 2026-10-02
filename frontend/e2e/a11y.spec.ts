@@ -76,12 +76,13 @@ function smallText(page: Page, min: number) {
 }
 
 // 문장 안의 글자 링크(display: inline)는 터치 영역 검사에서 뺀다.
+// 시트가 열려 있으면 뒤에 가려진 화면은 누를 수 없으니 시트 안만 잰다.
 function targets(page: Page) {
   return page.evaluate(() =>
     [
-      ...document.querySelectorAll<HTMLElement>(
-        "a[href], button, [role='button']",
-      ),
+      ...(
+        document.querySelector<HTMLElement>("[role='dialog']") ?? document
+      ).querySelectorAll<HTMLElement>("a[href], button, [role='button']"),
     ]
       .filter((el) => {
         const rect = el.getBoundingClientRect()

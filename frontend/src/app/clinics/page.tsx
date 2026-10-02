@@ -4,6 +4,7 @@ import { buttonVariants } from "@/components/ui/button"
 import {
   CLINIC_FINDER_URL,
   formatCrawledAt,
+  formatHiraVersion,
   getHospitalData,
 } from "@/lib/hospitals"
 import { cn } from "cn"
@@ -11,7 +12,7 @@ import { cn } from "cn"
 export const metadata = { title: "근처 수면클리닉" }
 
 export default function ClinicsPage() {
-  const { crawledAt, items } = getHospitalData()
+  const { crawledAt, hiraVersion, items } = getHospitalData()
 
   // 수집 데이터가 비었을 때만 원 페이지로 대신 안내한다.
   if (items.length === 0) {
@@ -41,8 +42,10 @@ export default function ClinicsPage() {
       <header className="flex flex-col gap-1">
         <h1 className="text-2xl font-bold">근처 수면클리닉</h1>
         <p className="text-base text-muted-foreground">
-          레즈메드 병원찾기 · {formatCrawledAt(crawledAt)} 수집
+          레즈메드 병원찾기 · 건강보험심사평가원{" "}
+          {formatHiraVersion(hiraVersion)} · {formatCrawledAt(crawledAt)} 수집
         </p>
+        <p className="text-base">방문 전에 전화로 확인해 주세요.</p>
       </header>
       <ClinicFinder items={items} />
     </main>

@@ -1,7 +1,10 @@
 import { describe, expect, it } from "vitest"
 
 import {
+  clinicLink,
   distanceKm,
+  formatHiraVersion,
+  mapSearchUrl,
   filterByRegion,
   formatCrawledAt,
   formatDistance,
@@ -28,8 +31,44 @@ function hospital(
     lat,
     lng,
     sourceUrl: `https://www.resmed.kr/psg-finder/${id}`,
+    homepage: null,
   }
 }
+
+describe("clinicLink", () => {
+  const base = hospital("seoul-a", "서울", "서울특별시 강남구 논현로 1", 0, 0)
+
+  it("레즈메드 상세 페이지가 있으면 그쪽으로 보낸다", () => {
+    const link = clinicLink({ ...base, homepage: "https://a.kr" })
+    expect(link.target).toBe("resmed")
+    expect(link.href).toBe(base.sourceUrl)
+    expect(link.label).toBe("병원 정보 보기")
+  })
+
+  it("공공 데이터에만 있으면 홈페이지, 없으면 지도 검색으로 보낸다", () => {
+    const onlyHira = { ...base, id: "hira-abc", sourceUrl: null }
+    expect(clinicLink({ ...onlyHira, homepage: "https://a.kr" })).toEqual({
+      target: "homepage",
+      href: "https://a.kr",
+      label: "병원 홈페이지 보기",
+    })
+    const map = clinicLink(onlyHira)
+    expect(map.target).toBe("map")
+    expect(map.label).toBe("지도에서 보기")
+    expect(map.href).toBe(mapSearchUrl(onlyHira))
+  })
+
+  it("지도 검색어에 병원명과 시·군·구를 넣는다", () => {
+    expect(decodeURIComponent(mapSearchUrl(base))).toBe(
+      "https://map.naver.com/p/search/seoul-a의원 강남구",
+    )
+  })
+
+  it("공공 데이터 기준 시점을 읽기 쉽게 바꾼다", () => {
+    expect(formatHiraVersion("2026.6")).toBe("2026년 6월")
+    expect(formatHiraVersion("2026.12")).toBe("2026년 12월")
+  })
+})
 
 const ITEMS = [
   hospital("busan", "부산", "부산광역시 해운대구 좌동로 1", 35.17, 129.17),
@@ -123,10 +162,14 @@ describe("getHospitalData", () => {
   it("수집 데이터가 계약을 지킨다", () => {
     const { crawledAt, items } = getHospitalData()
     expect(Number.isNaN(Date.parse(crawledAt))).toBe(false)
-    expect(items.length).toBeGreaterThanOrEqual(300)
+    expect(items.length).toBeGreaterThanOrEqual(600)
     expect(new Set(items.map((h) => h.id)).size).toBe(items.length)
+    // 레즈메드 병원은 337곳 안팎이고 모두 원 페이지 링크가 있다(과제의 크롤링 외부 링크).
+    expect(items.filter((h) => h.sourceUrl).length).toBeGreaterThanOrEqual(300)
     for (const h of items) {
-      expect(h.sourceUrl).toBe(`https://www.resmed.kr/psg-finder/${h.id}`)
+      if (h.id.startsWith("hira-")) expect(h.sourceUrl).toBeNull()
+      else expect(h.sourceUrl).toBe(`https://www.resmed.kr/psg-finder/${h.id}`)
+      if (h.homepage) expect(h.homepage).toMatch(/^https?:\/\//)
       expect(h.name).not.toBe("")
       expect(h.address).not.toBe("")
     }
