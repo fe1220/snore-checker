@@ -1,6 +1,12 @@
 import { describe, expect, it } from "vitest"
 
-import { fromReportHash, judge, QUESTIONS, toReportHash } from "./sleep-check"
+import {
+  fromReportHash,
+  judge,
+  QUESTIONS,
+  STRONG_QUESTIONS,
+  toReportHash,
+} from "./sleep-check"
 
 function pick(ids: string[]) {
   return QUESTIONS.filter((q) => ids.includes(q.id))
@@ -11,6 +17,11 @@ describe("judge", () => {
     for (const q of QUESTIONS.filter((q) => q.strong)) {
       expect(judge([q])).toBe("strong")
     }
+  })
+
+  it("주요 신호는 판단 기준 문구에 쓸 짧은 이름이 있다", () => {
+    expect(STRONG_QUESTIONS.length).toBeGreaterThan(0)
+    for (const q of STRONG_QUESTIONS) expect(q.short).toBeTruthy()
   })
 
   it("강한 신호 없이 3개 이상이면 moderate", () => {
@@ -38,6 +49,17 @@ describe("toReportHash / fromReportHash", () => {
     ]) {
       expect(fromReportHash(toReportHash(pick(ids)))).toEqual(pick(ids))
     }
+  })
+
+  // 이미 퍼진 공유 링크가 같은 답으로 읽혀야 한다. 문항 순서를 바꾸면 이 테스트가 깨지고, 그때는 버전을 올린다.
+  it("해시 형식이 고정돼 있다", () => {
+    expect(toReportHash([])).toBe("v1-0")
+    expect(toReportHash(pick(["snore-often"]))).toBe("v1-1")
+    expect(toReportHash(QUESTIONS)).toBe("v1-e7")
+    expect(fromReportHash("v1-3n")).toEqual(
+      pick(["snore-often", "snore-loud", "age"]),
+    )
+    expect(judge(fromReportHash("v1-3n")!)).toBe("moderate")
   })
 
   it("앞의 #은 있어도 없어도 읽는다", () => {

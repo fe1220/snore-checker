@@ -199,6 +199,9 @@ describe("getHospitalData", () => {
       if (h.id.startsWith("hira-")) expect(h.sourceUrl).toBeNull()
       else expect(h.sourceUrl).toBe(`https://www.resmed.kr/psg-finder/${h.id}`)
       if (h.homepage) expect(h.homepage).toMatch(/^https?:\/\//)
+      expect([null, "의원", "병원", "종합병원", "상급종합병원"]).toContain(
+        h.kind,
+      )
       expect(h.name).not.toBe("")
       expect(h.address).not.toBe("")
     }
