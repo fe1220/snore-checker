@@ -22,7 +22,7 @@ export const QUESTIONS: Question[] = [
   { id: "sleepy", text: "앉아 있거나 TV를 보면 금방 졸아요" },
   { id: "pressure", text: "고혈압이 있어요" },
   { id: "age", text: "50세 이상이에요" },
-  { id: "body", text: "살이 많이 쪘거나 목이 굵은 편이에요" },
+  { id: "body", text: "최근 몇 년 사이 체중이 늘었어요" },
 ]
 
 // 리포트 주소에는 "네"라고 답한 문항만 코드로 담고, 단계는 항상 여기서 다시 계산한다.
