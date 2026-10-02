@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-02T10:58:50.821Z",
+  "crawledAt": "2026-10-02T15:07:53.989Z",
   "items": [
     {
       "id": "gangwonnugaent",
@@ -276,7 +276,7 @@
       "name": "김포하나이비인후과의원",
       "region": "경기",
       "address": "경기도 김포시 김포한강1로 227 광장프라자 306호 (운양동)",
-      "phone": "981-7979",
+      "phone": "031-981-7979",
       "lat": 37.65395,
       "lng": 126.68245,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggikimpohanaent"
@@ -416,7 +416,7 @@
       "name": "리앤홍이비인후과의원",
       "region": "경기",
       "address": "경기도 성남시 분당구 성남대로331번길 7 401호 402-1일부호 (정자동, 정자스타빌딩)",
-      "phone": "714-1077",
+      "phone": "031-714-1077",
       "lat": 37.37109,
       "lng": 127.10739,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggileehongent"
@@ -1636,7 +1636,7 @@
       "name": "코엔이비인후과의원부산성모병원(재단법인 천주교부산교구유지재단)베스트이비인후과의원연세대학교 원주세브란스기독병원한림대학교성심병원두리이비인후과의원",
       "region": "부산",
       "address": "부산광역시 기장군 정관면 정관로 395 (금양프라자 3층)",
-      "phone": "728-1026",
+      "phone": "051-728-1026",
       "lat": 35.33405,
       "lng": 129.1659,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent"
@@ -1746,7 +1746,7 @@
       "name": "고신대학교복음병원",
       "region": "부산",
       "address": "부산광역시 서구 감천로 262 (암남동)",
-      "phone": "990-6114",
+      "phone": "051-990-6114",
       "lat": 35.08144,
       "lng": 129.0155,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busankosinmed"
@@ -1756,7 +1756,7 @@
       "name": "부산대학교병원",
       "region": "부산",
       "address": "부산광역시 서구 구덕로 179 (아미동1가)",
-      "phone": "240-7000",
+      "phone": "051-240-7000",
       "lat": 35.10065,
       "lng": 129.01962,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busanbusanunivhiopi"
@@ -1866,7 +1866,7 @@
       "name": "서울수면의원",
       "region": "서울",
       "address": "서울특별시 강남구 논현로 704 2층 / 강남구 학동로 203, 3층 (논현동)",
-      "phone": "511-0777",
+      "phone": "02-511-0777",
       "lat": 37.51437,
       "lng": 127.03121,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsleephopital"
@@ -2086,7 +2086,7 @@
       "name": "강서하나이비인후과의원",
       "region": "서울",
       "address": "서울특별시 강서구 강서로 43 203,202일부호 (화곡동, 도양라비앙타워)",
-      "phone": "2699-1442",
+      "phone": "02-2699-1442",
       "lat": 37.53158,
       "lng": 126.84661,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulgshanaent"
@@ -2396,7 +2396,7 @@
       "name": "삼혜이비인후과의원",
       "region": "서울",
       "address": "서울특별시 성북구 동소문로 18-1 2, 3층 (동소문동2가, 애산빌딩)",
-      "phone": "742-6522",
+      "phone": "02-742-6522",
       "lat": 37.58921,
       "lng": 127.00828,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulsamheyent"

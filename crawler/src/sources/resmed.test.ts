@@ -2,7 +2,7 @@ import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
 import { test } from "node:test"
 
-import { parse } from "./resmed.ts"
+import { parse, withAreaCode } from "./resmed.ts"
 
 const fixture = await readFile(new URL("../../fixtures/resmed.html", import.meta.url), "utf8")
 
@@ -40,4 +40,18 @@ test("HTML 엔티티를 풀어 쓴다", () => {
 test("알 수 없는 시·도가 나오면 실패한다", () => {
   const html = fixture.replace('"강원도"', '"평양"')
   assert.throws(() => parse(html), /알 수 없는 시·도/)
+})
+
+test("지역번호가 없는 지역 번호에만 시·도 지역번호를 붙인다", () => {
+  assert.equal(withAreaCode("981-7979", "경기"), "031-981-7979")
+  assert.equal(withAreaCode("2699-1442", "서울"), "02-2699-1442")
+  assert.equal(withAreaCode("1577-0083", "서울"), "1577-0083")
+  assert.equal(withAreaCode("033-535-3600", "강원"), "033-535-3600")
+  assert.equal(withAreaCode("02-722-7977", "서울"), "02-722-7977")
+  assert.equal(withAreaCode("0507-1481-3304", "서울"), "0507-1481-3304")
+})
+
+test("parse가 지역번호 없는 전화번호에 지역번호를 붙인다", () => {
+  const html = fixture.replace("033-535-3600", "535-3600")
+  assert.equal(parse(html)[0].phone, "033-535-3600")
 })
