@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
+import { Analytics } from "@vercel/analytics/next"
 import { Toaster } from "@/components/ui/sonner"
 import { Providers } from "./providers"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Subject",
-  description: "과제",
+  title: "코골이 체크",
+  description: "옆에서 본 코골이, 병원에 가볼 만한지 3분 만에 체크해요",
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col font-sans">
         <Providers>{children}</Providers>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   )
