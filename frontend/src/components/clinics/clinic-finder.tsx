@@ -105,19 +105,19 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
   return (
     <>
       <div className="flex flex-col gap-2">
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <Button
             variant="outline"
             className={cn(
-              "h-11 min-w-0 flex-1 justify-between px-3 text-base",
+              "h-auto min-h-12 flex-1 justify-between px-3 py-2 text-lg whitespace-normal",
               view.kind === "region" && "border-primary text-primary",
             )}
             onClick={() => setSheetOpen(true)}
           >
-            <span className="truncate tabular-nums">
+            <span className="text-left tabular-nums">
               {view.kind === "region"
                 ? `${view.region ?? "전국"} · ${byRegion.length}곳`
-                : "지역 선택"}
+                : "지역 고르기"}
             </span>
             <ChevronDown data-icon="inline-end" aria-hidden />
           </Button>
@@ -126,7 +126,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             disabled={locating}
             aria-pressed={view.kind === "nearby"}
             className={cn(
-              "h-11 shrink-0 px-3 text-base",
+              "h-auto min-h-12 flex-1 px-3 py-2 text-lg whitespace-normal disabled:opacity-100",
               view.kind === "nearby" && "border-primary text-primary",
             )}
             onClick={requestNearby}
@@ -136,19 +136,23 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
           </Button>
         </div>
         {locationError && (
-          <p role="alert" className="text-sm text-muted-foreground">
+          <p role="alert" className="text-base text-muted-foreground">
             {LOCATION_MESSAGES[locationError]}
           </p>
         )}
       </div>
 
       <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
-        <SheetContent side="bottom" showCloseButton={false}>
-          <SheetHeader className="flex-row items-center justify-between">
-            <SheetTitle>지역 선택</SheetTitle>
+        <SheetContent
+          side="bottom"
+          showCloseButton={false}
+          className="max-h-[85dvh] overflow-y-auto"
+        >
+          <SheetHeader className="flex-row items-center justify-between gap-2">
+            <SheetTitle className="text-xl">지역 고르기</SheetTitle>
             <Button
               variant="ghost"
-              className="size-11"
+              className="size-12 shrink-0"
               aria-label="닫기"
               onClick={() => setSheetOpen(false)}
             >
@@ -183,10 +187,10 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
       ) : byRegion.length === 0 ? (
         <div className="flex flex-col items-center gap-3 py-12 text-center">
           <SearchX className="size-8 text-muted-foreground" aria-hidden />
-          <p className="text-base">이 지역에는 아직 등록된 곳이 없어요</p>
+          <p className="text-lg">이 지역에는 아직 등록된 곳이 없어요</p>
           <Button
             variant="outline"
-            className="h-11 px-4 text-base"
+            className="h-auto min-h-12 px-4 py-2 text-lg whitespace-normal"
             onClick={() => selectRegion(null)}
           >
             전국 보기
@@ -196,7 +200,7 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
         <div className="flex flex-col gap-8">
           {groupByRegion(items).map((group) => (
             <section key={group.region} className="flex flex-col gap-3">
-              <h2 className="text-lg font-semibold">
+              <h2 className="text-xl font-semibold">
                 {group.region}{" "}
                 <span className="text-base font-normal text-muted-foreground tabular-nums">
                   {group.items.length}곳
@@ -254,13 +258,13 @@ function RegionOption({
       variant="outline"
       aria-pressed={selected}
       className={cn(
-        "h-11 justify-between px-3 text-base",
+        "h-auto min-h-12 flex-wrap justify-between px-3 py-2 text-lg whitespace-normal",
         selected && "border-primary text-primary",
       )}
       onClick={onSelect}
     >
       {label}
-      <span className="text-sm text-muted-foreground tabular-nums">
+      <span className="text-base text-muted-foreground tabular-nums">
         {count}
       </span>
     </Button>
