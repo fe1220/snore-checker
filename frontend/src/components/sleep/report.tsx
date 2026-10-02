@@ -215,9 +215,19 @@ export function Report({
           ]}
         />
         <Source>메타분석 (Tregear 2009)</Source>
-        <p className="text-sm text-muted-foreground">
-          심한 경우 심혈관 질환 위험과도 관련이 있어요 (남성 대상 관찰 연구)
+        <p className="mt-3 text-base font-semibold">
+          심한 경우 심혈관 질환 위험이 2.9배 높았어요
         </p>
+        <CompareBars
+          tone="warning"
+          max={2.9}
+          summary="심혈관 질환 위험: 일반인 1, 치료하지 않은 중증 수면무호흡증 2.9배"
+          bars={[
+            { label: "일반인", value: 1, display: "1" },
+            { label: "중증 미치료", value: 2.9, display: "2.9배" },
+          ]}
+        />
+        <Source>남성 대상 관찰 연구 (Marin 2005)</Source>
       </Section>
 
       <Section title="치료하면 본인도">
