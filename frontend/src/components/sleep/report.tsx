@@ -116,9 +116,15 @@ export function Report({
             당신의 낮 졸림과 피로도 이것 때문일 수 있어요
           </p>
         )}
-        <p className="mt-3 text-sm text-muted-foreground">수면무호흡 신호</p>
-        <h1 className="text-2xl font-bold">{copy.title}</h1>
+        <h1 className="mt-3 text-2xl leading-snug font-bold whitespace-pre-line">
+          {copy.title}
+        </h1>
         <p className="text-sm text-muted-foreground">{copy.body}</p>
+        <p className="mt-2 rounded-lg bg-muted p-3 text-sm">
+          <span className="font-semibold">수면무호흡증</span>은 자는 동안 숨이
+          반복해서 멈추거나 얕아지는 병이에요. 코골이와 함께 나타나는 경우가
+          많고, 본인은 자는 중이라 잘 몰라요.
+        </p>
         <div className="mt-3 grid grid-cols-3 gap-1" aria-hidden>
           {LEVELS.map((item) => (
             <div
