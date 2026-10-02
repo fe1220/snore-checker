@@ -85,3 +85,31 @@ S4 구현 뒤에 [DESIGN.md](../DESIGN.md)와 [02-design-pass](02-design-pass.md
 - 글자 자르기: 지역 버튼의 `truncate` 제거(F4와 같은 곳)
 - 토큰(전 화면 공통): `muted-foreground`가 카드 위에서 약 6.1:1, `border`가 카드 위에서 약 2.6:1
 - 시트 전환 효과에 "동작 줄이기" 대응 없음
+
+## 체크리스트: 접근성과 문구
+
+기준 문서: [02-design-pass 접근성](02-design-pass.md#접근성-4060대-기준), [03-tech-spec 추가 1](03-tech-spec.md#추가-1-접근성-기준과-문구-적용)
+
+### 자동 (`make fe-a11y`, 화면 11개 × 검사 6개)
+
+- [ ] A1 보이는 글자가 모두 16px 이상이다
+- [ ] A2 버튼·링크·선택지가 모두 48×48px 이상이다
+- [ ] A3 터치 영역 사이가 8px 이상이다
+- [ ] A4 글자 대비가 7:1 이상이다 (axe `color-contrast-enhanced`)
+- [ ] A5 폭 320px에서 가로 스크롤이 없다
+- [ ] A6 글자만 130%·200%로 키워도 가로 스크롤이 없고, 버튼 글자가 버튼 밖으로 나가지 않는다
+- [ ] A7 `grep -rnE "text-(xs|sm)\b|truncate|line-clamp" frontend/src/app frontend/src/components/sleep frontend/src/components/clinics` 결과가 없다
+
+### 브라우저
+
+- [ ] A8 없는 주소(`/nope`)에서 한국어 안내와 "처음으로 가기"가 나온다
+- [ ] A9 체크 시작 화면과 리포트 아래에서 개인정보처리방침으로 갈 수 있다
+- [ ] A10 리포트에서 판정 단계, 주요 신호가 색 없이(흑백 스크린샷)도 구분된다
+- [ ] A11 기기 설정에서 "동작 줄이기"를 켜면 문항 전환과 시트 전환 효과가 없다
+- [ ] A12 폭 320·375 × 글자 100·130·200% 스크린샷에서 겹침·잘림이 없다 (`docs/05-verification/a11y/`)
+- [ ] A13 실제 휴대폰(안드로이드 글자 크기 "크게", 아이폰)에서 S1~S4를 끝까지 간다 (사용자가 확인)
+
+### 문구
+
+- [ ] A14 서비스 이름이 모든 화면에서 "코골이 체크"다 (`grep -rn "코골이체커" frontend/src` 결과 없음)
+- [ ] A15 [copy-audit](01-research/copy-audit.md)의 수정 35건이 반영됐거나, 건너뛴 이유가 결과에 적혀 있다

@@ -10,6 +10,21 @@
 4. **모든 데이터 영역은 4가지 상태를 가진다:** 로딩 / 빈 상태 / 에러 / 정상.
 5. **문구는 쉬운 말로.** 개발 용어, 영어 약어, 수동태 금지. 행동은 동사로 끝낸다 ("예약하기", "다시 시도").
 
+**용어** (화면마다 같은 말을 쓴다)
+
+| 대상 | 쓰는 말 | 쓰지 않는 말 |
+|---|---|---|
+| 서비스 이름 | 코골이 체크 | 코골이체커 |
+| 우리 서비스에서 하는 것 | 무료진단 (광고 소재와 같은 말). 리포트에는 "이 리포트는 진단이 아니에요"를 반드시 둔다 | 검사 |
+| 병 | 수면무호흡증 | 수면무호흡 |
+| 병원에서 받는 검사 | 수면검사 (정식 이름 "수면다원검사"는 검사 단계 설명에서 괄호로 한 번) | 수면무호흡 검사 |
+| 묻는 것 / "네"라고 답한 것 | 질문 / 신호 | 문항, 항목 |
+| 답 | 답 | 응답 |
+| 코 고는 사람 | 남편 (공유받은 리포트에서는 "당신") | 배우자, 본인, 옆 사람 |
+| 답하는 사람 | 부르지 않는다. 필요하면 "옆에서 본", "함께 자는 사람" | 배우자 |
+| 찾는 곳 / 카드 하나 | 수면클리닉 / 병원 | |
+| 심한 정도 | 심한 경우 (출처 줄만 의학 용어) | 중증, 중등도 |
+
 ## 2. 스택
 
 - Next.js (App Router) + Tailwind CSS v4 + **shadcn/ui** (`src/components/ui`)
@@ -42,11 +57,14 @@
 |---|---|
 | 랜딩 헤드라인 (S1 전용) | `text-3xl font-extrabold` + 아래 노랑 보조 문구 `text-lg font-semibold text-primary` |
 | 페이지 제목 | `text-2xl font-bold` |
-| 섹션 제목 | `text-lg font-semibold` |
-| 카드 제목 / 강조 | `text-base font-semibold` |
-| 본문 | `text-base` (모바일 16px 미만 금지) |
-| 보조 정보 | `text-sm text-muted-foreground` |
-| 캡션, 메타 | `text-xs text-muted-foreground` |
+| 섹션 제목 | `text-xl font-semibold` |
+| 카드 제목 / 강조 | `text-lg font-semibold` |
+| 본문 | `text-lg` (18px) |
+| 보조 정보, 캡션, 메타 | `text-base text-muted-foreground` (16px) |
+
+- 사용자가 40~60대다. `text-sm`·`text-xs`와 16px 미만 글자는 쓰지 않는다. shadcn 컴포넌트 기본값이 `text-sm`이면 `className`으로 덮어쓴다.
+- 줄 간격은 1.5 이상이다(`text-base`·`text-lg` 기본값이 충족한다. `leading-tight`류로 줄이지 않는다).
+- 보조 정보는 크기가 아니라 색과 굵기로 구분한다.
 
 숫자(가격, 평점, 거리)는 `tabular-nums`. 한 화면에 굵기는 최대 3종. 줄바꿈은 어절 단위(`word-break: keep-all`, 전역 적용)다.
 
@@ -55,8 +73,9 @@
 - 4px 그리드. 허용 간격: `1 2 3 4 6 8 12 16`
 - 페이지 컨테이너: `mx-auto w-full max-w-screen-md px-4` (리스트/상세형). 대시보드형만 `max-w-screen-xl`.
 - 섹션 간 `gap-8`, 카드 내부 `gap-3`~`gap-4`, 리스트 아이템 간 `gap-2`~`gap-3`
-- 모바일 Primary CTA는 하단 고정 바: `sticky bottom-0 border-t bg-background p-4` + 전체 폭 버튼
-- 터치 타겟 최소 44px (`h-11` 이상)
+- 모바일 Primary CTA는 하단 고정 바: `sticky bottom-0 border-t bg-background p-4` + 전체 폭 버튼(`min-h-14`)
+- 터치 타겟 최소 48px, 주요 버튼 56px. 타겟 사이는 8px(`gap-2`) 이상
+- 글자가 든 요소는 고정 높이(`h-*`) 대신 최소 높이(`min-h-12`, `min-h-14`)를 쓴다. 글자를 키워도 넘치지 않아야 한다. `truncate`·`line-clamp`로 글자를 자르지 않는다
 
 ## 6. 컴포넌트 사용 규칙
 
@@ -94,12 +113,18 @@
 ## 9. 접근성
 
 - 모든 입력에 `Label`, 아이콘 단독 버튼에 `aria-label`
-- 텍스트 대비 4.5:1 이상, 포커스 링(`ring`) 제거 금지
+- 글자 대비 7:1 이상, 테두리·아이콘 3:1 이상. 포커스 링(`ring`) 제거 금지
+- 글자 200% 확대와 폭 320px에서 잘림·겹침·가로 스크롤이 없어야 한다. 확대를 막는 viewport 설정(`user-scalable=no`, `maximum-scale`)을 넣지 않는다
+- 색만으로 뜻을 전하지 않는다. 판정 단계·경고는 글자나 아이콘을 함께 쓴다
+- 전환 효과는 "동작 줄이기" 설정(`prefers-reduced-motion`)에서 꺼진다
+- 근거와 측정값: [accessibility](docs/01-research/accessibility.md)
 
 ## 10. 체크리스트 (PR / 검증 게이트)
 
 - [ ] 원시 색상값·임의 간격 없음
 - [ ] Primary CTA 1개
 - [ ] 로딩·빈·에러 상태 구현
-- [ ] 375px에서 가로 스크롤 없음
+- [ ] 320px·375px에서 가로 스크롤 없음
+- [ ] 16px 미만 글자 없음, 터치 타겟 48px 이상
+- [ ] 글자 200% 확대에서 잘림·겹침 없음
 - [ ] 문구가 쉬운 말이고 동사로 끝남
