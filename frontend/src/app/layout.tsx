@@ -5,6 +5,7 @@ import { Providers } from "./providers"
 import "./globals.css"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://snore-check.vercel.app"),
   title: "코골이 체크",
   description: "옆에서 본 코골이, 병원에 가볼 만한지 3분 만에 체크해요",
 }

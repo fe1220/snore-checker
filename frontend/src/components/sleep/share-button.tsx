@@ -1,16 +1,16 @@
 "use client"
 
+import { Share2 } from "lucide-react"
 import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
-import type { Level } from "@/lib/sleep-check"
 
-export function ShareButton({ level }: { level: Level }) {
+export function ShareButton({ path }: { path: string }) {
   async function share() {
-    const url = `${window.location.origin}/result?level=${level}&shared=1`
-    const text = "같이 자는 사람이 본 코골이 체크 결과예요."
+    const url = `${window.location.origin}${path}`
+    const text = "옆에서 본 당신의 수면 체크 리포트예요."
     if (navigator.share) {
       try {
-        await navigator.share({ title: "코골이 체크 결과", text, url })
+        await navigator.share({ title: "수면 체크 리포트", text, url })
       } catch {
         // 사용자가 공유 창을 닫은 경우
       }
@@ -26,7 +26,8 @@ export function ShareButton({ level }: { level: Level }) {
 
   return (
     <Button variant="ghost" className="h-11 w-full text-base" onClick={share}>
-      카톡으로 보내기
+      <Share2 data-icon="inline-start" aria-hidden />
+      리포트 보내기
     </Button>
   )
 }

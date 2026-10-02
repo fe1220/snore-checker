@@ -26,7 +26,10 @@ export function CheckFlow() {
       setStep(step + 1)
       return
     }
-    router.push(`/result?level=${judge(next)}`)
+    const signals = QUESTIONS.filter((q) => next[q.id] === "yes")
+      .map((q) => q.id)
+      .join(",")
+    router.push(`/result?level=${judge(next)}&s=${signals}`)
   }
 
   return (
