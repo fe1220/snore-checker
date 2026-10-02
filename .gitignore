@@ -2,4 +2,8 @@
 .env
 .env.local
 .claude/settings.local.json
+.claude/gate-skip
 .design-review/
+.gstack/
+frontend/test-results/
+frontend/playwright-report/
