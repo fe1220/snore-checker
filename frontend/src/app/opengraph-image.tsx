@@ -51,7 +51,7 @@ export default async function OgImage() {
           }}
         >
           <span>수면 체크 리포트</span>
-          <span>배우자 관찰</span>
+          <span>옆에서 본 9가지</span>
         </div>
         <div
           style={{

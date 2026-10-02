@@ -22,12 +22,16 @@ export function ShareButton({ path }: { path: string }) {
       await navigator.clipboard.writeText(url)
       toast.success("링크를 복사했어요. 카톡에 붙여 넣어 보내세요")
     } catch {
-      toast.error("링크를 복사하지 못했어요. 다시 시도해 주세요")
+      toast.error("링크를 복사하지 못했어요. 한 번 더 눌러 주세요")
     }
   }
 
   return (
-    <Button variant="ghost" className="h-11 w-full text-base" onClick={share}>
+    <Button
+      variant="ghost"
+      className="h-auto min-h-12 w-full py-2 text-lg whitespace-normal"
+      onClick={share}
+    >
       <Share2 data-icon="inline-start" aria-hidden />
       리포트 보내기
     </Button>

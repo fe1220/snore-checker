@@ -1,4 +1,5 @@
 import { AlertCircle, Check } from "lucide-react"
+import Link from "next/link"
 import {
   Accordion,
   AccordionContent,
@@ -54,8 +55,11 @@ const SELF_BENEFITS: { area: string; text: string }[] = [
 ]
 
 const STEPS = [
-  { title: "수면클리닉 외래 상담" },
-  { title: "하룻밤 수면다원검사", note: "금요일·토요일 밤에 하는 곳도 있어요" },
+  { title: "수면클리닉에서 진료 상담받기" },
+  {
+    title: "병원에서 하룻밤 자면서 검사받기(수면다원검사)",
+    note: "금요일·토요일 밤에 하는 곳도 있어요",
+  },
   { title: "결과 듣고 치료 방법 정하기" },
 ]
 
@@ -69,12 +73,14 @@ function ReportCard({
   children: React.ReactNode
 }) {
   return (
-    <Card className="text-base">
+    <Card className="text-lg">
       <CardHeader>
-        <CardTitle className="text-lg font-semibold">
+        <CardTitle className="text-xl font-semibold">
           <h2>{title}</h2>
         </CardTitle>
-        {note && <CardDescription>{note}</CardDescription>}
+        {note && (
+          <CardDescription className="text-base">{note}</CardDescription>
+        )}
       </CardHeader>
       <CardContent className="flex flex-col gap-3">{children}</CardContent>
     </Card>
@@ -102,7 +108,7 @@ function CompareBars({
         return (
           <div
             key={bar.label}
-            className="grid grid-cols-[4.5rem_1fr_3rem] items-center gap-2 text-sm"
+            className="grid grid-cols-[minmax(4.5rem,auto)_1fr_auto] items-center gap-2 text-base"
           >
             <span className={cn(!emphasis && "text-muted-foreground")}>
               {bar.label}
@@ -134,7 +140,7 @@ function CompareBars({
 }
 
 function Source({ children }: { children: React.ReactNode }) {
-  return <p className="text-xs text-muted-foreground">{children}</p>
+  return <p className="text-base text-muted-foreground">{children}</p>
 }
 
 export function Report({
@@ -154,12 +160,12 @@ export function Report({
   return (
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-4">
-        <p className="text-xs text-muted-foreground tabular-nums">
-          수면 체크 리포트 · {date} · 배우자 관찰 {QUESTIONS.length}문항
+        <p className="text-base text-muted-foreground tabular-nums">
+          수면 체크 리포트 · {date} · 옆에서 본 {QUESTIONS.length}가지 질문
         </p>
         <div className={cn("flex flex-col gap-3 border-l-4 pl-4", band)}>
           {shared && level !== "weak" && (
-            <p className="text-sm font-semibold text-primary">
+            <p className="text-lg font-semibold text-primary">
               당신의 낮 졸림과 피로도 이것 때문일 수 있어요
             </p>
           )}
@@ -172,6 +178,7 @@ export function Report({
                 <Badge
                   variant="outline"
                   className={cn(
+                    "h-auto px-3 py-1 text-base",
                     item.level === level
                       ? cn("border-transparent font-semibold", item.chip)
                       : "text-muted-foreground",
@@ -185,8 +192,8 @@ export function Report({
           <h1 className="text-2xl leading-snug font-bold whitespace-pre-line">
             {copy.title}
           </h1>
-          <p className="text-base text-muted-foreground">{copy.body}</p>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-lg text-muted-foreground">{copy.body}</p>
+          <p className="text-lg text-muted-foreground">
             수면무호흡증은 자는 동안 숨이 반복해서 멈추거나 얕아지는 병이에요.
             코골이와 함께 나타나는 경우가 많고, 본인은 자는 중이라 잘 몰라요.
           </p>
@@ -205,18 +212,18 @@ export function Report({
               <li key={signal.id} className="flex items-start gap-2">
                 {signal.strong ? (
                   <AlertCircle
-                    className="mt-1 size-4 shrink-0 text-warning"
+                    className="mt-1 size-5 shrink-0 text-warning"
                     aria-hidden
                   />
                 ) : (
                   <Check
-                    className="mt-1 size-4 shrink-0 text-muted-foreground"
+                    className="mt-1 size-5 shrink-0 text-muted-foreground"
                     aria-hidden
                   />
                 )}
                 <span className="flex-1">{signal.text}</span>
                 {signal.strong && (
-                  <span className="mt-1 shrink-0 text-xs text-warning">
+                  <span className="shrink-0 text-base font-semibold text-warning">
                     주요 신호
                   </span>
                 )}
@@ -230,7 +237,7 @@ export function Report({
         <ReportCard title="자는 동안 이런 일이 생겨요">
           <p className="font-semibold">숨이 멈출 때마다 뇌가 잠깐 깨요</p>
           <p className="text-lg font-semibold text-primary tabular-nums">
-            한 시간에 15번 이상, 하룻밤이면 100번이 넘어요
+            심한 편이면 한 시간에 15번 넘게 깨요. 하룻밤이면 100번이 넘어요
           </p>
           <p className="text-muted-foreground">
             본인은 기억하지 못해요. 하지만 깊은 잠에 들지 못해서 8시간을 자도
@@ -248,20 +255,20 @@ export function Report({
           summary="교통사고 위험: 일반인 1, 치료하지 않은 수면무호흡증 2.4배"
           bars={[
             { label: "일반인", value: 1, display: "1" },
-            { label: "미치료", value: 2.4, display: "2.4배" },
+            { label: "치료 안 함", value: 2.4, display: "2.4배" },
           ]}
         />
         <Source>메타분석 (Tregear 2009)</Source>
         <p className="mt-3 font-semibold">
-          심한 경우 심혈관 질환 위험이 2.9배 높았어요
+          심한 경우 심장·혈관 병(심혈관 질환) 위험이 2.9배 높았어요
         </p>
         <CompareBars
           tone="warning"
           max={2.9}
-          summary="심혈관 질환 위험: 일반인 1, 치료하지 않은 중증 수면무호흡증 2.9배"
+          summary="심장·혈관 병 위험: 일반인 1, 심한데 치료하지 않으면 2.9배"
           bars={[
             { label: "일반인", value: 1, display: "1" },
-            { label: "중증 미치료", value: 2.9, display: "2.9배" },
+            { label: "심한데 치료 안 함", value: 2.9, display: "2.9배" },
           ]}
         />
         <Source>남성 대상 관찰 연구 (Marin 2005)</Source>
@@ -271,7 +278,7 @@ export function Report({
         <p className="text-lg font-semibold text-primary">
           잠이 달라지면 삶이 달라져요
         </p>
-        <dl className="grid grid-cols-[3.5rem_1fr] gap-x-3 gap-y-2">
+        <dl className="grid grid-cols-[minmax(3.5rem,auto)_1fr] gap-x-3 gap-y-2">
           {SELF_BENEFITS.map((group) => (
             <div key={group.area} className="col-span-2 grid grid-cols-subgrid">
               <dt className="font-semibold text-muted-foreground">
@@ -301,17 +308,20 @@ export function Report({
         </Source>
       </ReportCard>
 
-      <ReportCard title="검사는 이렇게 받아요" note="본인부담 약 12~14만 원">
+      <ReportCard
+        title="검사는 이렇게 받아요"
+        note="내가 내는 돈은 약 12~14만 원이에요"
+      >
         <ol className="flex flex-col gap-3">
           {STEPS.map((step, index) => (
             <li key={step.title} className="flex gap-3">
-              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-muted text-xs tabular-nums">
+              <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-muted text-base tabular-nums">
                 {index + 1}
               </span>
               <span className="flex flex-col">
                 {step.title}
                 {step.note && (
-                  <span className="text-sm text-muted-foreground">
+                  <span className="text-base text-muted-foreground">
                     {step.note}
                   </span>
                 )}
@@ -322,21 +332,21 @@ export function Report({
       </ReportCard>
 
       <footer className="flex flex-col gap-2">
-        <Accordion>
+        <Accordion className="gap-2">
           <AccordionItem value="criteria">
-            <AccordionTrigger className="items-center py-3 text-base">
+            <AccordionTrigger className="min-h-12 items-center py-3 text-lg">
               판단 기준
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground">
+            <AccordionContent className="text-base text-muted-foreground">
               <ul className="flex list-disc flex-col gap-1 pl-4">
                 <li>
-                  병원에서 쓰는 수면무호흡 선별 기준(STOP-Bang)의 항목을
-                  배우자가 옆에서 볼 수 있는 것으로 바꿔 만들었어요.
+                  병원에서 수면무호흡증을 가려낼 때 쓰는 질문(STOP-Bang)을
+                  바탕으로 만들었어요. 옆에서 볼 수 있는 것만 묻도록 바꿨어요.
                 </li>
                 <li>
-                  숨 멈춤과 헐떡임은 미국수면학회 진료 지침이 수면무호흡을
-                  의심하는 주요 증상으로 꼽아요. 숨 멈춤, 헐떡임, 운전 중 졸음
-                  중 하나라도 있으면 “{LEVEL_COPY.strong.chip}”예요.
+                  숨 멈춤과 헐떡임은 미국수면학회가 꼽는 주요 증상이에요. 숨
+                  멈춤, 헐떡임, 운전 중 졸음 중 하나라도 있으면 “
+                  {LEVEL_COPY.strong.chip}”예요.
                 </li>
                 <li>
                   그 외 신호가 3개 이상이면 “{LEVEL_COPY.moderate.chip}”, 그보다
@@ -346,10 +356,10 @@ export function Report({
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="sources">
-            <AccordionTrigger className="items-center py-3 text-base">
+            <AccordionTrigger className="min-h-12 items-center py-3 text-lg">
               출처
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground">
+            <AccordionContent className="text-base text-muted-foreground">
               교통사고 위험 Tregear 2009(JCSM) 메타분석, 심혈관 Marin
               2005(Lancet), 배우자 수면 효율 Beninati 1999(Mayo Clin Proc), 낮
               졸림 Cochrane 2006, 혈압 Bratton 2015(JAMA), 치료 후 사고 위험
@@ -359,9 +369,15 @@ export function Report({
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-        <p className="text-xs text-muted-foreground">
-          이 리포트는 진단이 아니에요. 정확한 판단은 진료로 받아요.
+        <p className="text-base text-muted-foreground">
+          이 리포트는 진단이 아니에요. 정확한 것은 병원 진료로 확인하세요.
         </p>
+        <Link
+          href="/privacy"
+          className="flex min-h-12 items-center text-base text-muted-foreground underline underline-offset-4"
+        >
+          개인정보처리방침 보기
+        </Link>
       </footer>
     </article>
   )
