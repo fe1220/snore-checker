@@ -9,6 +9,10 @@ const SCREENS: {
   answer?: string
 }[] = [
   { name: "s1-start", path: "/" },
+  // 광고 소재별 랜딩. app/c/[copy]의 HEADLINES 키와 같다.
+  { name: "s1-heal", path: "/c/heal" },
+  { name: "s1-disease", path: "/c/disease" },
+  { name: "s1-sleep", path: "/c/sleep" },
   { name: "s2-check", path: "/check" },
   // 2번 질문부터 뒤로 가기 버튼이 생긴다.
   { name: "s2-check-back", path: "/check", answer: "아니요" },
@@ -16,10 +20,13 @@ const SCREENS: {
   { name: "s3-moderate", path: "/r#v1-3n" },
   { name: "s3-weak", path: "/r#v1-0" },
   { name: "s3-shared", path: "/r?shared=1#v1-e7" },
+  // 해시를 읽지 못한 리포트(찾을 수 없음 상태)
+  { name: "s3-bad", path: "/r#bad" },
   { name: "s4-clinics", path: "/clinics" },
   { name: "s4-regions", path: "/clinics", open: "전국 ·" },
   { name: "privacy", path: "/privacy" },
   { name: "not-found", path: "/nope" },
+  // error.tsx는 빌드된 앱에서 렌더 오류를 일으킬 방법이 없어 뺀다.
 ]
 
 const MIN_FONT = 16
@@ -180,6 +187,9 @@ function hasHorizontalScroll(page: Page) {
 
 for (const screen of SCREENS) {
   test.describe(screen.name, () => {
+    // 병원 744곳을 한 번에 그리는 화면은 axe·대비 검사만 20초 안팎 걸려 병렬 실행에서 기본 30초를 넘는다.
+    if (screen.path === "/clinics") test.slow()
+
     test("글자가 16px 이상이다", async ({ page }) => {
       await open(page, screen)
       expect(await smallText(page, MIN_FONT)).toEqual([])
@@ -202,6 +212,15 @@ for (const screen of SCREENS) {
         .analyze()
       const found = result.violations.flatMap((v) =>
         v.nodes.map((n) => `${n.target.join(" ")}: ${n.failureSummary}`),
+      )
+      expect(found).toEqual([])
+    })
+
+    test("axe 기본 규칙 위반이 없다", async ({ page }) => {
+      await open(page, screen)
+      const result = await new AxeBuilder({ page }).analyze()
+      const found = result.violations.flatMap((v) =>
+        v.nodes.map((n) => `${v.id} ${n.target.join(" ")}`),
       )
       expect(found).toEqual([])
     })
