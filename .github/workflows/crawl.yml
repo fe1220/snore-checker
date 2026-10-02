@@ -1,0 +1,41 @@
+name: crawl
+
+on:
+  schedule:
+    - cron: "0 18 * * 0" # 매주 월요일 03:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: crawler/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: crawler/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+        working-directory: crawler
+      - run: pnpm crawl
+        working-directory: crawler
+      # 데이터가 바뀌었을 때만 커밋한다. push가 Vercel 재배포를 트리거한다.
+      - name: Commit data
+        run: |
+          git add frontend/src/data
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): 크롤링 데이터 갱신"
+          git push

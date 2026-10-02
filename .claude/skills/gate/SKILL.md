@@ -3,7 +3,7 @@ name: gate
 description: 구현 완료 후 검증 게이트를 실행한다. "게이트 돌려줘", "검증해줘", "/gate"
 ---
 
-1. `make gate`를 실행한다 (프론트 tsc/lint/prettier/build).
+1. `make gate`를 실행한다 (프론트 tsc/lint/prettier/vitest/build, 크롤러 tsc/test).
 2. 실패하면 원인만 요약하고 멈춘다. 자동으로 고치지 않는다.
 3. 통과하면 `preview_start`로 `frontend` 서버를 띄운 뒤 두 서브에이전트를 병렬로 실행한다. 구현한 세션과 다른 컨텍스트에서 판정하기 위해서다.
    - `verifier`: `docs/05-verification.md` 기준 기능 판정

@@ -14,7 +14,7 @@
 
 - Next.js (App Router) + Tailwind CSS v4 + **shadcn/ui** (`src/components/ui`)
 - 아이콘: `lucide-react` 만 사용
-- 데이터: 조회는 서버 컴포넌트에서 Supabase 서버 클라이언트로, 클라이언트 상호작용이 필요한 조회만 TanStack Query
+- 데이터: 크롤링 JSON을 서버 컴포넌트에서 import한다. 원격 조회가 생기면 클라이언트 쪽은 TanStack Query
 - 토스트: `sonner` (`import { toast } from "sonner"`)
 - 폰트: Pretendard Variable
 
