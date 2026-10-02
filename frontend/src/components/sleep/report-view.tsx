@@ -84,8 +84,8 @@ function ReportSkeleton() {
       aria-label="리포트를 불러오는 중"
     >
       <Skeleton className="h-4 w-48" />
-      <div className="flex flex-col gap-3 border-l-4 pl-4">
-        <Skeleton className="h-5 w-40" />
+      <div className="flex flex-col gap-3">
+        <Skeleton className="h-10 w-full" />
         <Skeleton className="h-16 w-3/4" />
         <Skeleton className="h-12 w-full" />
       </div>

@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Badge } from "@/components/ui/badge"
 import {
   Card,
   CardContent,
@@ -23,24 +22,52 @@ import {
 } from "@/lib/sleep-check"
 import { cn } from "cn"
 
-// 약한 단계부터 순서대로 보여준다. 색은 판정 띠와 칩이 같이 쓴다.
-const LEVELS: { level: Level; band: string; chip: string }[] = [
-  {
-    level: "weak",
-    band: "border-border",
-    chip: "bg-secondary text-secondary-foreground",
-  },
-  {
-    level: "moderate",
-    band: "border-primary",
-    chip: "bg-primary text-primary-foreground",
-  },
-  {
-    level: "strong",
-    band: "border-warning",
-    chip: "bg-warning text-background",
-  },
+// 약한 단계부터 순서대로 보여준다. 공유 미리보기 이미지처럼 3칸 막대로 정도를 보여준다.
+// 노랑은 주요 버튼 색이라 쓰지 않고, 초록 → 코랄 → 빨강으로 강해진다.
+const LEVELS: { level: Level; fill: string }[] = [
+  { level: "weak", fill: "bg-success" },
+  { level: "moderate", fill: "bg-warning" },
+  { level: "strong", fill: "bg-danger" },
 ]
+
+// 현재 단계까지 칸마다 그 단계 색으로 채워서 어느 정도인지 한눈에 보이게 한다. 색만으로 전하지 않도록 아래에 단계 이름을 둔다.
+function LevelMeter({ level }: { level: Level }) {
+  const current = LEVELS.findIndex((item) => item.level === level)
+
+  return (
+    <div className="flex flex-col gap-2">
+      <div
+        className="grid grid-cols-3 gap-2"
+        role="img"
+        aria-label={`3단계 중 ${current + 1}단계, ${LEVEL_COPY[level].chip}`}
+      >
+        {LEVELS.map((item, index) => (
+          <div
+            key={item.level}
+            className={cn(
+              "h-3 rounded-full",
+              index <= current ? item.fill : "bg-muted",
+            )}
+          />
+        ))}
+      </div>
+      <ol className="grid grid-cols-3 gap-2 text-base" aria-hidden>
+        {LEVELS.map((item, index) => (
+          <li
+            key={item.level}
+            className={cn(
+              index === current
+                ? "font-semibold text-foreground"
+                : "text-muted-foreground",
+            )}
+          >
+            {LEVEL_COPY[item.level].chip}
+          </li>
+        ))}
+      </ol>
+    </div>
+  )
+}
 
 // 잠이 닿아 있는 영역별로 묶는다. 치료 효과가 확인된 것만 넣는다(출처 아코디언 참고).
 const SELF_BENEFITS: { area: string; text: string }[] = [
@@ -155,7 +182,6 @@ export function Report({
   shared: boolean
 }) {
   const copy = LEVEL_COPY[level]
-  const band = LEVELS.find((item) => item.level === level)?.band
 
   return (
     <article className="flex flex-col gap-6">
@@ -163,32 +189,13 @@ export function Report({
         <p className="text-base text-muted-foreground tabular-nums">
           수면 진단 리포트 · {date} · 옆에서 본 {QUESTIONS.length}가지 질문
         </p>
-        <div className={cn("flex flex-col gap-3 border-l-4 pl-4", band)}>
+        <div className="flex flex-col gap-3">
           {shared && level !== "weak" && (
             <p className="text-lg font-semibold text-primary">
               당신의 낮 졸림과 피로도 이것 때문일 수 있어요
             </p>
           )}
-          <ol
-            className="flex flex-wrap gap-1"
-            aria-label={`3단계 중 ${copy.chip}`}
-          >
-            {LEVELS.map((item) => (
-              <li key={item.level}>
-                <Badge
-                  variant="outline"
-                  className={cn(
-                    "h-auto px-3 py-1 text-base",
-                    item.level === level
-                      ? cn("border-transparent font-semibold", item.chip)
-                      : "text-muted-foreground",
-                  )}
-                >
-                  {LEVEL_COPY[item.level].chip}
-                </Badge>
-              </li>
-            ))}
-          </ol>
+          <LevelMeter level={level} />
           <h1 className="text-2xl leading-snug font-bold whitespace-pre-line">
             {copy.title}
           </h1>
@@ -221,12 +228,15 @@ export function Report({
                     aria-hidden
                   />
                 )}
-                <span className="flex-1">{signal.text}</span>
-                {signal.strong && (
-                  <span className="shrink-0 text-base font-semibold text-warning">
-                    주요 신호
-                  </span>
-                )}
+                {/* 글자를 키우면 옆에 둔 칩이 본문을 밀어내서 칩을 본문 아래에 둔다. */}
+                <span className="flex flex-1 flex-col">
+                  {signal.text}
+                  {signal.strong && (
+                    <span className="text-base font-semibold text-warning">
+                      주요 신호
+                    </span>
+                  )}
+                </span>
               </li>
             ))}
           </ul>
@@ -235,12 +245,12 @@ export function Report({
 
       {level !== "weak" && (
         <ReportCard title="자는 동안 이런 일이 생겨요">
-          <p className="font-semibold">숨이 멈출 때마다 뇌가 잠깐 깨요</p>
-          <p className="text-lg font-semibold text-primary tabular-nums">
-            심한 편이면 한 시간에 15번 넘게 깨요. 하룻밤이면 100번이 넘어요
-          </p>
-          <p className="text-muted-foreground">
-            본인은 기억하지 못해요. 하지만 깊은 잠에 들지 못해서 8시간을 자도
+          <p className="tabular-nums">
+            숨이 멈출 때마다 뇌가 잠깐 깨요. 심한 편이면{" "}
+            <strong className="font-semibold">
+              한 시간에 15번, 하룻밤에 100번 넘게 깨요.
+            </strong>{" "}
+            본인은 기억하지 못하지만 깊은 잠에 들지 못해서 8시간을 자도
             피곤해요.
           </p>
           <Source>중등도 수면무호흡증 진단 기준 (Kapur 2017)</Source>
@@ -260,12 +270,12 @@ export function Report({
         />
         <Source>메타분석 (Tregear 2009)</Source>
         <p className="mt-3 font-semibold">
-          심한 경우 심장·혈관 병(심혈관 질환) 위험이 2.9배 높았어요
+          심한 경우 심혈관 질환(뇌졸중·심근경색) 위험이 2.9배 높았어요
         </p>
         <CompareBars
           tone="warning"
           max={2.9}
-          summary="심장·혈관 병 위험: 일반인 1, 심한데 치료하지 않으면 2.9배"
+          summary="심혈관 질환(뇌졸중·심근경색) 위험: 일반인 1, 심한데 치료하지 않으면 2.9배"
           bars={[
             { label: "일반인", value: 1, display: "1" },
             { label: "심한데 치료 안 함", value: 2.9, display: "2.9배" },
@@ -297,20 +307,20 @@ export function Report({
         <CompareBars
           tone="primary"
           max={100}
-          summary="배우자 수면 효율: 치료 전 74%, 치료 후 87%"
+          summary="함께 자는 사람의 수면 효율: 치료 전 74%, 치료 후 87%"
           bars={[
             { label: "치료 전", value: 74, display: "74%" },
             { label: "치료 후", value: 87, display: "87%" },
           ]}
         />
         <Source>
-          배우자 수면 효율 · 부부 10쌍 소규모 연구 (Beninati 1999)
+          함께 자는 사람의 수면 효율 · 부부 10쌍 소규모 연구 (Beninati 1999)
         </Source>
       </ReportCard>
 
       <ReportCard
         title="검사는 이렇게 받아요"
-        note="내가 내는 돈은 약 12~14만 원이에요"
+        note="검사비는 건강보험 적용 후 약 12~14만 원이에요"
       >
         <ol className="flex flex-col gap-3">
           {STEPS.map((step, index) => (

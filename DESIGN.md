@@ -45,10 +45,13 @@
 | 보조 영역 배경 | `bg-muted` |
 | 구분선 / 입력 테두리 | `border-border` / `border-input` |
 | 성공 · 주의 · 위험 | `text-success` · `text-warning` · `text-destructive` |
+| 판정 막대 "검사 권유" 칸 | `bg-danger` |
 
 - 팔레트는 메타 광고 소재([meta-ads](docs/01-research/meta-ads.md))와 같다. 모든 화면이 남색 배경(`background`) + 크림 글자(`foreground`)이고, 노랑(`primary`)은 주요 버튼·선택 상태·강조 한 줄에만 쓴다. 밝은 테마는 없다.
 - 카드는 배경보다 한 단계 밝은 남색(`bg-card`)이다. 그림자와 그라데이션은 쓰지 않는다.
-- `warning`(코랄)은 "검사 권유" 단계와 위험 막대에만 쓴다. 노랑과 섞어 쓰지 않는다.
+- 판정 단계 막대는 초록(`success`) → 코랄(`warning`) → 빨강(`danger`)으로 신호 약함 · 상담 권유 · 검사 권유를 나타낸다. 노랑은 주요 버튼 색이라 판정에 쓰지 않는다.
+- `warning`(코랄)은 "상담 권유" 단계와 위험 막대에만 쓴다. 노랑과 섞어 쓰지 않는다.
+- `danger`(빨강)는 판정 막대의 "검사 권유" 칸에만 쓴다. 글자 대비 7:1이 안 나와서 글자에는 쓰지 않는다.
 - Radius: `--radius` 0.75rem. 카드 `rounded-xl`, 버튼·입력 `rounded-lg`(컴포넌트 기본값 유지).
 
 ## 4. 타이포그래피

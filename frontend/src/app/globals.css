@@ -8,6 +8,7 @@
   --color-background: var(--background);
   --color-success: var(--success);
   --color-warning: var(--warning);
+  --color-danger: var(--danger);
   --color-foreground: var(--foreground);
   --font-sans:
     "Pretendard Variable", Pretendard, -apple-system, system-ui, sans-serif;
@@ -80,6 +81,8 @@
   --radius: 0.75rem;
   --success: oklch(0.81 0.092 156);
   --warning: oklch(0.84 0.133 38);
+  /* 판정 막대의 "검사 권유" 칸 전용. 글자 대비 7:1이 안 나와서 글자에는 쓰지 않는다. */
+  --danger: oklch(0.72 0.17 25);
   --sidebar: oklch(0.309 0.072 274);
   --sidebar-foreground: oklch(0.981 0.018 81);
   --sidebar-primary: oklch(0.881 0.116 91);
