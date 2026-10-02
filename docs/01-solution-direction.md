@@ -4,7 +4,7 @@
 
 > **[사실]** 출처가 있는 수치·조사 결과 · **[추정]** 출처 수치로 직접 계산 · **[가설]** 아직 검증되지 않은 주장
 
-근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [snoring](01-research/snoring.md) · [snoring-surgery](01-research/snoring-surgery.md) · [competitors](01-research/competitors.md) · [voc](01-research/voc.md) · [marketing](01-research/marketing.md) · [business-model](01-research/business-model.md) · [retention](01-research/retention.md) · [crawl-targets](01-research/crawl-targets.md)
+근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [snoring](01-research/snoring.md) · [snoring-surgery](01-research/snoring-surgery.md) · [competitors](01-research/competitors.md) · [benchmark](01-research/benchmark.md) · [clinic-survey](01-research/clinic-survey.md) · [supply-gap](01-research/supply-gap/README.md) · [voc](01-research/voc.md) · [marketing](01-research/marketing.md) · [business-model](01-research/business-model.md) · [retention](01-research/retention.md) · [crawl-targets](01-research/crawl-targets.md)
 
 ## 설계 원본: 사람이 직접 한 일
 
@@ -47,6 +47,7 @@ VOC에서 비용은 장벽이 아니었다. 검사 본인부담 12~14만 원대�
 
 **1. 배우자 체크와 결과**
 - 문항은 배우자가 직접 본 것만 묻는다. 코골이, 숨 멈춤, 컥 하는 소리, 옆에서 본 낮 졸림.
+  - [사실] 이게 빈 자리다. 국내외 서비스의 자가체크 17건 중 관찰자 기준 문항은 1건(일본 병원 공지)이다. 레즈메드처럼 "배우자·가족" 선택지를 둬도 문항은 본인 기준이다([benchmark](01-research/benchmark.md#자가체크-응답자-기준)). 국내 학회 수면클리닉은 자가진단이 있는 5곳 모두 성인 배우자 문항이 없다([clinic-survey](01-research/clinic-survey.md#결과)).
 - 결과는 진단이 아니라 세 가지 판단 기준이다. 병일 수 있다 / 치료로 나아진다 / 방치하면 건강에 안 좋다.
 - **방치 시 위험과 치료 시 이득을 함께 넣는다.** 배우자는 자기 불편만 있을 때보다 상대의 건강 위험이 같이 보일 때 더 움직인다 [가설]. 인터뷰에서 엄마도 "건강에 안 좋다"는 말에 움직였다.
 - 치료를 과장하지 않는다. 양압기는 쓰는 동안 효과가 확실하지만 오래 쓰는 사람은 적고, 경증은 구강장치·체중 감량 같은 방법도 있다. 어느 쪽이 맞는지는 진료로 정한다.
@@ -55,6 +56,8 @@ VOC에서 비용은 장벽이 아니었다. 검사 본인부담 12~14만 원대�
 
 **2. 근처 수면클리닉 목록**
 - 레즈메드 병원찾기와 대한수면연구학회 데이터로 근처 병원을 보여주고, 원 페이지로 가는 외부 링크를 단다.
+- [사실] 배우자에게 말을 거는 해외 사례 6건은 정보 제공 2, 자사 상담 3, 제품 구매 1로 끝난다. 중립 병원 목록으로 보내는 곳은 0건이다([benchmark](01-research/benchmark.md#교차-배우자가족에게-말을-거는-6건은-어디서-끝나나)). 이 목록이 차별점이다.
+- [사실] 레즈메드 목록만으로는 230개 시·군·구 중 124곳에 병원이 0곳이다(인구 20.4%). 심평원 공공 데이터의 검사기관으로 넓히면 98곳, 11.0%로 준다([supply-gap](01-research/supply-gap/README.md#심평원-전체-목록으로-다시-계산-2026-10-03)). 상세는 `03-tech-spec`.
 - 검사 받는 법을 붙인다. 예약(병원 전화·홈페이지, 크롤링한 연락처로 연결), 비용([사실] 검사 본인부담 약 12~14만 원), 과정(외래 진료 → 의사 판단 → 하룻밤 검사).
 - 예약은 하지 않는다. 외부 링크로 넘긴다.
 - **이 화면의 외부 링크 클릭이 북극성 지표다.**

@@ -2,7 +2,7 @@
 
 > **[사실]** 출처가 있는 수치 · **[추정]** 출처 수치로 직접 계산 · **[가설]** 아직 검증되지 않은 주장
 
-근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [voc](01-research/voc.md) · [competitors](01-research/competitors.md) · [crawl-targets](01-research/crawl-targets.md)
+근거 원자료: [evidence](01-research/evidence.md) · [awareness](01-research/awareness.md) · [voc](01-research/voc.md) · [competitors](01-research/competitors.md) · [benchmark](01-research/benchmark.md) · [clinic-survey](01-research/clinic-survey.md) · [supply-gap](01-research/supply-gap/README.md) · [crawl-targets](01-research/crawl-targets.md)
 
 ## 한 줄 요약
 
@@ -49,7 +49,8 @@
 **① 배우자에게 판단 기준과 경로가 없다 (메인)**
 - [사실] 병원에 간 환자가 질환을 알게 된 경로는 "동거인이 숨 멈춤을 알아챔" 37.6%, "코골이로 동거인 수면 방해" 25.5%였다(업계 설문). 배우자가 가장 큰 계기다.
 - [사실] 인터뷰에서 엄마는 수십 년을 참으면서도 병인지, 치료로 없어지는지 몰랐다. 네 가지를 알게 되자 바로 움직였다.
-- [사실] 배우자에게 말을 거는 캠페인은 해외에 있지만(미국수면학회 "Stop the Snore", 필립스 "Save the Pillows") "신호를 알아채라"에서 끝난다. 국내 클리닉의 자가진단은 본인 기준이다([competitors](01-research/competitors.md)).
+- [사실] 배우자에게 말을 거는 곳은 있다(미국수면학회 "Stop the Snore", 영국 snorer.com, 캐나다 VitalAire 대화 가이드, 일본 테이진 등). 하지만 대부분 "신호를 알아채라"나 자사 상담·제품에서 끝나고, 문항은 본인 기준이다. 옆에서 본 것으로 체크하고 중립 병원 목록까지 잇는 곳은 찾지 못했다(직접 확인 46건, 자가체크 17건 중 관찰자 기준 1건) ([benchmark](01-research/benchmark.md#주장과-어긋나는-사례), [competitors](01-research/competitors.md)).
+- [사실] 국내 학회 수면클리닉 95곳 중 읽을 수 있었던 81곳에서, 병원당 4페이지 안에 배우자에게 직접 말을 거는 곳은 0곳이었다. 수면 자가진단이 있는 5곳도 성인 배우자가 답하는 문항은 없었다([clinic-survey](01-research/clinic-survey.md#결과)).
 - 배우자가 혼자 할 수 있는 건 귀마개와 각방뿐이다.
 
 **② 당사자가 거부할 수 있다 (보조)**
@@ -88,7 +89,7 @@
 ## 만들 것
 
 1. **배우자 체크와 결과:** 숨 멈춤, 컥 하는 소리, 낮 졸림처럼 배우자가 본 것을 답하면 병일 수 있는지, 치료로 나아지는지, 방치하면 어떤지를 보여준다. 수면무호흡을 방치했을 때의 위험과 치료했을 때의 이득을 함께 넣는다.
-2. **근처 수면클리닉 목록:** 레즈메드 병원찾기와 대한수면연구학회 데이터를 크롤링해서 보여준다. 검사 받는 법(예약, 비용, 과정)을 붙이고, 원 페이지로 가는 외부 링크를 단다.
+2. **근처 수면클리닉 목록:** 레즈메드 병원찾기와 대한수면연구학회 데이터를 크롤링해서 보여준다. 검사 받는 법(예약, 비용, 과정)을 붙이고, 원 페이지로 가는 외부 링크를 단다. [사실] 레즈메드 목록만으로는 사는 시·군·구에 병원이 0곳인 인구가 20.4%라, 심평원 공공 데이터의 검사기관으로 넓힌다(11.0%로 준다, [supply-gap](01-research/supply-gap/README.md#심평원-전체-목록으로-다시-계산-2026-10-03)).
 3. **결과 공유 링크:** 배우자가 결과를 카카오톡으로 당사자에게 보낸다. 당사자는 같은 결과를 보고, 맨 위에 당사자용 한 줄이 붙는다. 별도 저장 없이 링크 공유만 한다.
 
 ## 만들지 않을 것
