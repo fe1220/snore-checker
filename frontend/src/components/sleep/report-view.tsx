@@ -40,7 +40,7 @@ export function ReportView({ shared }: { shared: boolean }) {
             "h-auto min-h-14 px-6 py-2 text-lg whitespace-normal",
           )}
         >
-          {shared ? "체크하기" : "다시 체크하기"}
+          {shared ? "진단하기" : "다시 진단하기"}
         </Link>
       </main>
     )

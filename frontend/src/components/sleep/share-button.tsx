@@ -9,10 +9,15 @@ export function ShareButton({ path }: { path: string }) {
   async function share() {
     track({ name: "share_click" })
     const url = `${window.location.origin}${path}`
-    const text = "옆에서 본 당신의 수면 체크 리포트예요."
+    const text =
+      "함께 자는 분이 만든 수면 진단 리포트예요. 결과를 확인해 보세요."
     if (navigator.share) {
       try {
-        await navigator.share({ title: "수면 체크 리포트", text, url })
+        // url을 따로 넘기면 공유 창의 "복사"가 주소와 문구를 붙여 써서 링크가 깨진다.
+        await navigator.share({
+          title: "수면 진단 리포트",
+          text: `${text}\n${url}`,
+        })
       } catch {
         // 사용자가 공유 창을 닫은 경우
       }

@@ -50,7 +50,7 @@ export function Landing({ headline }: { headline: HeadlineKey }) {
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">
       <div className="flex flex-1 flex-col px-4 pt-6">
         <p className="text-base font-semibold text-muted-foreground">
-          코골이 체크
+          코골이 진단
         </p>
         <h1 className="mt-8 text-3xl leading-tight font-extrabold tracking-tight whitespace-pre-line">
           {HEADLINES[headline]}

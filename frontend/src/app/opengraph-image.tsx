@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 
-export const alt = "수면 체크 리포트"
+export const alt = "수면 진단 리포트"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -50,7 +50,7 @@ export default async function OgImage() {
             color: COLOR.muted,
           }}
         >
-          <span>수면 체크 리포트</span>
+          <span>수면 진단 리포트</span>
           <span>옆에서 본 9가지</span>
         </div>
         <div

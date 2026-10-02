@@ -161,7 +161,7 @@ export function Report({
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-4">
         <p className="text-base text-muted-foreground tabular-nums">
-          수면 체크 리포트 · {date} · 옆에서 본 {QUESTIONS.length}가지 질문
+          수면 진단 리포트 · {date} · 옆에서 본 {QUESTIONS.length}가지 질문
         </p>
         <div className={cn("flex flex-col gap-3 border-l-4 pl-4", band)}>
           {shared && level !== "weak" && (
@@ -370,7 +370,8 @@ export function Report({
           </AccordionItem>
         </Accordion>
         <p className="text-base text-muted-foreground">
-          이 리포트는 진단이 아니에요. 정확한 것은 병원 진료로 확인하세요.
+          이 리포트는 의사의 진단을 대신하지 않아요. 정확한 것은 병원 진료로
+          확인하세요.
         </p>
         <Link
           href="/privacy"
