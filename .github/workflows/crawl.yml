@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: crawl
@@ -25,17 +26,45 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-          cache-dependency-path: crawler/pnpm-lock.yaml
+          cache-dependency-path: |
+            crawler/pnpm-lock.yaml
+            frontend/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
         working-directory: crawler
-      - run: pnpm crawl
+      # 학회 목록만 실패하면 크롤러가 이전 배지를 이어 붙여 저장한 뒤 1로 끝난다.
+      # 그 데이터도 커밋해야 해서 여기서는 멈추지 않고, 마지막 단계에서 실패로 끝낸다.
+      # 다른 실패는 저장하지 않으므로 아래 커밋 단계가 "변경 없음"으로 지나간다.
+      - id: crawl
+        run: pnpm crawl
         working-directory: crawler
+        continue-on-error: true
+      # GITHUB_TOKEN으로 한 push는 gate.yml을 돌리지 않는다. 배포 전 마지막 검사로 프론트 계약 테스트를 여기서 돌린다.
+      - run: pnpm install --frozen-lockfile
+        working-directory: frontend
+      - run: pnpm test
+        working-directory: frontend
       # 데이터가 바뀌었을 때만 커밋한다. push가 Vercel 재배포를 트리거한다.
       - name: Commit data
         run: |
-          git add frontend/src/data
+          git add frontend/src/data/hospitals.json
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(data): 크롤링 데이터 갱신"
-          git push
+          # 크롤이 도는 동안 main에 다른 push가 있으면 그 위로 올린다
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Fail if crawl failed
+        if: steps.crawl.outcome == 'failure'
+        run: |
+          echo "크롤러가 실패로 끝났습니다. crawl 단계 로그를 확인하세요."
+          exit 1
+      - name: Open an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "정기 크롤 실패 ($(date -u +%Y-%m-%d))" \
+            --body "크롤 워크플로우가 실패했습니다. 로그: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

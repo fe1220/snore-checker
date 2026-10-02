@@ -3,7 +3,8 @@ import type { Place } from "../match.ts"
 
 // 대한수면연구학회 수면클리닉 찾기. 학회 목록에 있다는 배지만 붙이므로 원 페이지 링크는 쓰지 않는다(상세가 모달이라 주소도 없다).
 const LIST_URL = "https://www.sleepnet.or.kr/hospital/find"
-const PAGES = 5
+// 2026-10 기준 5쪽이다. 쪽 수가 늘어도 이 안에서 끝나도록 넉넉히 둔 안전 상한이다.
+export const MAX_PAGES = 20
 const PAGE_INTERVAL_MS = 1000
 
 export type SleepnetClinic = Place & { homepage: string | null }
@@ -63,20 +64,25 @@ export function parse(html: string): SleepnetClinic[] {
   return clinics
 }
 
-// 배지 때문에 병원 목록 갱신이 멈추면 안 된다. 한 쪽이라도 실패하면 재시도하지 않고 빈 목록을 돌려준다(배지를 모두 뗀다).
-export async function crawl(): Promise<SleepnetClinic[]> {
+// 마지막 쪽 다음 쪽은 병원이 없는 빈 목록으로 온다. 1쪽부터 비면 구조가 바뀐 것이다.
+// 상한까지 비지 않으면 쪽 번호를 무시하고 같은 쪽을 돌려주는 것일 수 있어 실패로 본다.
+export async function collectPages(fetchPage: (page: number) => Promise<SleepnetClinic[]>): Promise<SleepnetClinic[]> {
   const clinics: SleepnetClinic[] = []
-  try {
-    for (let page = 1; page <= PAGES; page++) {
-      if (page > 1) await new Promise((resolve) => setTimeout(resolve, PAGE_INTERVAL_MS))
-      const found = parse(await fetchText(`${LIST_URL}?page=${page}`))
-      // 쪽 하나가 비면 구조가 바뀐 것이라 일부만 배지를 붙이지 않는다
-      if (found.length === 0) throw new Error(`${page}쪽에서 병원을 찾지 못했습니다`)
-      clinics.push(...found)
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const found = await fetchPage(page)
+    if (found.length === 0) {
+      if (page === 1) throw new Error("1쪽에서 병원을 찾지 못했습니다")
+      return clinics
     }
-  } catch (error) {
-    console.error(`학회 목록 수집 실패, 배지 없이 저장합니다: ${error instanceof Error ? error.message : error}`)
-    return []
+    clinics.push(...found)
   }
-  return clinics
+  throw new Error(`${MAX_PAGES}쪽까지 빈 쪽이 나오지 않았습니다`)
+}
+
+// 실패하면 그대로 던진다. 배지를 이어 붙일지는 index.ts가 정한다.
+export async function crawl(): Promise<SleepnetClinic[]> {
+  return collectPages(async (page) => {
+    if (page > 1) await new Promise((resolve) => setTimeout(resolve, PAGE_INTERVAL_MS))
+    return parse(await fetchText(`${LIST_URL}?page=${page}`))
+  })
 }

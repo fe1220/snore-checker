@@ -2,10 +2,15 @@ import { createHash } from "node:crypto"
 
 import { coreName, findMatch, normalizeName, normalizePhone } from "./match.ts"
 import { type HiraItem, inKorea } from "./sources/hira.ts"
-import { type Region, type ResmedHospital, withAreaCode } from "./sources/resmed.ts"
+import type { ResmedHospital } from "./sources/resmed.ts"
 import type { SleepnetClinic } from "./sources/sleepnet.ts"
 
+export type Region =
+  | "서울" | "경기" | "인천" | "부산" | "대구" | "광주" | "대전" | "울산" | "세종"
+  | "강원" | "충북" | "충남" | "전북" | "전남" | "경북" | "경남" | "제주"
+
 export type Hospital = Omit<ResmedHospital, "sourceUrl"> & {
+  region: Region
   // 레즈메드 상세 페이지. 공공 데이터에만 있는 병원은 원 페이지가 없어 null
   sourceUrl: string | null
   homepage: string | null
@@ -27,6 +32,21 @@ const KIND_BY_HIRA: Record<string, Kind> = {
 // 화면에 보여줄 규모 네 가지만 남긴다. 치과병원·정신병원처럼 그 밖의 종별은 보여주지 않는다.
 export function kindOf(hiraKind: string): Kind | null {
   return KIND_BY_HIRA[hiraKind] ?? null
+}
+
+const KINDS = new Set<string>(Object.values(KIND_BY_HIRA))
+
+// 원본에 지역번호 없이 적힌 번호는 휴대폰에서 tel: 로 걸리지 않아 병원 시·도의 지역번호를 붙인다.
+const AREA_CODE: Record<Region, string> = {
+  서울: "02", 경기: "031", 인천: "032", 부산: "051", 대구: "053", 광주: "062",
+  대전: "042", 울산: "052", 세종: "044", 강원: "033", 충북: "043", 충남: "041",
+  전북: "063", 전남: "061", 경북: "054", 경남: "055", 제주: "064",
+}
+
+// 1577-·1588- 같은 대표번호는 지역번호가 없는 게 정상이라 건드리지 않는다.
+export function withAreaCode(phone: string | null, region: Region): string | null {
+  if (phone !== null && /^\d{3,4}-\d{4}$/.test(phone) && !/^1\d{3}-/.test(phone)) return `${AREA_CODE[region]}-${phone}`
+  return phone
 }
 
 const REGION_BY_SIDO: Record<string, Region> = {
@@ -91,9 +111,6 @@ export function normalizeHomepage(value: string | null): string | null {
   return withScheme
 }
 
-// 수면다원검사를 받으러 가는 곳으로 안내할 수 있는 종류만 추가한다. 치과병원·정신병원 등은 뺀다.
-const ADDABLE_KINDS = new Set(["의원", "병원", "종합병원", "상급종합"])
-
 function hiraId(ykiho: string): string {
   return `hira-${createHash("sha256").update(ykiho).digest("hex").slice(0, 10)}`
 }
@@ -113,7 +130,7 @@ function fromSnapshot(item: HiraItem): Hospital {
     name: item.name,
     region,
     address: item.address,
-    phone: item.phone === null ? null : withAreaCode(item.phone, region),
+    phone: withAreaCode(item.phone, region),
     lat: item.lat,
     lng: item.lng,
     sourceUrl: null,
@@ -156,10 +173,12 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
 
   for (const original of resmed) {
     const region = regionOf(original.address)
-    const found = findMatch(original, snapshot)
+    const phone = withAreaCode(original.phone, region)
+    // 지역번호를 붙인 번호로 맞춰야 "535-3600"과 "033-535-3600"이 같은 번호로 잡힌다
+    const found = findMatch({ ...original, phone }, snapshot)
 
     if (!found) {
-      const hospital = { ...original, region, homepage: null, listed: false, kind: null }
+      const hospital = { ...original, region, phone, homepage: null, listed: false, kind: null }
       result.hospitals.push(hospital)
       result.unmatched.push(hospital)
       continue
@@ -170,6 +189,7 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
       ...original,
       name: original.name.length > MAX_NAME_LENGTH ? found.name : original.name,
       region,
+      phone,
       lat: found.lat,
       lng: found.lng,
       homepage: normalizeHomepage(found.homepage),
@@ -182,7 +202,8 @@ export function merge(resmed: ResmedHospital[], snapshot: HiraItem[]): MergeResu
 
   for (const item of snapshot) {
     if (used.has(item)) continue
-    if (!ADDABLE_KINDS.has(item.kind)) {
+    // 수면다원검사를 받으러 가는 곳으로 안내할 수 있는 규모만 추가한다. 치과병원·정신병원 등은 뺀다.
+    if (kindOf(item.kind) === null) {
       result.skippedKind.push(item)
       continue
     }
@@ -247,6 +268,7 @@ export function assertValid(hospitals: Hospital[]): void {
       throw new Error(`${label}: homepage가 http(s) 주소가 아닙니다 (${h.homepage})`)
     }
     if (typeof h.listed !== "boolean") throw new Error(`${label}: listed가 true나 false가 아닙니다`)
+    if (h.kind !== null && !KINDS.has(h.kind)) throw new Error(`${label}: kind가 허용 값이 아닙니다 (${h.kind})`)
     if (!inKorea(h.lat, h.lng)) throw new Error(`${label}: 좌표가 한국 범위 밖입니다 (${h.lat}, ${h.lng})`)
     if (seen.has(h.id)) throw new Error(`${label}: id가 겹칩니다`)
     seen.add(h.id)

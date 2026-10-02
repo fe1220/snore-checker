@@ -1,7 +1,7 @@
 import assert from "node:assert/strict"
 import { test } from "node:test"
 
-import { assertValid, distanceKm, type Hospital, kindOf, markListed, merge, normalizeHomepage, regionOf } from "./merge.ts"
+import { assertValid, distanceKm, type Hospital, kindOf, markListed, merge, normalizeHomepage, regionOf, withAreaCode } from "./merge.ts"
 import type { HiraItem } from "./sources/hira.ts"
 import type { ResmedHospital } from "./sources/resmed.ts"
 import type { SleepnetClinic } from "./sources/sleepnet.ts"
@@ -9,7 +9,6 @@ import type { SleepnetClinic } from "./sources/sleepnet.ts"
 const resmed: ResmedHospital = {
   id: "gyeonggibomboment",
   name: "봄봄이비인후과의원",
-  region: "경기",
   address: "경기도 고양시 덕양구 권율대로 672 봄오피스텔 3층 (원흥동)",
   phone: "031-966-0300",
   lat: 37.287,
@@ -40,7 +39,7 @@ const extra: HiraItem = {
   lng: 126.978,
 }
 
-const saved: Hospital = { ...resmed, lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example", listed: false, kind: "의원" }
+const saved: Hospital = { ...resmed, region: "경기", lat: 37.6498655, lng: 126.8741742, homepage: "http://bombom.example", listed: false, kind: "의원" }
 
 test("병원 규모는 네 가지로만 남기고 상급종합은 상급종합병원으로 쓴다", () => {
   assert.equal(kindOf("의원"), "의원")
@@ -73,7 +72,7 @@ test("이름이 40자 이하면 스냅샷 이름과 달라도 레즈메드 이�
 
 test("못 맞춘 레즈메드 병원은 좌표와 이름을 그대로 두고 홈페이지는 비운다", () => {
   const result = merge([resmed], [extra])
-  const kept = { ...resmed, homepage: null, listed: false, kind: null }
+  const kept = { ...resmed, region: "경기", homepage: null, listed: false, kind: null }
   assert.deepEqual(result.hospitals[0], kept)
   assert.deepEqual(result.unmatched, [kept])
   assert.deepEqual(result.matched, [])
@@ -190,9 +189,27 @@ test("홈페이지는 스킴이 없으면 https://를 붙이고, 주소 형식�
   assert.equal(normalizeHomepage("ftp://files.example.kr"), null)
 })
 
-test("시·도는 원본 값이 아니라 주소 첫 단어로 다시 계산한다", () => {
-  const wrong = { ...resmed, region: "경북" as const, address: "경상남도 통영시 무전대로 41 201~401호 (무전동)" }
-  assert.equal(merge([wrong], []).hospitals[0].region, "경남")
+test("시·도는 주소 첫 단어로 정한다", () => {
+  const tongyeong = { ...resmed, address: "경상남도 통영시 무전대로 41 201~401호 (무전동)" }
+  assert.equal(merge([tongyeong], []).hospitals[0].region, "경남")
+})
+
+test("레즈메드 병원의 지역번호 없는 번호에는 주소 시·도의 지역번호를 붙인다", () => {
+  const local = { ...resmed, phone: "966-0300" }
+  assert.equal(merge([local], []).hospitals[0].phone, "031-966-0300")
+  // 지역번호를 붙인 번호로 스냅샷과 맞춘다
+  assert.equal(merge([local], [hira]).matched.length, 1)
+  assert.equal(merge([{ ...resmed, phone: null }], []).hospitals[0].phone, null)
+})
+
+test("지역번호가 없는 지역 번호에만 시·도 지역번호를 붙인다", () => {
+  assert.equal(withAreaCode("981-7979", "경기"), "031-981-7979")
+  assert.equal(withAreaCode("2699-1442", "서울"), "02-2699-1442")
+  assert.equal(withAreaCode("1577-0083", "서울"), "1577-0083")
+  assert.equal(withAreaCode("033-535-3600", "강원"), "033-535-3600")
+  assert.equal(withAreaCode("02-722-7977", "서울"), "02-722-7977")
+  assert.equal(withAreaCode("0507-1481-3304", "서울"), "0507-1481-3304")
+  assert.equal(withAreaCode(null, "서울"), null)
 })
 
 test("시·도 표기가 달라도 약칭으로 통일한다", () => {
@@ -259,6 +276,14 @@ test("저장 전 검증: 홈페이지는 비어 있거나 http(s) 주소여야 �
 test("저장 전 검증: listed는 true나 false여야 한다", () => {
   assert.doesNotThrow(() => assertValid([{ ...saved, listed: true }]))
   assert.throws(() => assertValid([{ ...saved, listed: undefined as unknown as boolean }]), /listed/)
+})
+
+test("저장 전 검증: kind는 비어 있거나 규모 네 가지 중 하나여야 한다", () => {
+  for (const kind of ["의원", "병원", "종합병원", "상급종합병원", null] as const) {
+    assert.doesNotThrow(() => assertValid([{ ...saved, kind }]), String(kind))
+  }
+  assert.throws(() => assertValid([{ ...saved, kind: "상급종합" as Hospital["kind"] }]), /kind/)
+  assert.throws(() => assertValid([{ ...saved, kind: "치과병원" as Hospital["kind"] }]), /kind/)
 })
 
 test("합친 병원은 처음에 모두 학회 목록에 없다", () => {

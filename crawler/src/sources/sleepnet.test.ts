@@ -2,7 +2,7 @@ import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
 import { test } from "node:test"
 
-import { parse } from "./sleepnet.ts"
+import { collectPages, MAX_PAGES, parse, type SleepnetClinic } from "./sleepnet.ts"
 
 const fixture = await readFile(new URL("../../fixtures/sleepnet.html", import.meta.url), "utf8")
 
@@ -51,4 +51,40 @@ test("이름이나 주소가 없는 병원은 건너뛴다", () => {
 
 test("openView가 없으면 빈 목록이다", () => {
   assert.deepEqual(parse("<html></html>"), [])
+})
+
+// 쪽마다 병원 수를 정해 둔 가짜 목록. 범위 밖 쪽은 실제 사이트처럼 빈 목록이다.
+function pages(...counts: number[]) {
+  const requested: number[] = []
+  const fetchPage = async (page: number): Promise<SleepnetClinic[]> => {
+    requested.push(page)
+    return Array.from({ length: counts[page - 1] ?? 0 }, (_, i) => ({ name: `${page}-${i}`, address: "서울", phone: null, homepage: null }))
+  }
+  return { fetchPage, requested }
+}
+
+test("빈 쪽이 나올 때까지 모든 쪽을 모은다", async () => {
+  const { fetchPage, requested } = pages(15, 15, 3)
+  assert.equal((await collectPages(fetchPage)).length, 33)
+  assert.deepEqual(requested, [1, 2, 3, 4])
+})
+
+test("1쪽이 비면 실패한다", async () => {
+  await assert.rejects(collectPages(pages().fetchPage), /1쪽/)
+})
+
+test("안전 상한까지 빈 쪽이 나오지 않으면 실패한다", async () => {
+  const { fetchPage, requested } = pages(...Array<number>(MAX_PAGES + 5).fill(15))
+  await assert.rejects(collectPages(fetchPage), /빈 쪽이 나오지 않았습니다/)
+  assert.equal(requested.length, MAX_PAGES)
+})
+
+test("쪽을 가져오다 실패하면 그대로 실패한다", async () => {
+  await assert.rejects(
+    collectPages(async (page) => {
+      if (page === 2) throw new Error("503")
+      return pages(15).fetchPage(page)
+    }),
+    /503/,
+  )
 })
