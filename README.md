@@ -54,7 +54,10 @@ docs/
 ├── business-impact.md       ★ 비즈니스 임팩트
 ├── validation.md            가설 검증
 ├── planning-log.md          기획 로그
-├── meta-ads.md              메타 광고 유입 검증 (소재 이미지는 meta-ads/)
+├── meta-ads/                메타 광고 유입 검증
+│   ├── strategy.md          전략·결정·소재
+│   ├── creatives/           소재 이미지
+│   └── results/             결과 리포트
 ├── research/                기획 문서의 근거 자료
 │   ├── evidence.md          수치 원출처 (환자 수·유병률·유배우율·수가)
 │   ├── benchmark.md         국내외 서비스 46건 비교
@@ -77,7 +80,8 @@ docs/
 ├── work/                    작업별 spec.md(스펙)·plan.md(구현 계획)·verification.md(검증)
 │   ├── 01-clinic-list/      S4 근처 수면클리닉
 │   ├── 02-a11y-copy/        40~60대 접근성과 쉬운 문구 (+ screenshots/)
-│   └── 03-clinic-data/      병원 데이터 보강 (+ persona-test.md 가상 사용자 테스트)
+│   ├── 03-clinic-data/      병원 데이터 보강 (+ persona-test.md 가상 사용자 테스트)
+│   └── 05-meta-report/      메타 광고 결과 리포트 스크립트
 ├── troubleshooting.md       트러블슈팅
 ├── tech-stack.md            기술 스택 근거
 ├── agent-log.md             에이전트 운영 기록
@@ -101,7 +105,7 @@ docs/
 | 수면클리닉 전수 조사 | 학회 수면클리닉 95곳 홈페이지를 확인했다. 배우자에게 직접 말을 거는 곳은 0곳이었다 | [전수 조사](docs/research/clinic-survey.md) |
 | 사업성 | 광고주(검사하는 병원)의 문제, 시장 크기, 의료법상 가능한 수익 모델을 정리했다 | [비즈니스 임팩트](docs/business-impact.md) |
 | 공급 공백 분석 | 레즈메드 목록만으로는 시·군·구 230곳 중 124곳(인구 20.4%)에 병원이 없었다. 전체 검사기관으로 넓히면 11.0%로 준다. 군 82곳 중 78곳은 여전히 0곳이다 | [공급 공백](docs/research/supply-gap/README.md) |
-| 유입 검증 | 검색하지 않는 배우자를 데려올 수 있는지 메타 광고(10만 원, 소재 5개)로 잰다 | [메타 광고](docs/meta-ads.md) |
+| 유입 검증 | 검색하지 않는 배우자를 데려올 수 있는지 메타 광고(10만 원, 소재 5개)로 잰다. `make meta-report` 한 번으로 메타 광고비와 GA4 퍼널을 합쳐 병원 링크 클릭 1건당 비용까지 리포트로 만든다 | [메타 광고 전략](docs/meta-ads/strategy.md) |
 
 **서비스**
 
@@ -147,6 +151,7 @@ Node.js 24+, pnpm이 필요하다 (`corepack enable pnpm`).
 make setup   # 의존성 설치, frontend/.env.local 생성
 make dev     # http://localhost:3000
 make crawl   # 크롤링 → frontend/src/data/hospitals.json
+make meta-report  # 메타 광고 + GA4 숫자 → docs/meta-ads/results/<날짜>.md (설정: reporting/.env.local)
 make gate    # 타입체크·린트·포맷·테스트·빌드, 크롤러 테스트, 접근성 측정
 ```
 

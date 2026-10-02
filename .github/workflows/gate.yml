@@ -25,7 +25,9 @@ jobs:
           cache-dependency-path: |
             frontend/pnpm-lock.yaml
             crawler/pnpm-lock.yaml
+            reporting/pnpm-lock.yaml
       - run: pnpm --dir frontend install --frozen-lockfile
       - run: pnpm --dir crawler install --frozen-lockfile
+      - run: pnpm --dir reporting install --frozen-lockfile
       - run: pnpm --dir frontend exec playwright install --with-deps chromium
       - run: make gate

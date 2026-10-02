@@ -1,0 +1,76 @@
+// make meta-report: 메타 광고 + GA4 숫자를 모아 docs/meta-ads/results/<날짜>.md를 쓰고
+// strategy.md의 결과 표를 갈아 끼운다. 반쪽 리포트를 남기지 않도록 두 조회가 다 끝난 뒤에만 쓴다.
+import { readFile, writeFile, mkdir } from "node:fs/promises"
+import { fileURLToPath } from "node:url"
+import { fetchCampaignStart, fetchMetaRows } from "./meta.ts"
+import { fetchGaRows } from "./ga4.ts"
+import { mergeRows, renderReport, renderSummary, replaceBetweenMarkers } from "./report.ts"
+
+const DOCS = fileURLToPath(new URL("../../docs/meta-ads/", import.meta.url))
+const REQUIRED = [
+  "META_ACCESS_TOKEN",
+  "META_CAMPAIGN_ID",
+  "GA4_PROPERTY_ID",
+  "GA4_CREDENTIALS_FILE",
+] as const
+
+// KST 기준 날짜 문자열
+function kstDate(d: Date): string {
+  return new Date(d.getTime() + 9 * 3600_000).toISOString().slice(0, 10)
+}
+
+function argValue(name: string): string | undefined {
+  const i = process.argv.indexOf(name)
+  return i === -1 ? undefined : process.argv[i + 1]
+}
+
+async function main() {
+  const missing = REQUIRED.filter((k) => !process.env[k])
+  if (missing.length) {
+    console.error(`설정이 없어요: ${missing.join(", ")} (reporting/.env.local)`)
+    process.exit(1)
+  }
+  const env = process.env as Record<(typeof REQUIRED)[number], string>
+  const meta = {
+    token: env.META_ACCESS_TOKEN,
+    campaignId: env.META_CAMPAIGN_ID,
+    version: process.env.META_API_VERSION ?? "v26.0",
+  }
+
+  const now = new Date()
+  const until = argValue("--until") ?? kstDate(new Date(now.getTime() - 86_400_000))
+  const since = argValue("--since") ?? kstDate(new Date(await fetchCampaignStart(meta)))
+  if (since > until) {
+    console.error(`집계 기간이 비었어요: ${since} ~ ${until}. --until로 날짜를 정해 주세요`)
+    process.exit(1)
+  }
+
+  const [metaRows, gaRows] = await Promise.all([
+    fetchMetaRows(meta, since, until),
+    fetchGaRows(
+      {
+        propertyId: env.GA4_PROPERTY_ID,
+        keyFile: env.GA4_CREDENTIALS_FILE,
+        source: process.env.UTM_SOURCE ?? "meta",
+      },
+      since,
+      until,
+    ),
+  ])
+  const rows = mergeRows(metaRows, gaRows)
+
+  const reportPath = `results/${until}.md`
+  const generatedAt = `${kstDate(now)} ${now.toLocaleTimeString("ko-KR", { timeZone: "Asia/Seoul", hour12: false })} KST`
+  await mkdir(`${DOCS}results`, { recursive: true })
+  await writeFile(`${DOCS}${reportPath}`, renderReport({ since, until, generatedAt, rows }))
+
+  const strategy = await readFile(`${DOCS}strategy.md`, "utf-8")
+  await writeFile(`${DOCS}strategy.md`, replaceBetweenMarkers(strategy, renderSummary(rows, reportPath)))
+
+  console.log(`docs/meta-ads/${reportPath} 작성, strategy.md 결과 표 갱신 (${since} ~ ${until}, 소재 ${rows.length}줄)`)
+}
+
+main().catch((err: unknown) => {
+  console.error(err instanceof Error ? err.message : err)
+  process.exit(1)
+})

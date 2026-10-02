@@ -1,0 +1,21 @@
+{
+  "name": "reporting",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "meta-report": "node --env-file-if-exists=.env.local src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "devDependencies": {
+    "@types/node": "24",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^7.2.1"
+  }
+}

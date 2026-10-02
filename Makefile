@@ -1,7 +1,8 @@
 FE := frontend
 CR := crawler
+RP := reporting
 
-.PHONY: check-prereq setup setup-agent dev crawl fe-check fe-a11y crawler-check gate
+.PHONY: check-prereq setup setup-agent dev crawl meta-report fe-check fe-a11y crawler-check reporting-check gate
 
 check-prereq:
 	@command -v node >/dev/null || { echo "Node.js 24+ 가 필요합니다: https://nodejs.org"; exit 1; }
@@ -11,6 +12,7 @@ setup: check-prereq ## 의존성 설치, 환경변수 파일 생성
 	@[ -f $(FE)/.env.local ] || cp $(FE)/.env.example $(FE)/.env.local
 	pnpm --dir $(FE) install
 	pnpm --dir $(CR) install
+	pnpm --dir $(RP) install
 
 setup-agent: ## 에이전트 스킬 설치 (gstack). superpowers는 Claude Code가 프로젝트 설정으로 설치를 안내한다.
 	@if [ -d $$HOME/.claude/skills/gstack ]; then echo "gstack 설치됨"; \
@@ -22,6 +24,9 @@ dev:
 crawl: ## 크롤링 후 frontend/src/data/에 JSON 저장
 	pnpm --dir $(CR) crawl
 
+meta-report: ## 메타 광고 + GA4 숫자로 docs/meta-ads/results/<날짜>.md 작성. 설정은 reporting/.env.local
+	pnpm --dir $(RP) meta-report $(ARGS)
+
 fe-check:
 	cd $(FE) && pnpm exec next typegen && pnpm exec tsc --noEmit && pnpm lint && pnpm format:check && pnpm test && pnpm build
 
@@ -32,5 +37,9 @@ crawler-check:
 	pnpm --dir $(CR) typecheck
 	pnpm --dir $(CR) test
 
-gate: fe-check crawler-check fe-a11y
+reporting-check:
+	pnpm --dir $(RP) typecheck
+	pnpm --dir $(RP) test
+
+gate: fe-check crawler-check reporting-check fe-a11y
 	@echo "GATE PASS"
