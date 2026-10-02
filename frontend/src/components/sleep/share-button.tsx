@@ -13,11 +13,8 @@ export function ShareButton({ path }: { path: string }) {
       "함께 자는 분이 만든 수면 진단 리포트예요. 결과를 확인해 보세요."
     if (navigator.share) {
       try {
-        // url을 따로 넘기면 공유 창의 "복사"가 주소와 문구를 붙여 써서 링크가 깨진다.
-        await navigator.share({
-          title: "수면 진단 리포트",
-          text: `${text}\n${url}`,
-        })
+        // title·url을 따로 넘기면 공유 창의 "복사"가 문구와 줄바꿈 없이 붙여 쓴다.
+        await navigator.share({ text: `${text}\n${url}` })
       } catch {
         // 사용자가 공유 창을 닫은 경우
       }
