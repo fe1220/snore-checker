@@ -35,7 +35,7 @@ export function judge(signals: Question[]): Level {
 // 문항마다 비트 하나를 쓰고 36진수로 줄인다. 건강 정보가 단어로 주소에 남지 않게 하려는 것이고 암호화는 아니다.
 const MAX_CODE = 2 ** QUESTIONS.length - 1
 
-export function encodeSignals(signals: Question[]): string {
+function encodeSignals(signals: Question[]): string {
   const bits = QUESTIONS.reduce(
     (acc, q, index) => (signals.includes(q) ? acc | (1 << index) : acc),
     0,
@@ -43,11 +43,25 @@ export function encodeSignals(signals: Question[]): string {
   return bits.toString(36)
 }
 
-export function decodeSignals(code: string): Question[] | null {
+function decodeSignals(code: string): Question[] | null {
   if (!/^[0-9a-z]{1,2}$/.test(code)) return null
   const bits = parseInt(code, 36)
   if (bits > MAX_CODE) return null
   return QUESTIONS.filter((_, index) => bits & (1 << index))
+}
+
+// 응답은 주소 해시(#v1-dh)에만 담는다. 해시는 서버·분석 도구로 전송되지 않는다.
+// 문항이 바뀌면 버전을 올려 옛 링크가 다른 문항으로 해석되지 않게 한다.
+const HASH_VERSION = "v1"
+
+export function toReportHash(signals: Question[]): string {
+  return `${HASH_VERSION}-${encodeSignals(signals)}`
+}
+
+export function fromReportHash(hash: string): Question[] | null {
+  const match = hash.replace(/^#/, "").match(/^([a-z0-9]+)-(.*)$/)
+  if (!match || match[1] !== HASH_VERSION) return null
+  return decodeSignals(match[2])
 }
 
 export const LEVEL_COPY: Record<Level, { title: string; body: string }> = {

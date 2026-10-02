@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 
-import { decodeSignals, encodeSignals, judge, QUESTIONS } from "./sleep-check"
+import { fromReportHash, judge, QUESTIONS, toReportHash } from "./sleep-check"
 
 function pick(ids: string[]) {
   return QUESTIONS.filter((q) => ids.includes(q.id))
@@ -23,31 +23,41 @@ describe("judge", () => {
   })
 })
 
-describe("encodeSignals / decodeSignals", () => {
-  it("코드에 문항 id 같은 읽을 수 있는 단어가 없다", () => {
-    const code = encodeSignals(pick(["apnea", "pressure", "body"]))
-    expect(code).toMatch(/^[0-9a-z]{1,2}$/)
+describe("toReportHash / fromReportHash", () => {
+  it("해시에 문항 id 같은 읽을 수 있는 단어가 없다", () => {
+    const hash = toReportHash(pick(["apnea", "pressure", "body"]))
+    expect(hash).toMatch(/^v1-[0-9a-z]{1,2}$/)
   })
 
-  it("인코딩한 코드를 디코딩하면 같은 문항이 나온다", () => {
+  it("만든 해시를 읽으면 같은 문항이 나온다", () => {
     for (const ids of [
       [],
       ["apnea"],
       ["snore-often", "age", "body"],
       QUESTIONS.map((q) => q.id),
     ]) {
-      expect(decodeSignals(encodeSignals(pick(ids)))).toEqual(pick(ids))
+      expect(fromReportHash(toReportHash(pick(ids)))).toEqual(pick(ids))
     }
   })
 
-  it("신호가 없으면 0", () => {
-    expect(encodeSignals([])).toBe("0")
-    expect(decodeSignals("0")).toEqual([])
+  it("앞의 #은 있어도 없어도 읽는다", () => {
+    expect(fromReportHash("#v1-0")).toEqual([])
+    expect(fromReportHash("v1-0")).toEqual([])
   })
 
-  it("잘못된 코드는 null", () => {
-    for (const code of ["", "zz", "abc", "A1", "-1", "apnea"]) {
-      expect(decodeSignals(code)).toBeNull()
+  it("버전이 다르거나 잘못된 해시는 null", () => {
+    for (const hash of [
+      "",
+      "#",
+      "0",
+      "v2-0",
+      "v1-",
+      "v1-zz",
+      "v1-abc",
+      "v1-A1",
+      "dh",
+    ]) {
+      expect(fromReportHash(hash)).toBeNull()
     }
   })
 })
