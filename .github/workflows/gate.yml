@@ -3,7 +3,9 @@ name: gate
 on:
   push:
     branches: [main]
+    paths-ignore: ['**.md', 'docs/**', '.gitignore']
   pull_request:
+    paths-ignore: ['**.md', 'docs/**', '.gitignore']
 
 concurrency:
   group: gate-${{ github.ref }}
