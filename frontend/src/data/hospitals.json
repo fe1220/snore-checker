@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-03T06:06:24.031Z",
+  "crawledAt": "2026-10-03T06:15:42.794Z",
   "hiraVersion": "2026.6",
   "items": [
     {
@@ -830,7 +830,7 @@
       "lng": 127.3819888,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonemc",
       "region": "대전",
-      "homepage": "http://www.emc.ac.kr/default.asp",
+      "homepage": null,
       "listed": false,
       "kind": "종합병원"
     },
@@ -869,7 +869,7 @@
       "lng": 127.3895146,
       "sourceUrl": "https://www.resmed.kr/psg-finder/daejeonrafael",
       "region": "대전",
-      "homepage": "http://www.iraphael.co.kr",
+      "homepage": null,
       "listed": false,
       "kind": "의원"
     },
@@ -1077,7 +1077,7 @@
       "lng": 126.9261467,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjuchosun",
       "region": "광주",
-      "homepage": "http://hosp.chosun.ac.kr",
+      "homepage": null,
       "listed": false,
       "kind": "상급종합병원"
     },
@@ -1207,7 +1207,7 @@
       "lng": 126.9118749,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gwangjukch",
       "region": "광주",
-      "homepage": "http://www.kch.or.kr",
+      "homepage": null,
       "listed": false,
       "kind": "종합병원"
     },
@@ -1597,7 +1597,7 @@
       "lng": 127.1217783,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggidmcbundang",
       "region": "경기",
-      "homepage": "http://www.dmc.or.kr",
+      "homepage": null,
       "listed": false,
       "kind": "종합병원"
     },
@@ -1714,7 +1714,7 @@
       "lng": 127.0506997,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeonggieuljieuijeongbu",
       "region": "경기",
-      "homepage": "https://uemc.ac.kr/clinic/clinic_pg04.jsp?dept=ABOAAA",
+      "homepage": null,
       "listed": true,
       "kind": "종합병원"
     },
@@ -2650,7 +2650,7 @@
       "lng": 128.5923771,
       "sourceUrl": "https://www.resmed.kr/psg-finder/gyeongnamskkuchangwon",
       "region": "경남",
-      "homepage": "http://smc.skku.edu",
+      "homepage": null,
       "listed": true,
       "kind": "상급종합병원"
     },
@@ -4847,7 +4847,7 @@
       "lat": 35.85964,
       "lng": 128.540587,
       "sourceUrl": null,
-      "homepage": "http://www.daegumc.co.kr",
+      "homepage": null,
       "listed": false,
       "kind": "종합병원"
     },
@@ -9254,7 +9254,7 @@
       "lng": 127.0699354,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulnowoneulji",
       "region": "서울",
-      "homepage": "http://www.eulji.or.kr/default.asp",
+      "homepage": null,
       "listed": false,
       "kind": "종합병원"
     },
