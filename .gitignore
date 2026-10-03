@@ -5,6 +5,7 @@
 .claude/gate-skip
 .design-review/
 .gstack/
+.superpowers/
 frontend/test-results/
 frontend/playwright-report/
 
