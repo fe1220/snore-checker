@@ -54,14 +54,14 @@ export function ClinicCard({
           href={mapSearchUrl(hospital)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex min-h-12 min-w-0 items-center gap-1.5 text-base text-muted-foreground"
+          aria-label={`${hospital.address} 지도에서 보기`}
+          className="flex min-h-12 min-w-0 items-start gap-1.5 py-3 text-base text-muted-foreground"
         >
-          <MapPin className="size-4 shrink-0" aria-hidden />
+          <MapPin className="mt-1 size-4 shrink-0" aria-hidden />
           <span className="min-w-0 [overflow-wrap:anywhere] underline underline-offset-4">
             {hospital.address}
           </span>
-          <ExternalLink className="size-4 shrink-0" aria-hidden />
-          <span className="sr-only">지도에서 보기</span>
+          <ExternalLink className="mt-1 size-4 shrink-0" aria-hidden />
         </a>
       </div>
       <div className="flex flex-wrap gap-2">
