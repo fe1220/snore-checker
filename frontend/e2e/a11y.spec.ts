@@ -44,6 +44,11 @@ async function open(page: Page, screen: (typeof SCREENS)[number]) {
     await page.getByRole("button", { name: new RegExp(screen.open) }).click()
     await page.getByRole("dialog").waitFor()
   }
+  // 화면 밖 병원 카드는 content-visibility로 그리기를 건너뛰어, axe가 색을 계산하는 시점에 따라
+  // 대비 위반으로 잘못 잡힌다. 사용자는 스크롤하면 모두 보게 되니 전부 그린 상태에서 잰다.
+  await page.addStyleTag({
+    content: ".offscreen-skip { content-visibility: visible !important; }",
+  })
   // 전환 효과가 끝난 뒤에 잰다. 도중에 재면 크기가 조금 작게 나온다.
   await page.evaluate(() =>
     Promise.all(document.getAnimations().map((a) => a.finished)),
