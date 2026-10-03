@@ -35,7 +35,7 @@
 |---|---|---|
 | 무엇이 틀릴 수 있나 | [가설 검증](docs/validation.md) | 가설을 문제 정의 순서대로 H1~H4로 나눴다(배우자가 동기가 크다, 판단 기준을 몰라서 참는다, 경로가 없으면 행동으로 못 넘어간다, 당사자는 따라간다). 메타 광고로 유입 비용을 처음 잰다. 커뮤니티 글 분류는 수집이 막혀 멈췄다 |
 | 왜 이렇게 정했나 | [기획 로그](docs/planning-log.md) | 검토한 질문과 결론, 10월 2일 방향 재정리, 재정리로 바뀐 결론 |
-| 화면은 어떻게 짰나 | [디자인패스](docs/design-pass.md) | S1 체크 시작 → S2 체크 → S3 리포트 → S4 근처 수면클리닉. 40~60대 접근성 기준 |
+| 화면은 어떻게 짰나 | [화면 설계](docs/ux-spec.md) | S1 체크 시작 → S2 체크 → S3 리포트 → S4 근처 수면클리닉. 40~60대 접근성 기준 |
 | 데이터와 구현은 | [아키텍처](docs/architecture.md), [작업별 스펙](docs/work/) | DB 없이 크롤링 JSON을 커밋한다. 레즈메드 + 심평원 공공 데이터 + 학회 목록 |
 | 제대로 만들었나 | 검증: [근처 수면클리닉](docs/work/01-clinic-list/verification.md), [접근성과 문구](docs/work/02-a11y-copy/verification.md), [병원 데이터](docs/work/03-clinic-data/verification.md) | 작업마다 체크리스트와 결과, [가상 사용자 테스트](docs/work/03-clinic-data/persona-test.md) |
 | 어디서 막혔나 | [트러블슈팅](docs/troubleshooting.md) | 레즈메드 데이터가 JS 문자열 안에 있음, 좌표 6곳 중 1곳 오류, 수집 차단 등 5건 |
@@ -75,7 +75,7 @@ docs/
 │   ├── copy-audit.md        화면 문구 감사 (→ work/02)
 │   ├── data-quality/        병원 데이터 품질 검사 (→ work/03)
 │   └── supply-gap/          시·군·구별 병원 공백 (→ work/03)
-├── design-pass.md           디자인패스 (화면 전체)
+├── ux-spec.md               화면 설계 (화면 전체)
 ├── architecture.md          아키텍처 (데이터 흐름·계약·분석)
 ├── work/                    작업별 spec.md(스펙)·plan.md(구현 계획)·verification.md(검증)
 │   ├── 01-clinic-list/      S4 근처 수면클리닉

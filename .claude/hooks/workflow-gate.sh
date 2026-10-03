@@ -2,7 +2,7 @@
 # PreToolUse: 구현 코드 수정 전에 앞 단계 문서가 승인됐는지 확인한다.
 # 승인 표시는 각 문서 첫 부분의 "상태: 승인" 한 줄이다. 사용자가 승인하면 메인 세션이 적는다.
 # 현재 작업은 docs/work/ 아래 이름순 마지막 폴더다. 그 폴더의 spec.md·plan.md를 본다.
-# frontend/src/* 는 docs/design-pass.md도 함께 본다. 작업 폴더가 없으면 막는다.
+# frontend/src/* 는 docs/ux-spec.md도 함께 본다. 작업 폴더가 없으면 막는다.
 set -u
 FILE=$(python3 -c 'import json,sys; print(json.load(sys.stdin).get("tool_input",{}).get("file_path",""))')
 ROOT=$(git -C "$(dirname "$FILE")" rev-parse --show-toplevel 2>/dev/null) || exit 0
@@ -25,7 +25,7 @@ if [ -z "$WORK" ]; then
 fi
 
 REQUIRED="$WORK/spec.md $WORK/plan.md"
-[ "$NEEDS_DESIGN" = 1 ] && REQUIRED="docs/design-pass.md $REQUIRED"
+[ "$NEEDS_DESIGN" = 1 ] && REQUIRED="docs/ux-spec.md $REQUIRED"
 
 MISSING=""
 for DOC in $REQUIRED; do

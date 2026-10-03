@@ -10,7 +10,7 @@
 
 **스택:** Next.js App Router, Tailwind v4, shadcn/ui(base-ui), vitest. 새 개발 의존성: `@playwright/test`, `@axe-core/playwright`.
 
-**스펙:** [design-pass 접근성](../../design-pass.md#접근성-4060대-기준), [테크스펙](spec.md), [DESIGN.md](../../../DESIGN.md) 4·5·9절, [copy-audit](../../research/copy-audit.md)
+**스펙:** [ux-spec 접근성](../../ux-spec.md#접근성-4060대-기준), [테크스펙](spec.md), [DESIGN.md](../../../DESIGN.md) 4·5·9절, [copy-audit](../../research/copy-audit.md)
 
 ## 공통 제약
 

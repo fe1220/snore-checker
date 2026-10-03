@@ -10,7 +10,7 @@
 
 **스택:** Node 24 (타입 스트리핑, `node:test`), Next.js App Router, Tailwind v4, shadcn/ui(base-ui), vitest. 새 의존성 없음.
 
-**스펙:** [spec.md](spec.md), 디자인은 [design-pass.md](../../design-pass.md#s4-근처-수면클리닉), 시각 규칙은 [DESIGN.md](../../../DESIGN.md)
+**스펙:** [spec.md](spec.md), 디자인은 [ux-spec.md](../../ux-spec.md#s4-근처-수면클리닉), 시각 규칙은 [DESIGN.md](../../../DESIGN.md)
 
 ## 공통 제약
 
@@ -53,7 +53,7 @@
 - [ ] **2단계: 문서를 커밋한다**
 
 ```bash
-git add docs/design-pass.md docs/work/01-clinic-list/spec.md docs/work/01-clinic-list/plan.md docs/work/01-clinic-list/verification.md
+git add docs/ux-spec.md docs/work/01-clinic-list/spec.md docs/work/01-clinic-list/plan.md docs/work/01-clinic-list/verification.md
 git commit -m "docs: specify the sleep clinic list (S4) spec, plan, and verification"
 ```
 
@@ -671,7 +671,7 @@ git commit -m "feat: add hospital lookup, region filter, and distance sort"
 
 ### 작업 3: S4 화면 (지역 방식)
 
-**담당:** frontend-implementer. 구현 전에 `DESIGN.md`와 `docs/design-pass.md`의 S4를 읽는다.
+**담당:** frontend-implementer. 구현 전에 `DESIGN.md`와 `docs/ux-spec.md`의 S4를 읽는다.
 
 **파일:**
 - 생성: `frontend/src/app/clinics/page.tsx`

@@ -118,6 +118,6 @@
 - GA 향상된 측정 설정과 확인 방법을 적는다.
 - 크롤 가드를 적는다.
 
-`docs/design-pass.md`의 S3 머리말에서 날짜를 지운다.
+`docs/ux-spec.md`의 S3 머리말에서 날짜를 지운다.
 
 커밋: `docs: sync architecture with the review fixes`

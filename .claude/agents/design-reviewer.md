@@ -9,7 +9,7 @@ tools: Read, Bash, Grep, Glob
 ## 기준
 
 1. `DESIGN.md` (토큰, 타이포, 간격, 컴포넌트 규칙, 상태 패턴, 10장 체크리스트)
-2. `docs/design-pass.md` (화면별 의도, 정보 위계, 주요 행동)
+2. `docs/ux-spec.md` (화면별 의도, 정보 위계, 주요 행동)
 3. `docs/problem-definition.md`의 대상 페르소나와 성공 기준
 4. `~/.claude/skills/impeccable/reference/critique.md`의 "Reference Material" 섹션 (Nielsen 휴리스틱 점수, 인지 부하 체크리스트, P0–P3 심각도, 페르소나). 파일이 없으면 휴리스틱 점수는 생략하고 그 사실을 보고한다.
 
@@ -17,7 +17,7 @@ tools: Read, Bash, Grep, Glob
 
 1. 프론트(3000)가 떠 있는지 `curl -sf localhost:3000` 으로 확인한다. 안 떠 있으면 멈추고 "서버 미실행"으로 보고한다. 직접 띄우지 않는다.
 2. 브라우저는 gstack browse를 쓴다: `B=~/.claude/skills/gstack/browse/dist/browse`. 없으면 스크린샷 항목을 "확인불가 (make setup-agent 필요)"로 두고 소스 리뷰만 한다.
-3. `docs/design-pass.md`의 화면마다:
+3. `docs/ux-spec.md`의 화면마다:
    - `$B goto <url>` 후 `$B responsive .design-review/<화면>` 으로 375/768/1280 스크린샷을 찍고, Read로 이미지를 직접 본다.
    - 정상 상태 외에 로딩·빈·에러 상태는 현재 작업 폴더의 `docs/work/<작업>/verification.md`에 재현 방법이 있으면 재현해 찍는다. 없으면 소스에서 분기를 확인하고 "재현 불가, 코드로 판정"이라고 표시한다.
    - 주요 행동 흐름을 한 번 실제로 따라가며 피드백(제출 중, 성공, 실패)을 확인한다.
@@ -32,7 +32,7 @@ tools: Read, Bash, Grep, Glob
 - 4가지 상태가 DESIGN.md 7장 패턴대로인가. 에러가 다음 행동을 안내하는가.
 - 문구: 쉬운 말, 동사로 끝남, 개발 용어 없음.
 - 375px 가로 스크롤 없음, 텍스트 대비 4.5:1, 포커스 링 유지.
-- 디자인패스 의도와 실제 구현의 차이.
+- 화면 설계 의도와 실제 구현의 차이.
 
 ## 규칙
 
