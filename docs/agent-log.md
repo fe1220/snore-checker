@@ -14,7 +14,7 @@
 
 | # | 일 | 방식 | 결과 | 산출물 |
 |---|---|---|---|---|
-| 1 | 가설 검증용 커뮤니티 수집원 조사 | 후보 10곳의 접근성·robots 확인, 글 9건 표본 읽기 | 82cook만 사용 가능. 분류 축 수정 | [validation](validation.md#커뮤니티-글-분류-계획) |
+| 1 | 가설 검증용 커뮤니티 수집원 조사 | 후보 10곳의 접근성·robots 확인, 글 9건 표본 읽기 | 82cook만 사용 가능. 분류 축 수정 | [community-voc](research/community-voc.md#방법) |
 | 2 | 병원 정보 보강 타당성 | 현재 채움률 집계, 병원 18곳 홈페이지 표본 확인 | 홈페이지 수집은 불가. 공공 API + 학회 목록으로 축소 | [03-clinic-data spec](work/03-clinic-data/spec.md) |
 | 3 | 40~60대 접근성 기준 조사 | WCAG·KWCAG·서울디지털재단·국내 서비스 사례 확인 | 측정 가능한 기준 10개 | [accessibility](research/accessibility.md) |
 | 4 | 현재 화면 접근성 측정 | 코드에서 글자 크기·터치 영역·대비·확대 대응을 전수 확인 | 16px 미만 글자 다수, 뒤로 가기 36px, 테두리 대비 미달 | [accessibility](research/accessibility.md#현재-화면-측정-코드-기준) |
