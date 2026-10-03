@@ -19,6 +19,9 @@ const SCREENS: {
   { name: "s3-strong", path: "/r#v1-e7" },
   { name: "s3-moderate", path: "/r#v1-3n" },
   { name: "s3-weak", path: "/r#v1-0" },
+  { name: "s3-weak-v2", path: "/r#v2-0-0" },
+  // 주요 신호 3문항(비트 4+8+16=28)을 모름 → 36진수 "s"
+  { name: "s3-too-early", path: "/r#v2-0-s" },
   { name: "s3-shared", path: "/r?shared=1#v1-e7" },
   // 해시를 읽지 못한 리포트(찾을 수 없음 상태)
   { name: "s3-bad", path: "/r#bad" },

@@ -41,7 +41,7 @@ export const QUESTIONS: Question[] = [
 export const STRONG_QUESTIONS = QUESTIONS.filter((q) => q.strong)
 export const MODERATE_MIN = 3
 
-// 리포트 주소에는 "네"라고 답한 문항만 코드로 담고, 단계는 항상 여기서 다시 계산한다.
+// 리포트 주소에는 답만 코드로 담고, 단계는 항상 여기서 다시 계산한다.
 export function judge(signals: Question[]): Level {
   if (signals.some((q) => q.strong)) return "strong"
   if (signals.length >= MODERATE_MIN) return "moderate"
@@ -52,34 +52,46 @@ export function judge(signals: Question[]): Level {
 const MAX_CODE = 2 ** QUESTIONS.length - 1
 const CODE_PATTERN = new RegExp(`^[0-9a-z]{1,${MAX_CODE.toString(36).length}}$`)
 
-function encodeSignals(signals: Question[]): string {
-  const ids = new Set(signals.map((q) => q.id))
-  const bits = QUESTIONS.reduce(
+function encodeBits(questions: Question[]): string {
+  const ids = new Set(questions.map((q) => q.id))
+  return QUESTIONS.reduce(
     (acc, q, index) => (ids.has(q.id) ? acc | (1 << index) : acc),
     0,
-  )
-  return bits.toString(36)
+  ).toString(36)
 }
 
-function decodeSignals(code: string): Question[] | null {
+function decodeBits(code: string): number | null {
   if (!CODE_PATTERN.test(code)) return null
   const bits = parseInt(code, 36)
-  if (bits > MAX_CODE) return null
-  return QUESTIONS.filter((_, index) => bits & (1 << index))
+  return bits > MAX_CODE ? null : bits
 }
 
-// 응답은 주소 해시(#v1-dh)에만 담는다. 해시는 서버·분석 도구로 전송되지 않는다.
+const fromBits = (bits: number) =>
+  QUESTIONS.filter((_, index) => bits & (1 << index))
+
+export type ReportAnswers = { signals: Question[]; unknowns: Question[] }
+
+// 응답은 주소 해시에만 담는다. 해시는 서버·분석 도구로 전송되지 않는다.
+// v2: "네"와 "잘 모르겠어요"를 따로 담는다(#v2-<네>-<모름>).
+// v1: "네"만 담던 이전 형식(#v1-<네>). 이미 퍼진 공유 링크라 계속 읽는다.
 // 문항이 바뀌면 버전을 올려 옛 링크가 다른 문항으로 해석되지 않게 한다.
-const HASH_VERSION = "v1"
-
-export function toReportHash(signals: Question[]): string {
-  return `${HASH_VERSION}-${encodeSignals(signals)}`
+export function toReportHash({ signals, unknowns }: ReportAnswers): string {
+  return `v2-${encodeBits(signals)}-${encodeBits(unknowns)}`
 }
 
-export function fromReportHash(hash: string): Question[] | null {
-  const match = hash.replace(/^#/, "").match(/^([a-z0-9]+)-(.*)$/)
-  if (!match || match[1] !== HASH_VERSION) return null
-  return decodeSignals(match[2])
+export function fromReportHash(hash: string): ReportAnswers | null {
+  const parts = hash.replace(/^#/, "").split("-")
+  if (parts[0] === "v1" && parts.length === 2) {
+    const yes = decodeBits(parts[1])
+    return yes === null ? null : { signals: fromBits(yes), unknowns: [] }
+  }
+  if (parts[0] === "v2" && parts.length === 3) {
+    const yes = decodeBits(parts[1])
+    const unknown = decodeBits(parts[2])
+    if (yes === null || unknown === null || yes & unknown) return null
+    return { signals: fromBits(yes), unknowns: fromBits(unknown) }
+  }
+  return null
 }
 
 // 단계 이름(chip)은 칩, 제목, 판단 기준에서 같은 말을 쓴다.
@@ -102,4 +114,15 @@ export const LEVEL_COPY: Record<
     title: "지금은 걱정 신호가 적어요",
     body: "그래도 걱정되면 언제든 상담받아 보세요.",
   },
+}
+
+// 주요 신호는 자는 동안 봐야 알 수 있다. 그걸 모르는데 "신호가 적다"고 하면 잘못된 안심을 준다.
+// 단계는 그대로 두고 제목·설명만 바꾼다.
+export function isTooEarly(level: Level, unknowns: Question[]): boolean {
+  return level === "weak" && unknowns.some((q) => q.strong)
+}
+
+export const TOO_EARLY_COPY = {
+  title: "아직 판단하기 일러요",
+  body: "숨 멈춤은 자는 동안 지켜봐야 알 수 있어요. 며칠 밤 옆에서 본 뒤 다시 해 보세요.",
 }

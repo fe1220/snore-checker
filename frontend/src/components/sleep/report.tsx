@@ -19,6 +19,7 @@ import {
   MODERATE_MIN,
   QUESTIONS,
   STRONG_QUESTIONS,
+  TOO_EARLY_COPY,
   type Level,
   type Question,
 } from "@/lib/sleep-check"
@@ -193,13 +194,17 @@ function Source({ children }: { children: React.ReactNode }) {
 export function Report({
   level,
   signals,
+  tooEarly,
   shared,
 }: {
   level: Level
   signals: Question[]
+  tooEarly: boolean
   shared: boolean
 }) {
-  const copy = LEVEL_COPY[level]
+  const copy = tooEarly
+    ? { ...LEVEL_COPY[level], ...TOO_EARLY_COPY }
+    : LEVEL_COPY[level]
 
   return (
     <article className="flex flex-col gap-6">
@@ -279,70 +284,78 @@ export function Report({
         </ReportCard>
       )}
 
-      <ReportCard title="치료하지 않으면">
-        <p className="font-semibold">교통사고 위험이 2.4배 높아요</p>
-        <CompareBars
-          tone="warning"
-          max={2.4}
-          summary="교통사고 위험: 일반인 1, 치료하지 않은 수면무호흡증 2.4배"
-          bars={[
-            { label: "일반인", value: 1, display: "1" },
-            { label: "치료 안 함", value: 2.4, display: "2.4배" },
-          ]}
-        />
-        <Source>메타분석 (Tregear 2009)</Source>
-        <p className="mt-3 font-semibold">
-          심한 경우 심혈관 질환(뇌졸중·심근경색) 위험이 2.9배 높았어요
-        </p>
-        <CompareBars
-          tone="warning"
-          max={2.9}
-          summary="심혈관 질환(뇌졸중·심근경색) 위험: 일반인 1, 심한데 치료하지 않으면 2.9배"
-          bars={[
-            { label: "일반인", value: 1, display: "1" },
-            { label: "심한데 치료 안 함", value: 2.9, display: "2.9배" },
-          ]}
-        />
-        <Source>남성 대상 관찰 연구 (Marin 2005)</Source>
-      </ReportCard>
+      {/* 신호가 적은 사람에게 위험 수치를 보여주면 겁주기로 읽힌다. "자는 동안" 카드와 같은 기준으로 숨긴다. */}
+      {level !== "weak" && (
+        <>
+          <ReportCard title="치료하지 않으면">
+            <p className="font-semibold">교통사고 위험이 2.4배 높아요</p>
+            <CompareBars
+              tone="warning"
+              max={2.4}
+              summary="교통사고 위험: 일반인 1, 치료하지 않은 수면무호흡증 2.4배"
+              bars={[
+                { label: "일반인", value: 1, display: "1" },
+                { label: "치료 안 함", value: 2.4, display: "2.4배" },
+              ]}
+            />
+            <Source>메타분석 (Tregear 2009)</Source>
+            <p className="mt-3 font-semibold">
+              심한 경우 심혈관 질환(뇌졸중·심근경색) 위험이 2.9배 높았어요
+            </p>
+            <CompareBars
+              tone="warning"
+              max={2.9}
+              summary="심혈관 질환(뇌졸중·심근경색) 위험: 일반인 1, 심한데 치료하지 않으면 2.9배"
+              bars={[
+                { label: "일반인", value: 1, display: "1" },
+                { label: "심한데 치료 안 함", value: 2.9, display: "2.9배" },
+              ]}
+            />
+            <Source>남성 대상 관찰 연구 (Marin 2005)</Source>
+          </ReportCard>
 
-      <ReportCard title="치료하면">
-        <p className="text-lg font-semibold text-primary">
-          잠이 달라지면 삶이 달라져요
-        </p>
-        <dl className="grid grid-cols-[minmax(3.5rem,auto)_1fr] gap-x-3 gap-y-2">
-          {SELF_BENEFITS.map((group) => (
-            <div key={group.area} className="col-span-2 grid grid-cols-subgrid">
-              <dt className="font-semibold text-muted-foreground">
-                {group.area}
-              </dt>
-              <dd>{group.text}</dd>
-            </div>
-          ))}
-        </dl>
-        <Source>
-          사고 위험 Tregear 2010 · 아침 두통 Seo 2023 · 화장실 Margel 2006, 모두
-          치료 전후 비교 연구
-        </Source>
-        <Separator className="my-1" />
-        <p className="font-semibold">함께 자는 사람도 더 잘 자요</p>
-        <p className="text-muted-foreground">
-          코골이 소리에 깨지 않고 잘 수 있어요.
-        </p>
-        <CompareBars
-          tone="primary"
-          max={100}
-          summary="함께 자는 사람의 수면 효율: 치료 전 74%, 치료 후 87%"
-          bars={[
-            { label: "치료 전", value: 74, display: "74%" },
-            { label: "치료 후", value: 87, display: "87%" },
-          ]}
-        />
-        <Source>
-          함께 자는 사람의 수면 효율(누워 있는 시간 중 실제로 잔 시간) · 부부
-          10쌍 소규모 연구 (Beninati 1999)
-        </Source>
-      </ReportCard>
+          <ReportCard title="치료하면">
+            <p className="text-lg font-semibold text-primary">
+              잠이 달라지면 삶이 달라져요
+            </p>
+            <dl className="grid grid-cols-[minmax(3.5rem,auto)_1fr] gap-x-3 gap-y-2">
+              {SELF_BENEFITS.map((group) => (
+                <div
+                  key={group.area}
+                  className="col-span-2 grid grid-cols-subgrid"
+                >
+                  <dt className="font-semibold text-muted-foreground">
+                    {group.area}
+                  </dt>
+                  <dd>{group.text}</dd>
+                </div>
+              ))}
+            </dl>
+            <Source>
+              사고 위험 Tregear 2010 · 아침 두통 Seo 2023 · 화장실 Margel 2006,
+              모두 치료 전후 비교 연구
+            </Source>
+            <Separator className="my-1" />
+            <p className="font-semibold">함께 자는 사람도 더 잘 자요</p>
+            <p className="text-muted-foreground">
+              코골이 소리에 깨지 않고 잘 수 있어요.
+            </p>
+            <CompareBars
+              tone="primary"
+              max={100}
+              summary="함께 자는 사람의 수면 효율: 치료 전 74%, 치료 후 87%"
+              bars={[
+                { label: "치료 전", value: 74, display: "74%" },
+                { label: "치료 후", value: 87, display: "87%" },
+              ]}
+            />
+            <Source>
+              함께 자는 사람의 수면 효율(누워 있는 시간 중 실제로 잔 시간) ·
+              부부 10쌍 소규모 연구 (Beninati 1999)
+            </Source>
+          </ReportCard>
+        </>
+      )}
 
       <ReportCard
         title="검사는 이렇게 받아요"

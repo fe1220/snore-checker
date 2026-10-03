@@ -94,8 +94,9 @@ export function CheckFlow() {
       return
     }
     const signals = QUESTIONS.filter((q) => next[q.id] === "yes")
+    const unknowns = QUESTIONS.filter((q) => next[q.id] === "unknown")
     track({ name: "check_complete", level: judge(signals) })
-    router.push(`/r#${toReportHash(signals)}`)
+    router.push(`/r#${toReportHash({ signals, unknowns })}`)
   }
 
   return (

@@ -6,7 +6,12 @@ import { buttonVariants } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Report } from "@/components/sleep/report"
 import { ShareButton } from "@/components/sleep/share-button"
-import { fromReportHash, judge, toReportHash } from "@/lib/sleep-check"
+import {
+  fromReportHash,
+  isTooEarly,
+  judge,
+  toReportHash,
+} from "@/lib/sleep-check"
 import { cn } from "cn"
 
 function subscribe(onChange: () => void) {
@@ -28,8 +33,8 @@ export function ReportView({ shared }: { shared: boolean }) {
 
   if (hash === null) return <ReportSkeleton />
 
-  const signals = fromReportHash(hash)
-  if (!signals) {
+  const answers = fromReportHash(hash)
+  if (!answers) {
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col items-center justify-center gap-4 px-4 text-center">
         <h1 className="text-2xl font-bold">리포트를 찾을 수 없어요</h1>
@@ -46,13 +51,18 @@ export function ReportView({ shared }: { shared: boolean }) {
     )
   }
 
-  const level = judge(signals)
-  const sharePath = `/r?shared=1#${toReportHash(signals)}`
+  const level = judge(answers.signals)
+  const sharePath = `/r?shared=1#${toReportHash(answers)}`
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-screen-md flex-col">
       <div className="flex-1 px-4 pt-6 pb-8">
-        <Report level={level} signals={signals} shared={shared} />
+        <Report
+          level={level}
+          signals={answers.signals}
+          tooEarly={isTooEarly(level, answers.unknowns)}
+          shared={shared}
+        />
       </div>
       <div className="sticky bottom-0 flex flex-col gap-2 border-t bg-background p-4">
         <Link
