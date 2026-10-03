@@ -12,7 +12,8 @@ export type GaRow = {
   key: string // utm_content. 없으면 UNKNOWN
   checkStart: number
   checkComplete: number
-  clinicClick: number
+  clinicClick: number // 병원 외부 링크
+  clinicCall: number // 병원 전화
   share: number
 }
 
@@ -22,7 +23,13 @@ export const UNKNOWN = "알 수 없음"
 const ORDER = ["A", "B", "C", "D1", "D2"]
 
 const EMPTY_META = { spend: 0, impressions: 0, linkClicks: 0, landingViews: 0 }
-const EMPTY_GA = { checkStart: 0, checkComplete: 0, clinicClick: 0, share: 0 }
+const EMPTY_GA = {
+  checkStart: 0,
+  checkComplete: 0,
+  clinicClick: 0,
+  clinicCall: 0,
+  share: 0,
+}
 
 function order(key: string): number {
   if (key === UNKNOWN) return ORDER.length + 1
@@ -47,6 +54,7 @@ export function mergeRows(meta: MetaRow[], ga: GaRow[]): Row[] {
     r.checkStart += g.checkStart
     r.checkComplete += g.checkComplete
     r.clinicClick += g.clinicClick
+    r.clinicCall += g.clinicCall
     r.share += g.share
   }
   return [...rows.values()].sort(
@@ -65,6 +73,7 @@ export function total(rows: Row[]): Row {
       checkStart: t.checkStart + r.checkStart,
       checkComplete: t.checkComplete + r.checkComplete,
       clinicClick: t.clinicClick + r.clinicClick,
+      clinicCall: t.clinicCall + r.clinicCall,
       share: t.share + r.share,
     }),
     { key: "합계", ...EMPTY_META, ...EMPTY_GA },
@@ -77,7 +86,9 @@ const pct = (a: number, b: number) =>
   b === 0 ? "-" : `${((a / b) * 100).toFixed(1)}%`
 const per = (a: number, b: number) => (b === 0 ? "-" : won(a / b))
 
+// 병원 연결 = 외부 링크 클릭 + 전화. 같은 목적(병원으로 넘어감)의 두 수단이라 합쳐서 본다.
 export function metrics(r: Row) {
+  const connect = r.clinicClick + r.clinicCall
   return {
     spend: won(r.spend),
     impressions: int(r.impressions),
@@ -87,19 +98,21 @@ export function metrics(r: Row) {
     landingViews: int(r.landingViews),
     checkComplete: int(r.checkComplete),
     checkRate: pct(r.checkComplete, r.landingViews),
+    connect: int(connect),
+    connectRate: pct(connect, r.checkComplete),
+    costPerConnect: per(r.spend, connect),
     clinicClick: int(r.clinicClick),
-    clinicRate: pct(r.clinicClick, r.checkComplete),
-    costPerClinic: per(r.spend, r.clinicClick),
+    clinicCall: int(r.clinicCall),
   }
 }
 
 const HEADER =
-  "| 소재 | 비용 | 노출 | 링크 클릭 | 클릭률 | 클릭당 비용 | 랜딩 조회 | 체크 완료 | 체크 완료율 | 병원 링크 클릭 | 병원 링크 클릭률 | 병원 링크 클릭 1건당 비용 |\n|---|---|---|---|---|---|---|---|---|---|---|---|"
+  "| 소재 | 비용 | 노출 | 링크 클릭 | 클릭률 | 클릭당 비용 | 랜딩 조회 | 체크 완료 | 체크 완료율 | 병원 연결 | 병원 연결률 | 병원 연결 1건당 비용 | 링크 · 전화 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|"
 
 function line(r: Row): string {
   const m = metrics(r)
   const name = r.key === "합계" ? "**합계**" : r.key
-  return `| ${name} | ${m.spend} | ${m.impressions} | ${m.linkClicks} | ${m.ctr} | ${m.cpc} | ${m.landingViews} | ${m.checkComplete} | ${m.checkRate} | ${m.clinicClick} | ${m.clinicRate} | ${m.costPerClinic} |`
+  return `| ${name} | ${m.spend} | ${m.impressions} | ${m.linkClicks} | ${m.ctr} | ${m.cpc} | ${m.landingViews} | ${m.checkComplete} | ${m.checkRate} | ${m.connect} | ${m.connectRate} | ${m.costPerConnect} | ${m.clinicClick} · ${m.clinicCall} |`
 }
 
 export function renderReport(input: {
@@ -131,7 +144,8 @@ ${input.rows.map(line).join("\n")}
 
 ## 주의
 
-- 비용·노출·클릭·랜딩 조회는 메타, 체크·병원 링크 클릭은 GA4 숫자다. 둘은 광고 이름과 \`utm_content\`로 잇는다.
+- 병원 연결은 병원 외부 링크 클릭과 전화 걸기를 합친 수다. 실제 방문 여부는 추적하지 않는다.
+- 비용·노출·클릭·랜딩 조회는 메타, 체크·병원 연결은 GA4 숫자다. 둘은 광고 이름과 \`utm_content\`로 잇는다.
 - GA4는 광고 차단·추적 거부로 일부 이벤트가 빠져 실제보다 적을 수 있다.
 - 메타 숫자는 며칠 동안 보정될 수 있다. "${UNKNOWN}" 줄은 \`utm_content\`가 없거나 광고 이름과 맞지 않는 GA4 숫자다.
 `
@@ -144,8 +158,8 @@ export function renderSummary(rows: Row[], reportPath: string): string {
 | 노출 · 링크 클릭 · 클릭률 | ${m.impressions} · ${m.linkClicks} · ${m.ctr} |
 | 클릭당 비용 | ${m.cpc} |
 | 체크 완료율 | ${m.checkRate} |
-| 병원 링크 클릭률 | ${m.clinicRate} |
-| 병원 링크 클릭 1건당 비용 | ${m.costPerClinic} |
+| 병원 연결률 (링크 · 전화) | ${m.connectRate} (${m.clinicClick} · ${m.clinicCall}) |
+| 병원 연결 1건당 비용 | ${m.costPerConnect} |
 
 최신 리포트: [${reportPath}](${reportPath})`
 }

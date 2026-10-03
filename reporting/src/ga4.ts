@@ -6,6 +6,7 @@ const EVENTS = {
   check_start: "checkStart",
   check_complete: "checkComplete",
   clinic_click: "clinicClick",
+  clinic_call: "clinicCall",
   share_click: "share",
 } as const
 
@@ -33,6 +34,7 @@ export function parseGaRows(rows: GaApiRow[]): GaRow[] {
           checkStart: 0,
           checkComplete: 0,
           clinicClick: 0,
+          clinicCall: 0,
           share: 0,
         })
         .get(key)!

@@ -111,9 +111,10 @@ type Region =
 | `check_complete` | 체크 완료 | `level` (결과 단계) | `Lead` (파라미터 없음) |
 | `share_click` | 공유 버튼 클릭 | 파라미터 없음 | 보내지 않음 |
 | `clinic_click` | 병원 외부 링크 클릭 | `hospital_id`, `region`, `target`: `resmed` / `homepage` / `map` | `ClinicClick` (파라미터 없음) |
-| `clinic_call` | 전화하기 클릭 | `hospital_id`, `region` | 보내지 않음 |
+| `clinic_call` | 전화하기 클릭 | `hospital_id`, `region` | `ClinicClick` (파라미터 없음) |
 | `clinic_nearby` | 내 주변 버튼의 결과가 나왔을 때 | `result`: `granted` / `denied` / `failed` | 보내지 않음 |
 
+- 병원 링크와 전화는 같은 목적(병원 연결)이라 메타 픽셀에는 `ClinicClick` 하나로 보낸다. 이름은 전화를 넣기 전부터 쓰던 것이라, 기존 픽셀 기록과 맞춤 전환이 이어지도록 바꾸지 않았다. 메타는 광고 세트 하나를 전환 이벤트 하나로 최적화하므로, 나중에 병원 연결로 최적화할 때 데이터가 한 이벤트에 모이게 한다. GA4에는 두 이벤트를 따로 남겨 내역을 본다.
 - 병원 ID와 지역은 공개된 병원 정보이고 체크 응답과 연결되지 않는다. 좌표·거리는 어떤 이벤트에도 붙이지 않는다.
 
 ## 작업별 스펙

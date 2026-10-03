@@ -18,10 +18,13 @@ type Event =
   | { name: "clinic_call"; hospital_id: string; region: string }
   | { name: "clinic_nearby"; result: "granted" | "denied" | "failed" }
 
-// 메타에는 건강 정보(결과 단계)를 보내지 않는다. 체크 완료와 병원 이동만 전환으로 보낸다.
+// 메타에는 건강 정보(결과 단계)를 보내지 않는다. 체크 완료와 병원 연결만 전환으로 보낸다.
+// 병원 링크와 전화는 같은 목적이라 메타가 한 이벤트로 최적화하도록 ClinicClick 하나로 보낸다.
+// 이름은 기존 픽셀 기록·맞춤 전환과 이어지도록 바꾸지 않는다.
 const PIXEL_EVENTS: Partial<Record<Event["name"], [string, string]>> = {
   check_complete: ["track", "Lead"],
   clinic_click: ["trackCustom", "ClinicClick"],
+  clinic_call: ["trackCustom", "ClinicClick"],
 }
 
 // 메타 픽셀은 주소를 해시까지 그대로 보낸다(GA는 해시를 뺀다). 리포트 해시에는 응답이 있으니

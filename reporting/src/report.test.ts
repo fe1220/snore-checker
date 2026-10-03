@@ -19,8 +19,8 @@ const meta = [
   { key: "A", spend: 30000, impressions: 6000, linkClicks: 120, landingViews: 100 },
 ]
 const ga = [
-  { key: "A", checkStart: 70, checkComplete: 50, clinicClick: 10, share: 3 },
-  { key: UNKNOWN, checkStart: 2, checkComplete: 1, clinicClick: 0, share: 0 },
+  { key: "A", checkStart: 70, checkComplete: 50, clinicClick: 6, clinicCall: 4, share: 3 },
+  { key: UNKNOWN, checkStart: 2, checkComplete: 1, clinicClick: 0, clinicCall: 0, share: 0 },
 ]
 
 test("소재 순서대로 합치고, 한쪽에만 있는 소재는 0으로 채운다", () => {
@@ -40,8 +40,9 @@ test("합계와 비율을 계산하고, 분모가 0이면 -로 쓴다", () => {
   assert.equal(m.ctr, "2.0%")
   assert.equal(m.cpc, "250원")
   assert.equal(m.checkRate, "31.9%") // 51 / 160
-  assert.equal(m.costPerClinic, "5,000원")
-  assert.equal(metrics(rows[1]).clinicRate, "-")
+  assert.equal(m.connect, "10") // 링크 6 + 전화 4
+  assert.equal(m.costPerConnect, "5,000원")
+  assert.equal(metrics(rows[1]).connectRate, "-")
 })
 
 test("리포트에 기간, 합계, 소재별 줄이 들어간다", () => {
@@ -98,11 +99,12 @@ test("GA4 행을 utm_content별로 묶고, 없는 값은 알 수 없음으로 �
   const rows = parseGaRows([
     { dimensionValues: [{ value: "A" }, { value: "check_complete" }], metricValues: [{ value: "5" }] },
     { dimensionValues: [{ value: "A" }, { value: "clinic_click" }], metricValues: [{ value: "2" }] },
+    { dimensionValues: [{ value: "A" }, { value: "clinic_call" }], metricValues: [{ value: "1" }] },
     { dimensionValues: [{ value: "(not set)" }, { value: "check_start" }], metricValues: [{ value: "3" }] },
     { dimensionValues: [{ value: "A" }, { value: "page_view" }], metricValues: [{ value: "99" }] },
   ])
   assert.deepEqual(rows, [
-    { key: "A", checkStart: 0, checkComplete: 5, clinicClick: 2, share: 0 },
-    { key: UNKNOWN, checkStart: 3, checkComplete: 0, clinicClick: 0, share: 0 },
+    { key: "A", checkStart: 0, checkComplete: 5, clinicClick: 2, clinicCall: 1, share: 0 },
+    { key: UNKNOWN, checkStart: 3, checkComplete: 0, clinicClick: 0, clinicCall: 0, share: 0 },
   ])
 })
