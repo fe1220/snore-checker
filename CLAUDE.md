@@ -22,7 +22,7 @@
 
 ## 이 프로젝트의 맥락
 
-- 엔지니어 과제다(원문: `docs/assignment.pdf`). 평가 포인트는 **비즈니스 임팩트를 고려한 문제 정의**와 **UX 완성도**다. 과한 추상화는 감점 요소다.
+- 엔지니어 과제다(원문: `docs/assignment.pdf`, 커밋하지 않는 로컬 파일). 평가 포인트는 **비즈니스 임팩트를 고려한 문제 정의**와 **UX 완성도**다. 과한 추상화는 감점 요소다.
 - 필수 제출물: 배포 링크, 문제 정의·기획 과정, 트러블슈팅 기록. 크롤링한 실제 상품·콘텐츠에서 원 페이지로 가는 외부 링크가 반드시 있어야 한다. 트러블슈팅은 겪은 즉시 `docs/troubleshooting.md`에 남긴다.
 - 스택은 Next.js(Vercel) + 크롤러(GitHub Actions)이고 DB가 없다. 근거는 `docs/tech-stack.md`. 백엔드 서버나 DB를 추가하지 않는다.
 - 작업 순서: 기획 문서(`docs/problem-definition.md` 등, 프로젝트) → `docs/ux-spec.md`(화면 설계, 프로젝트 단위, 작업마다 갱신) → 작업마다 `docs/work/NN-이름/`에 `spec.md` → `plan.md` → 구현 → `verification.md`. 현재 작업은 `docs/work/` 아래 이름순 마지막 폴더다. `docs/architecture.md`는 구조가 바뀌면 갱신한다. 앞 단계 문서가 승인되기 전에 다음 단계로 넘어가지 않는다.

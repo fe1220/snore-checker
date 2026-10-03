@@ -7,3 +7,6 @@
 .gstack/
 frontend/test-results/
 frontend/playwright-report/
+
+# 과제 원문은 비공개
+docs/assignment.pdf
