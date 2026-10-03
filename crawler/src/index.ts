@@ -2,6 +2,7 @@ import { readFile, rename, writeFile } from "node:fs/promises"
 import { fileURLToPath } from "node:url"
 
 import { assertNoSharpDrop, carryListed, sortById } from "./guard.ts"
+import { dropDeadHomepages } from "./homepage.ts"
 import { assertValid, type Hospital, markListed, merge } from "./merge.ts"
 import { loadSnapshot } from "./sources/hira.ts"
 import { crawl as crawlResmed } from "./sources/resmed.ts"
@@ -73,6 +74,11 @@ async function main(): Promise<boolean> {
     hospitals = carryListed(previous ?? [], merged.hospitals)
   }
   console.log(`listed 병원: ${hospitals.filter((h) => h.listed).length}곳`)
+
+  const checked = await dropDeadHomepages(hospitals)
+  hospitals = checked.hospitals
+  console.log(`열리지 않아 지운 홈페이지: ${checked.dropped.length}곳`)
+  for (const { hospital, reason } of checked.dropped) console.log(`  ${hospital.name} | ${hospital.homepage} | ${reason}`)
 
   hospitals = sortById(hospitals)
   if (hospitals.length < MIN_ITEMS) {
