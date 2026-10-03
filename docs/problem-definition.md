@@ -1,5 +1,9 @@
 # 문제 정의
 
+> **목적:** 누구의 어떤 문제를 푸는지, 그 문제가 왜 크고 어디서 막히는지를 사실과 근거로 정한다. 해법과 가설은 [솔루션 방향](solution-direction.md)과 [가설 검증](validation.md)에 있다.
+>
+> **결론:** 코골이로 괴로운 건 배우자인데 병원에 가야 하는 건 당사자다. 메인 막힘은 배우자에게 판단 기준(병인지, 치료되는지, 위험한지)과 경로(어디로 가는지)가 없다는 것이고, 당사자 거부는 보조 막힘이다. 진료받지 않는 환자 약 110만 명 중 배우자가 있는 40~60대가 타겟이다.
+
 > **[사실]** 출처가 있는 수치 · **[추정]** 출처 수치로 직접 계산 · **[가설]** 아직 검증되지 않은 주장
 
 근거 원자료: [evidence](research/evidence.md) · [awareness](research/awareness.md) · [voc](research/voc.md) · [competitors](research/competitors.md) · [benchmark](research/benchmark.md) · [clinic-survey](research/clinic-survey.md) · [supply-gap](research/supply-gap/README.md) · [crawl-targets](research/crawl-targets.md)
