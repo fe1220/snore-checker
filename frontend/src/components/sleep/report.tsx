@@ -1,4 +1,4 @@
-import { AlertCircle, Check } from "lucide-react"
+import { AlertCircle, Check, Triangle } from "lucide-react"
 import Link from "next/link"
 import {
   Accordion,
@@ -32,28 +32,39 @@ const LEVELS: { level: Level; fill: string }[] = [
   { level: "strong", fill: "bg-danger" },
 ]
 
-// 현재 단계까지 칸마다 그 단계 색으로 채워서 어느 정도인지 한눈에 보이게 한다. 색만으로 전하지 않도록 아래에 단계 이름을 둔다.
+// 검진 결과지처럼 척도 전체를 옅게 이어 깔고 현재 단계만 진하게 표시한다.
+// 현재까지 채우면 "검사 권유"에서 세 칸이 다 켜져 어디인지 안 읽혀서 위치 표시로 바꿨다.
+// 색만으로 전하지 않도록 위에 ▼, 아래에 단계 이름을 둔다.
 function LevelMeter({ level }: { level: Level }) {
   const current = LEVELS.findIndex((item) => item.level === level)
 
   return (
-    <div className="flex flex-col gap-2">
+    <div
+      className="flex flex-col gap-2"
+      role="img"
+      aria-label={`3단계 중 ${current + 1}단계, ${LEVEL_COPY[level].chip}`}
+    >
+      <div className="grid grid-cols-3" aria-hidden>
+        {LEVELS.map((item, index) => (
+          <div key={item.level} className="flex justify-center">
+            {index === current && (
+              <Triangle className="size-3 rotate-180 fill-foreground text-foreground" />
+            )}
+          </div>
+        ))}
+      </div>
       <div
-        className="grid grid-cols-3 gap-2"
-        role="img"
-        aria-label={`3단계 중 ${current + 1}단계, ${LEVEL_COPY[level].chip}`}
+        className="grid h-3 grid-cols-3 overflow-hidden rounded-full"
+        aria-hidden
       >
         {LEVELS.map((item, index) => (
           <div
             key={item.level}
-            className={cn(
-              "h-3 rounded-full",
-              index <= current ? item.fill : "bg-muted",
-            )}
+            className={cn(item.fill, index !== current && "opacity-40")}
           />
         ))}
       </div>
-      <ol className="grid grid-cols-3 gap-2 text-base" aria-hidden>
+      <ol className="grid grid-cols-3 gap-2 text-center text-base" aria-hidden>
         {LEVELS.map((item, index) => (
           <li
             key={item.level}
@@ -194,7 +205,9 @@ export function Report({
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-4">
         <p className="text-base text-muted-foreground tabular-nums">
-          수면 진단 리포트 · 옆에서 본 {QUESTIONS.length}가지 질문
+          {shared
+            ? "함께 자는 사람이 옆에서 보고 답한 리포트예요"
+            : `수면 진단 리포트 · 옆에서 본 ${QUESTIONS.length}가지 질문`}
         </p>
         <div className="flex flex-col gap-3">
           {shared && level !== "weak" && (
