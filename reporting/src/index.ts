@@ -52,15 +52,20 @@ async function main() {
         propertyId: env.GA4_PROPERTY_ID,
         keyFile: env.GA4_CREDENTIALS_FILE,
         source: process.env.UTM_SOURCE ?? "meta",
+        country: process.env.GA4_COUNTRY ?? "South Korea",
       },
       since,
       until,
     ),
   ])
+  if (metaRows.length === 0) {
+    console.log(`메타에 ${since} ~ ${until} 집행 숫자가 아직 없어요. 리포트를 쓰지 않았어요`)
+    return
+  }
   const rows = mergeRows(metaRows, gaRows)
 
   const reportPath = `results/${until}.md`
-  const generatedAt = `${kstDate(now)} ${now.toLocaleTimeString("ko-KR", { timeZone: "Asia/Seoul", hour12: false })} KST`
+  const generatedAt = `${kstDate(now)} ${now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul" })} KST`
   await mkdir(`${DOCS}results`, { recursive: true })
   await writeFile(`${DOCS}${reportPath}`, renderReport({ since, until, generatedAt, rows }))
 

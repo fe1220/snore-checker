@@ -31,7 +31,7 @@ make meta-report (로컬, 필요할 때)
 |---|---|---|
 | 비용, 노출, 링크 클릭, 랜딩 페이지 조회 | 그대로 | 메타 (`spend`, `impressions`, `inline_link_clicks`, `landing_page_view` 액션) |
 | 클릭률, 클릭당 비용 | 링크 클릭 ÷ 노출, 비용 ÷ 링크 클릭 | 메타 |
-| 체크 시작·완료, 병원 링크 클릭, 병원 전화, 공유 | 이벤트 수(`check_start`, `check_complete`, `clinic_click`, `clinic_call`, `share_click`) | GA4, `sessionSource = meta` |
+| 체크 시작·완료, 병원 링크 클릭, 병원 전화, 공유 | 이벤트 수(`check_start`, `check_complete`, `clinic_click`, `clinic_call`, `share_click`) | GA4, `sessionSource = meta`이고 `country = South Korea` |
 | 체크 완료율 | 체크 완료 ÷ 랜딩 페이지 조회 | 메타 + GA4 |
 | 병원 연결 | 병원 링크 클릭 + 병원 전화. 내역은 "링크 · 전화" 열로 같이 보인다 | GA4 |
 | 병원 연결률 | 병원 연결 ÷ 체크 완료 | GA4 |
@@ -39,6 +39,7 @@ make meta-report (로컬, 필요할 때)
 
 - 소재별 표와 합계 줄을 둔다. 소재별 숫자는 참고만 한다(메타가 예산을 반응 좋은 소재에 몰아준다).
 - 분모가 0이면 "-"로 쓴다.
+- 국가를 한국으로 거른다. 광고 심사 때 메타 봇이 미국(Prineville, Forest City 등)·스웨덴(Luleå)·아일랜드(Dublin) 데이터센터에서 랜딩을 열어 `utm_source=meta` 세션이 잡힌다(10월 2일 20시, 노출 0인 상태에서 30여 명).
 - GA4는 차단·동의 거부로 일부 이벤트가 빠진다. 리포트에 "GA4 숫자는 실제보다 적을 수 있다"를 한 줄 적는다.
 
 ## 리포트 형식

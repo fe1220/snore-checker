@@ -47,6 +47,7 @@ export type GaConfig = {
   propertyId: string
   keyFile: string
   source: string // utm_source 값
+  country: string // GA4 국가 이름. 광고 심사 봇(미국·스웨덴·아일랜드 메타 데이터센터)을 거른다
 }
 
 export async function fetchGaRows(
@@ -67,6 +68,12 @@ export async function fetchGaRows(
             filter: {
               fieldName: "sessionSource",
               stringFilter: { value: c.source, matchType: "EXACT" },
+            },
+          },
+          {
+            filter: {
+              fieldName: "country",
+              stringFilter: { value: c.country, matchType: "EXACT" },
             },
           },
           {
