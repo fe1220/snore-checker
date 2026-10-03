@@ -57,6 +57,41 @@ test("DNS·인증서 오류는 cause의 메시지를 이유로 남긴다", async
   assert.equal(await checkHomepage("https://a.example", NO_DELAY), "self-signed certificate")
 })
 
+function tlsError(message: string, code: string) {
+  return new TypeError("fetch failed", { cause: Object.assign(new Error(message), { code }) })
+}
+
+test("서버가 중간 인증서를 빼먹은 사이트는 브라우저가 열므로 살아 있다고 본다", async () => {
+  respond(tlsError("unable to verify the first certificate", "UNABLE_TO_VERIFY_LEAF_SIGNATURE"))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), null)
+})
+
+test("만료·자체 서명 인증서는 브라우저도 경고하므로 죽었다고 본다", async () => {
+  respond(tlsError("certificate has expired", "CERT_HAS_EXPIRED"))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), "certificate has expired")
+  mock.restoreAll()
+  respond(tlsError("self-signed certificate", "DEPTH_ZERO_SELF_SIGNED_CERT"))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), "self-signed certificate")
+})
+
+test("쿠키가 없어 리다이렉트가 끝나지 않는 사이트는 살아 있다고 본다", async () => {
+  respond(new TypeError("fetch failed", { cause: new Error("redirect count exceeded") }))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), null)
+})
+
+test("cause 메시지가 비어 있으면 코드나 이름을 이유로 남긴다", async () => {
+  respond(new TypeError("fetch failed", { cause: Object.assign(new Error(""), { code: "ECONNREFUSED" }) }))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), "ECONNREFUSED")
+  mock.restoreAll()
+  respond(new TypeError("fetch failed", { cause: new AggregateError([]) }))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), "AggregateError")
+})
+
+test("시간 초과는 죽은 것으로 보고 메시지를 남긴다", async () => {
+  respond(new DOMException("The operation was aborted due to timeout", "TimeoutError"))
+  assert.equal(await checkHomepage("https://a.example", NO_DELAY), "The operation was aborted due to timeout")
+})
+
 test("한 번 실패해도 다시 열리면 살아 있다", async () => {
   respond(503, 200)
   assert.equal(await checkHomepage("https://a.example", NO_DELAY), null)

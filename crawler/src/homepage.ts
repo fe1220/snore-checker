@@ -22,9 +22,28 @@ async function checkOnce(url: string): Promise<string | null> {
     return deadStatus(res.status) ? `HTTP ${res.status}` : null
   } catch (error) {
     // DNS 실패, 연결 거부, 인증서 오류는 fetch가 TypeError로 감싸고 원인을 cause에 둔다.
-    if (error instanceof Error && error.cause instanceof Error) return error.cause.message
-    return error instanceof Error ? error.message : String(error)
+    const cause = error instanceof Error ? error.cause : undefined
+    if (isOpenableInBrowser(cause)) return null
+    return failureReason(error, cause)
   }
+}
+
+// 브라우저는 열리지만 fetch는 못 여는 경우다. 확인할 수 없으니 지우지 않는다.
+// - 서버가 중간 인증서를 빼먹은 경우: 브라우저는 AIA로 받아오지만 Node는 못 한다. 만료·자체 서명·도메인 불일치는 브라우저도 경고하므로 죽은 것으로 본다.
+// - 리다이렉트 한도 초과: fetch에는 쿠키 저장소가 없어 쿠키를 심어야 끝나는 사이트에서 반복된다. undici는 코드 없이 메시지만 준다.
+function isOpenableInBrowser(cause: unknown): boolean {
+  if (!(cause instanceof Error)) return false
+  return (cause as NodeJS.ErrnoException).code === "UNABLE_TO_VERIFY_LEAF_SIGNATURE" || cause.message === "redirect count exceeded"
+}
+
+function failureReason(error: unknown, cause: unknown): string {
+  if (cause instanceof Error) {
+    const code = (cause as NodeJS.ErrnoException).code
+    const reason = cause.message || code || cause.name
+    if (reason) return reason
+  }
+  if (error instanceof Error) return error.message || error.name
+  return String(error)
 }
 
 export async function checkHomepage(url: string, retryDelaysMs: readonly number[] = RETRY_DELAYS_MS): Promise<string | null> {
