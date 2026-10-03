@@ -18,13 +18,15 @@
 | 2 | 병원 정보 보강 타당성 | 현재 채움률 집계, 병원 18곳 홈페이지 표본 확인 | 홈페이지 수집은 불가. 공공 API + 학회 목록으로 축소 | [03-clinic-data spec](work/03-clinic-data/spec.md) |
 | 3 | 40~60대 접근성 기준 조사 | WCAG·KWCAG·서울디지털재단·국내 서비스 사례 확인 | 측정 가능한 기준 10개 | [accessibility](research/accessibility.md) |
 | 4 | 현재 화면 접근성 측정 | 코드에서 글자 크기·터치 영역·대비·확대 대응을 전수 확인 | 16px 미만 글자 다수, 뒤로 가기 36px, 테두리 대비 미달 | [accessibility](research/accessibility.md#현재-화면-측정-코드-기준) |
-| 5 | 82cook 글 수집 | 검색 목록 → 본문·댓글 | 목록 945건, 본문 17건에서 연결 거부로 중단 | [troubleshooting](troubleshooting.md) |
+| 5 | 82cook 글 수집 | 검색 목록 → 본문·댓글 | 목록 945건, 본문 17건에서 연결 거부로 중단. 재시도 2회 모두 첫 요청 거부. 17건 분류: 가설 전부 판정 보류 | [community-voc](research/community-voc.md), [troubleshooting](troubleshooting.md) |
 | 6 | 검사 병원 공급 공백 분석 | 병원 337곳 × 행안부 주민등록 인구(시·군·구) | 230곳 중 124곳이 목록상 0곳. 병원 좌표 오류 2곳 발견 | [supply-gap](research/supply-gap/README.md) |
 | 7 | 학회 수면클리닉 95곳 홈페이지 조사 | 에이전트 4개가 나눠 병원당 최대 4페이지 확인 | 읽을 수 있었던 81곳 중 배우자에게 직접 말을 거는 곳 0곳 | [clinic-survey](research/clinic-survey.md) |
 | 8 | 국내외 코골이·수면무호흡 서비스 벤치마크 | 누구에게 말하고 어디서 끝나는지 | 직접 확인 46건. 문제 정의의 "신호를 알아채라에서 끝난다"가 과하다는 반례 발견 | [benchmark](research/benchmark.md) |
 | 9 | 병원 데이터 337곳 품질 검증 | 원 페이지 링크 생존, 전화번호, 좌표 | 링크 337개 모두 정상. 좌표가 주소와 어긋나는 병원 8곳(모두 레즈메드 원본 오류), 시·도가 틀린 병원 2곳 | [data-quality](research/data-quality/README.md) |
 | 10 | 전 화면 문구 쉬운 말 감사 | 모든 문자열을 기준별로 판정 | 148건 중 수정 35건, 검토 12건. 체크 문항 주어 누락, 오류 화면 누락 발견 | [copy-audit](research/copy-audit.md) |
 | 11 | 검사기관 전체 목록 확장 타당성 | 공개 경로 조사, 소량 요청 | 심평원 목록 743곳을 받아 다시 계산. 병원 0곳 지역 인구가 20.4% → 11.0%. 좌표와 이용 조건 문제로 제품에는 넣지 않음 | [supply-gap](research/supply-gap/README.md) |
+
+- 10월 3일 07:05에 82cook 재시도 1회(사용자 승인). 첫 요청이 연결 거부로 끝나 바로 멈췄고, 이미 받은 17건을 에이전트 둘이 따로 분류했다(축 일치율 95%·94%).
 
 ## 버린 것과 이유
 
