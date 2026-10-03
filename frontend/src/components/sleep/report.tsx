@@ -199,7 +199,9 @@ export function Report({
         <div className="flex flex-col gap-3">
           {shared && level !== "weak" && (
             <p className="text-lg font-semibold text-primary">
-              당신의 낮 졸림과 피로도 이것 때문일 수 있어요
+              요즘 낮에 졸리고 피곤했다면,
+              <br />
+              수면무호흡증 때문일 수 있어요
             </p>
           )}
           <LevelMeter level={level} />
