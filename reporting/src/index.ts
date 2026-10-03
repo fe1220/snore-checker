@@ -38,7 +38,7 @@ async function main() {
   }
 
   const now = new Date()
-  const until = argValue("--until") ?? kstDate(new Date(now.getTime() - 86_400_000))
+  const until = argValue("--until") ?? kstDate(now)
   const since = argValue("--since") ?? kstDate(new Date(await fetchCampaignStart(meta)))
   if (since > until) {
     console.error(`집계 기간이 비었어요: ${since} ~ ${until}. --until로 날짜를 정해 주세요`)
