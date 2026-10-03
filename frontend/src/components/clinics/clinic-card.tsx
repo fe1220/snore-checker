@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, Phone } from "lucide-react"
+import { ExternalLink, MapPin, Phone } from "lucide-react"
 import { track } from "@/components/analytics/track"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
@@ -48,22 +48,21 @@ export function ClinicCard({
             {tags}
           </Badge>
         )}
-        {/* 주소를 누르면 지도에서 위치를 볼 수 있다. 버튼을 셋으로 늘리지 않으려고 주소에 건다.
-            주요 버튼이 이미 지도로 가는 병원은 같은 링크가 둘이 되지 않게 글자로만 둔다. */}
-        {link.target === "map" ? (
-          <p className="text-base [overflow-wrap:anywhere] text-muted-foreground">
+        {/* 주소를 누르면 지도에서 위치를 본다. 앞의 핀과 뒤의 외부 링크 아이콘으로 누를 수 있다는 걸 알린다.
+            주요 버튼도 지도로 가는 병원은 링크가 겹치지만, 카드마다 주소 모양이 달라지는 것보다 낫다고 정했다. */}
+        <a
+          href={mapSearchUrl(hospital)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex min-h-12 min-w-0 items-center gap-1.5 text-base text-muted-foreground"
+        >
+          <MapPin className="size-4 shrink-0" aria-hidden />
+          <span className="min-w-0 [overflow-wrap:anywhere] underline underline-offset-4">
             {hospital.address}
-          </p>
-        ) : (
-          <a
-            href={mapSearchUrl(hospital)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex min-h-12 min-w-0 items-center text-base [overflow-wrap:anywhere] text-muted-foreground underline underline-offset-4"
-          >
-            {hospital.address}
-          </a>
-        )}
+          </span>
+          <ExternalLink className="size-4 shrink-0" aria-hidden />
+          <span className="sr-only">지도에서 보기</span>
+        </a>
       </div>
       <div className="flex flex-wrap gap-2">
         {hospital.phone && (

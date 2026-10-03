@@ -111,7 +111,8 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             size="touch"
             className={cn(
               "flex-1 justify-between px-3",
-              view.kind === "region" && "border-primary text-primary",
+              view.kind === "region" &&
+                "border-primary text-primary hover:text-primary",
             )}
             onClick={() => setSheetOpen(true)}
           >
@@ -129,7 +130,8 @@ export function ClinicFinder({ items }: { items: Hospital[] }) {
             size="touch"
             className={cn(
               "flex-1 px-3 disabled:opacity-100",
-              view.kind === "nearby" && "border-primary text-primary",
+              view.kind === "nearby" &&
+                "border-primary text-primary hover:text-primary",
             )}
             onClick={requestNearby}
           >
@@ -263,7 +265,7 @@ function RegionOption({
       size="touch"
       className={cn(
         "flex-wrap justify-between px-3",
-        selected && "border-primary text-primary",
+        selected && "border-primary text-primary hover:text-primary",
       )}
       onClick={onSelect}
     >
