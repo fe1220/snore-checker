@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-18T20:11:55.199Z",
+  "crawledAt": "2026-10-25T20:27:17.343Z",
   "hiraVersion": "2026.6",
   "items": [
     {
@@ -50,7 +50,7 @@
       "lng": 129.1660003,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent",
       "region": "부산",
-      "homepage": null,
+      "homepage": "http://www.coenclinic.co.kr/",
       "listed": false,
       "kind": "의원"
     },
@@ -5094,7 +5094,7 @@
       "lat": 35.1610639,
       "lng": 129.1683764,
       "sourceUrl": null,
-      "homepage": "https://www.han1004.co.kr/",
+      "homepage": null,
       "listed": false,
       "kind": "병원"
     },
@@ -8656,7 +8656,7 @@
       "lng": 127.0098676,
       "sourceUrl": "https://www.resmed.kr/psg-finder/seoulboasent",
       "region": "서울",
-      "homepage": null,
+      "homepage": "http://www.boazent.co.kr",
       "listed": false,
       "kind": "의원"
     },
