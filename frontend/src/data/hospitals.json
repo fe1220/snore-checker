@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2026-10-25T20:27:17.343Z",
+  "crawledAt": "2026-11-01T21:46:18.613Z",
   "hiraVersion": "2026.6",
   "items": [
     {
@@ -50,7 +50,7 @@
       "lng": 129.1660003,
       "sourceUrl": "https://www.resmed.kr/psg-finder/busancoent",
       "region": "부산",
-      "homepage": "http://www.coenclinic.co.kr/",
+      "homepage": null,
       "listed": false,
       "kind": "의원"
     },
